@@ -1,0 +1,40 @@
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt.kiss, Power = 388.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt.kiss, Power = 1092.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt.kiss, Power = 224.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt.kiss, Power = 303.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: cse_opt.kiss, Power = 1973.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt.kiss, Power = 1023.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt.kiss, Power = 2433.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt.kiss, Power = 2536.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: s27_opt.kiss, Power = 292.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Running nova, written by Tiziano Villa,  UC Berkeley
+Combinational power estimation, with Zero delay model.
+Network: snad_opt.kiss, Power = 6867.9 uW assuming 20 MHz clock and Vdd = 5V
+

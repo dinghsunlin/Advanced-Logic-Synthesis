@@ -1,0 +1,421 @@
+
+===========================================================================
+Reading File ...
+
+===========================================================================
+Calculating State Probability ...
+glp_exact: 7 rows, 6 columns, 20 non-zeros
+GLPK bignum module is being used
+(Consider installing GNU MP to attain a much better performance.)
+      0:   infsum =                      1   (6)
+      6:   infsum =                      0   (1)
+*     6:   objval =                      0   (1)
+*     6:   objval =                      0   (1)
+OPTIMAL SOLUTION FOUND
+-----
+st0:	0.113043
+st1:	0.104348
+st2:	0.0782609
+st3:	0.234783
+st4:	0.234783
+st5:	0.234783
+-----
+st1 <-> st0:	2.37789
+st2 <-> st1:	2.09814
+st3 <-> st2:	1.25888
+st4 <-> st3:	1.25888
+st5 <-> st0:	1.25888
+st5 <-> st4:	1.25888
+
+===========================================================================
+State Assignment ...
+   [   Round 1   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st2 -> 3
+Set col: st3 -> 4
+Set col: st4 -> 5
+Set col: st5 -> 6
+Size of Group: 1
+Group 1 | Size 6
+Set row: 1 lb: 1 ub: 4
+Set row: 2 lb: -5 ub: -2
+1: 1 6 1
+2: 2 6 -1
+3: 1 2 1
+4: 2 2 -1
+5: 1 1 1
+6: 2 1 -1
+7: 1 3 1
+8: 2 3 -1
+9: 1 4 1
+10: 2 4 -1
+11: 1 5 1
+12: 2 5 -1
+Edge found! st1:2 <-> st0:1	Weight: 2.37789	Set col: 7
+Set row: 3 ub: 0
+13: 3 2 -1 | 14: 3 1 -1 | 15: 3 7 1
+Set row: 4 ub: 2
+16: 4 2 1 | 17: 4 1 1 | 18: 4 7 1
+Set row: 5 lb: 0
+19: 5 2 -1 | 20: 5 1 1 | 21: 5 7 1
+Set row: 6 lb: 0
+22: 6 2 1 | 23: 6 1 -1 | 24: 6 7 1
+Edge found! st2:3 <-> st1:2	Weight: 2.09814	Set col: 8
+Set row: 7 ub: 0
+25: 7 3 -1 | 26: 7 2 -1 | 27: 7 8 1
+Set row: 8 ub: 2
+28: 8 3 1 | 29: 8 2 1 | 30: 8 8 1
+Set row: 9 lb: 0
+31: 9 3 -1 | 32: 9 2 1 | 33: 9 8 1
+Set row: 10 lb: 0
+34: 10 3 1 | 35: 10 2 -1 | 36: 10 8 1
+Edge found! st3:4 <-> st2:3	Weight: 1.25888	Set col: 9
+Set row: 11 ub: 0
+37: 11 4 -1 | 38: 11 3 -1 | 39: 11 9 1
+Set row: 12 ub: 2
+40: 12 4 1 | 41: 12 3 1 | 42: 12 9 1
+Set row: 13 lb: 0
+43: 13 4 -1 | 44: 13 3 1 | 45: 13 9 1
+Set row: 14 lb: 0
+46: 14 4 1 | 47: 14 3 -1 | 48: 14 9 1
+Edge found! st4:5 <-> st3:4	Weight: 1.25888	Set col: 10
+Set row: 15 ub: 0
+49: 15 5 -1 | 50: 15 4 -1 | 51: 15 10 1
+Set row: 16 ub: 2
+52: 16 5 1 | 53: 16 4 1 | 54: 16 10 1
+Set row: 17 lb: 0
+55: 17 5 -1 | 56: 17 4 1 | 57: 17 10 1
+Set row: 18 lb: 0
+58: 18 5 1 | 59: 18 4 -1 | 60: 18 10 1
+Edge found! st5:6 <-> st0:1	Weight: 1.25888	Set col: 11
+Set row: 19 ub: 0
+61: 19 6 -1 | 62: 19 1 -1 | 63: 19 11 1
+Set row: 20 ub: 2
+64: 20 6 1 | 65: 20 1 1 | 66: 20 11 1
+Set row: 21 lb: 0
+67: 21 6 -1 | 68: 21 1 1 | 69: 21 11 1
+Set row: 22 lb: 0
+70: 22 6 1 | 71: 22 1 -1 | 72: 22 11 1
+Edge found! st5:6 <-> st4:5	Weight: 1.25888	Set col: 12
+Set row: 23 ub: 0
+73: 23 6 -1 | 74: 23 5 -1 | 75: 23 12 1
+Set row: 24 ub: 2
+76: 24 6 1 | 77: 24 5 1 | 78: 24 12 1
+Set row: 25 lb: 0
+79: 25 6 -1 | 80: 25 5 1 | 81: 25 12 1
+Set row: 26 lb: 0
+82: 26 6 1 | 83: 26 5 -1 | 84: 26 12 1
+GLPK Integer Optimizer 5.0
+27 rows, 12 columns, 90 non-zeros
+12 integer variables, all of which are binary
+Preprocessing...
+12 hidden covering inequaliti(es) were detected
+27 rows, 12 columns, 90 non-zeros
+12 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 27
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+27 rows, 12 columns, 90 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.000e+00 (2)
+      7: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     7: mip =     not found yet >=              -inf        (1; 0)
++    17: >>>>>   2.517762982e+00 >=   0.000000000e+00 100.0% (3; 0)
++    22: mip =   2.517762982e+00 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 2.51776
+st0	1	0
+st1	2	0
+st2	3	0
+st3	4	1
+st4	5	1
+st5	6	1
+Number of 0 assigned: 3 | Number of 1 assigned: 3
+XOR Constraint 7: 0
+XOR Constraint 8: 0
+XOR Constraint 9: 1
+XOR Constraint 10: 0
+XOR Constraint 11: 1
+XOR Constraint 12: 0
+-----
+Size of State Group: 2
+ - 2 1 3
+ - 5 4 6
+
+   [   Round 2   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st2 -> 3
+Set col: st3 -> 4
+Set col: st4 -> 5
+Set col: st5 -> 6
+Size of Group: 2
+Group 1 | Size 3
+Set row: 1 lb: 1 ub: 2
+Set row: 2 lb: -2 ub: -1
+1: 1 2 1
+2: 2 2 -1
+3: 1 1 1
+4: 2 1 -1
+5: 1 3 1
+6: 2 3 -1
+Group 2 | Size 3
+Set row: 3 lb: 1 ub: 2
+Set row: 4 lb: -2 ub: -1
+7: 3 5 1
+8: 4 5 -1
+9: 3 4 1
+10: 4 4 -1
+11: 3 6 1
+12: 4 6 -1
+Edge found! st1:2 <-> st0:1	Weight: 2.37789	Set col: 7
+Set row: 5 ub: 0
+13: 5 2 -1 | 14: 5 1 -1 | 15: 5 7 1
+Set row: 6 ub: 2
+16: 6 2 1 | 17: 6 1 1 | 18: 6 7 1
+Set row: 7 lb: 0
+19: 7 2 -1 | 20: 7 1 1 | 21: 7 7 1
+Set row: 8 lb: 0
+22: 8 2 1 | 23: 8 1 -1 | 24: 8 7 1
+Edge found! st2:3 <-> st1:2	Weight: 2.09814	Set col: 8
+Set row: 9 ub: 0
+25: 9 3 -1 | 26: 9 2 -1 | 27: 9 8 1
+Set row: 10 ub: 2
+28: 10 3 1 | 29: 10 2 1 | 30: 10 8 1
+Set row: 11 lb: 0
+31: 11 3 -1 | 32: 11 2 1 | 33: 11 8 1
+Set row: 12 lb: 0
+34: 12 3 1 | 35: 12 2 -1 | 36: 12 8 1
+Edge found! st3:4 <-> st2:3	Weight: 2.51776	Set col: 9
+Set row: 13 ub: 0
+37: 13 4 -1 | 38: 13 3 -1 | 39: 13 9 1
+Set row: 14 ub: 2
+40: 14 4 1 | 41: 14 3 1 | 42: 14 9 1
+Set row: 15 lb: 0
+43: 15 4 -1 | 44: 15 3 1 | 45: 15 9 1
+Set row: 16 lb: 0
+46: 16 4 1 | 47: 16 3 -1 | 48: 16 9 1
+Edge found! st4:5 <-> st3:4	Weight: 1.25888	Set col: 10
+Set row: 17 ub: 0
+49: 17 5 -1 | 50: 17 4 -1 | 51: 17 10 1
+Set row: 18 ub: 2
+52: 18 5 1 | 53: 18 4 1 | 54: 18 10 1
+Set row: 19 lb: 0
+55: 19 5 -1 | 56: 19 4 1 | 57: 19 10 1
+Set row: 20 lb: 0
+58: 20 5 1 | 59: 20 4 -1 | 60: 20 10 1
+Edge found! st5:6 <-> st0:1	Weight: 2.51776	Set col: 11
+Set row: 21 ub: 0
+61: 21 6 -1 | 62: 21 1 -1 | 63: 21 11 1
+Set row: 22 ub: 2
+64: 22 6 1 | 65: 22 1 1 | 66: 22 11 1
+Set row: 23 lb: 0
+67: 23 6 -1 | 68: 23 1 1 | 69: 23 11 1
+Set row: 24 lb: 0
+70: 24 6 1 | 71: 24 1 -1 | 72: 24 11 1
+Edge found! st5:6 <-> st4:5	Weight: 1.25888	Set col: 12
+Set row: 25 ub: 0
+73: 25 6 -1 | 74: 25 5 -1 | 75: 25 12 1
+Set row: 26 ub: 2
+76: 26 6 1 | 77: 26 5 1 | 78: 26 12 1
+Set row: 27 lb: 0
+79: 27 6 -1 | 80: 27 5 1 | 81: 27 12 1
+Set row: 28 lb: 0
+82: 28 6 1 | 83: 28 5 -1 | 84: 28 12 1
+GLPK Integer Optimizer 5.0
+29 rows, 12 columns, 90 non-zeros
+12 integer variables, all of which are binary
+Preprocessing...
+16 hidden covering inequaliti(es) were detected
+33 rows, 12 columns, 102 non-zeros
+12 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 33
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+33 rows, 12 columns, 102 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.000e+00 (4)
+      6: obj =   0.000000000e+00 inf =   3.331e-16 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     6: mip =     not found yet >=              -inf        (1; 0)
++    17: >>>>>   3.357017310e+00 >=   8.392543274e-01  75.0% (3; 0)
++    27: mip =   3.357017310e+00 >=     tree is empty   0.0% (0; 7)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 3.35702
+st0	1	0
+st1	2	0
+st2	3	1
+st3	4	1
+st4	5	0
+st5	6	0
+Number of 0 assigned: 4 | Number of 1 assigned: 2
+XOR Constraint 7: 0
+XOR Constraint 8: 1
+XOR Constraint 9: 0
+XOR Constraint 10: 1
+XOR Constraint 11: 0
+XOR Constraint 12: 0
+-----
+Size of State Group: 4
+ - 2 1
+ - 5 6
+ - 3
+ - 4
+
+   [   Round 3   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st2 -> 3
+Set col: st3 -> 4
+Set col: st4 -> 5
+Set col: st5 -> 6
+Size of Group: 4
+Group 1 | Size 2
+Set row: 1 lb: 1 ub: 1
+Set row: 2 lb: -1 ub: -1
+1: 1 2 1
+2: 2 2 -1
+3: 1 1 1
+4: 2 1 -1
+Group 2 | Size 2
+Set row: 3 lb: 1 ub: 1
+Set row: 4 lb: -1 ub: -1
+5: 3 5 1
+6: 4 5 -1
+7: 3 6 1
+8: 4 6 -1
+Group 3 | Size 1
+Group 4 | Size 1
+Edge found! st1:2 <-> st0:1	Weight: 2.37789	Set col: 7
+Set row: 5 ub: 0
+9: 5 2 -1 | 10: 5 1 -1 | 11: 5 7 1
+Set row: 6 ub: 2
+12: 6 2 1 | 13: 6 1 1 | 14: 6 7 1
+Set row: 7 lb: 0
+15: 7 2 -1 | 16: 7 1 1 | 17: 7 7 1
+Set row: 8 lb: 0
+18: 8 2 1 | 19: 8 1 -1 | 20: 8 7 1
+Edge found! st2:3 <-> st1:2	Weight: 4.19627	Set col: 8
+Set row: 9 ub: 0
+21: 9 3 -1 | 22: 9 2 -1 | 23: 9 8 1
+Set row: 10 ub: 2
+24: 10 3 1 | 25: 10 2 1 | 26: 10 8 1
+Set row: 11 lb: 0
+27: 11 3 -1 | 28: 11 2 1 | 29: 11 8 1
+Set row: 12 lb: 0
+30: 12 3 1 | 31: 12 2 -1 | 32: 12 8 1
+Edge found! st3:4 <-> st2:3	Weight: 2.51776	Set col: 9
+Set row: 13 ub: 0
+33: 13 4 -1 | 34: 13 3 -1 | 35: 13 9 1
+Set row: 14 ub: 2
+36: 14 4 1 | 37: 14 3 1 | 38: 14 9 1
+Set row: 15 lb: 0
+39: 15 4 -1 | 40: 15 3 1 | 41: 15 9 1
+Set row: 16 lb: 0
+42: 16 4 1 | 43: 16 3 -1 | 44: 16 9 1
+Edge found! st4:5 <-> st3:4	Weight: 2.51776	Set col: 10
+Set row: 17 ub: 0
+45: 17 5 -1 | 46: 17 4 -1 | 47: 17 10 1
+Set row: 18 ub: 2
+48: 18 5 1 | 49: 18 4 1 | 50: 18 10 1
+Set row: 19 lb: 0
+51: 19 5 -1 | 52: 19 4 1 | 53: 19 10 1
+Set row: 20 lb: 0
+54: 20 5 1 | 55: 20 4 -1 | 56: 20 10 1
+Edge found! st5:6 <-> st0:1	Weight: 2.51776	Set col: 11
+Set row: 21 ub: 0
+57: 21 6 -1 | 58: 21 1 -1 | 59: 21 11 1
+Set row: 22 ub: 2
+60: 22 6 1 | 61: 22 1 1 | 62: 22 11 1
+Set row: 23 lb: 0
+63: 23 6 -1 | 64: 23 1 1 | 65: 23 11 1
+Set row: 24 lb: 0
+66: 24 6 1 | 67: 24 1 -1 | 68: 24 11 1
+Edge found! st5:6 <-> st4:5	Weight: 1.25888	Set col: 12
+Set row: 25 ub: 0
+69: 25 6 -1 | 70: 25 5 -1 | 71: 25 12 1
+Set row: 26 ub: 2
+72: 26 6 1 | 73: 26 5 1 | 74: 26 12 1
+Set row: 27 lb: 0
+75: 27 6 -1 | 76: 27 5 1 | 77: 27 12 1
+Set row: 28 lb: 0
+78: 28 6 1 | 79: 28 5 -1 | 80: 28 12 1
+GLPK Integer Optimizer 5.0
+29 rows, 12 columns, 86 non-zeros
+12 integer variables, all of which are binary
+Preprocessing...
+12 hidden covering inequaliti(es) were detected
+29 rows, 12 columns, 86 non-zeros
+12 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 27
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+29 rows, 12 columns, 86 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.000e+00 (4)
+      4: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     4: mip =     not found yet >=              -inf        (1; 0)
++    15: >>>>>   8.672294717e+00 >=   2.517762982e+00  71.0% (5; 0)
++    24: >>>>>   3.636768752e+00 >=   3.636768752e+00   0.0% (4; 4)
++    24: mip =   3.636768752e+00 >=     tree is empty   0.0% (0; 13)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 3.63677
+st0	1	1
+st1	2	0
+st2	3	0
+st3	4	0
+st4	5	0
+st5	6	1
+Number of 0 assigned: 4 | Number of 1 assigned: 2
+XOR Constraint 7: 1
+XOR Constraint 8: 0
+XOR Constraint 9: 0
+XOR Constraint 10: 0
+XOR Constraint 11: 0
+XOR Constraint 12: 1
+-----
+Size of State Group: 6
+ - 2
+ - 5
+ - 3
+ - 4
+ - 1
+ - 6
+
+Final Results:
+Used Length / Total Length:	3 / 6
+st0	: 1	| 001---
+st1	: 2	| 000---
+st2	: 3	| 010---
+st3	: 4	| 110---
+st4	: 5	| 100---
+st5	: 6	| 101---
+
+===========================================================================
+Writing File ...
+
+===========================================================================
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 217.1 uW assuming 20 MHz clock and Vdd = 5V

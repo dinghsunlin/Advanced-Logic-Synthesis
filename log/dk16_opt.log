@@ -1,0 +1,5625 @@
+
+===========================================================================
+Reading File ...
+
+===========================================================================
+Calculating State Probability ...
+glp_exact: 28 rows, 27 columns, 153 non-zeros
+GLPK bignum module is being used
+(Consider installing GNU MP to attain a much better performance.)
+      0:   infsum =                      1   (27)
+     27:   infsum =                      0   (1)
+*    27:   objval =                      0   (1)
+*    27:   objval =                      0   (1)
+OPTIMAL SOLUTION FOUND
+-----
+state_1:	0.0753484
+state_10:	0.0444253
+state_11:	0.0291569
+state_12:	0.0291569
+state_13:	0.0412792
+state_14:	0.0412792
+state_15:	0.0392833
+state_16:	0.0152684
+state_17:	0.0152684
+state_18:	0.0407219
+state_19:	0.0407219
+state_2:	0.0625
+state_20:	0.0407219
+state_21:	0.0194351
+state_22:	0.0152684
+state_23:	0.0212868
+state_24:	0.0174697
+state_25:	0.0174697
+state_26:	0.0166667
+state_27:	0.0038171
+state_3:	0.0646704
+state_4:	0.0482252
+state_5:	0.0610736
+state_6:	0.0610736
+state_7:	0.0610736
+state_8:	0.0259448
+state_9:	0.0513937
+-----
+state_10 <-> state_1:	13.0857
+state_11 <-> state_1:	8.23211
+state_12 <-> state_1:	8.23211
+state_13 <-> state_10:	9.36355
+state_13 <-> state_11:	4.50992
+state_13 <-> state_12:	4.50992
+state_14 <-> state_1:	4.50992
+state_14 <-> state_10:	4.85364
+state_15 <-> state_12:	3.18551
+state_16 <-> state_13:	1.66813
+state_16 <-> state_14:	1.66813
+state_17 <-> state_15:	1.66813
+state_18 <-> state_12:	3.18551
+state_18 <-> state_17:	1.66813
+state_19 <-> state_12:	3.18551
+state_19 <-> state_16:	1.66813
+state_19 <-> state_18:	4.44902
+state_2 <-> state_1:	6.82837
+state_2 <-> state_10:	4.85364
+state_2 <-> state_14:	4.50992
+state_20 <-> state_12:	3.18551
+state_20 <-> state_16:	1.66813
+state_20 <-> state_19:	4.44902
+state_21 <-> state_1:	2.12336
+state_21 <-> state_13:	2.12336
+state_21 <-> state_14:	2.12336
+state_21 <-> state_2:	2.12336
+state_22 <-> state_15:	3.33627
+state_23 <-> state_1:	2.32567
+state_23 <-> state_11:	3.18551
+state_23 <-> state_13:	2.32567
+state_23 <-> state_14:	2.32567
+state_23 <-> state_17:	1.66813
+state_23 <-> state_19:	4.44902
+state_23 <-> state_2:	2.32567
+state_24 <-> state_11:	3.18551
+state_24 <-> state_13:	3.81726
+state_24 <-> state_14:	3.81726
+state_24 <-> state_19:	4.44902
+state_25 <-> state_11:	3.18551
+state_25 <-> state_15:	5.7259
+state_25 <-> state_19:	4.44902
+state_26 <-> state_18:	1.8209
+state_26 <-> state_19:	1.8209
+state_26 <-> state_20:	6.26992
+state_26 <-> state_21:	1.8209
+state_27 <-> state_13:	0.417033
+state_27 <-> state_14:	0.417033
+state_27 <-> state_15:	0.417033
+state_27 <-> state_17:	1.66813
+state_3 <-> state_1:	8.23211
+state_3 <-> state_11:	3.18551
+state_3 <-> state_13:	4.50992
+state_3 <-> state_22:	3.33627
+state_3 <-> state_25:	1.90863
+state_3 <-> state_27:	0.417033
+state_4 <-> state_15:	4.29185
+state_4 <-> state_18:	4.44902
+state_4 <-> state_3:	7.0655
+state_5 <-> state_1:	6.67253
+state_5 <-> state_15:	4.29185
+state_5 <-> state_16:	6.67253
+state_5 <-> state_17:	6.67253
+state_5 <-> state_18:	4.44902
+state_5 <-> state_2:	6.67253
+state_5 <-> state_3:	7.0655
+state_5 <-> state_4:	5.26879
+state_6 <-> state_10:	6.67253
+state_6 <-> state_15:	4.29185
+state_6 <-> state_18:	4.44902
+state_6 <-> state_21:	6.67253
+state_6 <-> state_22:	6.67253
+state_6 <-> state_3:	13.738
+state_6 <-> state_4:	5.26879
+state_7 <-> state_15:	4.29185
+state_7 <-> state_18:	11.1216
+state_7 <-> state_19:	6.67253
+state_7 <-> state_20:	6.67253
+state_7 <-> state_3:	7.0655
+state_7 <-> state_4:	5.26879
+state_8 <-> state_13:	2.83457
+state_8 <-> state_14:	7.34449
+state_8 <-> state_15:	2.83457
+state_8 <-> state_2:	6.82837
+state_8 <-> state_26:	2.83457
+state_9 <-> state_1:	5.61496
+state_9 <-> state_14:	4.50992
+state_9 <-> state_2:	6.82837
+state_9 <-> state_20:	4.44902
+state_9 <-> state_5:	5.61496
+state_9 <-> state_6:	5.61496
+state_9 <-> state_7:	12.2875
+
+===========================================================================
+State Assignment ...
+   [   Round 1   ]   
+Set col: state_1 -> 1
+Set col: state_10 -> 3
+Set col: state_11 -> 4
+Set col: state_12 -> 5
+Set col: state_13 -> 11
+Set col: state_14 -> 10
+Set col: state_15 -> 19
+Set col: state_16 -> 20
+Set col: state_17 -> 21
+Set col: state_18 -> 18
+Set col: state_19 -> 17
+Set col: state_2 -> 12
+Set col: state_20 -> 16
+Set col: state_21 -> 22
+Set col: state_22 -> 23
+Set col: state_23 -> 13
+Set col: state_24 -> 14
+Set col: state_25 -> 15
+Set col: state_26 -> 26
+Set col: state_27 -> 27
+Set col: state_3 -> 2
+Set col: state_4 -> 6
+Set col: state_5 -> 7
+Set col: state_6 -> 8
+Set col: state_7 -> 9
+Set col: state_8 -> 25
+Set col: state_9 -> 24
+Size of Group: 1
+Group 1 | Size 27
+Set row: 1 lb: 1 ub: 16
+Set row: 2 lb: -26 ub: -11
+1: 1 24 1
+2: 2 24 -1
+3: 1 25 1
+4: 2 25 -1
+5: 1 9 1
+6: 2 9 -1
+7: 1 8 1
+8: 2 8 -1
+9: 1 17 1
+10: 2 17 -1
+11: 1 18 1
+12: 2 18 -1
+13: 1 20 1
+14: 2 20 -1
+15: 1 19 1
+16: 2 19 -1
+17: 1 21 1
+18: 2 21 -1
+19: 1 10 1
+20: 2 10 -1
+21: 1 3 1
+22: 2 3 -1
+23: 1 26 1
+24: 2 26 -1
+25: 1 1 1
+26: 2 1 -1
+27: 1 11 1
+28: 2 11 -1
+29: 1 4 1
+30: 2 4 -1
+31: 1 27 1
+32: 2 27 -1
+33: 1 5 1
+34: 2 5 -1
+35: 1 12 1
+36: 2 12 -1
+37: 1 16 1
+38: 2 16 -1
+39: 1 22 1
+40: 2 22 -1
+41: 1 23 1
+42: 2 23 -1
+43: 1 13 1
+44: 2 13 -1
+45: 1 14 1
+46: 2 14 -1
+47: 1 15 1
+48: 2 15 -1
+49: 1 2 1
+50: 2 2 -1
+51: 1 6 1
+52: 2 6 -1
+53: 1 7 1
+54: 2 7 -1
+Edge found! state_10:3 <-> state_1:1	Weight: 13.0857	Set col: 28
+Set row: 3 ub: 0
+55: 3 3 -1 | 56: 3 1 -1 | 57: 3 28 1
+Set row: 4 ub: 2
+58: 4 3 1 | 59: 4 1 1 | 60: 4 28 1
+Set row: 5 lb: 0
+61: 5 3 -1 | 62: 5 1 1 | 63: 5 28 1
+Set row: 6 lb: 0
+64: 6 3 1 | 65: 6 1 -1 | 66: 6 28 1
+Edge found! state_11:4 <-> state_1:1	Weight: 8.23211	Set col: 29
+Set row: 7 ub: 0
+67: 7 4 -1 | 68: 7 1 -1 | 69: 7 29 1
+Set row: 8 ub: 2
+70: 8 4 1 | 71: 8 1 1 | 72: 8 29 1
+Set row: 9 lb: 0
+73: 9 4 -1 | 74: 9 1 1 | 75: 9 29 1
+Set row: 10 lb: 0
+76: 10 4 1 | 77: 10 1 -1 | 78: 10 29 1
+Edge found! state_12:5 <-> state_1:1	Weight: 8.23211	Set col: 30
+Set row: 11 ub: 0
+79: 11 5 -1 | 80: 11 1 -1 | 81: 11 30 1
+Set row: 12 ub: 2
+82: 12 5 1 | 83: 12 1 1 | 84: 12 30 1
+Set row: 13 lb: 0
+85: 13 5 -1 | 86: 13 1 1 | 87: 13 30 1
+Set row: 14 lb: 0
+88: 14 5 1 | 89: 14 1 -1 | 90: 14 30 1
+Edge found! state_13:11 <-> state_10:3	Weight: 9.36355	Set col: 31
+Set row: 15 ub: 0
+91: 15 11 -1 | 92: 15 3 -1 | 93: 15 31 1
+Set row: 16 ub: 2
+94: 16 11 1 | 95: 16 3 1 | 96: 16 31 1
+Set row: 17 lb: 0
+97: 17 11 -1 | 98: 17 3 1 | 99: 17 31 1
+Set row: 18 lb: 0
+100: 18 11 1 | 101: 18 3 -1 | 102: 18 31 1
+Edge found! state_13:11 <-> state_11:4	Weight: 4.50992	Set col: 32
+Set row: 19 ub: 0
+103: 19 11 -1 | 104: 19 4 -1 | 105: 19 32 1
+Set row: 20 ub: 2
+106: 20 11 1 | 107: 20 4 1 | 108: 20 32 1
+Set row: 21 lb: 0
+109: 21 11 -1 | 110: 21 4 1 | 111: 21 32 1
+Set row: 22 lb: 0
+112: 22 11 1 | 113: 22 4 -1 | 114: 22 32 1
+Edge found! state_13:11 <-> state_12:5	Weight: 4.50992	Set col: 33
+Set row: 23 ub: 0
+115: 23 11 -1 | 116: 23 5 -1 | 117: 23 33 1
+Set row: 24 ub: 2
+118: 24 11 1 | 119: 24 5 1 | 120: 24 33 1
+Set row: 25 lb: 0
+121: 25 11 -1 | 122: 25 5 1 | 123: 25 33 1
+Set row: 26 lb: 0
+124: 26 11 1 | 125: 26 5 -1 | 126: 26 33 1
+Edge found! state_14:10 <-> state_1:1	Weight: 4.50992	Set col: 34
+Set row: 27 ub: 0
+127: 27 10 -1 | 128: 27 1 -1 | 129: 27 34 1
+Set row: 28 ub: 2
+130: 28 10 1 | 131: 28 1 1 | 132: 28 34 1
+Set row: 29 lb: 0
+133: 29 10 -1 | 134: 29 1 1 | 135: 29 34 1
+Set row: 30 lb: 0
+136: 30 10 1 | 137: 30 1 -1 | 138: 30 34 1
+Edge found! state_14:10 <-> state_10:3	Weight: 4.85364	Set col: 35
+Set row: 31 ub: 0
+139: 31 10 -1 | 140: 31 3 -1 | 141: 31 35 1
+Set row: 32 ub: 2
+142: 32 10 1 | 143: 32 3 1 | 144: 32 35 1
+Set row: 33 lb: 0
+145: 33 10 -1 | 146: 33 3 1 | 147: 33 35 1
+Set row: 34 lb: 0
+148: 34 10 1 | 149: 34 3 -1 | 150: 34 35 1
+Edge found! state_15:19 <-> state_12:5	Weight: 3.18551	Set col: 36
+Set row: 35 ub: 0
+151: 35 19 -1 | 152: 35 5 -1 | 153: 35 36 1
+Set row: 36 ub: 2
+154: 36 19 1 | 155: 36 5 1 | 156: 36 36 1
+Set row: 37 lb: 0
+157: 37 19 -1 | 158: 37 5 1 | 159: 37 36 1
+Set row: 38 lb: 0
+160: 38 19 1 | 161: 38 5 -1 | 162: 38 36 1
+Edge found! state_16:20 <-> state_13:11	Weight: 1.66813	Set col: 37
+Set row: 39 ub: 0
+163: 39 20 -1 | 164: 39 11 -1 | 165: 39 37 1
+Set row: 40 ub: 2
+166: 40 20 1 | 167: 40 11 1 | 168: 40 37 1
+Set row: 41 lb: 0
+169: 41 20 -1 | 170: 41 11 1 | 171: 41 37 1
+Set row: 42 lb: 0
+172: 42 20 1 | 173: 42 11 -1 | 174: 42 37 1
+Edge found! state_16:20 <-> state_14:10	Weight: 1.66813	Set col: 38
+Set row: 43 ub: 0
+175: 43 20 -1 | 176: 43 10 -1 | 177: 43 38 1
+Set row: 44 ub: 2
+178: 44 20 1 | 179: 44 10 1 | 180: 44 38 1
+Set row: 45 lb: 0
+181: 45 20 -1 | 182: 45 10 1 | 183: 45 38 1
+Set row: 46 lb: 0
+184: 46 20 1 | 185: 46 10 -1 | 186: 46 38 1
+Edge found! state_17:21 <-> state_15:19	Weight: 1.66813	Set col: 39
+Set row: 47 ub: 0
+187: 47 21 -1 | 188: 47 19 -1 | 189: 47 39 1
+Set row: 48 ub: 2
+190: 48 21 1 | 191: 48 19 1 | 192: 48 39 1
+Set row: 49 lb: 0
+193: 49 21 -1 | 194: 49 19 1 | 195: 49 39 1
+Set row: 50 lb: 0
+196: 50 21 1 | 197: 50 19 -1 | 198: 50 39 1
+Edge found! state_18:18 <-> state_12:5	Weight: 3.18551	Set col: 40
+Set row: 51 ub: 0
+199: 51 18 -1 | 200: 51 5 -1 | 201: 51 40 1
+Set row: 52 ub: 2
+202: 52 18 1 | 203: 52 5 1 | 204: 52 40 1
+Set row: 53 lb: 0
+205: 53 18 -1 | 206: 53 5 1 | 207: 53 40 1
+Set row: 54 lb: 0
+208: 54 18 1 | 209: 54 5 -1 | 210: 54 40 1
+Edge found! state_18:18 <-> state_17:21	Weight: 1.66813	Set col: 41
+Set row: 55 ub: 0
+211: 55 18 -1 | 212: 55 21 -1 | 213: 55 41 1
+Set row: 56 ub: 2
+214: 56 18 1 | 215: 56 21 1 | 216: 56 41 1
+Set row: 57 lb: 0
+217: 57 18 -1 | 218: 57 21 1 | 219: 57 41 1
+Set row: 58 lb: 0
+220: 58 18 1 | 221: 58 21 -1 | 222: 58 41 1
+Edge found! state_19:17 <-> state_12:5	Weight: 3.18551	Set col: 42
+Set row: 59 ub: 0
+223: 59 17 -1 | 224: 59 5 -1 | 225: 59 42 1
+Set row: 60 ub: 2
+226: 60 17 1 | 227: 60 5 1 | 228: 60 42 1
+Set row: 61 lb: 0
+229: 61 17 -1 | 230: 61 5 1 | 231: 61 42 1
+Set row: 62 lb: 0
+232: 62 17 1 | 233: 62 5 -1 | 234: 62 42 1
+Edge found! state_19:17 <-> state_16:20	Weight: 1.66813	Set col: 43
+Set row: 63 ub: 0
+235: 63 17 -1 | 236: 63 20 -1 | 237: 63 43 1
+Set row: 64 ub: 2
+238: 64 17 1 | 239: 64 20 1 | 240: 64 43 1
+Set row: 65 lb: 0
+241: 65 17 -1 | 242: 65 20 1 | 243: 65 43 1
+Set row: 66 lb: 0
+244: 66 17 1 | 245: 66 20 -1 | 246: 66 43 1
+Edge found! state_19:17 <-> state_18:18	Weight: 4.44902	Set col: 44
+Set row: 67 ub: 0
+247: 67 17 -1 | 248: 67 18 -1 | 249: 67 44 1
+Set row: 68 ub: 2
+250: 68 17 1 | 251: 68 18 1 | 252: 68 44 1
+Set row: 69 lb: 0
+253: 69 17 -1 | 254: 69 18 1 | 255: 69 44 1
+Set row: 70 lb: 0
+256: 70 17 1 | 257: 70 18 -1 | 258: 70 44 1
+Edge found! state_2:12 <-> state_1:1	Weight: 6.82837	Set col: 45
+Set row: 71 ub: 0
+259: 71 12 -1 | 260: 71 1 -1 | 261: 71 45 1
+Set row: 72 ub: 2
+262: 72 12 1 | 263: 72 1 1 | 264: 72 45 1
+Set row: 73 lb: 0
+265: 73 12 -1 | 266: 73 1 1 | 267: 73 45 1
+Set row: 74 lb: 0
+268: 74 12 1 | 269: 74 1 -1 | 270: 74 45 1
+Edge found! state_2:12 <-> state_10:3	Weight: 4.85364	Set col: 46
+Set row: 75 ub: 0
+271: 75 12 -1 | 272: 75 3 -1 | 273: 75 46 1
+Set row: 76 ub: 2
+274: 76 12 1 | 275: 76 3 1 | 276: 76 46 1
+Set row: 77 lb: 0
+277: 77 12 -1 | 278: 77 3 1 | 279: 77 46 1
+Set row: 78 lb: 0
+280: 78 12 1 | 281: 78 3 -1 | 282: 78 46 1
+Edge found! state_2:12 <-> state_14:10	Weight: 4.50992	Set col: 47
+Set row: 79 ub: 0
+283: 79 12 -1 | 284: 79 10 -1 | 285: 79 47 1
+Set row: 80 ub: 2
+286: 80 12 1 | 287: 80 10 1 | 288: 80 47 1
+Set row: 81 lb: 0
+289: 81 12 -1 | 290: 81 10 1 | 291: 81 47 1
+Set row: 82 lb: 0
+292: 82 12 1 | 293: 82 10 -1 | 294: 82 47 1
+Edge found! state_20:16 <-> state_12:5	Weight: 3.18551	Set col: 48
+Set row: 83 ub: 0
+295: 83 16 -1 | 296: 83 5 -1 | 297: 83 48 1
+Set row: 84 ub: 2
+298: 84 16 1 | 299: 84 5 1 | 300: 84 48 1
+Set row: 85 lb: 0
+301: 85 16 -1 | 302: 85 5 1 | 303: 85 48 1
+Set row: 86 lb: 0
+304: 86 16 1 | 305: 86 5 -1 | 306: 86 48 1
+Edge found! state_20:16 <-> state_16:20	Weight: 1.66813	Set col: 49
+Set row: 87 ub: 0
+307: 87 16 -1 | 308: 87 20 -1 | 309: 87 49 1
+Set row: 88 ub: 2
+310: 88 16 1 | 311: 88 20 1 | 312: 88 49 1
+Set row: 89 lb: 0
+313: 89 16 -1 | 314: 89 20 1 | 315: 89 49 1
+Set row: 90 lb: 0
+316: 90 16 1 | 317: 90 20 -1 | 318: 90 49 1
+Edge found! state_20:16 <-> state_19:17	Weight: 4.44902	Set col: 50
+Set row: 91 ub: 0
+319: 91 16 -1 | 320: 91 17 -1 | 321: 91 50 1
+Set row: 92 ub: 2
+322: 92 16 1 | 323: 92 17 1 | 324: 92 50 1
+Set row: 93 lb: 0
+325: 93 16 -1 | 326: 93 17 1 | 327: 93 50 1
+Set row: 94 lb: 0
+328: 94 16 1 | 329: 94 17 -1 | 330: 94 50 1
+Edge found! state_21:22 <-> state_1:1	Weight: 2.12336	Set col: 51
+Set row: 95 ub: 0
+331: 95 22 -1 | 332: 95 1 -1 | 333: 95 51 1
+Set row: 96 ub: 2
+334: 96 22 1 | 335: 96 1 1 | 336: 96 51 1
+Set row: 97 lb: 0
+337: 97 22 -1 | 338: 97 1 1 | 339: 97 51 1
+Set row: 98 lb: 0
+340: 98 22 1 | 341: 98 1 -1 | 342: 98 51 1
+Edge found! state_21:22 <-> state_13:11	Weight: 2.12336	Set col: 52
+Set row: 99 ub: 0
+343: 99 22 -1 | 344: 99 11 -1 | 345: 99 52 1
+Set row: 100 ub: 2
+346: 100 22 1 | 347: 100 11 1 | 348: 100 52 1
+Set row: 101 lb: 0
+349: 101 22 -1 | 350: 101 11 1 | 351: 101 52 1
+Set row: 102 lb: 0
+352: 102 22 1 | 353: 102 11 -1 | 354: 102 52 1
+Edge found! state_21:22 <-> state_14:10	Weight: 2.12336	Set col: 53
+Set row: 103 ub: 0
+355: 103 22 -1 | 356: 103 10 -1 | 357: 103 53 1
+Set row: 104 ub: 2
+358: 104 22 1 | 359: 104 10 1 | 360: 104 53 1
+Set row: 105 lb: 0
+361: 105 22 -1 | 362: 105 10 1 | 363: 105 53 1
+Set row: 106 lb: 0
+364: 106 22 1 | 365: 106 10 -1 | 366: 106 53 1
+Edge found! state_21:22 <-> state_2:12	Weight: 2.12336	Set col: 54
+Set row: 107 ub: 0
+367: 107 22 -1 | 368: 107 12 -1 | 369: 107 54 1
+Set row: 108 ub: 2
+370: 108 22 1 | 371: 108 12 1 | 372: 108 54 1
+Set row: 109 lb: 0
+373: 109 22 -1 | 374: 109 12 1 | 375: 109 54 1
+Set row: 110 lb: 0
+376: 110 22 1 | 377: 110 12 -1 | 378: 110 54 1
+Edge found! state_22:23 <-> state_15:19	Weight: 3.33627	Set col: 55
+Set row: 111 ub: 0
+379: 111 23 -1 | 380: 111 19 -1 | 381: 111 55 1
+Set row: 112 ub: 2
+382: 112 23 1 | 383: 112 19 1 | 384: 112 55 1
+Set row: 113 lb: 0
+385: 113 23 -1 | 386: 113 19 1 | 387: 113 55 1
+Set row: 114 lb: 0
+388: 114 23 1 | 389: 114 19 -1 | 390: 114 55 1
+Edge found! state_23:13 <-> state_1:1	Weight: 2.32567	Set col: 56
+Set row: 115 ub: 0
+391: 115 13 -1 | 392: 115 1 -1 | 393: 115 56 1
+Set row: 116 ub: 2
+394: 116 13 1 | 395: 116 1 1 | 396: 116 56 1
+Set row: 117 lb: 0
+397: 117 13 -1 | 398: 117 1 1 | 399: 117 56 1
+Set row: 118 lb: 0
+400: 118 13 1 | 401: 118 1 -1 | 402: 118 56 1
+Edge found! state_23:13 <-> state_11:4	Weight: 3.18551	Set col: 57
+Set row: 119 ub: 0
+403: 119 13 -1 | 404: 119 4 -1 | 405: 119 57 1
+Set row: 120 ub: 2
+406: 120 13 1 | 407: 120 4 1 | 408: 120 57 1
+Set row: 121 lb: 0
+409: 121 13 -1 | 410: 121 4 1 | 411: 121 57 1
+Set row: 122 lb: 0
+412: 122 13 1 | 413: 122 4 -1 | 414: 122 57 1
+Edge found! state_23:13 <-> state_13:11	Weight: 2.32567	Set col: 58
+Set row: 123 ub: 0
+415: 123 13 -1 | 416: 123 11 -1 | 417: 123 58 1
+Set row: 124 ub: 2
+418: 124 13 1 | 419: 124 11 1 | 420: 124 58 1
+Set row: 125 lb: 0
+421: 125 13 -1 | 422: 125 11 1 | 423: 125 58 1
+Set row: 126 lb: 0
+424: 126 13 1 | 425: 126 11 -1 | 426: 126 58 1
+Edge found! state_23:13 <-> state_14:10	Weight: 2.32567	Set col: 59
+Set row: 127 ub: 0
+427: 127 13 -1 | 428: 127 10 -1 | 429: 127 59 1
+Set row: 128 ub: 2
+430: 128 13 1 | 431: 128 10 1 | 432: 128 59 1
+Set row: 129 lb: 0
+433: 129 13 -1 | 434: 129 10 1 | 435: 129 59 1
+Set row: 130 lb: 0
+436: 130 13 1 | 437: 130 10 -1 | 438: 130 59 1
+Edge found! state_23:13 <-> state_17:21	Weight: 1.66813	Set col: 60
+Set row: 131 ub: 0
+439: 131 13 -1 | 440: 131 21 -1 | 441: 131 60 1
+Set row: 132 ub: 2
+442: 132 13 1 | 443: 132 21 1 | 444: 132 60 1
+Set row: 133 lb: 0
+445: 133 13 -1 | 446: 133 21 1 | 447: 133 60 1
+Set row: 134 lb: 0
+448: 134 13 1 | 449: 134 21 -1 | 450: 134 60 1
+Edge found! state_23:13 <-> state_19:17	Weight: 4.44902	Set col: 61
+Set row: 135 ub: 0
+451: 135 13 -1 | 452: 135 17 -1 | 453: 135 61 1
+Set row: 136 ub: 2
+454: 136 13 1 | 455: 136 17 1 | 456: 136 61 1
+Set row: 137 lb: 0
+457: 137 13 -1 | 458: 137 17 1 | 459: 137 61 1
+Set row: 138 lb: 0
+460: 138 13 1 | 461: 138 17 -1 | 462: 138 61 1
+Edge found! state_23:13 <-> state_2:12	Weight: 2.32567	Set col: 62
+Set row: 139 ub: 0
+463: 139 13 -1 | 464: 139 12 -1 | 465: 139 62 1
+Set row: 140 ub: 2
+466: 140 13 1 | 467: 140 12 1 | 468: 140 62 1
+Set row: 141 lb: 0
+469: 141 13 -1 | 470: 141 12 1 | 471: 141 62 1
+Set row: 142 lb: 0
+472: 142 13 1 | 473: 142 12 -1 | 474: 142 62 1
+Edge found! state_24:14 <-> state_11:4	Weight: 3.18551	Set col: 63
+Set row: 143 ub: 0
+475: 143 14 -1 | 476: 143 4 -1 | 477: 143 63 1
+Set row: 144 ub: 2
+478: 144 14 1 | 479: 144 4 1 | 480: 144 63 1
+Set row: 145 lb: 0
+481: 145 14 -1 | 482: 145 4 1 | 483: 145 63 1
+Set row: 146 lb: 0
+484: 146 14 1 | 485: 146 4 -1 | 486: 146 63 1
+Edge found! state_24:14 <-> state_13:11	Weight: 3.81726	Set col: 64
+Set row: 147 ub: 0
+487: 147 14 -1 | 488: 147 11 -1 | 489: 147 64 1
+Set row: 148 ub: 2
+490: 148 14 1 | 491: 148 11 1 | 492: 148 64 1
+Set row: 149 lb: 0
+493: 149 14 -1 | 494: 149 11 1 | 495: 149 64 1
+Set row: 150 lb: 0
+496: 150 14 1 | 497: 150 11 -1 | 498: 150 64 1
+Edge found! state_24:14 <-> state_14:10	Weight: 3.81726	Set col: 65
+Set row: 151 ub: 0
+499: 151 14 -1 | 500: 151 10 -1 | 501: 151 65 1
+Set row: 152 ub: 2
+502: 152 14 1 | 503: 152 10 1 | 504: 152 65 1
+Set row: 153 lb: 0
+505: 153 14 -1 | 506: 153 10 1 | 507: 153 65 1
+Set row: 154 lb: 0
+508: 154 14 1 | 509: 154 10 -1 | 510: 154 65 1
+Edge found! state_24:14 <-> state_19:17	Weight: 4.44902	Set col: 66
+Set row: 155 ub: 0
+511: 155 14 -1 | 512: 155 17 -1 | 513: 155 66 1
+Set row: 156 ub: 2
+514: 156 14 1 | 515: 156 17 1 | 516: 156 66 1
+Set row: 157 lb: 0
+517: 157 14 -1 | 518: 157 17 1 | 519: 157 66 1
+Set row: 158 lb: 0
+520: 158 14 1 | 521: 158 17 -1 | 522: 158 66 1
+Edge found! state_25:15 <-> state_11:4	Weight: 3.18551	Set col: 67
+Set row: 159 ub: 0
+523: 159 15 -1 | 524: 159 4 -1 | 525: 159 67 1
+Set row: 160 ub: 2
+526: 160 15 1 | 527: 160 4 1 | 528: 160 67 1
+Set row: 161 lb: 0
+529: 161 15 -1 | 530: 161 4 1 | 531: 161 67 1
+Set row: 162 lb: 0
+532: 162 15 1 | 533: 162 4 -1 | 534: 162 67 1
+Edge found! state_25:15 <-> state_15:19	Weight: 5.7259	Set col: 68
+Set row: 163 ub: 0
+535: 163 15 -1 | 536: 163 19 -1 | 537: 163 68 1
+Set row: 164 ub: 2
+538: 164 15 1 | 539: 164 19 1 | 540: 164 68 1
+Set row: 165 lb: 0
+541: 165 15 -1 | 542: 165 19 1 | 543: 165 68 1
+Set row: 166 lb: 0
+544: 166 15 1 | 545: 166 19 -1 | 546: 166 68 1
+Edge found! state_25:15 <-> state_19:17	Weight: 4.44902	Set col: 69
+Set row: 167 ub: 0
+547: 167 15 -1 | 548: 167 17 -1 | 549: 167 69 1
+Set row: 168 ub: 2
+550: 168 15 1 | 551: 168 17 1 | 552: 168 69 1
+Set row: 169 lb: 0
+553: 169 15 -1 | 554: 169 17 1 | 555: 169 69 1
+Set row: 170 lb: 0
+556: 170 15 1 | 557: 170 17 -1 | 558: 170 69 1
+Edge found! state_26:26 <-> state_18:18	Weight: 1.8209	Set col: 70
+Set row: 171 ub: 0
+559: 171 26 -1 | 560: 171 18 -1 | 561: 171 70 1
+Set row: 172 ub: 2
+562: 172 26 1 | 563: 172 18 1 | 564: 172 70 1
+Set row: 173 lb: 0
+565: 173 26 -1 | 566: 173 18 1 | 567: 173 70 1
+Set row: 174 lb: 0
+568: 174 26 1 | 569: 174 18 -1 | 570: 174 70 1
+Edge found! state_26:26 <-> state_19:17	Weight: 1.8209	Set col: 71
+Set row: 175 ub: 0
+571: 175 26 -1 | 572: 175 17 -1 | 573: 175 71 1
+Set row: 176 ub: 2
+574: 176 26 1 | 575: 176 17 1 | 576: 176 71 1
+Set row: 177 lb: 0
+577: 177 26 -1 | 578: 177 17 1 | 579: 177 71 1
+Set row: 178 lb: 0
+580: 178 26 1 | 581: 178 17 -1 | 582: 178 71 1
+Edge found! state_26:26 <-> state_20:16	Weight: 6.26992	Set col: 72
+Set row: 179 ub: 0
+583: 179 26 -1 | 584: 179 16 -1 | 585: 179 72 1
+Set row: 180 ub: 2
+586: 180 26 1 | 587: 180 16 1 | 588: 180 72 1
+Set row: 181 lb: 0
+589: 181 26 -1 | 590: 181 16 1 | 591: 181 72 1
+Set row: 182 lb: 0
+592: 182 26 1 | 593: 182 16 -1 | 594: 182 72 1
+Edge found! state_26:26 <-> state_21:22	Weight: 1.8209	Set col: 73
+Set row: 183 ub: 0
+595: 183 26 -1 | 596: 183 22 -1 | 597: 183 73 1
+Set row: 184 ub: 2
+598: 184 26 1 | 599: 184 22 1 | 600: 184 73 1
+Set row: 185 lb: 0
+601: 185 26 -1 | 602: 185 22 1 | 603: 185 73 1
+Set row: 186 lb: 0
+604: 186 26 1 | 605: 186 22 -1 | 606: 186 73 1
+Edge found! state_27:27 <-> state_13:11	Weight: 0.417033	Set col: 74
+Set row: 187 ub: 0
+607: 187 27 -1 | 608: 187 11 -1 | 609: 187 74 1
+Set row: 188 ub: 2
+610: 188 27 1 | 611: 188 11 1 | 612: 188 74 1
+Set row: 189 lb: 0
+613: 189 27 -1 | 614: 189 11 1 | 615: 189 74 1
+Set row: 190 lb: 0
+616: 190 27 1 | 617: 190 11 -1 | 618: 190 74 1
+Edge found! state_27:27 <-> state_14:10	Weight: 0.417033	Set col: 75
+Set row: 191 ub: 0
+619: 191 27 -1 | 620: 191 10 -1 | 621: 191 75 1
+Set row: 192 ub: 2
+622: 192 27 1 | 623: 192 10 1 | 624: 192 75 1
+Set row: 193 lb: 0
+625: 193 27 -1 | 626: 193 10 1 | 627: 193 75 1
+Set row: 194 lb: 0
+628: 194 27 1 | 629: 194 10 -1 | 630: 194 75 1
+Edge found! state_27:27 <-> state_15:19	Weight: 0.417033	Set col: 76
+Set row: 195 ub: 0
+631: 195 27 -1 | 632: 195 19 -1 | 633: 195 76 1
+Set row: 196 ub: 2
+634: 196 27 1 | 635: 196 19 1 | 636: 196 76 1
+Set row: 197 lb: 0
+637: 197 27 -1 | 638: 197 19 1 | 639: 197 76 1
+Set row: 198 lb: 0
+640: 198 27 1 | 641: 198 19 -1 | 642: 198 76 1
+Edge found! state_27:27 <-> state_17:21	Weight: 1.66813	Set col: 77
+Set row: 199 ub: 0
+643: 199 27 -1 | 644: 199 21 -1 | 645: 199 77 1
+Set row: 200 ub: 2
+646: 200 27 1 | 647: 200 21 1 | 648: 200 77 1
+Set row: 201 lb: 0
+649: 201 27 -1 | 650: 201 21 1 | 651: 201 77 1
+Set row: 202 lb: 0
+652: 202 27 1 | 653: 202 21 -1 | 654: 202 77 1
+Edge found! state_3:2 <-> state_1:1	Weight: 8.23211	Set col: 78
+Set row: 203 ub: 0
+655: 203 2 -1 | 656: 203 1 -1 | 657: 203 78 1
+Set row: 204 ub: 2
+658: 204 2 1 | 659: 204 1 1 | 660: 204 78 1
+Set row: 205 lb: 0
+661: 205 2 -1 | 662: 205 1 1 | 663: 205 78 1
+Set row: 206 lb: 0
+664: 206 2 1 | 665: 206 1 -1 | 666: 206 78 1
+Edge found! state_3:2 <-> state_11:4	Weight: 3.18551	Set col: 79
+Set row: 207 ub: 0
+667: 207 2 -1 | 668: 207 4 -1 | 669: 207 79 1
+Set row: 208 ub: 2
+670: 208 2 1 | 671: 208 4 1 | 672: 208 79 1
+Set row: 209 lb: 0
+673: 209 2 -1 | 674: 209 4 1 | 675: 209 79 1
+Set row: 210 lb: 0
+676: 210 2 1 | 677: 210 4 -1 | 678: 210 79 1
+Edge found! state_3:2 <-> state_13:11	Weight: 4.50992	Set col: 80
+Set row: 211 ub: 0
+679: 211 2 -1 | 680: 211 11 -1 | 681: 211 80 1
+Set row: 212 ub: 2
+682: 212 2 1 | 683: 212 11 1 | 684: 212 80 1
+Set row: 213 lb: 0
+685: 213 2 -1 | 686: 213 11 1 | 687: 213 80 1
+Set row: 214 lb: 0
+688: 214 2 1 | 689: 214 11 -1 | 690: 214 80 1
+Edge found! state_3:2 <-> state_22:23	Weight: 3.33627	Set col: 81
+Set row: 215 ub: 0
+691: 215 2 -1 | 692: 215 23 -1 | 693: 215 81 1
+Set row: 216 ub: 2
+694: 216 2 1 | 695: 216 23 1 | 696: 216 81 1
+Set row: 217 lb: 0
+697: 217 2 -1 | 698: 217 23 1 | 699: 217 81 1
+Set row: 218 lb: 0
+700: 218 2 1 | 701: 218 23 -1 | 702: 218 81 1
+Edge found! state_3:2 <-> state_25:15	Weight: 1.90863	Set col: 82
+Set row: 219 ub: 0
+703: 219 2 -1 | 704: 219 15 -1 | 705: 219 82 1
+Set row: 220 ub: 2
+706: 220 2 1 | 707: 220 15 1 | 708: 220 82 1
+Set row: 221 lb: 0
+709: 221 2 -1 | 710: 221 15 1 | 711: 221 82 1
+Set row: 222 lb: 0
+712: 222 2 1 | 713: 222 15 -1 | 714: 222 82 1
+Edge found! state_3:2 <-> state_27:27	Weight: 0.417033	Set col: 83
+Set row: 223 ub: 0
+715: 223 2 -1 | 716: 223 27 -1 | 717: 223 83 1
+Set row: 224 ub: 2
+718: 224 2 1 | 719: 224 27 1 | 720: 224 83 1
+Set row: 225 lb: 0
+721: 225 2 -1 | 722: 225 27 1 | 723: 225 83 1
+Set row: 226 lb: 0
+724: 226 2 1 | 725: 226 27 -1 | 726: 226 83 1
+Edge found! state_4:6 <-> state_15:19	Weight: 4.29185	Set col: 84
+Set row: 227 ub: 0
+727: 227 6 -1 | 728: 227 19 -1 | 729: 227 84 1
+Set row: 228 ub: 2
+730: 228 6 1 | 731: 228 19 1 | 732: 228 84 1
+Set row: 229 lb: 0
+733: 229 6 -1 | 734: 229 19 1 | 735: 229 84 1
+Set row: 230 lb: 0
+736: 230 6 1 | 737: 230 19 -1 | 738: 230 84 1
+Edge found! state_4:6 <-> state_18:18	Weight: 4.44902	Set col: 85
+Set row: 231 ub: 0
+739: 231 6 -1 | 740: 231 18 -1 | 741: 231 85 1
+Set row: 232 ub: 2
+742: 232 6 1 | 743: 232 18 1 | 744: 232 85 1
+Set row: 233 lb: 0
+745: 233 6 -1 | 746: 233 18 1 | 747: 233 85 1
+Set row: 234 lb: 0
+748: 234 6 1 | 749: 234 18 -1 | 750: 234 85 1
+Edge found! state_4:6 <-> state_3:2	Weight: 7.0655	Set col: 86
+Set row: 235 ub: 0
+751: 235 6 -1 | 752: 235 2 -1 | 753: 235 86 1
+Set row: 236 ub: 2
+754: 236 6 1 | 755: 236 2 1 | 756: 236 86 1
+Set row: 237 lb: 0
+757: 237 6 -1 | 758: 237 2 1 | 759: 237 86 1
+Set row: 238 lb: 0
+760: 238 6 1 | 761: 238 2 -1 | 762: 238 86 1
+Edge found! state_5:7 <-> state_1:1	Weight: 6.67253	Set col: 87
+Set row: 239 ub: 0
+763: 239 7 -1 | 764: 239 1 -1 | 765: 239 87 1
+Set row: 240 ub: 2
+766: 240 7 1 | 767: 240 1 1 | 768: 240 87 1
+Set row: 241 lb: 0
+769: 241 7 -1 | 770: 241 1 1 | 771: 241 87 1
+Set row: 242 lb: 0
+772: 242 7 1 | 773: 242 1 -1 | 774: 242 87 1
+Edge found! state_5:7 <-> state_15:19	Weight: 4.29185	Set col: 88
+Set row: 243 ub: 0
+775: 243 7 -1 | 776: 243 19 -1 | 777: 243 88 1
+Set row: 244 ub: 2
+778: 244 7 1 | 779: 244 19 1 | 780: 244 88 1
+Set row: 245 lb: 0
+781: 245 7 -1 | 782: 245 19 1 | 783: 245 88 1
+Set row: 246 lb: 0
+784: 246 7 1 | 785: 246 19 -1 | 786: 246 88 1
+Edge found! state_5:7 <-> state_16:20	Weight: 6.67253	Set col: 89
+Set row: 247 ub: 0
+787: 247 7 -1 | 788: 247 20 -1 | 789: 247 89 1
+Set row: 248 ub: 2
+790: 248 7 1 | 791: 248 20 1 | 792: 248 89 1
+Set row: 249 lb: 0
+793: 249 7 -1 | 794: 249 20 1 | 795: 249 89 1
+Set row: 250 lb: 0
+796: 250 7 1 | 797: 250 20 -1 | 798: 250 89 1
+Edge found! state_5:7 <-> state_17:21	Weight: 6.67253	Set col: 90
+Set row: 251 ub: 0
+799: 251 7 -1 | 800: 251 21 -1 | 801: 251 90 1
+Set row: 252 ub: 2
+802: 252 7 1 | 803: 252 21 1 | 804: 252 90 1
+Set row: 253 lb: 0
+805: 253 7 -1 | 806: 253 21 1 | 807: 253 90 1
+Set row: 254 lb: 0
+808: 254 7 1 | 809: 254 21 -1 | 810: 254 90 1
+Edge found! state_5:7 <-> state_18:18	Weight: 4.44902	Set col: 91
+Set row: 255 ub: 0
+811: 255 7 -1 | 812: 255 18 -1 | 813: 255 91 1
+Set row: 256 ub: 2
+814: 256 7 1 | 815: 256 18 1 | 816: 256 91 1
+Set row: 257 lb: 0
+817: 257 7 -1 | 818: 257 18 1 | 819: 257 91 1
+Set row: 258 lb: 0
+820: 258 7 1 | 821: 258 18 -1 | 822: 258 91 1
+Edge found! state_5:7 <-> state_2:12	Weight: 6.67253	Set col: 92
+Set row: 259 ub: 0
+823: 259 7 -1 | 824: 259 12 -1 | 825: 259 92 1
+Set row: 260 ub: 2
+826: 260 7 1 | 827: 260 12 1 | 828: 260 92 1
+Set row: 261 lb: 0
+829: 261 7 -1 | 830: 261 12 1 | 831: 261 92 1
+Set row: 262 lb: 0
+832: 262 7 1 | 833: 262 12 -1 | 834: 262 92 1
+Edge found! state_5:7 <-> state_3:2	Weight: 7.0655	Set col: 93
+Set row: 263 ub: 0
+835: 263 7 -1 | 836: 263 2 -1 | 837: 263 93 1
+Set row: 264 ub: 2
+838: 264 7 1 | 839: 264 2 1 | 840: 264 93 1
+Set row: 265 lb: 0
+841: 265 7 -1 | 842: 265 2 1 | 843: 265 93 1
+Set row: 266 lb: 0
+844: 266 7 1 | 845: 266 2 -1 | 846: 266 93 1
+Edge found! state_5:7 <-> state_4:6	Weight: 5.26879	Set col: 94
+Set row: 267 ub: 0
+847: 267 7 -1 | 848: 267 6 -1 | 849: 267 94 1
+Set row: 268 ub: 2
+850: 268 7 1 | 851: 268 6 1 | 852: 268 94 1
+Set row: 269 lb: 0
+853: 269 7 -1 | 854: 269 6 1 | 855: 269 94 1
+Set row: 270 lb: 0
+856: 270 7 1 | 857: 270 6 -1 | 858: 270 94 1
+Edge found! state_6:8 <-> state_10:3	Weight: 6.67253	Set col: 95
+Set row: 271 ub: 0
+859: 271 8 -1 | 860: 271 3 -1 | 861: 271 95 1
+Set row: 272 ub: 2
+862: 272 8 1 | 863: 272 3 1 | 864: 272 95 1
+Set row: 273 lb: 0
+865: 273 8 -1 | 866: 273 3 1 | 867: 273 95 1
+Set row: 274 lb: 0
+868: 274 8 1 | 869: 274 3 -1 | 870: 274 95 1
+Edge found! state_6:8 <-> state_15:19	Weight: 4.29185	Set col: 96
+Set row: 275 ub: 0
+871: 275 8 -1 | 872: 275 19 -1 | 873: 275 96 1
+Set row: 276 ub: 2
+874: 276 8 1 | 875: 276 19 1 | 876: 276 96 1
+Set row: 277 lb: 0
+877: 277 8 -1 | 878: 277 19 1 | 879: 277 96 1
+Set row: 278 lb: 0
+880: 278 8 1 | 881: 278 19 -1 | 882: 278 96 1
+Edge found! state_6:8 <-> state_18:18	Weight: 4.44902	Set col: 97
+Set row: 279 ub: 0
+883: 279 8 -1 | 884: 279 18 -1 | 885: 279 97 1
+Set row: 280 ub: 2
+886: 280 8 1 | 887: 280 18 1 | 888: 280 97 1
+Set row: 281 lb: 0
+889: 281 8 -1 | 890: 281 18 1 | 891: 281 97 1
+Set row: 282 lb: 0
+892: 282 8 1 | 893: 282 18 -1 | 894: 282 97 1
+Edge found! state_6:8 <-> state_21:22	Weight: 6.67253	Set col: 98
+Set row: 283 ub: 0
+895: 283 8 -1 | 896: 283 22 -1 | 897: 283 98 1
+Set row: 284 ub: 2
+898: 284 8 1 | 899: 284 22 1 | 900: 284 98 1
+Set row: 285 lb: 0
+901: 285 8 -1 | 902: 285 22 1 | 903: 285 98 1
+Set row: 286 lb: 0
+904: 286 8 1 | 905: 286 22 -1 | 906: 286 98 1
+Edge found! state_6:8 <-> state_22:23	Weight: 6.67253	Set col: 99
+Set row: 287 ub: 0
+907: 287 8 -1 | 908: 287 23 -1 | 909: 287 99 1
+Set row: 288 ub: 2
+910: 288 8 1 | 911: 288 23 1 | 912: 288 99 1
+Set row: 289 lb: 0
+913: 289 8 -1 | 914: 289 23 1 | 915: 289 99 1
+Set row: 290 lb: 0
+916: 290 8 1 | 917: 290 23 -1 | 918: 290 99 1
+Edge found! state_6:8 <-> state_3:2	Weight: 13.738	Set col: 100
+Set row: 291 ub: 0
+919: 291 8 -1 | 920: 291 2 -1 | 921: 291 100 1
+Set row: 292 ub: 2
+922: 292 8 1 | 923: 292 2 1 | 924: 292 100 1
+Set row: 293 lb: 0
+925: 293 8 -1 | 926: 293 2 1 | 927: 293 100 1
+Set row: 294 lb: 0
+928: 294 8 1 | 929: 294 2 -1 | 930: 294 100 1
+Edge found! state_6:8 <-> state_4:6	Weight: 5.26879	Set col: 101
+Set row: 295 ub: 0
+931: 295 8 -1 | 932: 295 6 -1 | 933: 295 101 1
+Set row: 296 ub: 2
+934: 296 8 1 | 935: 296 6 1 | 936: 296 101 1
+Set row: 297 lb: 0
+937: 297 8 -1 | 938: 297 6 1 | 939: 297 101 1
+Set row: 298 lb: 0
+940: 298 8 1 | 941: 298 6 -1 | 942: 298 101 1
+Edge found! state_7:9 <-> state_15:19	Weight: 4.29185	Set col: 102
+Set row: 299 ub: 0
+943: 299 9 -1 | 944: 299 19 -1 | 945: 299 102 1
+Set row: 300 ub: 2
+946: 300 9 1 | 947: 300 19 1 | 948: 300 102 1
+Set row: 301 lb: 0
+949: 301 9 -1 | 950: 301 19 1 | 951: 301 102 1
+Set row: 302 lb: 0
+952: 302 9 1 | 953: 302 19 -1 | 954: 302 102 1
+Edge found! state_7:9 <-> state_18:18	Weight: 11.1216	Set col: 103
+Set row: 303 ub: 0
+955: 303 9 -1 | 956: 303 18 -1 | 957: 303 103 1
+Set row: 304 ub: 2
+958: 304 9 1 | 959: 304 18 1 | 960: 304 103 1
+Set row: 305 lb: 0
+961: 305 9 -1 | 962: 305 18 1 | 963: 305 103 1
+Set row: 306 lb: 0
+964: 306 9 1 | 965: 306 18 -1 | 966: 306 103 1
+Edge found! state_7:9 <-> state_19:17	Weight: 6.67253	Set col: 104
+Set row: 307 ub: 0
+967: 307 9 -1 | 968: 307 17 -1 | 969: 307 104 1
+Set row: 308 ub: 2
+970: 308 9 1 | 971: 308 17 1 | 972: 308 104 1
+Set row: 309 lb: 0
+973: 309 9 -1 | 974: 309 17 1 | 975: 309 104 1
+Set row: 310 lb: 0
+976: 310 9 1 | 977: 310 17 -1 | 978: 310 104 1
+Edge found! state_7:9 <-> state_20:16	Weight: 6.67253	Set col: 105
+Set row: 311 ub: 0
+979: 311 9 -1 | 980: 311 16 -1 | 981: 311 105 1
+Set row: 312 ub: 2
+982: 312 9 1 | 983: 312 16 1 | 984: 312 105 1
+Set row: 313 lb: 0
+985: 313 9 -1 | 986: 313 16 1 | 987: 313 105 1
+Set row: 314 lb: 0
+988: 314 9 1 | 989: 314 16 -1 | 990: 314 105 1
+Edge found! state_7:9 <-> state_3:2	Weight: 7.0655	Set col: 106
+Set row: 315 ub: 0
+991: 315 9 -1 | 992: 315 2 -1 | 993: 315 106 1
+Set row: 316 ub: 2
+994: 316 9 1 | 995: 316 2 1 | 996: 316 106 1
+Set row: 317 lb: 0
+997: 317 9 -1 | 998: 317 2 1 | 999: 317 106 1
+Set row: 318 lb: 0
+1000: 318 9 1 | 1001: 318 2 -1 | 1002: 318 106 1
+Edge found! state_7:9 <-> state_4:6	Weight: 5.26879	Set col: 107
+Set row: 319 ub: 0
+1003: 319 9 -1 | 1004: 319 6 -1 | 1005: 319 107 1
+Set row: 320 ub: 2
+1006: 320 9 1 | 1007: 320 6 1 | 1008: 320 107 1
+Set row: 321 lb: 0
+1009: 321 9 -1 | 1010: 321 6 1 | 1011: 321 107 1
+Set row: 322 lb: 0
+1012: 322 9 1 | 1013: 322 6 -1 | 1014: 322 107 1
+Edge found! state_8:25 <-> state_13:11	Weight: 2.83457	Set col: 108
+Set row: 323 ub: 0
+1015: 323 25 -1 | 1016: 323 11 -1 | 1017: 323 108 1
+Set row: 324 ub: 2
+1018: 324 25 1 | 1019: 324 11 1 | 1020: 324 108 1
+Set row: 325 lb: 0
+1021: 325 25 -1 | 1022: 325 11 1 | 1023: 325 108 1
+Set row: 326 lb: 0
+1024: 326 25 1 | 1025: 326 11 -1 | 1026: 326 108 1
+Edge found! state_8:25 <-> state_14:10	Weight: 7.34449	Set col: 109
+Set row: 327 ub: 0
+1027: 327 25 -1 | 1028: 327 10 -1 | 1029: 327 109 1
+Set row: 328 ub: 2
+1030: 328 25 1 | 1031: 328 10 1 | 1032: 328 109 1
+Set row: 329 lb: 0
+1033: 329 25 -1 | 1034: 329 10 1 | 1035: 329 109 1
+Set row: 330 lb: 0
+1036: 330 25 1 | 1037: 330 10 -1 | 1038: 330 109 1
+Edge found! state_8:25 <-> state_15:19	Weight: 2.83457	Set col: 110
+Set row: 331 ub: 0
+1039: 331 25 -1 | 1040: 331 19 -1 | 1041: 331 110 1
+Set row: 332 ub: 2
+1042: 332 25 1 | 1043: 332 19 1 | 1044: 332 110 1
+Set row: 333 lb: 0
+1045: 333 25 -1 | 1046: 333 19 1 | 1047: 333 110 1
+Set row: 334 lb: 0
+1048: 334 25 1 | 1049: 334 19 -1 | 1050: 334 110 1
+Edge found! state_8:25 <-> state_2:12	Weight: 6.82837	Set col: 111
+Set row: 335 ub: 0
+1051: 335 25 -1 | 1052: 335 12 -1 | 1053: 335 111 1
+Set row: 336 ub: 2
+1054: 336 25 1 | 1055: 336 12 1 | 1056: 336 111 1
+Set row: 337 lb: 0
+1057: 337 25 -1 | 1058: 337 12 1 | 1059: 337 111 1
+Set row: 338 lb: 0
+1060: 338 25 1 | 1061: 338 12 -1 | 1062: 338 111 1
+Edge found! state_8:25 <-> state_26:26	Weight: 2.83457	Set col: 112
+Set row: 339 ub: 0
+1063: 339 25 -1 | 1064: 339 26 -1 | 1065: 339 112 1
+Set row: 340 ub: 2
+1066: 340 25 1 | 1067: 340 26 1 | 1068: 340 112 1
+Set row: 341 lb: 0
+1069: 341 25 -1 | 1070: 341 26 1 | 1071: 341 112 1
+Set row: 342 lb: 0
+1072: 342 25 1 | 1073: 342 26 -1 | 1074: 342 112 1
+Edge found! state_9:24 <-> state_1:1	Weight: 5.61496	Set col: 113
+Set row: 343 ub: 0
+1075: 343 24 -1 | 1076: 343 1 -1 | 1077: 343 113 1
+Set row: 344 ub: 2
+1078: 344 24 1 | 1079: 344 1 1 | 1080: 344 113 1
+Set row: 345 lb: 0
+1081: 345 24 -1 | 1082: 345 1 1 | 1083: 345 113 1
+Set row: 346 lb: 0
+1084: 346 24 1 | 1085: 346 1 -1 | 1086: 346 113 1
+Edge found! state_9:24 <-> state_14:10	Weight: 4.50992	Set col: 114
+Set row: 347 ub: 0
+1087: 347 24 -1 | 1088: 347 10 -1 | 1089: 347 114 1
+Set row: 348 ub: 2
+1090: 348 24 1 | 1091: 348 10 1 | 1092: 348 114 1
+Set row: 349 lb: 0
+1093: 349 24 -1 | 1094: 349 10 1 | 1095: 349 114 1
+Set row: 350 lb: 0
+1096: 350 24 1 | 1097: 350 10 -1 | 1098: 350 114 1
+Edge found! state_9:24 <-> state_2:12	Weight: 6.82837	Set col: 115
+Set row: 351 ub: 0
+1099: 351 24 -1 | 1100: 351 12 -1 | 1101: 351 115 1
+Set row: 352 ub: 2
+1102: 352 24 1 | 1103: 352 12 1 | 1104: 352 115 1
+Set row: 353 lb: 0
+1105: 353 24 -1 | 1106: 353 12 1 | 1107: 353 115 1
+Set row: 354 lb: 0
+1108: 354 24 1 | 1109: 354 12 -1 | 1110: 354 115 1
+Edge found! state_9:24 <-> state_20:16	Weight: 4.44902	Set col: 116
+Set row: 355 ub: 0
+1111: 355 24 -1 | 1112: 355 16 -1 | 1113: 355 116 1
+Set row: 356 ub: 2
+1114: 356 24 1 | 1115: 356 16 1 | 1116: 356 116 1
+Set row: 357 lb: 0
+1117: 357 24 -1 | 1118: 357 16 1 | 1119: 357 116 1
+Set row: 358 lb: 0
+1120: 358 24 1 | 1121: 358 16 -1 | 1122: 358 116 1
+Edge found! state_9:24 <-> state_5:7	Weight: 5.61496	Set col: 117
+Set row: 359 ub: 0
+1123: 359 24 -1 | 1124: 359 7 -1 | 1125: 359 117 1
+Set row: 360 ub: 2
+1126: 360 24 1 | 1127: 360 7 1 | 1128: 360 117 1
+Set row: 361 lb: 0
+1129: 361 24 -1 | 1130: 361 7 1 | 1131: 361 117 1
+Set row: 362 lb: 0
+1132: 362 24 1 | 1133: 362 7 -1 | 1134: 362 117 1
+Edge found! state_9:24 <-> state_6:8	Weight: 5.61496	Set col: 118
+Set row: 363 ub: 0
+1135: 363 24 -1 | 1136: 363 8 -1 | 1137: 363 118 1
+Set row: 364 ub: 2
+1138: 364 24 1 | 1139: 364 8 1 | 1140: 364 118 1
+Set row: 365 lb: 0
+1141: 365 24 -1 | 1142: 365 8 1 | 1143: 365 118 1
+Set row: 366 lb: 0
+1144: 366 24 1 | 1145: 366 8 -1 | 1146: 366 118 1
+Edge found! state_9:24 <-> state_7:9	Weight: 12.2875	Set col: 119
+Set row: 367 ub: 0
+1147: 367 24 -1 | 1148: 367 9 -1 | 1149: 367 119 1
+Set row: 368 ub: 2
+1150: 368 24 1 | 1151: 368 9 1 | 1152: 368 119 1
+Set row: 369 lb: 0
+1153: 369 24 -1 | 1154: 369 9 1 | 1155: 369 119 1
+Set row: 370 lb: 0
+1156: 370 24 1 | 1157: 370 9 -1 | 1158: 370 119 1
+GLPK Integer Optimizer 5.0
+371 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Preprocessing...
+184 hidden covering inequaliti(es) were detected
+371 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 371
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+371 rows, 119 columns, 1185 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.200e+01 (2)
+     28: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    28: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 137.96434841
++   280: >>>>>   1.373594309e+02 >=   0.000000000e+00 100.0% (13; 0)
++  1107: >>>>>   1.261910950e+02 >=   5.597478696e+01  55.6% (46; 5)
++  1525: >>>>>   1.150675354e+02 >=   6.252497770e+01  45.7% (52; 29)
++  1681: >>>>>   1.087381637e+02 >=   6.922017053e+01  36.3% (45; 57)
++  2512: >>>>>   9.772497673e+01 >=   8.906555307e+01   8.9% (55; 84)
++  2718: mip =   9.772497673e+01 >=     tree is empty   0.0% (0; 229)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 97.725
+state_1	1	1
+state_10	3	1
+state_11	4	1
+state_12	5	1
+state_13	11	1
+state_14	10	1
+state_15	19	0
+state_16	20	0
+state_17	21	0
+state_18	18	0
+state_19	17	0
+state_2	12	1
+state_20	16	0
+state_21	22	1
+state_22	23	0
+state_23	13	1
+state_24	14	1
+state_25	15	0
+state_26	26	0
+state_27	27	0
+state_3	2	0
+state_4	6	0
+state_5	7	0
+state_6	8	0
+state_7	9	0
+state_8	25	1
+state_9	24	0
+Number of 0 assigned: 16 | Number of 1 assigned: 11
+XOR Constraint 28: 0
+XOR Constraint 29: 0
+XOR Constraint 30: 0
+XOR Constraint 31: 0
+XOR Constraint 32: 0
+XOR Constraint 33: 0
+XOR Constraint 34: 0
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 1
+XOR Constraint 38: 1
+XOR Constraint 39: 0
+XOR Constraint 40: 1
+XOR Constraint 41: 0
+XOR Constraint 42: 1
+XOR Constraint 43: 0
+XOR Constraint 44: 0
+XOR Constraint 45: 0
+XOR Constraint 46: 0
+XOR Constraint 47: 0
+XOR Constraint 48: 1
+XOR Constraint 49: 0
+XOR Constraint 50: 0
+XOR Constraint 51: 0
+XOR Constraint 52: 0
+XOR Constraint 53: 0
+XOR Constraint 54: 0
+XOR Constraint 55: 0
+XOR Constraint 56: 0
+XOR Constraint 57: 0
+XOR Constraint 58: 0
+XOR Constraint 59: 0
+XOR Constraint 60: 1
+XOR Constraint 61: 1
+XOR Constraint 62: 0
+XOR Constraint 63: 0
+XOR Constraint 64: 0
+XOR Constraint 65: 0
+XOR Constraint 66: 1
+XOR Constraint 67: 1
+XOR Constraint 68: 0
+XOR Constraint 69: 0
+XOR Constraint 70: 0
+XOR Constraint 71: 0
+XOR Constraint 72: 0
+XOR Constraint 73: 1
+XOR Constraint 74: 1
+XOR Constraint 75: 1
+XOR Constraint 76: 0
+XOR Constraint 77: 0
+XOR Constraint 78: 1
+XOR Constraint 79: 1
+XOR Constraint 80: 1
+XOR Constraint 81: 0
+XOR Constraint 82: 0
+XOR Constraint 83: 0
+XOR Constraint 84: 0
+XOR Constraint 85: 0
+XOR Constraint 86: 0
+XOR Constraint 87: 1
+XOR Constraint 88: 0
+XOR Constraint 89: 0
+XOR Constraint 90: 0
+XOR Constraint 91: 0
+XOR Constraint 92: 1
+XOR Constraint 93: 0
+XOR Constraint 94: 0
+XOR Constraint 95: 1
+XOR Constraint 96: 0
+XOR Constraint 97: 0
+XOR Constraint 98: 1
+XOR Constraint 99: 0
+XOR Constraint 100: 0
+XOR Constraint 101: 0
+XOR Constraint 102: 0
+XOR Constraint 103: 0
+XOR Constraint 104: 0
+XOR Constraint 105: 0
+XOR Constraint 106: 0
+XOR Constraint 107: 0
+XOR Constraint 108: 0
+XOR Constraint 109: 0
+XOR Constraint 110: 1
+XOR Constraint 111: 0
+XOR Constraint 112: 1
+XOR Constraint 113: 1
+XOR Constraint 114: 1
+XOR Constraint 115: 1
+XOR Constraint 116: 0
+XOR Constraint 117: 0
+XOR Constraint 118: 0
+XOR Constraint 119: 0
+-----
+Size of State Group: 2
+ - 24 9 8 17 18 20 19 21 26 27 16 23 15 2 6 7
+ - 14 13 22 12 5 4 11 1 3 10 25
+
+   [   Round 2   ]   
+Set col: state_1 -> 1
+Set col: state_10 -> 3
+Set col: state_11 -> 4
+Set col: state_12 -> 5
+Set col: state_13 -> 11
+Set col: state_14 -> 10
+Set col: state_15 -> 19
+Set col: state_16 -> 20
+Set col: state_17 -> 21
+Set col: state_18 -> 18
+Set col: state_19 -> 17
+Set col: state_2 -> 12
+Set col: state_20 -> 16
+Set col: state_21 -> 22
+Set col: state_22 -> 23
+Set col: state_23 -> 13
+Set col: state_24 -> 14
+Set col: state_25 -> 15
+Set col: state_26 -> 26
+Set col: state_27 -> 27
+Set col: state_3 -> 2
+Set col: state_4 -> 6
+Set col: state_5 -> 7
+Set col: state_6 -> 8
+Set col: state_7 -> 9
+Set col: state_8 -> 25
+Set col: state_9 -> 24
+Size of Group: 2
+Group 1 | Size 16
+Set row: 1 lb: 1 ub: 8
+Set row: 2 lb: -15 ub: -8
+1: 1 24 1
+2: 2 24 -1
+3: 1 9 1
+4: 2 9 -1
+5: 1 8 1
+6: 2 8 -1
+7: 1 17 1
+8: 2 17 -1
+9: 1 18 1
+10: 2 18 -1
+11: 1 20 1
+12: 2 20 -1
+13: 1 19 1
+14: 2 19 -1
+15: 1 21 1
+16: 2 21 -1
+17: 1 26 1
+18: 2 26 -1
+19: 1 27 1
+20: 2 27 -1
+21: 1 16 1
+22: 2 16 -1
+23: 1 23 1
+24: 2 23 -1
+25: 1 15 1
+26: 2 15 -1
+27: 1 2 1
+28: 2 2 -1
+29: 1 6 1
+30: 2 6 -1
+31: 1 7 1
+32: 2 7 -1
+Group 2 | Size 11
+Set row: 3 lb: 1 ub: 8
+Set row: 4 lb: -10 ub: -3
+33: 3 14 1
+34: 4 14 -1
+35: 3 13 1
+36: 4 13 -1
+37: 3 22 1
+38: 4 22 -1
+39: 3 12 1
+40: 4 12 -1
+41: 3 5 1
+42: 4 5 -1
+43: 3 4 1
+44: 4 4 -1
+45: 3 11 1
+46: 4 11 -1
+47: 3 1 1
+48: 4 1 -1
+49: 3 3 1
+50: 4 3 -1
+51: 3 10 1
+52: 4 10 -1
+53: 3 25 1
+54: 4 25 -1
+Edge found! state_10:3 <-> state_1:1	Weight: 13.0857	Set col: 28
+Set row: 5 ub: 0
+55: 5 3 -1 | 56: 5 1 -1 | 57: 5 28 1
+Set row: 6 ub: 2
+58: 6 3 1 | 59: 6 1 1 | 60: 6 28 1
+Set row: 7 lb: 0
+61: 7 3 -1 | 62: 7 1 1 | 63: 7 28 1
+Set row: 8 lb: 0
+64: 8 3 1 | 65: 8 1 -1 | 66: 8 28 1
+Edge found! state_11:4 <-> state_1:1	Weight: 8.23211	Set col: 29
+Set row: 9 ub: 0
+67: 9 4 -1 | 68: 9 1 -1 | 69: 9 29 1
+Set row: 10 ub: 2
+70: 10 4 1 | 71: 10 1 1 | 72: 10 29 1
+Set row: 11 lb: 0
+73: 11 4 -1 | 74: 11 1 1 | 75: 11 29 1
+Set row: 12 lb: 0
+76: 12 4 1 | 77: 12 1 -1 | 78: 12 29 1
+Edge found! state_12:5 <-> state_1:1	Weight: 8.23211	Set col: 30
+Set row: 13 ub: 0
+79: 13 5 -1 | 80: 13 1 -1 | 81: 13 30 1
+Set row: 14 ub: 2
+82: 14 5 1 | 83: 14 1 1 | 84: 14 30 1
+Set row: 15 lb: 0
+85: 15 5 -1 | 86: 15 1 1 | 87: 15 30 1
+Set row: 16 lb: 0
+88: 16 5 1 | 89: 16 1 -1 | 90: 16 30 1
+Edge found! state_13:11 <-> state_10:3	Weight: 9.36355	Set col: 31
+Set row: 17 ub: 0
+91: 17 11 -1 | 92: 17 3 -1 | 93: 17 31 1
+Set row: 18 ub: 2
+94: 18 11 1 | 95: 18 3 1 | 96: 18 31 1
+Set row: 19 lb: 0
+97: 19 11 -1 | 98: 19 3 1 | 99: 19 31 1
+Set row: 20 lb: 0
+100: 20 11 1 | 101: 20 3 -1 | 102: 20 31 1
+Edge found! state_13:11 <-> state_11:4	Weight: 4.50992	Set col: 32
+Set row: 21 ub: 0
+103: 21 11 -1 | 104: 21 4 -1 | 105: 21 32 1
+Set row: 22 ub: 2
+106: 22 11 1 | 107: 22 4 1 | 108: 22 32 1
+Set row: 23 lb: 0
+109: 23 11 -1 | 110: 23 4 1 | 111: 23 32 1
+Set row: 24 lb: 0
+112: 24 11 1 | 113: 24 4 -1 | 114: 24 32 1
+Edge found! state_13:11 <-> state_12:5	Weight: 4.50992	Set col: 33
+Set row: 25 ub: 0
+115: 25 11 -1 | 116: 25 5 -1 | 117: 25 33 1
+Set row: 26 ub: 2
+118: 26 11 1 | 119: 26 5 1 | 120: 26 33 1
+Set row: 27 lb: 0
+121: 27 11 -1 | 122: 27 5 1 | 123: 27 33 1
+Set row: 28 lb: 0
+124: 28 11 1 | 125: 28 5 -1 | 126: 28 33 1
+Edge found! state_14:10 <-> state_1:1	Weight: 4.50992	Set col: 34
+Set row: 29 ub: 0
+127: 29 10 -1 | 128: 29 1 -1 | 129: 29 34 1
+Set row: 30 ub: 2
+130: 30 10 1 | 131: 30 1 1 | 132: 30 34 1
+Set row: 31 lb: 0
+133: 31 10 -1 | 134: 31 1 1 | 135: 31 34 1
+Set row: 32 lb: 0
+136: 32 10 1 | 137: 32 1 -1 | 138: 32 34 1
+Edge found! state_14:10 <-> state_10:3	Weight: 4.85364	Set col: 35
+Set row: 33 ub: 0
+139: 33 10 -1 | 140: 33 3 -1 | 141: 33 35 1
+Set row: 34 ub: 2
+142: 34 10 1 | 143: 34 3 1 | 144: 34 35 1
+Set row: 35 lb: 0
+145: 35 10 -1 | 146: 35 3 1 | 147: 35 35 1
+Set row: 36 lb: 0
+148: 36 10 1 | 149: 36 3 -1 | 150: 36 35 1
+Edge found! state_15:19 <-> state_12:5	Weight: 6.37101	Set col: 36
+Set row: 37 ub: 0
+151: 37 19 -1 | 152: 37 5 -1 | 153: 37 36 1
+Set row: 38 ub: 2
+154: 38 19 1 | 155: 38 5 1 | 156: 38 36 1
+Set row: 39 lb: 0
+157: 39 19 -1 | 158: 39 5 1 | 159: 39 36 1
+Set row: 40 lb: 0
+160: 40 19 1 | 161: 40 5 -1 | 162: 40 36 1
+Edge found! state_16:20 <-> state_13:11	Weight: 3.33627	Set col: 37
+Set row: 41 ub: 0
+163: 41 20 -1 | 164: 41 11 -1 | 165: 41 37 1
+Set row: 42 ub: 2
+166: 42 20 1 | 167: 42 11 1 | 168: 42 37 1
+Set row: 43 lb: 0
+169: 43 20 -1 | 170: 43 11 1 | 171: 43 37 1
+Set row: 44 lb: 0
+172: 44 20 1 | 173: 44 11 -1 | 174: 44 37 1
+Edge found! state_16:20 <-> state_14:10	Weight: 3.33627	Set col: 38
+Set row: 45 ub: 0
+175: 45 20 -1 | 176: 45 10 -1 | 177: 45 38 1
+Set row: 46 ub: 2
+178: 46 20 1 | 179: 46 10 1 | 180: 46 38 1
+Set row: 47 lb: 0
+181: 47 20 -1 | 182: 47 10 1 | 183: 47 38 1
+Set row: 48 lb: 0
+184: 48 20 1 | 185: 48 10 -1 | 186: 48 38 1
+Edge found! state_17:21 <-> state_15:19	Weight: 1.66813	Set col: 39
+Set row: 49 ub: 0
+187: 49 21 -1 | 188: 49 19 -1 | 189: 49 39 1
+Set row: 50 ub: 2
+190: 50 21 1 | 191: 50 19 1 | 192: 50 39 1
+Set row: 51 lb: 0
+193: 51 21 -1 | 194: 51 19 1 | 195: 51 39 1
+Set row: 52 lb: 0
+196: 52 21 1 | 197: 52 19 -1 | 198: 52 39 1
+Edge found! state_18:18 <-> state_12:5	Weight: 6.37101	Set col: 40
+Set row: 53 ub: 0
+199: 53 18 -1 | 200: 53 5 -1 | 201: 53 40 1
+Set row: 54 ub: 2
+202: 54 18 1 | 203: 54 5 1 | 204: 54 40 1
+Set row: 55 lb: 0
+205: 55 18 -1 | 206: 55 5 1 | 207: 55 40 1
+Set row: 56 lb: 0
+208: 56 18 1 | 209: 56 5 -1 | 210: 56 40 1
+Edge found! state_18:18 <-> state_17:21	Weight: 1.66813	Set col: 41
+Set row: 57 ub: 0
+211: 57 18 -1 | 212: 57 21 -1 | 213: 57 41 1
+Set row: 58 ub: 2
+214: 58 18 1 | 215: 58 21 1 | 216: 58 41 1
+Set row: 59 lb: 0
+217: 59 18 -1 | 218: 59 21 1 | 219: 59 41 1
+Set row: 60 lb: 0
+220: 60 18 1 | 221: 60 21 -1 | 222: 60 41 1
+Edge found! state_19:17 <-> state_12:5	Weight: 6.37101	Set col: 42
+Set row: 61 ub: 0
+223: 61 17 -1 | 224: 61 5 -1 | 225: 61 42 1
+Set row: 62 ub: 2
+226: 62 17 1 | 227: 62 5 1 | 228: 62 42 1
+Set row: 63 lb: 0
+229: 63 17 -1 | 230: 63 5 1 | 231: 63 42 1
+Set row: 64 lb: 0
+232: 64 17 1 | 233: 64 5 -1 | 234: 64 42 1
+Edge found! state_19:17 <-> state_16:20	Weight: 1.66813	Set col: 43
+Set row: 65 ub: 0
+235: 65 17 -1 | 236: 65 20 -1 | 237: 65 43 1
+Set row: 66 ub: 2
+238: 66 17 1 | 239: 66 20 1 | 240: 66 43 1
+Set row: 67 lb: 0
+241: 67 17 -1 | 242: 67 20 1 | 243: 67 43 1
+Set row: 68 lb: 0
+244: 68 17 1 | 245: 68 20 -1 | 246: 68 43 1
+Edge found! state_19:17 <-> state_18:18	Weight: 4.44902	Set col: 44
+Set row: 69 ub: 0
+247: 69 17 -1 | 248: 69 18 -1 | 249: 69 44 1
+Set row: 70 ub: 2
+250: 70 17 1 | 251: 70 18 1 | 252: 70 44 1
+Set row: 71 lb: 0
+253: 71 17 -1 | 254: 71 18 1 | 255: 71 44 1
+Set row: 72 lb: 0
+256: 72 17 1 | 257: 72 18 -1 | 258: 72 44 1
+Edge found! state_2:12 <-> state_1:1	Weight: 6.82837	Set col: 45
+Set row: 73 ub: 0
+259: 73 12 -1 | 260: 73 1 -1 | 261: 73 45 1
+Set row: 74 ub: 2
+262: 74 12 1 | 263: 74 1 1 | 264: 74 45 1
+Set row: 75 lb: 0
+265: 75 12 -1 | 266: 75 1 1 | 267: 75 45 1
+Set row: 76 lb: 0
+268: 76 12 1 | 269: 76 1 -1 | 270: 76 45 1
+Edge found! state_2:12 <-> state_10:3	Weight: 4.85364	Set col: 46
+Set row: 77 ub: 0
+271: 77 12 -1 | 272: 77 3 -1 | 273: 77 46 1
+Set row: 78 ub: 2
+274: 78 12 1 | 275: 78 3 1 | 276: 78 46 1
+Set row: 79 lb: 0
+277: 79 12 -1 | 278: 79 3 1 | 279: 79 46 1
+Set row: 80 lb: 0
+280: 80 12 1 | 281: 80 3 -1 | 282: 80 46 1
+Edge found! state_2:12 <-> state_14:10	Weight: 4.50992	Set col: 47
+Set row: 81 ub: 0
+283: 81 12 -1 | 284: 81 10 -1 | 285: 81 47 1
+Set row: 82 ub: 2
+286: 82 12 1 | 287: 82 10 1 | 288: 82 47 1
+Set row: 83 lb: 0
+289: 83 12 -1 | 290: 83 10 1 | 291: 83 47 1
+Set row: 84 lb: 0
+292: 84 12 1 | 293: 84 10 -1 | 294: 84 47 1
+Edge found! state_20:16 <-> state_12:5	Weight: 6.37101	Set col: 48
+Set row: 85 ub: 0
+295: 85 16 -1 | 296: 85 5 -1 | 297: 85 48 1
+Set row: 86 ub: 2
+298: 86 16 1 | 299: 86 5 1 | 300: 86 48 1
+Set row: 87 lb: 0
+301: 87 16 -1 | 302: 87 5 1 | 303: 87 48 1
+Set row: 88 lb: 0
+304: 88 16 1 | 305: 88 5 -1 | 306: 88 48 1
+Edge found! state_20:16 <-> state_16:20	Weight: 1.66813	Set col: 49
+Set row: 89 ub: 0
+307: 89 16 -1 | 308: 89 20 -1 | 309: 89 49 1
+Set row: 90 ub: 2
+310: 90 16 1 | 311: 90 20 1 | 312: 90 49 1
+Set row: 91 lb: 0
+313: 91 16 -1 | 314: 91 20 1 | 315: 91 49 1
+Set row: 92 lb: 0
+316: 92 16 1 | 317: 92 20 -1 | 318: 92 49 1
+Edge found! state_20:16 <-> state_19:17	Weight: 4.44902	Set col: 50
+Set row: 93 ub: 0
+319: 93 16 -1 | 320: 93 17 -1 | 321: 93 50 1
+Set row: 94 ub: 2
+322: 94 16 1 | 323: 94 17 1 | 324: 94 50 1
+Set row: 95 lb: 0
+325: 95 16 -1 | 326: 95 17 1 | 327: 95 50 1
+Set row: 96 lb: 0
+328: 96 16 1 | 329: 96 17 -1 | 330: 96 50 1
+Edge found! state_21:22 <-> state_1:1	Weight: 2.12336	Set col: 51
+Set row: 97 ub: 0
+331: 97 22 -1 | 332: 97 1 -1 | 333: 97 51 1
+Set row: 98 ub: 2
+334: 98 22 1 | 335: 98 1 1 | 336: 98 51 1
+Set row: 99 lb: 0
+337: 99 22 -1 | 338: 99 1 1 | 339: 99 51 1
+Set row: 100 lb: 0
+340: 100 22 1 | 341: 100 1 -1 | 342: 100 51 1
+Edge found! state_21:22 <-> state_13:11	Weight: 2.12336	Set col: 52
+Set row: 101 ub: 0
+343: 101 22 -1 | 344: 101 11 -1 | 345: 101 52 1
+Set row: 102 ub: 2
+346: 102 22 1 | 347: 102 11 1 | 348: 102 52 1
+Set row: 103 lb: 0
+349: 103 22 -1 | 350: 103 11 1 | 351: 103 52 1
+Set row: 104 lb: 0
+352: 104 22 1 | 353: 104 11 -1 | 354: 104 52 1
+Edge found! state_21:22 <-> state_14:10	Weight: 2.12336	Set col: 53
+Set row: 105 ub: 0
+355: 105 22 -1 | 356: 105 10 -1 | 357: 105 53 1
+Set row: 106 ub: 2
+358: 106 22 1 | 359: 106 10 1 | 360: 106 53 1
+Set row: 107 lb: 0
+361: 107 22 -1 | 362: 107 10 1 | 363: 107 53 1
+Set row: 108 lb: 0
+364: 108 22 1 | 365: 108 10 -1 | 366: 108 53 1
+Edge found! state_21:22 <-> state_2:12	Weight: 2.12336	Set col: 54
+Set row: 109 ub: 0
+367: 109 22 -1 | 368: 109 12 -1 | 369: 109 54 1
+Set row: 110 ub: 2
+370: 110 22 1 | 371: 110 12 1 | 372: 110 54 1
+Set row: 111 lb: 0
+373: 111 22 -1 | 374: 111 12 1 | 375: 111 54 1
+Set row: 112 lb: 0
+376: 112 22 1 | 377: 112 12 -1 | 378: 112 54 1
+Edge found! state_22:23 <-> state_15:19	Weight: 3.33627	Set col: 55
+Set row: 113 ub: 0
+379: 113 23 -1 | 380: 113 19 -1 | 381: 113 55 1
+Set row: 114 ub: 2
+382: 114 23 1 | 383: 114 19 1 | 384: 114 55 1
+Set row: 115 lb: 0
+385: 115 23 -1 | 386: 115 19 1 | 387: 115 55 1
+Set row: 116 lb: 0
+388: 116 23 1 | 389: 116 19 -1 | 390: 116 55 1
+Edge found! state_23:13 <-> state_1:1	Weight: 2.32567	Set col: 56
+Set row: 117 ub: 0
+391: 117 13 -1 | 392: 117 1 -1 | 393: 117 56 1
+Set row: 118 ub: 2
+394: 118 13 1 | 395: 118 1 1 | 396: 118 56 1
+Set row: 119 lb: 0
+397: 119 13 -1 | 398: 119 1 1 | 399: 119 56 1
+Set row: 120 lb: 0
+400: 120 13 1 | 401: 120 1 -1 | 402: 120 56 1
+Edge found! state_23:13 <-> state_11:4	Weight: 3.18551	Set col: 57
+Set row: 121 ub: 0
+403: 121 13 -1 | 404: 121 4 -1 | 405: 121 57 1
+Set row: 122 ub: 2
+406: 122 13 1 | 407: 122 4 1 | 408: 122 57 1
+Set row: 123 lb: 0
+409: 123 13 -1 | 410: 123 4 1 | 411: 123 57 1
+Set row: 124 lb: 0
+412: 124 13 1 | 413: 124 4 -1 | 414: 124 57 1
+Edge found! state_23:13 <-> state_13:11	Weight: 2.32567	Set col: 58
+Set row: 125 ub: 0
+415: 125 13 -1 | 416: 125 11 -1 | 417: 125 58 1
+Set row: 126 ub: 2
+418: 126 13 1 | 419: 126 11 1 | 420: 126 58 1
+Set row: 127 lb: 0
+421: 127 13 -1 | 422: 127 11 1 | 423: 127 58 1
+Set row: 128 lb: 0
+424: 128 13 1 | 425: 128 11 -1 | 426: 128 58 1
+Edge found! state_23:13 <-> state_14:10	Weight: 2.32567	Set col: 59
+Set row: 129 ub: 0
+427: 129 13 -1 | 428: 129 10 -1 | 429: 129 59 1
+Set row: 130 ub: 2
+430: 130 13 1 | 431: 130 10 1 | 432: 130 59 1
+Set row: 131 lb: 0
+433: 131 13 -1 | 434: 131 10 1 | 435: 131 59 1
+Set row: 132 lb: 0
+436: 132 13 1 | 437: 132 10 -1 | 438: 132 59 1
+Edge found! state_23:13 <-> state_17:21	Weight: 3.33627	Set col: 60
+Set row: 133 ub: 0
+439: 133 13 -1 | 440: 133 21 -1 | 441: 133 60 1
+Set row: 134 ub: 2
+442: 134 13 1 | 443: 134 21 1 | 444: 134 60 1
+Set row: 135 lb: 0
+445: 135 13 -1 | 446: 135 21 1 | 447: 135 60 1
+Set row: 136 lb: 0
+448: 136 13 1 | 449: 136 21 -1 | 450: 136 60 1
+Edge found! state_23:13 <-> state_19:17	Weight: 8.89805	Set col: 61
+Set row: 137 ub: 0
+451: 137 13 -1 | 452: 137 17 -1 | 453: 137 61 1
+Set row: 138 ub: 2
+454: 138 13 1 | 455: 138 17 1 | 456: 138 61 1
+Set row: 139 lb: 0
+457: 139 13 -1 | 458: 139 17 1 | 459: 139 61 1
+Set row: 140 lb: 0
+460: 140 13 1 | 461: 140 17 -1 | 462: 140 61 1
+Edge found! state_23:13 <-> state_2:12	Weight: 2.32567	Set col: 62
+Set row: 141 ub: 0
+463: 141 13 -1 | 464: 141 12 -1 | 465: 141 62 1
+Set row: 142 ub: 2
+466: 142 13 1 | 467: 142 12 1 | 468: 142 62 1
+Set row: 143 lb: 0
+469: 143 13 -1 | 470: 143 12 1 | 471: 143 62 1
+Set row: 144 lb: 0
+472: 144 13 1 | 473: 144 12 -1 | 474: 144 62 1
+Edge found! state_24:14 <-> state_11:4	Weight: 3.18551	Set col: 63
+Set row: 145 ub: 0
+475: 145 14 -1 | 476: 145 4 -1 | 477: 145 63 1
+Set row: 146 ub: 2
+478: 146 14 1 | 479: 146 4 1 | 480: 146 63 1
+Set row: 147 lb: 0
+481: 147 14 -1 | 482: 147 4 1 | 483: 147 63 1
+Set row: 148 lb: 0
+484: 148 14 1 | 485: 148 4 -1 | 486: 148 63 1
+Edge found! state_24:14 <-> state_13:11	Weight: 3.81726	Set col: 64
+Set row: 149 ub: 0
+487: 149 14 -1 | 488: 149 11 -1 | 489: 149 64 1
+Set row: 150 ub: 2
+490: 150 14 1 | 491: 150 11 1 | 492: 150 64 1
+Set row: 151 lb: 0
+493: 151 14 -1 | 494: 151 11 1 | 495: 151 64 1
+Set row: 152 lb: 0
+496: 152 14 1 | 497: 152 11 -1 | 498: 152 64 1
+Edge found! state_24:14 <-> state_14:10	Weight: 3.81726	Set col: 65
+Set row: 153 ub: 0
+499: 153 14 -1 | 500: 153 10 -1 | 501: 153 65 1
+Set row: 154 ub: 2
+502: 154 14 1 | 503: 154 10 1 | 504: 154 65 1
+Set row: 155 lb: 0
+505: 155 14 -1 | 506: 155 10 1 | 507: 155 65 1
+Set row: 156 lb: 0
+508: 156 14 1 | 509: 156 10 -1 | 510: 156 65 1
+Edge found! state_24:14 <-> state_19:17	Weight: 8.89805	Set col: 66
+Set row: 157 ub: 0
+511: 157 14 -1 | 512: 157 17 -1 | 513: 157 66 1
+Set row: 158 ub: 2
+514: 158 14 1 | 515: 158 17 1 | 516: 158 66 1
+Set row: 159 lb: 0
+517: 159 14 -1 | 518: 159 17 1 | 519: 159 66 1
+Set row: 160 lb: 0
+520: 160 14 1 | 521: 160 17 -1 | 522: 160 66 1
+Edge found! state_25:15 <-> state_11:4	Weight: 6.37101	Set col: 67
+Set row: 161 ub: 0
+523: 161 15 -1 | 524: 161 4 -1 | 525: 161 67 1
+Set row: 162 ub: 2
+526: 162 15 1 | 527: 162 4 1 | 528: 162 67 1
+Set row: 163 lb: 0
+529: 163 15 -1 | 530: 163 4 1 | 531: 163 67 1
+Set row: 164 lb: 0
+532: 164 15 1 | 533: 164 4 -1 | 534: 164 67 1
+Edge found! state_25:15 <-> state_15:19	Weight: 5.7259	Set col: 68
+Set row: 165 ub: 0
+535: 165 15 -1 | 536: 165 19 -1 | 537: 165 68 1
+Set row: 166 ub: 2
+538: 166 15 1 | 539: 166 19 1 | 540: 166 68 1
+Set row: 167 lb: 0
+541: 167 15 -1 | 542: 167 19 1 | 543: 167 68 1
+Set row: 168 lb: 0
+544: 168 15 1 | 545: 168 19 -1 | 546: 168 68 1
+Edge found! state_25:15 <-> state_19:17	Weight: 4.44902	Set col: 69
+Set row: 169 ub: 0
+547: 169 15 -1 | 548: 169 17 -1 | 549: 169 69 1
+Set row: 170 ub: 2
+550: 170 15 1 | 551: 170 17 1 | 552: 170 69 1
+Set row: 171 lb: 0
+553: 171 15 -1 | 554: 171 17 1 | 555: 171 69 1
+Set row: 172 lb: 0
+556: 172 15 1 | 557: 172 17 -1 | 558: 172 69 1
+Edge found! state_26:26 <-> state_18:18	Weight: 1.8209	Set col: 70
+Set row: 173 ub: 0
+559: 173 26 -1 | 560: 173 18 -1 | 561: 173 70 1
+Set row: 174 ub: 2
+562: 174 26 1 | 563: 174 18 1 | 564: 174 70 1
+Set row: 175 lb: 0
+565: 175 26 -1 | 566: 175 18 1 | 567: 175 70 1
+Set row: 176 lb: 0
+568: 176 26 1 | 569: 176 18 -1 | 570: 176 70 1
+Edge found! state_26:26 <-> state_19:17	Weight: 1.8209	Set col: 71
+Set row: 177 ub: 0
+571: 177 26 -1 | 572: 177 17 -1 | 573: 177 71 1
+Set row: 178 ub: 2
+574: 178 26 1 | 575: 178 17 1 | 576: 178 71 1
+Set row: 179 lb: 0
+577: 179 26 -1 | 578: 179 17 1 | 579: 179 71 1
+Set row: 180 lb: 0
+580: 180 26 1 | 581: 180 17 -1 | 582: 180 71 1
+Edge found! state_26:26 <-> state_20:16	Weight: 6.26992	Set col: 72
+Set row: 181 ub: 0
+583: 181 26 -1 | 584: 181 16 -1 | 585: 181 72 1
+Set row: 182 ub: 2
+586: 182 26 1 | 587: 182 16 1 | 588: 182 72 1
+Set row: 183 lb: 0
+589: 183 26 -1 | 590: 183 16 1 | 591: 183 72 1
+Set row: 184 lb: 0
+592: 184 26 1 | 593: 184 16 -1 | 594: 184 72 1
+Edge found! state_26:26 <-> state_21:22	Weight: 3.6418	Set col: 73
+Set row: 185 ub: 0
+595: 185 26 -1 | 596: 185 22 -1 | 597: 185 73 1
+Set row: 186 ub: 2
+598: 186 26 1 | 599: 186 22 1 | 600: 186 73 1
+Set row: 187 lb: 0
+601: 187 26 -1 | 602: 187 22 1 | 603: 187 73 1
+Set row: 188 lb: 0
+604: 188 26 1 | 605: 188 22 -1 | 606: 188 73 1
+Edge found! state_27:27 <-> state_13:11	Weight: 0.834066	Set col: 74
+Set row: 189 ub: 0
+607: 189 27 -1 | 608: 189 11 -1 | 609: 189 74 1
+Set row: 190 ub: 2
+610: 190 27 1 | 611: 190 11 1 | 612: 190 74 1
+Set row: 191 lb: 0
+613: 191 27 -1 | 614: 191 11 1 | 615: 191 74 1
+Set row: 192 lb: 0
+616: 192 27 1 | 617: 192 11 -1 | 618: 192 74 1
+Edge found! state_27:27 <-> state_14:10	Weight: 0.834066	Set col: 75
+Set row: 193 ub: 0
+619: 193 27 -1 | 620: 193 10 -1 | 621: 193 75 1
+Set row: 194 ub: 2
+622: 194 27 1 | 623: 194 10 1 | 624: 194 75 1
+Set row: 195 lb: 0
+625: 195 27 -1 | 626: 195 10 1 | 627: 195 75 1
+Set row: 196 lb: 0
+628: 196 27 1 | 629: 196 10 -1 | 630: 196 75 1
+Edge found! state_27:27 <-> state_15:19	Weight: 0.417033	Set col: 76
+Set row: 197 ub: 0
+631: 197 27 -1 | 632: 197 19 -1 | 633: 197 76 1
+Set row: 198 ub: 2
+634: 198 27 1 | 635: 198 19 1 | 636: 198 76 1
+Set row: 199 lb: 0
+637: 199 27 -1 | 638: 199 19 1 | 639: 199 76 1
+Set row: 200 lb: 0
+640: 200 27 1 | 641: 200 19 -1 | 642: 200 76 1
+Edge found! state_27:27 <-> state_17:21	Weight: 1.66813	Set col: 77
+Set row: 201 ub: 0
+643: 201 27 -1 | 644: 201 21 -1 | 645: 201 77 1
+Set row: 202 ub: 2
+646: 202 27 1 | 647: 202 21 1 | 648: 202 77 1
+Set row: 203 lb: 0
+649: 203 27 -1 | 650: 203 21 1 | 651: 203 77 1
+Set row: 204 lb: 0
+652: 204 27 1 | 653: 204 21 -1 | 654: 204 77 1
+Edge found! state_3:2 <-> state_1:1	Weight: 16.4642	Set col: 78
+Set row: 205 ub: 0
+655: 205 2 -1 | 656: 205 1 -1 | 657: 205 78 1
+Set row: 206 ub: 2
+658: 206 2 1 | 659: 206 1 1 | 660: 206 78 1
+Set row: 207 lb: 0
+661: 207 2 -1 | 662: 207 1 1 | 663: 207 78 1
+Set row: 208 lb: 0
+664: 208 2 1 | 665: 208 1 -1 | 666: 208 78 1
+Edge found! state_3:2 <-> state_11:4	Weight: 6.37101	Set col: 79
+Set row: 209 ub: 0
+667: 209 2 -1 | 668: 209 4 -1 | 669: 209 79 1
+Set row: 210 ub: 2
+670: 210 2 1 | 671: 210 4 1 | 672: 210 79 1
+Set row: 211 lb: 0
+673: 211 2 -1 | 674: 211 4 1 | 675: 211 79 1
+Set row: 212 lb: 0
+676: 212 2 1 | 677: 212 4 -1 | 678: 212 79 1
+Edge found! state_3:2 <-> state_13:11	Weight: 9.01983	Set col: 80
+Set row: 213 ub: 0
+679: 213 2 -1 | 680: 213 11 -1 | 681: 213 80 1
+Set row: 214 ub: 2
+682: 214 2 1 | 683: 214 11 1 | 684: 214 80 1
+Set row: 215 lb: 0
+685: 215 2 -1 | 686: 215 11 1 | 687: 215 80 1
+Set row: 216 lb: 0
+688: 216 2 1 | 689: 216 11 -1 | 690: 216 80 1
+Edge found! state_3:2 <-> state_22:23	Weight: 3.33627	Set col: 81
+Set row: 217 ub: 0
+691: 217 2 -1 | 692: 217 23 -1 | 693: 217 81 1
+Set row: 218 ub: 2
+694: 218 2 1 | 695: 218 23 1 | 696: 218 81 1
+Set row: 219 lb: 0
+697: 219 2 -1 | 698: 219 23 1 | 699: 219 81 1
+Set row: 220 lb: 0
+700: 220 2 1 | 701: 220 23 -1 | 702: 220 81 1
+Edge found! state_3:2 <-> state_25:15	Weight: 1.90863	Set col: 82
+Set row: 221 ub: 0
+703: 221 2 -1 | 704: 221 15 -1 | 705: 221 82 1
+Set row: 222 ub: 2
+706: 222 2 1 | 707: 222 15 1 | 708: 222 82 1
+Set row: 223 lb: 0
+709: 223 2 -1 | 710: 223 15 1 | 711: 223 82 1
+Set row: 224 lb: 0
+712: 224 2 1 | 713: 224 15 -1 | 714: 224 82 1
+Edge found! state_3:2 <-> state_27:27	Weight: 0.417033	Set col: 83
+Set row: 225 ub: 0
+715: 225 2 -1 | 716: 225 27 -1 | 717: 225 83 1
+Set row: 226 ub: 2
+718: 226 2 1 | 719: 226 27 1 | 720: 226 83 1
+Set row: 227 lb: 0
+721: 227 2 -1 | 722: 227 27 1 | 723: 227 83 1
+Set row: 228 lb: 0
+724: 228 2 1 | 725: 228 27 -1 | 726: 228 83 1
+Edge found! state_4:6 <-> state_15:19	Weight: 4.29185	Set col: 84
+Set row: 229 ub: 0
+727: 229 6 -1 | 728: 229 19 -1 | 729: 229 84 1
+Set row: 230 ub: 2
+730: 230 6 1 | 731: 230 19 1 | 732: 230 84 1
+Set row: 231 lb: 0
+733: 231 6 -1 | 734: 231 19 1 | 735: 231 84 1
+Set row: 232 lb: 0
+736: 232 6 1 | 737: 232 19 -1 | 738: 232 84 1
+Edge found! state_4:6 <-> state_18:18	Weight: 4.44902	Set col: 85
+Set row: 233 ub: 0
+739: 233 6 -1 | 740: 233 18 -1 | 741: 233 85 1
+Set row: 234 ub: 2
+742: 234 6 1 | 743: 234 18 1 | 744: 234 85 1
+Set row: 235 lb: 0
+745: 235 6 -1 | 746: 235 18 1 | 747: 235 85 1
+Set row: 236 lb: 0
+748: 236 6 1 | 749: 236 18 -1 | 750: 236 85 1
+Edge found! state_4:6 <-> state_3:2	Weight: 7.0655	Set col: 86
+Set row: 237 ub: 0
+751: 237 6 -1 | 752: 237 2 -1 | 753: 237 86 1
+Set row: 238 ub: 2
+754: 238 6 1 | 755: 238 2 1 | 756: 238 86 1
+Set row: 239 lb: 0
+757: 239 6 -1 | 758: 239 2 1 | 759: 239 86 1
+Set row: 240 lb: 0
+760: 240 6 1 | 761: 240 2 -1 | 762: 240 86 1
+Edge found! state_5:7 <-> state_1:1	Weight: 13.3451	Set col: 87
+Set row: 241 ub: 0
+763: 241 7 -1 | 764: 241 1 -1 | 765: 241 87 1
+Set row: 242 ub: 2
+766: 242 7 1 | 767: 242 1 1 | 768: 242 87 1
+Set row: 243 lb: 0
+769: 243 7 -1 | 770: 243 1 1 | 771: 243 87 1
+Set row: 244 lb: 0
+772: 244 7 1 | 773: 244 1 -1 | 774: 244 87 1
+Edge found! state_5:7 <-> state_15:19	Weight: 4.29185	Set col: 88
+Set row: 245 ub: 0
+775: 245 7 -1 | 776: 245 19 -1 | 777: 245 88 1
+Set row: 246 ub: 2
+778: 246 7 1 | 779: 246 19 1 | 780: 246 88 1
+Set row: 247 lb: 0
+781: 247 7 -1 | 782: 247 19 1 | 783: 247 88 1
+Set row: 248 lb: 0
+784: 248 7 1 | 785: 248 19 -1 | 786: 248 88 1
+Edge found! state_5:7 <-> state_16:20	Weight: 6.67253	Set col: 89
+Set row: 249 ub: 0
+787: 249 7 -1 | 788: 249 20 -1 | 789: 249 89 1
+Set row: 250 ub: 2
+790: 250 7 1 | 791: 250 20 1 | 792: 250 89 1
+Set row: 251 lb: 0
+793: 251 7 -1 | 794: 251 20 1 | 795: 251 89 1
+Set row: 252 lb: 0
+796: 252 7 1 | 797: 252 20 -1 | 798: 252 89 1
+Edge found! state_5:7 <-> state_17:21	Weight: 6.67253	Set col: 90
+Set row: 253 ub: 0
+799: 253 7 -1 | 800: 253 21 -1 | 801: 253 90 1
+Set row: 254 ub: 2
+802: 254 7 1 | 803: 254 21 1 | 804: 254 90 1
+Set row: 255 lb: 0
+805: 255 7 -1 | 806: 255 21 1 | 807: 255 90 1
+Set row: 256 lb: 0
+808: 256 7 1 | 809: 256 21 -1 | 810: 256 90 1
+Edge found! state_5:7 <-> state_18:18	Weight: 4.44902	Set col: 91
+Set row: 257 ub: 0
+811: 257 7 -1 | 812: 257 18 -1 | 813: 257 91 1
+Set row: 258 ub: 2
+814: 258 7 1 | 815: 258 18 1 | 816: 258 91 1
+Set row: 259 lb: 0
+817: 259 7 -1 | 818: 259 18 1 | 819: 259 91 1
+Set row: 260 lb: 0
+820: 260 7 1 | 821: 260 18 -1 | 822: 260 91 1
+Edge found! state_5:7 <-> state_2:12	Weight: 13.3451	Set col: 92
+Set row: 261 ub: 0
+823: 261 7 -1 | 824: 261 12 -1 | 825: 261 92 1
+Set row: 262 ub: 2
+826: 262 7 1 | 827: 262 12 1 | 828: 262 92 1
+Set row: 263 lb: 0
+829: 263 7 -1 | 830: 263 12 1 | 831: 263 92 1
+Set row: 264 lb: 0
+832: 264 7 1 | 833: 264 12 -1 | 834: 264 92 1
+Edge found! state_5:7 <-> state_3:2	Weight: 7.0655	Set col: 93
+Set row: 265 ub: 0
+835: 265 7 -1 | 836: 265 2 -1 | 837: 265 93 1
+Set row: 266 ub: 2
+838: 266 7 1 | 839: 266 2 1 | 840: 266 93 1
+Set row: 267 lb: 0
+841: 267 7 -1 | 842: 267 2 1 | 843: 267 93 1
+Set row: 268 lb: 0
+844: 268 7 1 | 845: 268 2 -1 | 846: 268 93 1
+Edge found! state_5:7 <-> state_4:6	Weight: 5.26879	Set col: 94
+Set row: 269 ub: 0
+847: 269 7 -1 | 848: 269 6 -1 | 849: 269 94 1
+Set row: 270 ub: 2
+850: 270 7 1 | 851: 270 6 1 | 852: 270 94 1
+Set row: 271 lb: 0
+853: 271 7 -1 | 854: 271 6 1 | 855: 271 94 1
+Set row: 272 lb: 0
+856: 272 7 1 | 857: 272 6 -1 | 858: 272 94 1
+Edge found! state_6:8 <-> state_10:3	Weight: 13.3451	Set col: 95
+Set row: 273 ub: 0
+859: 273 8 -1 | 860: 273 3 -1 | 861: 273 95 1
+Set row: 274 ub: 2
+862: 274 8 1 | 863: 274 3 1 | 864: 274 95 1
+Set row: 275 lb: 0
+865: 275 8 -1 | 866: 275 3 1 | 867: 275 95 1
+Set row: 276 lb: 0
+868: 276 8 1 | 869: 276 3 -1 | 870: 276 95 1
+Edge found! state_6:8 <-> state_15:19	Weight: 4.29185	Set col: 96
+Set row: 277 ub: 0
+871: 277 8 -1 | 872: 277 19 -1 | 873: 277 96 1
+Set row: 278 ub: 2
+874: 278 8 1 | 875: 278 19 1 | 876: 278 96 1
+Set row: 279 lb: 0
+877: 279 8 -1 | 878: 279 19 1 | 879: 279 96 1
+Set row: 280 lb: 0
+880: 280 8 1 | 881: 280 19 -1 | 882: 280 96 1
+Edge found! state_6:8 <-> state_18:18	Weight: 4.44902	Set col: 97
+Set row: 281 ub: 0
+883: 281 8 -1 | 884: 281 18 -1 | 885: 281 97 1
+Set row: 282 ub: 2
+886: 282 8 1 | 887: 282 18 1 | 888: 282 97 1
+Set row: 283 lb: 0
+889: 283 8 -1 | 890: 283 18 1 | 891: 283 97 1
+Set row: 284 lb: 0
+892: 284 8 1 | 893: 284 18 -1 | 894: 284 97 1
+Edge found! state_6:8 <-> state_21:22	Weight: 13.3451	Set col: 98
+Set row: 285 ub: 0
+895: 285 8 -1 | 896: 285 22 -1 | 897: 285 98 1
+Set row: 286 ub: 2
+898: 286 8 1 | 899: 286 22 1 | 900: 286 98 1
+Set row: 287 lb: 0
+901: 287 8 -1 | 902: 287 22 1 | 903: 287 98 1
+Set row: 288 lb: 0
+904: 288 8 1 | 905: 288 22 -1 | 906: 288 98 1
+Edge found! state_6:8 <-> state_22:23	Weight: 6.67253	Set col: 99
+Set row: 289 ub: 0
+907: 289 8 -1 | 908: 289 23 -1 | 909: 289 99 1
+Set row: 290 ub: 2
+910: 290 8 1 | 911: 290 23 1 | 912: 290 99 1
+Set row: 291 lb: 0
+913: 291 8 -1 | 914: 291 23 1 | 915: 291 99 1
+Set row: 292 lb: 0
+916: 292 8 1 | 917: 292 23 -1 | 918: 292 99 1
+Edge found! state_6:8 <-> state_3:2	Weight: 13.738	Set col: 100
+Set row: 293 ub: 0
+919: 293 8 -1 | 920: 293 2 -1 | 921: 293 100 1
+Set row: 294 ub: 2
+922: 294 8 1 | 923: 294 2 1 | 924: 294 100 1
+Set row: 295 lb: 0
+925: 295 8 -1 | 926: 295 2 1 | 927: 295 100 1
+Set row: 296 lb: 0
+928: 296 8 1 | 929: 296 2 -1 | 930: 296 100 1
+Edge found! state_6:8 <-> state_4:6	Weight: 5.26879	Set col: 101
+Set row: 297 ub: 0
+931: 297 8 -1 | 932: 297 6 -1 | 933: 297 101 1
+Set row: 298 ub: 2
+934: 298 8 1 | 935: 298 6 1 | 936: 298 101 1
+Set row: 299 lb: 0
+937: 299 8 -1 | 938: 299 6 1 | 939: 299 101 1
+Set row: 300 lb: 0
+940: 300 8 1 | 941: 300 6 -1 | 942: 300 101 1
+Edge found! state_7:9 <-> state_15:19	Weight: 4.29185	Set col: 102
+Set row: 301 ub: 0
+943: 301 9 -1 | 944: 301 19 -1 | 945: 301 102 1
+Set row: 302 ub: 2
+946: 302 9 1 | 947: 302 19 1 | 948: 302 102 1
+Set row: 303 lb: 0
+949: 303 9 -1 | 950: 303 19 1 | 951: 303 102 1
+Set row: 304 lb: 0
+952: 304 9 1 | 953: 304 19 -1 | 954: 304 102 1
+Edge found! state_7:9 <-> state_18:18	Weight: 11.1216	Set col: 103
+Set row: 305 ub: 0
+955: 305 9 -1 | 956: 305 18 -1 | 957: 305 103 1
+Set row: 306 ub: 2
+958: 306 9 1 | 959: 306 18 1 | 960: 306 103 1
+Set row: 307 lb: 0
+961: 307 9 -1 | 962: 307 18 1 | 963: 307 103 1
+Set row: 308 lb: 0
+964: 308 9 1 | 965: 308 18 -1 | 966: 308 103 1
+Edge found! state_7:9 <-> state_19:17	Weight: 6.67253	Set col: 104
+Set row: 309 ub: 0
+967: 309 9 -1 | 968: 309 17 -1 | 969: 309 104 1
+Set row: 310 ub: 2
+970: 310 9 1 | 971: 310 17 1 | 972: 310 104 1
+Set row: 311 lb: 0
+973: 311 9 -1 | 974: 311 17 1 | 975: 311 104 1
+Set row: 312 lb: 0
+976: 312 9 1 | 977: 312 17 -1 | 978: 312 104 1
+Edge found! state_7:9 <-> state_20:16	Weight: 6.67253	Set col: 105
+Set row: 313 ub: 0
+979: 313 9 -1 | 980: 313 16 -1 | 981: 313 105 1
+Set row: 314 ub: 2
+982: 314 9 1 | 983: 314 16 1 | 984: 314 105 1
+Set row: 315 lb: 0
+985: 315 9 -1 | 986: 315 16 1 | 987: 315 105 1
+Set row: 316 lb: 0
+988: 316 9 1 | 989: 316 16 -1 | 990: 316 105 1
+Edge found! state_7:9 <-> state_3:2	Weight: 7.0655	Set col: 106
+Set row: 317 ub: 0
+991: 317 9 -1 | 992: 317 2 -1 | 993: 317 106 1
+Set row: 318 ub: 2
+994: 318 9 1 | 995: 318 2 1 | 996: 318 106 1
+Set row: 319 lb: 0
+997: 319 9 -1 | 998: 319 2 1 | 999: 319 106 1
+Set row: 320 lb: 0
+1000: 320 9 1 | 1001: 320 2 -1 | 1002: 320 106 1
+Edge found! state_7:9 <-> state_4:6	Weight: 5.26879	Set col: 107
+Set row: 321 ub: 0
+1003: 321 9 -1 | 1004: 321 6 -1 | 1005: 321 107 1
+Set row: 322 ub: 2
+1006: 322 9 1 | 1007: 322 6 1 | 1008: 322 107 1
+Set row: 323 lb: 0
+1009: 323 9 -1 | 1010: 323 6 1 | 1011: 323 107 1
+Set row: 324 lb: 0
+1012: 324 9 1 | 1013: 324 6 -1 | 1014: 324 107 1
+Edge found! state_8:25 <-> state_13:11	Weight: 2.83457	Set col: 108
+Set row: 325 ub: 0
+1015: 325 25 -1 | 1016: 325 11 -1 | 1017: 325 108 1
+Set row: 326 ub: 2
+1018: 326 25 1 | 1019: 326 11 1 | 1020: 326 108 1
+Set row: 327 lb: 0
+1021: 327 25 -1 | 1022: 327 11 1 | 1023: 327 108 1
+Set row: 328 lb: 0
+1024: 328 25 1 | 1025: 328 11 -1 | 1026: 328 108 1
+Edge found! state_8:25 <-> state_14:10	Weight: 7.34449	Set col: 109
+Set row: 329 ub: 0
+1027: 329 25 -1 | 1028: 329 10 -1 | 1029: 329 109 1
+Set row: 330 ub: 2
+1030: 330 25 1 | 1031: 330 10 1 | 1032: 330 109 1
+Set row: 331 lb: 0
+1033: 331 25 -1 | 1034: 331 10 1 | 1035: 331 109 1
+Set row: 332 lb: 0
+1036: 332 25 1 | 1037: 332 10 -1 | 1038: 332 109 1
+Edge found! state_8:25 <-> state_15:19	Weight: 5.66914	Set col: 110
+Set row: 333 ub: 0
+1039: 333 25 -1 | 1040: 333 19 -1 | 1041: 333 110 1
+Set row: 334 ub: 2
+1042: 334 25 1 | 1043: 334 19 1 | 1044: 334 110 1
+Set row: 335 lb: 0
+1045: 335 25 -1 | 1046: 335 19 1 | 1047: 335 110 1
+Set row: 336 lb: 0
+1048: 336 25 1 | 1049: 336 19 -1 | 1050: 336 110 1
+Edge found! state_8:25 <-> state_2:12	Weight: 6.82837	Set col: 111
+Set row: 337 ub: 0
+1051: 337 25 -1 | 1052: 337 12 -1 | 1053: 337 111 1
+Set row: 338 ub: 2
+1054: 338 25 1 | 1055: 338 12 1 | 1056: 338 111 1
+Set row: 339 lb: 0
+1057: 339 25 -1 | 1058: 339 12 1 | 1059: 339 111 1
+Set row: 340 lb: 0
+1060: 340 25 1 | 1061: 340 12 -1 | 1062: 340 111 1
+Edge found! state_8:25 <-> state_26:26	Weight: 5.66914	Set col: 112
+Set row: 341 ub: 0
+1063: 341 25 -1 | 1064: 341 26 -1 | 1065: 341 112 1
+Set row: 342 ub: 2
+1066: 342 25 1 | 1067: 342 26 1 | 1068: 342 112 1
+Set row: 343 lb: 0
+1069: 343 25 -1 | 1070: 343 26 1 | 1071: 343 112 1
+Set row: 344 lb: 0
+1072: 344 25 1 | 1073: 344 26 -1 | 1074: 344 112 1
+Edge found! state_9:24 <-> state_1:1	Weight: 11.2299	Set col: 113
+Set row: 345 ub: 0
+1075: 345 24 -1 | 1076: 345 1 -1 | 1077: 345 113 1
+Set row: 346 ub: 2
+1078: 346 24 1 | 1079: 346 1 1 | 1080: 346 113 1
+Set row: 347 lb: 0
+1081: 347 24 -1 | 1082: 347 1 1 | 1083: 347 113 1
+Set row: 348 lb: 0
+1084: 348 24 1 | 1085: 348 1 -1 | 1086: 348 113 1
+Edge found! state_9:24 <-> state_14:10	Weight: 9.01983	Set col: 114
+Set row: 349 ub: 0
+1087: 349 24 -1 | 1088: 349 10 -1 | 1089: 349 114 1
+Set row: 350 ub: 2
+1090: 350 24 1 | 1091: 350 10 1 | 1092: 350 114 1
+Set row: 351 lb: 0
+1093: 351 24 -1 | 1094: 351 10 1 | 1095: 351 114 1
+Set row: 352 lb: 0
+1096: 352 24 1 | 1097: 352 10 -1 | 1098: 352 114 1
+Edge found! state_9:24 <-> state_2:12	Weight: 13.6567	Set col: 115
+Set row: 353 ub: 0
+1099: 353 24 -1 | 1100: 353 12 -1 | 1101: 353 115 1
+Set row: 354 ub: 2
+1102: 354 24 1 | 1103: 354 12 1 | 1104: 354 115 1
+Set row: 355 lb: 0
+1105: 355 24 -1 | 1106: 355 12 1 | 1107: 355 115 1
+Set row: 356 lb: 0
+1108: 356 24 1 | 1109: 356 12 -1 | 1110: 356 115 1
+Edge found! state_9:24 <-> state_20:16	Weight: 4.44902	Set col: 116
+Set row: 357 ub: 0
+1111: 357 24 -1 | 1112: 357 16 -1 | 1113: 357 116 1
+Set row: 358 ub: 2
+1114: 358 24 1 | 1115: 358 16 1 | 1116: 358 116 1
+Set row: 359 lb: 0
+1117: 359 24 -1 | 1118: 359 16 1 | 1119: 359 116 1
+Set row: 360 lb: 0
+1120: 360 24 1 | 1121: 360 16 -1 | 1122: 360 116 1
+Edge found! state_9:24 <-> state_5:7	Weight: 5.61496	Set col: 117
+Set row: 361 ub: 0
+1123: 361 24 -1 | 1124: 361 7 -1 | 1125: 361 117 1
+Set row: 362 ub: 2
+1126: 362 24 1 | 1127: 362 7 1 | 1128: 362 117 1
+Set row: 363 lb: 0
+1129: 363 24 -1 | 1130: 363 7 1 | 1131: 363 117 1
+Set row: 364 lb: 0
+1132: 364 24 1 | 1133: 364 7 -1 | 1134: 364 117 1
+Edge found! state_9:24 <-> state_6:8	Weight: 5.61496	Set col: 118
+Set row: 365 ub: 0
+1135: 365 24 -1 | 1136: 365 8 -1 | 1137: 365 118 1
+Set row: 366 ub: 2
+1138: 366 24 1 | 1139: 366 8 1 | 1140: 366 118 1
+Set row: 367 lb: 0
+1141: 367 24 -1 | 1142: 367 8 1 | 1143: 367 118 1
+Set row: 368 lb: 0
+1144: 368 24 1 | 1145: 368 8 -1 | 1146: 368 118 1
+Edge found! state_9:24 <-> state_7:9	Weight: 12.2875	Set col: 119
+Set row: 369 ub: 0
+1147: 369 24 -1 | 1148: 369 9 -1 | 1149: 369 119 1
+Set row: 370 ub: 2
+1150: 370 24 1 | 1151: 370 9 1 | 1152: 370 119 1
+Set row: 371 lb: 0
+1153: 371 24 -1 | 1154: 371 9 1 | 1155: 371 119 1
+Set row: 372 lb: 0
+1156: 372 24 1 | 1157: 372 9 -1 | 1158: 372 119 1
+GLPK Integer Optimizer 5.0
+373 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Preprocessing...
+184 hidden covering inequaliti(es) were detected
+373 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 373
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+373 rows, 119 columns, 1185 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.300e+01 (4)
+     30: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    30: mip =     not found yet >=              -inf        (1; 0)
++   295: >>>>>   2.095153214e+02 >=   1.111334704e+01  94.7% (17; 0)
++   586: >>>>>   1.875674626e+02 >=   4.550835033e+01  75.7% (31; 3)
++  1445: >>>>>   1.649711329e+02 >=   6.010661693e+01  63.6% (74; 14)
++  1863: >>>>>   1.307016377e+02 >=   7.200876876e+01  44.9% (67; 67)
++  4696: >>>>>   1.304444882e+02 >=   1.191038048e+02   8.7% (76; 195)
++  4707: >>>>>   1.270788426e+02 >=   1.192064169e+02   6.2% (72; 209)
++  4949: >>>>>   1.266265654e+02 >=   1.250497725e+02   1.2% (19; 338)
++  4991: mip =   1.266265654e+02 >=     tree is empty   0.0% (0; 439)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 126.627
+state_1	1	0
+state_10	3	0
+state_11	4	0
+state_12	5	1
+state_13	11	0
+state_14	10	0
+state_15	19	0
+state_16	20	0
+state_17	21	1
+state_18	18	1
+state_19	17	1
+state_2	12	0
+state_20	16	1
+state_21	22	0
+state_22	23	0
+state_23	13	1
+state_24	14	1
+state_25	15	1
+state_26	26	1
+state_27	27	1
+state_3	2	0
+state_4	6	0
+state_5	7	0
+state_6	8	0
+state_7	9	1
+state_8	25	0
+state_9	24	0
+Number of 0 assigned: 16 | Number of 1 assigned: 11
+XOR Constraint 28: 0
+XOR Constraint 29: 0
+XOR Constraint 30: 1
+XOR Constraint 31: 0
+XOR Constraint 32: 0
+XOR Constraint 33: 1
+XOR Constraint 34: 0
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 0
+XOR Constraint 38: 0
+XOR Constraint 39: 1
+XOR Constraint 40: 0
+XOR Constraint 41: 0
+XOR Constraint 42: 0
+XOR Constraint 43: 1
+XOR Constraint 44: 0
+XOR Constraint 45: 0
+XOR Constraint 46: 0
+XOR Constraint 47: 0
+XOR Constraint 48: 0
+XOR Constraint 49: 1
+XOR Constraint 50: 0
+XOR Constraint 51: 0
+XOR Constraint 52: 0
+XOR Constraint 53: 0
+XOR Constraint 54: 0
+XOR Constraint 55: 0
+XOR Constraint 56: 1
+XOR Constraint 57: 1
+XOR Constraint 58: 1
+XOR Constraint 59: 1
+XOR Constraint 60: 0
+XOR Constraint 61: 0
+XOR Constraint 62: 1
+XOR Constraint 63: 1
+XOR Constraint 64: 1
+XOR Constraint 65: 1
+XOR Constraint 66: 0
+XOR Constraint 67: 1
+XOR Constraint 68: 1
+XOR Constraint 69: 0
+XOR Constraint 70: 0
+XOR Constraint 71: 0
+XOR Constraint 72: 0
+XOR Constraint 73: 1
+XOR Constraint 74: 1
+XOR Constraint 75: 1
+XOR Constraint 76: 1
+XOR Constraint 77: 0
+XOR Constraint 78: 0
+XOR Constraint 79: 0
+XOR Constraint 80: 0
+XOR Constraint 81: 0
+XOR Constraint 82: 1
+XOR Constraint 83: 1
+XOR Constraint 84: 0
+XOR Constraint 85: 1
+XOR Constraint 86: 0
+XOR Constraint 87: 0
+XOR Constraint 88: 0
+XOR Constraint 89: 0
+XOR Constraint 90: 1
+XOR Constraint 91: 1
+XOR Constraint 92: 0
+XOR Constraint 93: 0
+XOR Constraint 94: 0
+XOR Constraint 95: 0
+XOR Constraint 96: 0
+XOR Constraint 97: 1
+XOR Constraint 98: 0
+XOR Constraint 99: 0
+XOR Constraint 100: 0
+XOR Constraint 101: 0
+XOR Constraint 102: 1
+XOR Constraint 103: 0
+XOR Constraint 104: 0
+XOR Constraint 105: 0
+XOR Constraint 106: 1
+XOR Constraint 107: 1
+XOR Constraint 108: 0
+XOR Constraint 109: 0
+XOR Constraint 110: 0
+XOR Constraint 111: 0
+XOR Constraint 112: 1
+XOR Constraint 113: 0
+XOR Constraint 114: 0
+XOR Constraint 115: 0
+XOR Constraint 116: 1
+XOR Constraint 117: 0
+XOR Constraint 118: 0
+XOR Constraint 119: 1
+-----
+Size of State Group: 4
+ - 24 8 20 19 23 2 6 7
+ - 22 12 4 11 1 3 10 25
+ - 15 16 27 26 21 18 17 9
+ - 5 13 14
+
+   [   Round 3   ]   
+Set col: state_1 -> 1
+Set col: state_10 -> 3
+Set col: state_11 -> 4
+Set col: state_12 -> 5
+Set col: state_13 -> 11
+Set col: state_14 -> 10
+Set col: state_15 -> 19
+Set col: state_16 -> 20
+Set col: state_17 -> 21
+Set col: state_18 -> 18
+Set col: state_19 -> 17
+Set col: state_2 -> 12
+Set col: state_20 -> 16
+Set col: state_21 -> 22
+Set col: state_22 -> 23
+Set col: state_23 -> 13
+Set col: state_24 -> 14
+Set col: state_25 -> 15
+Set col: state_26 -> 26
+Set col: state_27 -> 27
+Set col: state_3 -> 2
+Set col: state_4 -> 6
+Set col: state_5 -> 7
+Set col: state_6 -> 8
+Set col: state_7 -> 9
+Set col: state_8 -> 25
+Set col: state_9 -> 24
+Size of Group: 4
+Group 1 | Size 8
+Set row: 1 lb: 1 ub: 4
+Set row: 2 lb: -7 ub: -4
+1: 1 24 1
+2: 2 24 -1
+3: 1 8 1
+4: 2 8 -1
+5: 1 20 1
+6: 2 20 -1
+7: 1 19 1
+8: 2 19 -1
+9: 1 23 1
+10: 2 23 -1
+11: 1 2 1
+12: 2 2 -1
+13: 1 6 1
+14: 2 6 -1
+15: 1 7 1
+16: 2 7 -1
+Group 2 | Size 8
+Set row: 3 lb: 1 ub: 4
+Set row: 4 lb: -7 ub: -4
+17: 3 22 1
+18: 4 22 -1
+19: 3 12 1
+20: 4 12 -1
+21: 3 4 1
+22: 4 4 -1
+23: 3 11 1
+24: 4 11 -1
+25: 3 1 1
+26: 4 1 -1
+27: 3 3 1
+28: 4 3 -1
+29: 3 10 1
+30: 4 10 -1
+31: 3 25 1
+32: 4 25 -1
+Group 3 | Size 8
+Set row: 5 lb: 1 ub: 4
+Set row: 6 lb: -7 ub: -4
+33: 5 15 1
+34: 6 15 -1
+35: 5 16 1
+36: 6 16 -1
+37: 5 27 1
+38: 6 27 -1
+39: 5 26 1
+40: 6 26 -1
+41: 5 21 1
+42: 6 21 -1
+43: 5 18 1
+44: 6 18 -1
+45: 5 17 1
+46: 6 17 -1
+47: 5 9 1
+48: 6 9 -1
+Group 4 | Size 3
+Set row: 7 lb: 1 ub: 4
+Set row: 8 lb: -2 ub: 1
+49: 7 5 1
+50: 8 5 -1
+51: 7 13 1
+52: 8 13 -1
+53: 7 14 1
+54: 8 14 -1
+Edge found! state_10:3 <-> state_1:1	Weight: 13.0857	Set col: 28
+Set row: 9 ub: 0
+55: 9 3 -1 | 56: 9 1 -1 | 57: 9 28 1
+Set row: 10 ub: 2
+58: 10 3 1 | 59: 10 1 1 | 60: 10 28 1
+Set row: 11 lb: 0
+61: 11 3 -1 | 62: 11 1 1 | 63: 11 28 1
+Set row: 12 lb: 0
+64: 12 3 1 | 65: 12 1 -1 | 66: 12 28 1
+Edge found! state_11:4 <-> state_1:1	Weight: 8.23211	Set col: 29
+Set row: 13 ub: 0
+67: 13 4 -1 | 68: 13 1 -1 | 69: 13 29 1
+Set row: 14 ub: 2
+70: 14 4 1 | 71: 14 1 1 | 72: 14 29 1
+Set row: 15 lb: 0
+73: 15 4 -1 | 74: 15 1 1 | 75: 15 29 1
+Set row: 16 lb: 0
+76: 16 4 1 | 77: 16 1 -1 | 78: 16 29 1
+Edge found! state_12:5 <-> state_1:1	Weight: 16.4642	Set col: 30
+Set row: 17 ub: 0
+79: 17 5 -1 | 80: 17 1 -1 | 81: 17 30 1
+Set row: 18 ub: 2
+82: 18 5 1 | 83: 18 1 1 | 84: 18 30 1
+Set row: 19 lb: 0
+85: 19 5 -1 | 86: 19 1 1 | 87: 19 30 1
+Set row: 20 lb: 0
+88: 20 5 1 | 89: 20 1 -1 | 90: 20 30 1
+Edge found! state_13:11 <-> state_10:3	Weight: 9.36355	Set col: 31
+Set row: 21 ub: 0
+91: 21 11 -1 | 92: 21 3 -1 | 93: 21 31 1
+Set row: 22 ub: 2
+94: 22 11 1 | 95: 22 3 1 | 96: 22 31 1
+Set row: 23 lb: 0
+97: 23 11 -1 | 98: 23 3 1 | 99: 23 31 1
+Set row: 24 lb: 0
+100: 24 11 1 | 101: 24 3 -1 | 102: 24 31 1
+Edge found! state_13:11 <-> state_11:4	Weight: 4.50992	Set col: 32
+Set row: 25 ub: 0
+103: 25 11 -1 | 104: 25 4 -1 | 105: 25 32 1
+Set row: 26 ub: 2
+106: 26 11 1 | 107: 26 4 1 | 108: 26 32 1
+Set row: 27 lb: 0
+109: 27 11 -1 | 110: 27 4 1 | 111: 27 32 1
+Set row: 28 lb: 0
+112: 28 11 1 | 113: 28 4 -1 | 114: 28 32 1
+Edge found! state_13:11 <-> state_12:5	Weight: 9.01983	Set col: 33
+Set row: 29 ub: 0
+115: 29 11 -1 | 116: 29 5 -1 | 117: 29 33 1
+Set row: 30 ub: 2
+118: 30 11 1 | 119: 30 5 1 | 120: 30 33 1
+Set row: 31 lb: 0
+121: 31 11 -1 | 122: 31 5 1 | 123: 31 33 1
+Set row: 32 lb: 0
+124: 32 11 1 | 125: 32 5 -1 | 126: 32 33 1
+Edge found! state_14:10 <-> state_1:1	Weight: 4.50992	Set col: 34
+Set row: 33 ub: 0
+127: 33 10 -1 | 128: 33 1 -1 | 129: 33 34 1
+Set row: 34 ub: 2
+130: 34 10 1 | 131: 34 1 1 | 132: 34 34 1
+Set row: 35 lb: 0
+133: 35 10 -1 | 134: 35 1 1 | 135: 35 34 1
+Set row: 36 lb: 0
+136: 36 10 1 | 137: 36 1 -1 | 138: 36 34 1
+Edge found! state_14:10 <-> state_10:3	Weight: 4.85364	Set col: 35
+Set row: 37 ub: 0
+139: 37 10 -1 | 140: 37 3 -1 | 141: 37 35 1
+Set row: 38 ub: 2
+142: 38 10 1 | 143: 38 3 1 | 144: 38 35 1
+Set row: 39 lb: 0
+145: 39 10 -1 | 146: 39 3 1 | 147: 39 35 1
+Set row: 40 lb: 0
+148: 40 10 1 | 149: 40 3 -1 | 150: 40 35 1
+Edge found! state_15:19 <-> state_12:5	Weight: 12.742	Set col: 36
+Set row: 41 ub: 0
+151: 41 19 -1 | 152: 41 5 -1 | 153: 41 36 1
+Set row: 42 ub: 2
+154: 42 19 1 | 155: 42 5 1 | 156: 42 36 1
+Set row: 43 lb: 0
+157: 43 19 -1 | 158: 43 5 1 | 159: 43 36 1
+Set row: 44 lb: 0
+160: 44 19 1 | 161: 44 5 -1 | 162: 44 36 1
+Edge found! state_16:20 <-> state_13:11	Weight: 3.33627	Set col: 37
+Set row: 45 ub: 0
+163: 45 20 -1 | 164: 45 11 -1 | 165: 45 37 1
+Set row: 46 ub: 2
+166: 46 20 1 | 167: 46 11 1 | 168: 46 37 1
+Set row: 47 lb: 0
+169: 47 20 -1 | 170: 47 11 1 | 171: 47 37 1
+Set row: 48 lb: 0
+172: 48 20 1 | 173: 48 11 -1 | 174: 48 37 1
+Edge found! state_16:20 <-> state_14:10	Weight: 3.33627	Set col: 38
+Set row: 49 ub: 0
+175: 49 20 -1 | 176: 49 10 -1 | 177: 49 38 1
+Set row: 50 ub: 2
+178: 50 20 1 | 179: 50 10 1 | 180: 50 38 1
+Set row: 51 lb: 0
+181: 51 20 -1 | 182: 51 10 1 | 183: 51 38 1
+Set row: 52 lb: 0
+184: 52 20 1 | 185: 52 10 -1 | 186: 52 38 1
+Edge found! state_17:21 <-> state_15:19	Weight: 3.33627	Set col: 39
+Set row: 53 ub: 0
+187: 53 21 -1 | 188: 53 19 -1 | 189: 53 39 1
+Set row: 54 ub: 2
+190: 54 21 1 | 191: 54 19 1 | 192: 54 39 1
+Set row: 55 lb: 0
+193: 55 21 -1 | 194: 55 19 1 | 195: 55 39 1
+Set row: 56 lb: 0
+196: 56 21 1 | 197: 56 19 -1 | 198: 56 39 1
+Edge found! state_18:18 <-> state_12:5	Weight: 6.37101	Set col: 40
+Set row: 57 ub: 0
+199: 57 18 -1 | 200: 57 5 -1 | 201: 57 40 1
+Set row: 58 ub: 2
+202: 58 18 1 | 203: 58 5 1 | 204: 58 40 1
+Set row: 59 lb: 0
+205: 59 18 -1 | 206: 59 5 1 | 207: 59 40 1
+Set row: 60 lb: 0
+208: 60 18 1 | 209: 60 5 -1 | 210: 60 40 1
+Edge found! state_18:18 <-> state_17:21	Weight: 1.66813	Set col: 41
+Set row: 61 ub: 0
+211: 61 18 -1 | 212: 61 21 -1 | 213: 61 41 1
+Set row: 62 ub: 2
+214: 62 18 1 | 215: 62 21 1 | 216: 62 41 1
+Set row: 63 lb: 0
+217: 63 18 -1 | 218: 63 21 1 | 219: 63 41 1
+Set row: 64 lb: 0
+220: 64 18 1 | 221: 64 21 -1 | 222: 64 41 1
+Edge found! state_19:17 <-> state_12:5	Weight: 6.37101	Set col: 42
+Set row: 65 ub: 0
+223: 65 17 -1 | 224: 65 5 -1 | 225: 65 42 1
+Set row: 66 ub: 2
+226: 66 17 1 | 227: 66 5 1 | 228: 66 42 1
+Set row: 67 lb: 0
+229: 67 17 -1 | 230: 67 5 1 | 231: 67 42 1
+Set row: 68 lb: 0
+232: 68 17 1 | 233: 68 5 -1 | 234: 68 42 1
+Edge found! state_19:17 <-> state_16:20	Weight: 3.33627	Set col: 43
+Set row: 69 ub: 0
+235: 69 17 -1 | 236: 69 20 -1 | 237: 69 43 1
+Set row: 70 ub: 2
+238: 70 17 1 | 239: 70 20 1 | 240: 70 43 1
+Set row: 71 lb: 0
+241: 71 17 -1 | 242: 71 20 1 | 243: 71 43 1
+Set row: 72 lb: 0
+244: 72 17 1 | 245: 72 20 -1 | 246: 72 43 1
+Edge found! state_19:17 <-> state_18:18	Weight: 4.44902	Set col: 44
+Set row: 73 ub: 0
+247: 73 17 -1 | 248: 73 18 -1 | 249: 73 44 1
+Set row: 74 ub: 2
+250: 74 17 1 | 251: 74 18 1 | 252: 74 44 1
+Set row: 75 lb: 0
+253: 75 17 -1 | 254: 75 18 1 | 255: 75 44 1
+Set row: 76 lb: 0
+256: 76 17 1 | 257: 76 18 -1 | 258: 76 44 1
+Edge found! state_2:12 <-> state_1:1	Weight: 6.82837	Set col: 45
+Set row: 77 ub: 0
+259: 77 12 -1 | 260: 77 1 -1 | 261: 77 45 1
+Set row: 78 ub: 2
+262: 78 12 1 | 263: 78 1 1 | 264: 78 45 1
+Set row: 79 lb: 0
+265: 79 12 -1 | 266: 79 1 1 | 267: 79 45 1
+Set row: 80 lb: 0
+268: 80 12 1 | 269: 80 1 -1 | 270: 80 45 1
+Edge found! state_2:12 <-> state_10:3	Weight: 4.85364	Set col: 46
+Set row: 81 ub: 0
+271: 81 12 -1 | 272: 81 3 -1 | 273: 81 46 1
+Set row: 82 ub: 2
+274: 82 12 1 | 275: 82 3 1 | 276: 82 46 1
+Set row: 83 lb: 0
+277: 83 12 -1 | 278: 83 3 1 | 279: 83 46 1
+Set row: 84 lb: 0
+280: 84 12 1 | 281: 84 3 -1 | 282: 84 46 1
+Edge found! state_2:12 <-> state_14:10	Weight: 4.50992	Set col: 47
+Set row: 85 ub: 0
+283: 85 12 -1 | 284: 85 10 -1 | 285: 85 47 1
+Set row: 86 ub: 2
+286: 86 12 1 | 287: 86 10 1 | 288: 86 47 1
+Set row: 87 lb: 0
+289: 87 12 -1 | 290: 87 10 1 | 291: 87 47 1
+Set row: 88 lb: 0
+292: 88 12 1 | 293: 88 10 -1 | 294: 88 47 1
+Edge found! state_20:16 <-> state_12:5	Weight: 6.37101	Set col: 48
+Set row: 89 ub: 0
+295: 89 16 -1 | 296: 89 5 -1 | 297: 89 48 1
+Set row: 90 ub: 2
+298: 90 16 1 | 299: 90 5 1 | 300: 90 48 1
+Set row: 91 lb: 0
+301: 91 16 -1 | 302: 91 5 1 | 303: 91 48 1
+Set row: 92 lb: 0
+304: 92 16 1 | 305: 92 5 -1 | 306: 92 48 1
+Edge found! state_20:16 <-> state_16:20	Weight: 3.33627	Set col: 49
+Set row: 93 ub: 0
+307: 93 16 -1 | 308: 93 20 -1 | 309: 93 49 1
+Set row: 94 ub: 2
+310: 94 16 1 | 311: 94 20 1 | 312: 94 49 1
+Set row: 95 lb: 0
+313: 95 16 -1 | 314: 95 20 1 | 315: 95 49 1
+Set row: 96 lb: 0
+316: 96 16 1 | 317: 96 20 -1 | 318: 96 49 1
+Edge found! state_20:16 <-> state_19:17	Weight: 4.44902	Set col: 50
+Set row: 97 ub: 0
+319: 97 16 -1 | 320: 97 17 -1 | 321: 97 50 1
+Set row: 98 ub: 2
+322: 98 16 1 | 323: 98 17 1 | 324: 98 50 1
+Set row: 99 lb: 0
+325: 99 16 -1 | 326: 99 17 1 | 327: 99 50 1
+Set row: 100 lb: 0
+328: 100 16 1 | 329: 100 17 -1 | 330: 100 50 1
+Edge found! state_21:22 <-> state_1:1	Weight: 2.12336	Set col: 51
+Set row: 101 ub: 0
+331: 101 22 -1 | 332: 101 1 -1 | 333: 101 51 1
+Set row: 102 ub: 2
+334: 102 22 1 | 335: 102 1 1 | 336: 102 51 1
+Set row: 103 lb: 0
+337: 103 22 -1 | 338: 103 1 1 | 339: 103 51 1
+Set row: 104 lb: 0
+340: 104 22 1 | 341: 104 1 -1 | 342: 104 51 1
+Edge found! state_21:22 <-> state_13:11	Weight: 2.12336	Set col: 52
+Set row: 105 ub: 0
+343: 105 22 -1 | 344: 105 11 -1 | 345: 105 52 1
+Set row: 106 ub: 2
+346: 106 22 1 | 347: 106 11 1 | 348: 106 52 1
+Set row: 107 lb: 0
+349: 107 22 -1 | 350: 107 11 1 | 351: 107 52 1
+Set row: 108 lb: 0
+352: 108 22 1 | 353: 108 11 -1 | 354: 108 52 1
+Edge found! state_21:22 <-> state_14:10	Weight: 2.12336	Set col: 53
+Set row: 109 ub: 0
+355: 109 22 -1 | 356: 109 10 -1 | 357: 109 53 1
+Set row: 110 ub: 2
+358: 110 22 1 | 359: 110 10 1 | 360: 110 53 1
+Set row: 111 lb: 0
+361: 111 22 -1 | 362: 111 10 1 | 363: 111 53 1
+Set row: 112 lb: 0
+364: 112 22 1 | 365: 112 10 -1 | 366: 112 53 1
+Edge found! state_21:22 <-> state_2:12	Weight: 2.12336	Set col: 54
+Set row: 113 ub: 0
+367: 113 22 -1 | 368: 113 12 -1 | 369: 113 54 1
+Set row: 114 ub: 2
+370: 114 22 1 | 371: 114 12 1 | 372: 114 54 1
+Set row: 115 lb: 0
+373: 115 22 -1 | 374: 115 12 1 | 375: 115 54 1
+Set row: 116 lb: 0
+376: 116 22 1 | 377: 116 12 -1 | 378: 116 54 1
+Edge found! state_22:23 <-> state_15:19	Weight: 3.33627	Set col: 55
+Set row: 117 ub: 0
+379: 117 23 -1 | 380: 117 19 -1 | 381: 117 55 1
+Set row: 118 ub: 2
+382: 118 23 1 | 383: 118 19 1 | 384: 118 55 1
+Set row: 119 lb: 0
+385: 119 23 -1 | 386: 119 19 1 | 387: 119 55 1
+Set row: 120 lb: 0
+388: 120 23 1 | 389: 120 19 -1 | 390: 120 55 1
+Edge found! state_23:13 <-> state_1:1	Weight: 4.65133	Set col: 56
+Set row: 121 ub: 0
+391: 121 13 -1 | 392: 121 1 -1 | 393: 121 56 1
+Set row: 122 ub: 2
+394: 122 13 1 | 395: 122 1 1 | 396: 122 56 1
+Set row: 123 lb: 0
+397: 123 13 -1 | 398: 123 1 1 | 399: 123 56 1
+Set row: 124 lb: 0
+400: 124 13 1 | 401: 124 1 -1 | 402: 124 56 1
+Edge found! state_23:13 <-> state_11:4	Weight: 6.37101	Set col: 57
+Set row: 125 ub: 0
+403: 125 13 -1 | 404: 125 4 -1 | 405: 125 57 1
+Set row: 126 ub: 2
+406: 126 13 1 | 407: 126 4 1 | 408: 126 57 1
+Set row: 127 lb: 0
+409: 127 13 -1 | 410: 127 4 1 | 411: 127 57 1
+Set row: 128 lb: 0
+412: 128 13 1 | 413: 128 4 -1 | 414: 128 57 1
+Edge found! state_23:13 <-> state_13:11	Weight: 4.65133	Set col: 58
+Set row: 129 ub: 0
+415: 129 13 -1 | 416: 129 11 -1 | 417: 129 58 1
+Set row: 130 ub: 2
+418: 130 13 1 | 419: 130 11 1 | 420: 130 58 1
+Set row: 131 lb: 0
+421: 131 13 -1 | 422: 131 11 1 | 423: 131 58 1
+Set row: 132 lb: 0
+424: 132 13 1 | 425: 132 11 -1 | 426: 132 58 1
+Edge found! state_23:13 <-> state_14:10	Weight: 4.65133	Set col: 59
+Set row: 133 ub: 0
+427: 133 13 -1 | 428: 133 10 -1 | 429: 133 59 1
+Set row: 134 ub: 2
+430: 134 13 1 | 431: 134 10 1 | 432: 134 59 1
+Set row: 135 lb: 0
+433: 135 13 -1 | 434: 135 10 1 | 435: 135 59 1
+Set row: 136 lb: 0
+436: 136 13 1 | 437: 136 10 -1 | 438: 136 59 1
+Edge found! state_23:13 <-> state_17:21	Weight: 3.33627	Set col: 60
+Set row: 137 ub: 0
+439: 137 13 -1 | 440: 137 21 -1 | 441: 137 60 1
+Set row: 138 ub: 2
+442: 138 13 1 | 443: 138 21 1 | 444: 138 60 1
+Set row: 139 lb: 0
+445: 139 13 -1 | 446: 139 21 1 | 447: 139 60 1
+Set row: 140 lb: 0
+448: 140 13 1 | 449: 140 21 -1 | 450: 140 60 1
+Edge found! state_23:13 <-> state_19:17	Weight: 8.89805	Set col: 61
+Set row: 141 ub: 0
+451: 141 13 -1 | 452: 141 17 -1 | 453: 141 61 1
+Set row: 142 ub: 2
+454: 142 13 1 | 455: 142 17 1 | 456: 142 61 1
+Set row: 143 lb: 0
+457: 143 13 -1 | 458: 143 17 1 | 459: 143 61 1
+Set row: 144 lb: 0
+460: 144 13 1 | 461: 144 17 -1 | 462: 144 61 1
+Edge found! state_23:13 <-> state_2:12	Weight: 4.65133	Set col: 62
+Set row: 145 ub: 0
+463: 145 13 -1 | 464: 145 12 -1 | 465: 145 62 1
+Set row: 146 ub: 2
+466: 146 13 1 | 467: 146 12 1 | 468: 146 62 1
+Set row: 147 lb: 0
+469: 147 13 -1 | 470: 147 12 1 | 471: 147 62 1
+Set row: 148 lb: 0
+472: 148 13 1 | 473: 148 12 -1 | 474: 148 62 1
+Edge found! state_24:14 <-> state_11:4	Weight: 6.37101	Set col: 63
+Set row: 149 ub: 0
+475: 149 14 -1 | 476: 149 4 -1 | 477: 149 63 1
+Set row: 150 ub: 2
+478: 150 14 1 | 479: 150 4 1 | 480: 150 63 1
+Set row: 151 lb: 0
+481: 151 14 -1 | 482: 151 4 1 | 483: 151 63 1
+Set row: 152 lb: 0
+484: 152 14 1 | 485: 152 4 -1 | 486: 152 63 1
+Edge found! state_24:14 <-> state_13:11	Weight: 7.63453	Set col: 64
+Set row: 153 ub: 0
+487: 153 14 -1 | 488: 153 11 -1 | 489: 153 64 1
+Set row: 154 ub: 2
+490: 154 14 1 | 491: 154 11 1 | 492: 154 64 1
+Set row: 155 lb: 0
+493: 155 14 -1 | 494: 155 11 1 | 495: 155 64 1
+Set row: 156 lb: 0
+496: 156 14 1 | 497: 156 11 -1 | 498: 156 64 1
+Edge found! state_24:14 <-> state_14:10	Weight: 7.63453	Set col: 65
+Set row: 157 ub: 0
+499: 157 14 -1 | 500: 157 10 -1 | 501: 157 65 1
+Set row: 158 ub: 2
+502: 158 14 1 | 503: 158 10 1 | 504: 158 65 1
+Set row: 159 lb: 0
+505: 159 14 -1 | 506: 159 10 1 | 507: 159 65 1
+Set row: 160 lb: 0
+508: 160 14 1 | 509: 160 10 -1 | 510: 160 65 1
+Edge found! state_24:14 <-> state_19:17	Weight: 8.89805	Set col: 66
+Set row: 161 ub: 0
+511: 161 14 -1 | 512: 161 17 -1 | 513: 161 66 1
+Set row: 162 ub: 2
+514: 162 14 1 | 515: 162 17 1 | 516: 162 66 1
+Set row: 163 lb: 0
+517: 163 14 -1 | 518: 163 17 1 | 519: 163 66 1
+Set row: 164 lb: 0
+520: 164 14 1 | 521: 164 17 -1 | 522: 164 66 1
+Edge found! state_25:15 <-> state_11:4	Weight: 12.742	Set col: 67
+Set row: 165 ub: 0
+523: 165 15 -1 | 524: 165 4 -1 | 525: 165 67 1
+Set row: 166 ub: 2
+526: 166 15 1 | 527: 166 4 1 | 528: 166 67 1
+Set row: 167 lb: 0
+529: 167 15 -1 | 530: 167 4 1 | 531: 167 67 1
+Set row: 168 lb: 0
+532: 168 15 1 | 533: 168 4 -1 | 534: 168 67 1
+Edge found! state_25:15 <-> state_15:19	Weight: 11.4518	Set col: 68
+Set row: 169 ub: 0
+535: 169 15 -1 | 536: 169 19 -1 | 537: 169 68 1
+Set row: 170 ub: 2
+538: 170 15 1 | 539: 170 19 1 | 540: 170 68 1
+Set row: 171 lb: 0
+541: 171 15 -1 | 542: 171 19 1 | 543: 171 68 1
+Set row: 172 lb: 0
+544: 172 15 1 | 545: 172 19 -1 | 546: 172 68 1
+Edge found! state_25:15 <-> state_19:17	Weight: 4.44902	Set col: 69
+Set row: 173 ub: 0
+547: 173 15 -1 | 548: 173 17 -1 | 549: 173 69 1
+Set row: 174 ub: 2
+550: 174 15 1 | 551: 174 17 1 | 552: 174 69 1
+Set row: 175 lb: 0
+553: 175 15 -1 | 554: 175 17 1 | 555: 175 69 1
+Set row: 176 lb: 0
+556: 176 15 1 | 557: 176 17 -1 | 558: 176 69 1
+Edge found! state_26:26 <-> state_18:18	Weight: 1.8209	Set col: 70
+Set row: 177 ub: 0
+559: 177 26 -1 | 560: 177 18 -1 | 561: 177 70 1
+Set row: 178 ub: 2
+562: 178 26 1 | 563: 178 18 1 | 564: 178 70 1
+Set row: 179 lb: 0
+565: 179 26 -1 | 566: 179 18 1 | 567: 179 70 1
+Set row: 180 lb: 0
+568: 180 26 1 | 569: 180 18 -1 | 570: 180 70 1
+Edge found! state_26:26 <-> state_19:17	Weight: 1.8209	Set col: 71
+Set row: 181 ub: 0
+571: 181 26 -1 | 572: 181 17 -1 | 573: 181 71 1
+Set row: 182 ub: 2
+574: 182 26 1 | 575: 182 17 1 | 576: 182 71 1
+Set row: 183 lb: 0
+577: 183 26 -1 | 578: 183 17 1 | 579: 183 71 1
+Set row: 184 lb: 0
+580: 184 26 1 | 581: 184 17 -1 | 582: 184 71 1
+Edge found! state_26:26 <-> state_20:16	Weight: 6.26992	Set col: 72
+Set row: 185 ub: 0
+583: 185 26 -1 | 584: 185 16 -1 | 585: 185 72 1
+Set row: 186 ub: 2
+586: 186 26 1 | 587: 186 16 1 | 588: 186 72 1
+Set row: 187 lb: 0
+589: 187 26 -1 | 590: 187 16 1 | 591: 187 72 1
+Set row: 188 lb: 0
+592: 188 26 1 | 593: 188 16 -1 | 594: 188 72 1
+Edge found! state_26:26 <-> state_21:22	Weight: 7.28359	Set col: 73
+Set row: 189 ub: 0
+595: 189 26 -1 | 596: 189 22 -1 | 597: 189 73 1
+Set row: 190 ub: 2
+598: 190 26 1 | 599: 190 22 1 | 600: 190 73 1
+Set row: 191 lb: 0
+601: 191 26 -1 | 602: 191 22 1 | 603: 191 73 1
+Set row: 192 lb: 0
+604: 192 26 1 | 605: 192 22 -1 | 606: 192 73 1
+Edge found! state_27:27 <-> state_13:11	Weight: 1.66813	Set col: 74
+Set row: 193 ub: 0
+607: 193 27 -1 | 608: 193 11 -1 | 609: 193 74 1
+Set row: 194 ub: 2
+610: 194 27 1 | 611: 194 11 1 | 612: 194 74 1
+Set row: 195 lb: 0
+613: 195 27 -1 | 614: 195 11 1 | 615: 195 74 1
+Set row: 196 lb: 0
+616: 196 27 1 | 617: 196 11 -1 | 618: 196 74 1
+Edge found! state_27:27 <-> state_14:10	Weight: 1.66813	Set col: 75
+Set row: 197 ub: 0
+619: 197 27 -1 | 620: 197 10 -1 | 621: 197 75 1
+Set row: 198 ub: 2
+622: 198 27 1 | 623: 198 10 1 | 624: 198 75 1
+Set row: 199 lb: 0
+625: 199 27 -1 | 626: 199 10 1 | 627: 199 75 1
+Set row: 200 lb: 0
+628: 200 27 1 | 629: 200 10 -1 | 630: 200 75 1
+Edge found! state_27:27 <-> state_15:19	Weight: 0.834066	Set col: 76
+Set row: 201 ub: 0
+631: 201 27 -1 | 632: 201 19 -1 | 633: 201 76 1
+Set row: 202 ub: 2
+634: 202 27 1 | 635: 202 19 1 | 636: 202 76 1
+Set row: 203 lb: 0
+637: 203 27 -1 | 638: 203 19 1 | 639: 203 76 1
+Set row: 204 lb: 0
+640: 204 27 1 | 641: 204 19 -1 | 642: 204 76 1
+Edge found! state_27:27 <-> state_17:21	Weight: 1.66813	Set col: 77
+Set row: 205 ub: 0
+643: 205 27 -1 | 644: 205 21 -1 | 645: 205 77 1
+Set row: 206 ub: 2
+646: 206 27 1 | 647: 206 21 1 | 648: 206 77 1
+Set row: 207 lb: 0
+649: 207 27 -1 | 650: 207 21 1 | 651: 207 77 1
+Set row: 208 lb: 0
+652: 208 27 1 | 653: 208 21 -1 | 654: 208 77 1
+Edge found! state_3:2 <-> state_1:1	Weight: 16.4642	Set col: 78
+Set row: 209 ub: 0
+655: 209 2 -1 | 656: 209 1 -1 | 657: 209 78 1
+Set row: 210 ub: 2
+658: 210 2 1 | 659: 210 1 1 | 660: 210 78 1
+Set row: 211 lb: 0
+661: 211 2 -1 | 662: 211 1 1 | 663: 211 78 1
+Set row: 212 lb: 0
+664: 212 2 1 | 665: 212 1 -1 | 666: 212 78 1
+Edge found! state_3:2 <-> state_11:4	Weight: 6.37101	Set col: 79
+Set row: 213 ub: 0
+667: 213 2 -1 | 668: 213 4 -1 | 669: 213 79 1
+Set row: 214 ub: 2
+670: 214 2 1 | 671: 214 4 1 | 672: 214 79 1
+Set row: 215 lb: 0
+673: 215 2 -1 | 674: 215 4 1 | 675: 215 79 1
+Set row: 216 lb: 0
+676: 216 2 1 | 677: 216 4 -1 | 678: 216 79 1
+Edge found! state_3:2 <-> state_13:11	Weight: 9.01983	Set col: 80
+Set row: 217 ub: 0
+679: 217 2 -1 | 680: 217 11 -1 | 681: 217 80 1
+Set row: 218 ub: 2
+682: 218 2 1 | 683: 218 11 1 | 684: 218 80 1
+Set row: 219 lb: 0
+685: 219 2 -1 | 686: 219 11 1 | 687: 219 80 1
+Set row: 220 lb: 0
+688: 220 2 1 | 689: 220 11 -1 | 690: 220 80 1
+Edge found! state_3:2 <-> state_22:23	Weight: 3.33627	Set col: 81
+Set row: 221 ub: 0
+691: 221 2 -1 | 692: 221 23 -1 | 693: 221 81 1
+Set row: 222 ub: 2
+694: 222 2 1 | 695: 222 23 1 | 696: 222 81 1
+Set row: 223 lb: 0
+697: 223 2 -1 | 698: 223 23 1 | 699: 223 81 1
+Set row: 224 lb: 0
+700: 224 2 1 | 701: 224 23 -1 | 702: 224 81 1
+Edge found! state_3:2 <-> state_25:15	Weight: 3.81726	Set col: 82
+Set row: 225 ub: 0
+703: 225 2 -1 | 704: 225 15 -1 | 705: 225 82 1
+Set row: 226 ub: 2
+706: 226 2 1 | 707: 226 15 1 | 708: 226 82 1
+Set row: 227 lb: 0
+709: 227 2 -1 | 710: 227 15 1 | 711: 227 82 1
+Set row: 228 lb: 0
+712: 228 2 1 | 713: 228 15 -1 | 714: 228 82 1
+Edge found! state_3:2 <-> state_27:27	Weight: 0.834066	Set col: 83
+Set row: 229 ub: 0
+715: 229 2 -1 | 716: 229 27 -1 | 717: 229 83 1
+Set row: 230 ub: 2
+718: 230 2 1 | 719: 230 27 1 | 720: 230 83 1
+Set row: 231 lb: 0
+721: 231 2 -1 | 722: 231 27 1 | 723: 231 83 1
+Set row: 232 lb: 0
+724: 232 2 1 | 725: 232 27 -1 | 726: 232 83 1
+Edge found! state_4:6 <-> state_15:19	Weight: 4.29185	Set col: 84
+Set row: 233 ub: 0
+727: 233 6 -1 | 728: 233 19 -1 | 729: 233 84 1
+Set row: 234 ub: 2
+730: 234 6 1 | 731: 234 19 1 | 732: 234 84 1
+Set row: 235 lb: 0
+733: 235 6 -1 | 734: 235 19 1 | 735: 235 84 1
+Set row: 236 lb: 0
+736: 236 6 1 | 737: 236 19 -1 | 738: 236 84 1
+Edge found! state_4:6 <-> state_18:18	Weight: 8.89805	Set col: 85
+Set row: 237 ub: 0
+739: 237 6 -1 | 740: 237 18 -1 | 741: 237 85 1
+Set row: 238 ub: 2
+742: 238 6 1 | 743: 238 18 1 | 744: 238 85 1
+Set row: 239 lb: 0
+745: 239 6 -1 | 746: 239 18 1 | 747: 239 85 1
+Set row: 240 lb: 0
+748: 240 6 1 | 749: 240 18 -1 | 750: 240 85 1
+Edge found! state_4:6 <-> state_3:2	Weight: 7.0655	Set col: 86
+Set row: 241 ub: 0
+751: 241 6 -1 | 752: 241 2 -1 | 753: 241 86 1
+Set row: 242 ub: 2
+754: 242 6 1 | 755: 242 2 1 | 756: 242 86 1
+Set row: 243 lb: 0
+757: 243 6 -1 | 758: 243 2 1 | 759: 243 86 1
+Set row: 244 lb: 0
+760: 244 6 1 | 761: 244 2 -1 | 762: 244 86 1
+Edge found! state_5:7 <-> state_1:1	Weight: 13.3451	Set col: 87
+Set row: 245 ub: 0
+763: 245 7 -1 | 764: 245 1 -1 | 765: 245 87 1
+Set row: 246 ub: 2
+766: 246 7 1 | 767: 246 1 1 | 768: 246 87 1
+Set row: 247 lb: 0
+769: 247 7 -1 | 770: 247 1 1 | 771: 247 87 1
+Set row: 248 lb: 0
+772: 248 7 1 | 773: 248 1 -1 | 774: 248 87 1
+Edge found! state_5:7 <-> state_15:19	Weight: 4.29185	Set col: 88
+Set row: 249 ub: 0
+775: 249 7 -1 | 776: 249 19 -1 | 777: 249 88 1
+Set row: 250 ub: 2
+778: 250 7 1 | 779: 250 19 1 | 780: 250 88 1
+Set row: 251 lb: 0
+781: 251 7 -1 | 782: 251 19 1 | 783: 251 88 1
+Set row: 252 lb: 0
+784: 252 7 1 | 785: 252 19 -1 | 786: 252 88 1
+Edge found! state_5:7 <-> state_16:20	Weight: 6.67253	Set col: 89
+Set row: 253 ub: 0
+787: 253 7 -1 | 788: 253 20 -1 | 789: 253 89 1
+Set row: 254 ub: 2
+790: 254 7 1 | 791: 254 20 1 | 792: 254 89 1
+Set row: 255 lb: 0
+793: 255 7 -1 | 794: 255 20 1 | 795: 255 89 1
+Set row: 256 lb: 0
+796: 256 7 1 | 797: 256 20 -1 | 798: 256 89 1
+Edge found! state_5:7 <-> state_17:21	Weight: 13.3451	Set col: 90
+Set row: 257 ub: 0
+799: 257 7 -1 | 800: 257 21 -1 | 801: 257 90 1
+Set row: 258 ub: 2
+802: 258 7 1 | 803: 258 21 1 | 804: 258 90 1
+Set row: 259 lb: 0
+805: 259 7 -1 | 806: 259 21 1 | 807: 259 90 1
+Set row: 260 lb: 0
+808: 260 7 1 | 809: 260 21 -1 | 810: 260 90 1
+Edge found! state_5:7 <-> state_18:18	Weight: 8.89805	Set col: 91
+Set row: 261 ub: 0
+811: 261 7 -1 | 812: 261 18 -1 | 813: 261 91 1
+Set row: 262 ub: 2
+814: 262 7 1 | 815: 262 18 1 | 816: 262 91 1
+Set row: 263 lb: 0
+817: 263 7 -1 | 818: 263 18 1 | 819: 263 91 1
+Set row: 264 lb: 0
+820: 264 7 1 | 821: 264 18 -1 | 822: 264 91 1
+Edge found! state_5:7 <-> state_2:12	Weight: 13.3451	Set col: 92
+Set row: 265 ub: 0
+823: 265 7 -1 | 824: 265 12 -1 | 825: 265 92 1
+Set row: 266 ub: 2
+826: 266 7 1 | 827: 266 12 1 | 828: 266 92 1
+Set row: 267 lb: 0
+829: 267 7 -1 | 830: 267 12 1 | 831: 267 92 1
+Set row: 268 lb: 0
+832: 268 7 1 | 833: 268 12 -1 | 834: 268 92 1
+Edge found! state_5:7 <-> state_3:2	Weight: 7.0655	Set col: 93
+Set row: 269 ub: 0
+835: 269 7 -1 | 836: 269 2 -1 | 837: 269 93 1
+Set row: 270 ub: 2
+838: 270 7 1 | 839: 270 2 1 | 840: 270 93 1
+Set row: 271 lb: 0
+841: 271 7 -1 | 842: 271 2 1 | 843: 271 93 1
+Set row: 272 lb: 0
+844: 272 7 1 | 845: 272 2 -1 | 846: 272 93 1
+Edge found! state_5:7 <-> state_4:6	Weight: 5.26879	Set col: 94
+Set row: 273 ub: 0
+847: 273 7 -1 | 848: 273 6 -1 | 849: 273 94 1
+Set row: 274 ub: 2
+850: 274 7 1 | 851: 274 6 1 | 852: 274 94 1
+Set row: 275 lb: 0
+853: 275 7 -1 | 854: 275 6 1 | 855: 275 94 1
+Set row: 276 lb: 0
+856: 276 7 1 | 857: 276 6 -1 | 858: 276 94 1
+Edge found! state_6:8 <-> state_10:3	Weight: 13.3451	Set col: 95
+Set row: 277 ub: 0
+859: 277 8 -1 | 860: 277 3 -1 | 861: 277 95 1
+Set row: 278 ub: 2
+862: 278 8 1 | 863: 278 3 1 | 864: 278 95 1
+Set row: 279 lb: 0
+865: 279 8 -1 | 866: 279 3 1 | 867: 279 95 1
+Set row: 280 lb: 0
+868: 280 8 1 | 869: 280 3 -1 | 870: 280 95 1
+Edge found! state_6:8 <-> state_15:19	Weight: 4.29185	Set col: 96
+Set row: 281 ub: 0
+871: 281 8 -1 | 872: 281 19 -1 | 873: 281 96 1
+Set row: 282 ub: 2
+874: 282 8 1 | 875: 282 19 1 | 876: 282 96 1
+Set row: 283 lb: 0
+877: 283 8 -1 | 878: 283 19 1 | 879: 283 96 1
+Set row: 284 lb: 0
+880: 284 8 1 | 881: 284 19 -1 | 882: 284 96 1
+Edge found! state_6:8 <-> state_18:18	Weight: 8.89805	Set col: 97
+Set row: 285 ub: 0
+883: 285 8 -1 | 884: 285 18 -1 | 885: 285 97 1
+Set row: 286 ub: 2
+886: 286 8 1 | 887: 286 18 1 | 888: 286 97 1
+Set row: 287 lb: 0
+889: 287 8 -1 | 890: 287 18 1 | 891: 287 97 1
+Set row: 288 lb: 0
+892: 288 8 1 | 893: 288 18 -1 | 894: 288 97 1
+Edge found! state_6:8 <-> state_21:22	Weight: 13.3451	Set col: 98
+Set row: 289 ub: 0
+895: 289 8 -1 | 896: 289 22 -1 | 897: 289 98 1
+Set row: 290 ub: 2
+898: 290 8 1 | 899: 290 22 1 | 900: 290 98 1
+Set row: 291 lb: 0
+901: 291 8 -1 | 902: 291 22 1 | 903: 291 98 1
+Set row: 292 lb: 0
+904: 292 8 1 | 905: 292 22 -1 | 906: 292 98 1
+Edge found! state_6:8 <-> state_22:23	Weight: 6.67253	Set col: 99
+Set row: 293 ub: 0
+907: 293 8 -1 | 908: 293 23 -1 | 909: 293 99 1
+Set row: 294 ub: 2
+910: 294 8 1 | 911: 294 23 1 | 912: 294 99 1
+Set row: 295 lb: 0
+913: 295 8 -1 | 914: 295 23 1 | 915: 295 99 1
+Set row: 296 lb: 0
+916: 296 8 1 | 917: 296 23 -1 | 918: 296 99 1
+Edge found! state_6:8 <-> state_3:2	Weight: 13.738	Set col: 100
+Set row: 297 ub: 0
+919: 297 8 -1 | 920: 297 2 -1 | 921: 297 100 1
+Set row: 298 ub: 2
+922: 298 8 1 | 923: 298 2 1 | 924: 298 100 1
+Set row: 299 lb: 0
+925: 299 8 -1 | 926: 299 2 1 | 927: 299 100 1
+Set row: 300 lb: 0
+928: 300 8 1 | 929: 300 2 -1 | 930: 300 100 1
+Edge found! state_6:8 <-> state_4:6	Weight: 5.26879	Set col: 101
+Set row: 301 ub: 0
+931: 301 8 -1 | 932: 301 6 -1 | 933: 301 101 1
+Set row: 302 ub: 2
+934: 302 8 1 | 935: 302 6 1 | 936: 302 101 1
+Set row: 303 lb: 0
+937: 303 8 -1 | 938: 303 6 1 | 939: 303 101 1
+Set row: 304 lb: 0
+940: 304 8 1 | 941: 304 6 -1 | 942: 304 101 1
+Edge found! state_7:9 <-> state_15:19	Weight: 8.5837	Set col: 102
+Set row: 305 ub: 0
+943: 305 9 -1 | 944: 305 19 -1 | 945: 305 102 1
+Set row: 306 ub: 2
+946: 306 9 1 | 947: 306 19 1 | 948: 306 102 1
+Set row: 307 lb: 0
+949: 307 9 -1 | 950: 307 19 1 | 951: 307 102 1
+Set row: 308 lb: 0
+952: 308 9 1 | 953: 308 19 -1 | 954: 308 102 1
+Edge found! state_7:9 <-> state_18:18	Weight: 11.1216	Set col: 103
+Set row: 309 ub: 0
+955: 309 9 -1 | 956: 309 18 -1 | 957: 309 103 1
+Set row: 310 ub: 2
+958: 310 9 1 | 959: 310 18 1 | 960: 310 103 1
+Set row: 311 lb: 0
+961: 311 9 -1 | 962: 311 18 1 | 963: 311 103 1
+Set row: 312 lb: 0
+964: 312 9 1 | 965: 312 18 -1 | 966: 312 103 1
+Edge found! state_7:9 <-> state_19:17	Weight: 6.67253	Set col: 104
+Set row: 313 ub: 0
+967: 313 9 -1 | 968: 313 17 -1 | 969: 313 104 1
+Set row: 314 ub: 2
+970: 314 9 1 | 971: 314 17 1 | 972: 314 104 1
+Set row: 315 lb: 0
+973: 315 9 -1 | 974: 315 17 1 | 975: 315 104 1
+Set row: 316 lb: 0
+976: 316 9 1 | 977: 316 17 -1 | 978: 316 104 1
+Edge found! state_7:9 <-> state_20:16	Weight: 6.67253	Set col: 105
+Set row: 317 ub: 0
+979: 317 9 -1 | 980: 317 16 -1 | 981: 317 105 1
+Set row: 318 ub: 2
+982: 318 9 1 | 983: 318 16 1 | 984: 318 105 1
+Set row: 319 lb: 0
+985: 319 9 -1 | 986: 319 16 1 | 987: 319 105 1
+Set row: 320 lb: 0
+988: 320 9 1 | 989: 320 16 -1 | 990: 320 105 1
+Edge found! state_7:9 <-> state_3:2	Weight: 14.131	Set col: 106
+Set row: 321 ub: 0
+991: 321 9 -1 | 992: 321 2 -1 | 993: 321 106 1
+Set row: 322 ub: 2
+994: 322 9 1 | 995: 322 2 1 | 996: 322 106 1
+Set row: 323 lb: 0
+997: 323 9 -1 | 998: 323 2 1 | 999: 323 106 1
+Set row: 324 lb: 0
+1000: 324 9 1 | 1001: 324 2 -1 | 1002: 324 106 1
+Edge found! state_7:9 <-> state_4:6	Weight: 10.5376	Set col: 107
+Set row: 325 ub: 0
+1003: 325 9 -1 | 1004: 325 6 -1 | 1005: 325 107 1
+Set row: 326 ub: 2
+1006: 326 9 1 | 1007: 326 6 1 | 1008: 326 107 1
+Set row: 327 lb: 0
+1009: 327 9 -1 | 1010: 327 6 1 | 1011: 327 107 1
+Set row: 328 lb: 0
+1012: 328 9 1 | 1013: 328 6 -1 | 1014: 328 107 1
+Edge found! state_8:25 <-> state_13:11	Weight: 2.83457	Set col: 108
+Set row: 329 ub: 0
+1015: 329 25 -1 | 1016: 329 11 -1 | 1017: 329 108 1
+Set row: 330 ub: 2
+1018: 330 25 1 | 1019: 330 11 1 | 1020: 330 108 1
+Set row: 331 lb: 0
+1021: 331 25 -1 | 1022: 331 11 1 | 1023: 331 108 1
+Set row: 332 lb: 0
+1024: 332 25 1 | 1025: 332 11 -1 | 1026: 332 108 1
+Edge found! state_8:25 <-> state_14:10	Weight: 7.34449	Set col: 109
+Set row: 333 ub: 0
+1027: 333 25 -1 | 1028: 333 10 -1 | 1029: 333 109 1
+Set row: 334 ub: 2
+1030: 334 25 1 | 1031: 334 10 1 | 1032: 334 109 1
+Set row: 335 lb: 0
+1033: 335 25 -1 | 1034: 335 10 1 | 1035: 335 109 1
+Set row: 336 lb: 0
+1036: 336 25 1 | 1037: 336 10 -1 | 1038: 336 109 1
+Edge found! state_8:25 <-> state_15:19	Weight: 5.66914	Set col: 110
+Set row: 337 ub: 0
+1039: 337 25 -1 | 1040: 337 19 -1 | 1041: 337 110 1
+Set row: 338 ub: 2
+1042: 338 25 1 | 1043: 338 19 1 | 1044: 338 110 1
+Set row: 339 lb: 0
+1045: 339 25 -1 | 1046: 339 19 1 | 1047: 339 110 1
+Set row: 340 lb: 0
+1048: 340 25 1 | 1049: 340 19 -1 | 1050: 340 110 1
+Edge found! state_8:25 <-> state_2:12	Weight: 6.82837	Set col: 111
+Set row: 341 ub: 0
+1051: 341 25 -1 | 1052: 341 12 -1 | 1053: 341 111 1
+Set row: 342 ub: 2
+1054: 342 25 1 | 1055: 342 12 1 | 1056: 342 111 1
+Set row: 343 lb: 0
+1057: 343 25 -1 | 1058: 343 12 1 | 1059: 343 111 1
+Set row: 344 lb: 0
+1060: 344 25 1 | 1061: 344 12 -1 | 1062: 344 111 1
+Edge found! state_8:25 <-> state_26:26	Weight: 11.3383	Set col: 112
+Set row: 345 ub: 0
+1063: 345 25 -1 | 1064: 345 26 -1 | 1065: 345 112 1
+Set row: 346 ub: 2
+1066: 346 25 1 | 1067: 346 26 1 | 1068: 346 112 1
+Set row: 347 lb: 0
+1069: 347 25 -1 | 1070: 347 26 1 | 1071: 347 112 1
+Set row: 348 lb: 0
+1072: 348 25 1 | 1073: 348 26 -1 | 1074: 348 112 1
+Edge found! state_9:24 <-> state_1:1	Weight: 11.2299	Set col: 113
+Set row: 349 ub: 0
+1075: 349 24 -1 | 1076: 349 1 -1 | 1077: 349 113 1
+Set row: 350 ub: 2
+1078: 350 24 1 | 1079: 350 1 1 | 1080: 350 113 1
+Set row: 351 lb: 0
+1081: 351 24 -1 | 1082: 351 1 1 | 1083: 351 113 1
+Set row: 352 lb: 0
+1084: 352 24 1 | 1085: 352 1 -1 | 1086: 352 113 1
+Edge found! state_9:24 <-> state_14:10	Weight: 9.01983	Set col: 114
+Set row: 353 ub: 0
+1087: 353 24 -1 | 1088: 353 10 -1 | 1089: 353 114 1
+Set row: 354 ub: 2
+1090: 354 24 1 | 1091: 354 10 1 | 1092: 354 114 1
+Set row: 355 lb: 0
+1093: 355 24 -1 | 1094: 355 10 1 | 1095: 355 114 1
+Set row: 356 lb: 0
+1096: 356 24 1 | 1097: 356 10 -1 | 1098: 356 114 1
+Edge found! state_9:24 <-> state_2:12	Weight: 13.6567	Set col: 115
+Set row: 357 ub: 0
+1099: 357 24 -1 | 1100: 357 12 -1 | 1101: 357 115 1
+Set row: 358 ub: 2
+1102: 358 24 1 | 1103: 358 12 1 | 1104: 358 115 1
+Set row: 359 lb: 0
+1105: 359 24 -1 | 1106: 359 12 1 | 1107: 359 115 1
+Set row: 360 lb: 0
+1108: 360 24 1 | 1109: 360 12 -1 | 1110: 360 115 1
+Edge found! state_9:24 <-> state_20:16	Weight: 8.89805	Set col: 116
+Set row: 361 ub: 0
+1111: 361 24 -1 | 1112: 361 16 -1 | 1113: 361 116 1
+Set row: 362 ub: 2
+1114: 362 24 1 | 1115: 362 16 1 | 1116: 362 116 1
+Set row: 363 lb: 0
+1117: 363 24 -1 | 1118: 363 16 1 | 1119: 363 116 1
+Set row: 364 lb: 0
+1120: 364 24 1 | 1121: 364 16 -1 | 1122: 364 116 1
+Edge found! state_9:24 <-> state_5:7	Weight: 5.61496	Set col: 117
+Set row: 365 ub: 0
+1123: 365 24 -1 | 1124: 365 7 -1 | 1125: 365 117 1
+Set row: 366 ub: 2
+1126: 366 24 1 | 1127: 366 7 1 | 1128: 366 117 1
+Set row: 367 lb: 0
+1129: 367 24 -1 | 1130: 367 7 1 | 1131: 367 117 1
+Set row: 368 lb: 0
+1132: 368 24 1 | 1133: 368 7 -1 | 1134: 368 117 1
+Edge found! state_9:24 <-> state_6:8	Weight: 5.61496	Set col: 118
+Set row: 369 ub: 0
+1135: 369 24 -1 | 1136: 369 8 -1 | 1137: 369 118 1
+Set row: 370 ub: 2
+1138: 370 24 1 | 1139: 370 8 1 | 1140: 370 118 1
+Set row: 371 lb: 0
+1141: 371 24 -1 | 1142: 371 8 1 | 1143: 371 118 1
+Set row: 372 lb: 0
+1144: 372 24 1 | 1145: 372 8 -1 | 1146: 372 118 1
+Edge found! state_9:24 <-> state_7:9	Weight: 24.575	Set col: 119
+Set row: 373 ub: 0
+1147: 373 24 -1 | 1148: 373 9 -1 | 1149: 373 119 1
+Set row: 374 ub: 2
+1150: 374 24 1 | 1151: 374 9 1 | 1152: 374 119 1
+Set row: 375 lb: 0
+1153: 375 24 -1 | 1154: 375 9 1 | 1155: 375 119 1
+Set row: 376 lb: 0
+1156: 376 24 1 | 1157: 376 9 -1 | 1158: 376 119 1
+GLPK Integer Optimizer 5.0
+377 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Preprocessing...
+184 hidden covering inequaliti(es) were detected
+377 rows, 119 columns, 1185 non-zeros
+119 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 377
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+377 rows, 119 columns, 1185 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.600e+01 (7)
+     29: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    29: mip =     not found yet >=              -inf        (1; 0)
++   340: >>>>>   2.507120663e+02 >=   2.222669408e+01  91.1% (19; 0)
++   856: >>>>>   2.438320698e+02 >=   6.715248046e+01  72.5% (36; 6)
++  2249: >>>>>   2.124652822e+02 >=   1.072257287e+02  49.5% (94; 22)
++ 13774: >>>>>   2.091290170e+02 >=   2.091290170e+02 < 0.1% (78; 835)
++ 13774: mip =   2.091290170e+02 >=     tree is empty   0.0% (0; 1225)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 209.129
+state_1	1	0
+state_10	3	0
+state_11	4	0
+state_12	5	0
+state_13	11	0
+state_14	10	1
+state_15	19	0
+state_16	20	1
+state_17	21	1
+state_18	18	0
+state_19	17	0
+state_2	12	1
+state_20	16	1
+state_21	22	1
+state_22	23	1
+state_23	13	1
+state_24	14	0
+state_25	15	0
+state_26	26	1
+state_27	27	1
+state_3	2	0
+state_4	6	0
+state_5	7	1
+state_6	8	0
+state_7	9	0
+state_8	25	1
+state_9	24	1
+Number of 0 assigned: 14 | Number of 1 assigned: 13
+XOR Constraint 28: 0
+XOR Constraint 29: 0
+XOR Constraint 30: 0
+XOR Constraint 31: 0
+XOR Constraint 32: 0
+XOR Constraint 33: 0
+XOR Constraint 34: 1
+XOR Constraint 35: 1
+XOR Constraint 36: 0
+XOR Constraint 37: 1
+XOR Constraint 38: 0
+XOR Constraint 39: 1
+XOR Constraint 40: 0
+XOR Constraint 41: 1
+XOR Constraint 42: 0
+XOR Constraint 43: 1
+XOR Constraint 44: 0
+XOR Constraint 45: 1
+XOR Constraint 46: 1
+XOR Constraint 47: 0
+XOR Constraint 48: 1
+XOR Constraint 49: 0
+XOR Constraint 50: 1
+XOR Constraint 51: 1
+XOR Constraint 52: 1
+XOR Constraint 53: 0
+XOR Constraint 54: 0
+XOR Constraint 55: 1
+XOR Constraint 56: 1
+XOR Constraint 57: 1
+XOR Constraint 58: 1
+XOR Constraint 59: 0
+XOR Constraint 60: 0
+XOR Constraint 61: 1
+XOR Constraint 62: 0
+XOR Constraint 63: 0
+XOR Constraint 64: 0
+XOR Constraint 65: 1
+XOR Constraint 66: 0
+XOR Constraint 67: 0
+XOR Constraint 68: 0
+XOR Constraint 69: 0
+XOR Constraint 70: 1
+XOR Constraint 71: 1
+XOR Constraint 72: 0
+XOR Constraint 73: 0
+XOR Constraint 74: 1
+XOR Constraint 75: 0
+XOR Constraint 76: 1
+XOR Constraint 77: 0
+XOR Constraint 78: 0
+XOR Constraint 79: 0
+XOR Constraint 80: 0
+XOR Constraint 81: 1
+XOR Constraint 82: 0
+XOR Constraint 83: 1
+XOR Constraint 84: 0
+XOR Constraint 85: 0
+XOR Constraint 86: 0
+XOR Constraint 87: 1
+XOR Constraint 88: 1
+XOR Constraint 89: 0
+XOR Constraint 90: 0
+XOR Constraint 91: 1
+XOR Constraint 92: 0
+XOR Constraint 93: 1
+XOR Constraint 94: 1
+XOR Constraint 95: 0
+XOR Constraint 96: 0
+XOR Constraint 97: 0
+XOR Constraint 98: 1
+XOR Constraint 99: 1
+XOR Constraint 100: 0
+XOR Constraint 101: 0
+XOR Constraint 102: 0
+XOR Constraint 103: 0
+XOR Constraint 104: 0
+XOR Constraint 105: 1
+XOR Constraint 106: 0
+XOR Constraint 107: 0
+XOR Constraint 108: 1
+XOR Constraint 109: 0
+XOR Constraint 110: 1
+XOR Constraint 111: 0
+XOR Constraint 112: 0
+XOR Constraint 113: 1
+XOR Constraint 114: 0
+XOR Constraint 115: 0
+XOR Constraint 116: 0
+XOR Constraint 117: 0
+XOR Constraint 118: 1
+XOR Constraint 119: 1
+-----
+Size of State Group: 8
+ - 8 19 2 6
+ - 4 11 1 3
+ - 15 18 17 9
+ - 5 14
+ - 7 23 20 24
+ - 25 10 12 22
+ - 21 26 27 16
+ - 13
+
+   [   Round 4   ]   
+Set col: state_1 -> 1
+Set col: state_10 -> 3
+Set col: state_11 -> 4
+Set col: state_12 -> 5
+Set col: state_13 -> 11
+Set col: state_14 -> 10
+Set col: state_15 -> 19
+Set col: state_16 -> 20
+Set col: state_17 -> 21
+Set col: state_18 -> 18
+Set col: state_19 -> 17
+Set col: state_2 -> 12
+Set col: state_20 -> 16
+Set col: state_21 -> 22
+Set col: state_22 -> 23
+Set col: state_23 -> 13
+Set col: state_24 -> 14
+Set col: state_25 -> 15
+Set col: state_26 -> 26
+Set col: state_27 -> 27
+Set col: state_3 -> 2
+Set col: state_4 -> 6
+Set col: state_5 -> 7
+Set col: state_6 -> 8
+Set col: state_7 -> 9
+Set col: state_8 -> 25
+Set col: state_9 -> 24
+Size of Group: 8
+Group 1 | Size 4
+Set row: 1 lb: 1 ub: 2
+Set row: 2 lb: -3 ub: -2
+1: 1 8 1
+2: 2 8 -1
+3: 1 19 1
+4: 2 19 -1
+5: 1 2 1
+6: 2 2 -1
+7: 1 6 1
+8: 2 6 -1
+Group 2 | Size 4
+Set row: 3 lb: 1 ub: 2
+Set row: 4 lb: -3 ub: -2
+9: 3 4 1
+10: 4 4 -1
+11: 3 11 1
+12: 4 11 -1
+13: 3 1 1
+14: 4 1 -1
+15: 3 3 1
+16: 4 3 -1
+Group 3 | Size 4
+Set row: 5 lb: 1 ub: 2
+Set row: 6 lb: -3 ub: -2
+17: 5 15 1
+18: 6 15 -1
+19: 5 18 1
+20: 6 18 -1
+21: 5 17 1
+22: 6 17 -1
+23: 5 9 1
+24: 6 9 -1
+Group 4 | Size 2
+Set row: 7 lb: 1 ub: 2
+Set row: 8 lb: -1 ub: 0
+25: 7 5 1
+26: 8 5 -1
+27: 7 14 1
+28: 8 14 -1
+Group 5 | Size 4
+Set row: 9 lb: 1 ub: 2
+Set row: 10 lb: -3 ub: -2
+29: 9 7 1
+30: 10 7 -1
+31: 9 23 1
+32: 10 23 -1
+33: 9 20 1
+34: 10 20 -1
+35: 9 24 1
+36: 10 24 -1
+Group 6 | Size 4
+Set row: 11 lb: 1 ub: 2
+Set row: 12 lb: -3 ub: -2
+37: 11 25 1
+38: 12 25 -1
+39: 11 10 1
+40: 12 10 -1
+41: 11 12 1
+42: 12 12 -1
+43: 11 22 1
+44: 12 22 -1
+Group 7 | Size 4
+Set row: 13 lb: 1 ub: 2
+Set row: 14 lb: -3 ub: -2
+45: 13 21 1
+46: 14 21 -1
+47: 13 26 1
+48: 14 26 -1
+49: 13 27 1
+50: 14 27 -1
+51: 13 16 1
+52: 14 16 -1
+Group 8 | Size 1
+Edge found! state_10:3 <-> state_1:1	Weight: 13.0857	Set col: 28
+Set row: 15 ub: 0
+53: 15 3 -1 | 54: 15 1 -1 | 55: 15 28 1
+Set row: 16 ub: 2
+56: 16 3 1 | 57: 16 1 1 | 58: 16 28 1
+Set row: 17 lb: 0
+59: 17 3 -1 | 60: 17 1 1 | 61: 17 28 1
+Set row: 18 lb: 0
+62: 18 3 1 | 63: 18 1 -1 | 64: 18 28 1
+Edge found! state_11:4 <-> state_1:1	Weight: 8.23211	Set col: 29
+Set row: 19 ub: 0
+65: 19 4 -1 | 66: 19 1 -1 | 67: 19 29 1
+Set row: 20 ub: 2
+68: 20 4 1 | 69: 20 1 1 | 70: 20 29 1
+Set row: 21 lb: 0
+71: 21 4 -1 | 72: 21 1 1 | 73: 21 29 1
+Set row: 22 lb: 0
+74: 22 4 1 | 75: 22 1 -1 | 76: 22 29 1
+Edge found! state_12:5 <-> state_1:1	Weight: 16.4642	Set col: 30
+Set row: 23 ub: 0
+77: 23 5 -1 | 78: 23 1 -1 | 79: 23 30 1
+Set row: 24 ub: 2
+80: 24 5 1 | 81: 24 1 1 | 82: 24 30 1
+Set row: 25 lb: 0
+83: 25 5 -1 | 84: 25 1 1 | 85: 25 30 1
+Set row: 26 lb: 0
+86: 26 5 1 | 87: 26 1 -1 | 88: 26 30 1
+Edge found! state_13:11 <-> state_10:3	Weight: 9.36355	Set col: 31
+Set row: 27 ub: 0
+89: 27 11 -1 | 90: 27 3 -1 | 91: 27 31 1
+Set row: 28 ub: 2
+92: 28 11 1 | 93: 28 3 1 | 94: 28 31 1
+Set row: 29 lb: 0
+95: 29 11 -1 | 96: 29 3 1 | 97: 29 31 1
+Set row: 30 lb: 0
+98: 30 11 1 | 99: 30 3 -1 | 100: 30 31 1
+Edge found! state_13:11 <-> state_11:4	Weight: 4.50992	Set col: 32
+Set row: 31 ub: 0
+101: 31 11 -1 | 102: 31 4 -1 | 103: 31 32 1
+Set row: 32 ub: 2
+104: 32 11 1 | 105: 32 4 1 | 106: 32 32 1
+Set row: 33 lb: 0
+107: 33 11 -1 | 108: 33 4 1 | 109: 33 32 1
+Set row: 34 lb: 0
+110: 34 11 1 | 111: 34 4 -1 | 112: 34 32 1
+Edge found! state_13:11 <-> state_12:5	Weight: 9.01983	Set col: 33
+Set row: 35 ub: 0
+113: 35 11 -1 | 114: 35 5 -1 | 115: 35 33 1
+Set row: 36 ub: 2
+116: 36 11 1 | 117: 36 5 1 | 118: 36 33 1
+Set row: 37 lb: 0
+119: 37 11 -1 | 120: 37 5 1 | 121: 37 33 1
+Set row: 38 lb: 0
+122: 38 11 1 | 123: 38 5 -1 | 124: 38 33 1
+Edge found! state_14:10 <-> state_1:1	Weight: 9.01983	Set col: 34
+Set row: 39 ub: 0
+125: 39 10 -1 | 126: 39 1 -1 | 127: 39 34 1
+Set row: 40 ub: 2
+128: 40 10 1 | 129: 40 1 1 | 130: 40 34 1
+Set row: 41 lb: 0
+131: 41 10 -1 | 132: 41 1 1 | 133: 41 34 1
+Set row: 42 lb: 0
+134: 42 10 1 | 135: 42 1 -1 | 136: 42 34 1
+Edge found! state_14:10 <-> state_10:3	Weight: 9.70728	Set col: 35
+Set row: 43 ub: 0
+137: 43 10 -1 | 138: 43 3 -1 | 139: 43 35 1
+Set row: 44 ub: 2
+140: 44 10 1 | 141: 44 3 1 | 142: 44 35 1
+Set row: 45 lb: 0
+143: 45 10 -1 | 144: 45 3 1 | 145: 45 35 1
+Set row: 46 lb: 0
+146: 46 10 1 | 147: 46 3 -1 | 148: 46 35 1
+Edge found! state_15:19 <-> state_12:5	Weight: 12.742	Set col: 36
+Set row: 47 ub: 0
+149: 47 19 -1 | 150: 47 5 -1 | 151: 47 36 1
+Set row: 48 ub: 2
+152: 48 19 1 | 153: 48 5 1 | 154: 48 36 1
+Set row: 49 lb: 0
+155: 49 19 -1 | 156: 49 5 1 | 157: 49 36 1
+Set row: 50 lb: 0
+158: 50 19 1 | 159: 50 5 -1 | 160: 50 36 1
+Edge found! state_16:20 <-> state_13:11	Weight: 6.67253	Set col: 37
+Set row: 51 ub: 0
+161: 51 20 -1 | 162: 51 11 -1 | 163: 51 37 1
+Set row: 52 ub: 2
+164: 52 20 1 | 165: 52 11 1 | 166: 52 37 1
+Set row: 53 lb: 0
+167: 53 20 -1 | 168: 53 11 1 | 169: 53 37 1
+Set row: 54 lb: 0
+170: 54 20 1 | 171: 54 11 -1 | 172: 54 37 1
+Edge found! state_16:20 <-> state_14:10	Weight: 3.33627	Set col: 38
+Set row: 55 ub: 0
+173: 55 20 -1 | 174: 55 10 -1 | 175: 55 38 1
+Set row: 56 ub: 2
+176: 56 20 1 | 177: 56 10 1 | 178: 56 38 1
+Set row: 57 lb: 0
+179: 57 20 -1 | 180: 57 10 1 | 181: 57 38 1
+Set row: 58 lb: 0
+182: 58 20 1 | 183: 58 10 -1 | 184: 58 38 1
+Edge found! state_17:21 <-> state_15:19	Weight: 6.67253	Set col: 39
+Set row: 59 ub: 0
+185: 59 21 -1 | 186: 59 19 -1 | 187: 59 39 1
+Set row: 60 ub: 2
+188: 60 21 1 | 189: 60 19 1 | 190: 60 39 1
+Set row: 61 lb: 0
+191: 61 21 -1 | 192: 61 19 1 | 193: 61 39 1
+Set row: 62 lb: 0
+194: 62 21 1 | 195: 62 19 -1 | 196: 62 39 1
+Edge found! state_18:18 <-> state_12:5	Weight: 6.37101	Set col: 40
+Set row: 63 ub: 0
+197: 63 18 -1 | 198: 63 5 -1 | 199: 63 40 1
+Set row: 64 ub: 2
+200: 64 18 1 | 201: 64 5 1 | 202: 64 40 1
+Set row: 65 lb: 0
+203: 65 18 -1 | 204: 65 5 1 | 205: 65 40 1
+Set row: 66 lb: 0
+206: 66 18 1 | 207: 66 5 -1 | 208: 66 40 1
+Edge found! state_18:18 <-> state_17:21	Weight: 3.33627	Set col: 41
+Set row: 67 ub: 0
+209: 67 18 -1 | 210: 67 21 -1 | 211: 67 41 1
+Set row: 68 ub: 2
+212: 68 18 1 | 213: 68 21 1 | 214: 68 41 1
+Set row: 69 lb: 0
+215: 69 18 -1 | 216: 69 21 1 | 217: 69 41 1
+Set row: 70 lb: 0
+218: 70 18 1 | 219: 70 21 -1 | 220: 70 41 1
+Edge found! state_19:17 <-> state_12:5	Weight: 6.37101	Set col: 42
+Set row: 71 ub: 0
+221: 71 17 -1 | 222: 71 5 -1 | 223: 71 42 1
+Set row: 72 ub: 2
+224: 72 17 1 | 225: 72 5 1 | 226: 72 42 1
+Set row: 73 lb: 0
+227: 73 17 -1 | 228: 73 5 1 | 229: 73 42 1
+Set row: 74 lb: 0
+230: 74 17 1 | 231: 74 5 -1 | 232: 74 42 1
+Edge found! state_19:17 <-> state_16:20	Weight: 6.67253	Set col: 43
+Set row: 75 ub: 0
+233: 75 17 -1 | 234: 75 20 -1 | 235: 75 43 1
+Set row: 76 ub: 2
+236: 76 17 1 | 237: 76 20 1 | 238: 76 43 1
+Set row: 77 lb: 0
+239: 77 17 -1 | 240: 77 20 1 | 241: 77 43 1
+Set row: 78 lb: 0
+242: 78 17 1 | 243: 78 20 -1 | 244: 78 43 1
+Edge found! state_19:17 <-> state_18:18	Weight: 4.44902	Set col: 44
+Set row: 79 ub: 0
+245: 79 17 -1 | 246: 79 18 -1 | 247: 79 44 1
+Set row: 80 ub: 2
+248: 80 17 1 | 249: 80 18 1 | 250: 80 44 1
+Set row: 81 lb: 0
+251: 81 17 -1 | 252: 81 18 1 | 253: 81 44 1
+Set row: 82 lb: 0
+254: 82 17 1 | 255: 82 18 -1 | 256: 82 44 1
+Edge found! state_2:12 <-> state_1:1	Weight: 13.6567	Set col: 45
+Set row: 83 ub: 0
+257: 83 12 -1 | 258: 83 1 -1 | 259: 83 45 1
+Set row: 84 ub: 2
+260: 84 12 1 | 261: 84 1 1 | 262: 84 45 1
+Set row: 85 lb: 0
+263: 85 12 -1 | 264: 85 1 1 | 265: 85 45 1
+Set row: 86 lb: 0
+266: 86 12 1 | 267: 86 1 -1 | 268: 86 45 1
+Edge found! state_2:12 <-> state_10:3	Weight: 9.70728	Set col: 46
+Set row: 87 ub: 0
+269: 87 12 -1 | 270: 87 3 -1 | 271: 87 46 1
+Set row: 88 ub: 2
+272: 88 12 1 | 273: 88 3 1 | 274: 88 46 1
+Set row: 89 lb: 0
+275: 89 12 -1 | 276: 89 3 1 | 277: 89 46 1
+Set row: 90 lb: 0
+278: 90 12 1 | 279: 90 3 -1 | 280: 90 46 1
+Edge found! state_2:12 <-> state_14:10	Weight: 4.50992	Set col: 47
+Set row: 91 ub: 0
+281: 91 12 -1 | 282: 91 10 -1 | 283: 91 47 1
+Set row: 92 ub: 2
+284: 92 12 1 | 285: 92 10 1 | 286: 92 47 1
+Set row: 93 lb: 0
+287: 93 12 -1 | 288: 93 10 1 | 289: 93 47 1
+Set row: 94 lb: 0
+290: 94 12 1 | 291: 94 10 -1 | 292: 94 47 1
+Edge found! state_20:16 <-> state_12:5	Weight: 12.742	Set col: 48
+Set row: 95 ub: 0
+293: 95 16 -1 | 294: 95 5 -1 | 295: 95 48 1
+Set row: 96 ub: 2
+296: 96 16 1 | 297: 96 5 1 | 298: 96 48 1
+Set row: 97 lb: 0
+299: 97 16 -1 | 300: 97 5 1 | 301: 97 48 1
+Set row: 98 lb: 0
+302: 98 16 1 | 303: 98 5 -1 | 304: 98 48 1
+Edge found! state_20:16 <-> state_16:20	Weight: 3.33627	Set col: 49
+Set row: 99 ub: 0
+305: 99 16 -1 | 306: 99 20 -1 | 307: 99 49 1
+Set row: 100 ub: 2
+308: 100 16 1 | 309: 100 20 1 | 310: 100 49 1
+Set row: 101 lb: 0
+311: 101 16 -1 | 312: 101 20 1 | 313: 101 49 1
+Set row: 102 lb: 0
+314: 102 16 1 | 315: 102 20 -1 | 316: 102 49 1
+Edge found! state_20:16 <-> state_19:17	Weight: 8.89805	Set col: 50
+Set row: 103 ub: 0
+317: 103 16 -1 | 318: 103 17 -1 | 319: 103 50 1
+Set row: 104 ub: 2
+320: 104 16 1 | 321: 104 17 1 | 322: 104 50 1
+Set row: 105 lb: 0
+323: 105 16 -1 | 324: 105 17 1 | 325: 105 50 1
+Set row: 106 lb: 0
+326: 106 16 1 | 327: 106 17 -1 | 328: 106 50 1
+Edge found! state_21:22 <-> state_1:1	Weight: 4.24671	Set col: 51
+Set row: 107 ub: 0
+329: 107 22 -1 | 330: 107 1 -1 | 331: 107 51 1
+Set row: 108 ub: 2
+332: 108 22 1 | 333: 108 1 1 | 334: 108 51 1
+Set row: 109 lb: 0
+335: 109 22 -1 | 336: 109 1 1 | 337: 109 51 1
+Set row: 110 lb: 0
+338: 110 22 1 | 339: 110 1 -1 | 340: 110 51 1
+Edge found! state_21:22 <-> state_13:11	Weight: 4.24671	Set col: 52
+Set row: 111 ub: 0
+341: 111 22 -1 | 342: 111 11 -1 | 343: 111 52 1
+Set row: 112 ub: 2
+344: 112 22 1 | 345: 112 11 1 | 346: 112 52 1
+Set row: 113 lb: 0
+347: 113 22 -1 | 348: 113 11 1 | 349: 113 52 1
+Set row: 114 lb: 0
+350: 114 22 1 | 351: 114 11 -1 | 352: 114 52 1
+Edge found! state_21:22 <-> state_14:10	Weight: 2.12336	Set col: 53
+Set row: 115 ub: 0
+353: 115 22 -1 | 354: 115 10 -1 | 355: 115 53 1
+Set row: 116 ub: 2
+356: 116 22 1 | 357: 116 10 1 | 358: 116 53 1
+Set row: 117 lb: 0
+359: 117 22 -1 | 360: 117 10 1 | 361: 117 53 1
+Set row: 118 lb: 0
+362: 118 22 1 | 363: 118 10 -1 | 364: 118 53 1
+Edge found! state_21:22 <-> state_2:12	Weight: 2.12336	Set col: 54
+Set row: 119 ub: 0
+365: 119 22 -1 | 366: 119 12 -1 | 367: 119 54 1
+Set row: 120 ub: 2
+368: 120 22 1 | 369: 120 12 1 | 370: 120 54 1
+Set row: 121 lb: 0
+371: 121 22 -1 | 372: 121 12 1 | 373: 121 54 1
+Set row: 122 lb: 0
+374: 122 22 1 | 375: 122 12 -1 | 376: 122 54 1
+Edge found! state_22:23 <-> state_15:19	Weight: 6.67253	Set col: 55
+Set row: 123 ub: 0
+377: 123 23 -1 | 378: 123 19 -1 | 379: 123 55 1
+Set row: 124 ub: 2
+380: 124 23 1 | 381: 124 19 1 | 382: 124 55 1
+Set row: 125 lb: 0
+383: 125 23 -1 | 384: 125 19 1 | 385: 125 55 1
+Set row: 126 lb: 0
+386: 126 23 1 | 387: 126 19 -1 | 388: 126 55 1
+Edge found! state_23:13 <-> state_1:1	Weight: 9.30266	Set col: 56
+Set row: 127 ub: 0
+389: 127 13 -1 | 390: 127 1 -1 | 391: 127 56 1
+Set row: 128 ub: 2
+392: 128 13 1 | 393: 128 1 1 | 394: 128 56 1
+Set row: 129 lb: 0
+395: 129 13 -1 | 396: 129 1 1 | 397: 129 56 1
+Set row: 130 lb: 0
+398: 130 13 1 | 399: 130 1 -1 | 400: 130 56 1
+Edge found! state_23:13 <-> state_11:4	Weight: 12.742	Set col: 57
+Set row: 131 ub: 0
+401: 131 13 -1 | 402: 131 4 -1 | 403: 131 57 1
+Set row: 132 ub: 2
+404: 132 13 1 | 405: 132 4 1 | 406: 132 57 1
+Set row: 133 lb: 0
+407: 133 13 -1 | 408: 133 4 1 | 409: 133 57 1
+Set row: 134 lb: 0
+410: 134 13 1 | 411: 134 4 -1 | 412: 134 57 1
+Edge found! state_23:13 <-> state_13:11	Weight: 9.30266	Set col: 58
+Set row: 135 ub: 0
+413: 135 13 -1 | 414: 135 11 -1 | 415: 135 58 1
+Set row: 136 ub: 2
+416: 136 13 1 | 417: 136 11 1 | 418: 136 58 1
+Set row: 137 lb: 0
+419: 137 13 -1 | 420: 137 11 1 | 421: 137 58 1
+Set row: 138 lb: 0
+422: 138 13 1 | 423: 138 11 -1 | 424: 138 58 1
+Edge found! state_23:13 <-> state_14:10	Weight: 4.65133	Set col: 59
+Set row: 139 ub: 0
+425: 139 13 -1 | 426: 139 10 -1 | 427: 139 59 1
+Set row: 140 ub: 2
+428: 140 13 1 | 429: 140 10 1 | 430: 140 59 1
+Set row: 141 lb: 0
+431: 141 13 -1 | 432: 141 10 1 | 433: 141 59 1
+Set row: 142 lb: 0
+434: 142 13 1 | 435: 142 10 -1 | 436: 142 59 1
+Edge found! state_23:13 <-> state_17:21	Weight: 3.33627	Set col: 60
+Set row: 143 ub: 0
+437: 143 13 -1 | 438: 143 21 -1 | 439: 143 60 1
+Set row: 144 ub: 2
+440: 144 13 1 | 441: 144 21 1 | 442: 144 60 1
+Set row: 145 lb: 0
+443: 145 13 -1 | 444: 145 21 1 | 445: 145 60 1
+Set row: 146 lb: 0
+446: 146 13 1 | 447: 146 21 -1 | 448: 146 60 1
+Edge found! state_23:13 <-> state_19:17	Weight: 17.7961	Set col: 61
+Set row: 147 ub: 0
+449: 147 13 -1 | 450: 147 17 -1 | 451: 147 61 1
+Set row: 148 ub: 2
+452: 148 13 1 | 453: 148 17 1 | 454: 148 61 1
+Set row: 149 lb: 0
+455: 149 13 -1 | 456: 149 17 1 | 457: 149 61 1
+Set row: 150 lb: 0
+458: 150 13 1 | 459: 150 17 -1 | 460: 150 61 1
+Edge found! state_23:13 <-> state_2:12	Weight: 4.65133	Set col: 62
+Set row: 151 ub: 0
+461: 151 13 -1 | 462: 151 12 -1 | 463: 151 62 1
+Set row: 152 ub: 2
+464: 152 13 1 | 465: 152 12 1 | 466: 152 62 1
+Set row: 153 lb: 0
+467: 153 13 -1 | 468: 153 12 1 | 469: 153 62 1
+Set row: 154 lb: 0
+470: 154 13 1 | 471: 154 12 -1 | 472: 154 62 1
+Edge found! state_24:14 <-> state_11:4	Weight: 6.37101	Set col: 63
+Set row: 155 ub: 0
+473: 155 14 -1 | 474: 155 4 -1 | 475: 155 63 1
+Set row: 156 ub: 2
+476: 156 14 1 | 477: 156 4 1 | 478: 156 63 1
+Set row: 157 lb: 0
+479: 157 14 -1 | 480: 157 4 1 | 481: 157 63 1
+Set row: 158 lb: 0
+482: 158 14 1 | 483: 158 4 -1 | 484: 158 63 1
+Edge found! state_24:14 <-> state_13:11	Weight: 7.63453	Set col: 64
+Set row: 159 ub: 0
+485: 159 14 -1 | 486: 159 11 -1 | 487: 159 64 1
+Set row: 160 ub: 2
+488: 160 14 1 | 489: 160 11 1 | 490: 160 64 1
+Set row: 161 lb: 0
+491: 161 14 -1 | 492: 161 11 1 | 493: 161 64 1
+Set row: 162 lb: 0
+494: 162 14 1 | 495: 162 11 -1 | 496: 162 64 1
+Edge found! state_24:14 <-> state_14:10	Weight: 15.2691	Set col: 65
+Set row: 163 ub: 0
+497: 163 14 -1 | 498: 163 10 -1 | 499: 163 65 1
+Set row: 164 ub: 2
+500: 164 14 1 | 501: 164 10 1 | 502: 164 65 1
+Set row: 165 lb: 0
+503: 165 14 -1 | 504: 165 10 1 | 505: 165 65 1
+Set row: 166 lb: 0
+506: 166 14 1 | 507: 166 10 -1 | 508: 166 65 1
+Edge found! state_24:14 <-> state_19:17	Weight: 8.89805	Set col: 66
+Set row: 167 ub: 0
+509: 167 14 -1 | 510: 167 17 -1 | 511: 167 66 1
+Set row: 168 ub: 2
+512: 168 14 1 | 513: 168 17 1 | 514: 168 66 1
+Set row: 169 lb: 0
+515: 169 14 -1 | 516: 169 17 1 | 517: 169 66 1
+Set row: 170 lb: 0
+518: 170 14 1 | 519: 170 17 -1 | 520: 170 66 1
+Edge found! state_25:15 <-> state_11:4	Weight: 12.742	Set col: 67
+Set row: 171 ub: 0
+521: 171 15 -1 | 522: 171 4 -1 | 523: 171 67 1
+Set row: 172 ub: 2
+524: 172 15 1 | 525: 172 4 1 | 526: 172 67 1
+Set row: 173 lb: 0
+527: 173 15 -1 | 528: 173 4 1 | 529: 173 67 1
+Set row: 174 lb: 0
+530: 174 15 1 | 531: 174 4 -1 | 532: 174 67 1
+Edge found! state_25:15 <-> state_15:19	Weight: 11.4518	Set col: 68
+Set row: 175 ub: 0
+533: 175 15 -1 | 534: 175 19 -1 | 535: 175 68 1
+Set row: 176 ub: 2
+536: 176 15 1 | 537: 176 19 1 | 538: 176 68 1
+Set row: 177 lb: 0
+539: 177 15 -1 | 540: 177 19 1 | 541: 177 68 1
+Set row: 178 lb: 0
+542: 178 15 1 | 543: 178 19 -1 | 544: 178 68 1
+Edge found! state_25:15 <-> state_19:17	Weight: 4.44902	Set col: 69
+Set row: 179 ub: 0
+545: 179 15 -1 | 546: 179 17 -1 | 547: 179 69 1
+Set row: 180 ub: 2
+548: 180 15 1 | 549: 180 17 1 | 550: 180 69 1
+Set row: 181 lb: 0
+551: 181 15 -1 | 552: 181 17 1 | 553: 181 69 1
+Set row: 182 lb: 0
+554: 182 15 1 | 555: 182 17 -1 | 556: 182 69 1
+Edge found! state_26:26 <-> state_18:18	Weight: 3.6418	Set col: 70
+Set row: 183 ub: 0
+557: 183 26 -1 | 558: 183 18 -1 | 559: 183 70 1
+Set row: 184 ub: 2
+560: 184 26 1 | 561: 184 18 1 | 562: 184 70 1
+Set row: 185 lb: 0
+563: 185 26 -1 | 564: 185 18 1 | 565: 185 70 1
+Set row: 186 lb: 0
+566: 186 26 1 | 567: 186 18 -1 | 568: 186 70 1
+Edge found! state_26:26 <-> state_19:17	Weight: 3.6418	Set col: 71
+Set row: 187 ub: 0
+569: 187 26 -1 | 570: 187 17 -1 | 571: 187 71 1
+Set row: 188 ub: 2
+572: 188 26 1 | 573: 188 17 1 | 574: 188 71 1
+Set row: 189 lb: 0
+575: 189 26 -1 | 576: 189 17 1 | 577: 189 71 1
+Set row: 190 lb: 0
+578: 190 26 1 | 579: 190 17 -1 | 580: 190 71 1
+Edge found! state_26:26 <-> state_20:16	Weight: 6.26992	Set col: 72
+Set row: 191 ub: 0
+581: 191 26 -1 | 582: 191 16 -1 | 583: 191 72 1
+Set row: 192 ub: 2
+584: 192 26 1 | 585: 192 16 1 | 586: 192 72 1
+Set row: 193 lb: 0
+587: 193 26 -1 | 588: 193 16 1 | 589: 193 72 1
+Set row: 194 lb: 0
+590: 194 26 1 | 591: 194 16 -1 | 592: 194 72 1
+Edge found! state_26:26 <-> state_21:22	Weight: 7.28359	Set col: 73
+Set row: 195 ub: 0
+593: 195 26 -1 | 594: 195 22 -1 | 595: 195 73 1
+Set row: 196 ub: 2
+596: 196 26 1 | 597: 196 22 1 | 598: 196 73 1
+Set row: 197 lb: 0
+599: 197 26 -1 | 600: 197 22 1 | 601: 197 73 1
+Set row: 198 lb: 0
+602: 198 26 1 | 603: 198 22 -1 | 604: 198 73 1
+Edge found! state_27:27 <-> state_13:11	Weight: 3.33627	Set col: 74
+Set row: 199 ub: 0
+605: 199 27 -1 | 606: 199 11 -1 | 607: 199 74 1
+Set row: 200 ub: 2
+608: 200 27 1 | 609: 200 11 1 | 610: 200 74 1
+Set row: 201 lb: 0
+611: 201 27 -1 | 612: 201 11 1 | 613: 201 74 1
+Set row: 202 lb: 0
+614: 202 27 1 | 615: 202 11 -1 | 616: 202 74 1
+Edge found! state_27:27 <-> state_14:10	Weight: 1.66813	Set col: 75
+Set row: 203 ub: 0
+617: 203 27 -1 | 618: 203 10 -1 | 619: 203 75 1
+Set row: 204 ub: 2
+620: 204 27 1 | 621: 204 10 1 | 622: 204 75 1
+Set row: 205 lb: 0
+623: 205 27 -1 | 624: 205 10 1 | 625: 205 75 1
+Set row: 206 lb: 0
+626: 206 27 1 | 627: 206 10 -1 | 628: 206 75 1
+Edge found! state_27:27 <-> state_15:19	Weight: 1.66813	Set col: 76
+Set row: 207 ub: 0
+629: 207 27 -1 | 630: 207 19 -1 | 631: 207 76 1
+Set row: 208 ub: 2
+632: 208 27 1 | 633: 208 19 1 | 634: 208 76 1
+Set row: 209 lb: 0
+635: 209 27 -1 | 636: 209 19 1 | 637: 209 76 1
+Set row: 210 lb: 0
+638: 210 27 1 | 639: 210 19 -1 | 640: 210 76 1
+Edge found! state_27:27 <-> state_17:21	Weight: 1.66813	Set col: 77
+Set row: 211 ub: 0
+641: 211 27 -1 | 642: 211 21 -1 | 643: 211 77 1
+Set row: 212 ub: 2
+644: 212 27 1 | 645: 212 21 1 | 646: 212 77 1
+Set row: 213 lb: 0
+647: 213 27 -1 | 648: 213 21 1 | 649: 213 77 1
+Set row: 214 lb: 0
+650: 214 27 1 | 651: 214 21 -1 | 652: 214 77 1
+Edge found! state_3:2 <-> state_1:1	Weight: 16.4642	Set col: 78
+Set row: 215 ub: 0
+653: 215 2 -1 | 654: 215 1 -1 | 655: 215 78 1
+Set row: 216 ub: 2
+656: 216 2 1 | 657: 216 1 1 | 658: 216 78 1
+Set row: 217 lb: 0
+659: 217 2 -1 | 660: 217 1 1 | 661: 217 78 1
+Set row: 218 lb: 0
+662: 218 2 1 | 663: 218 1 -1 | 664: 218 78 1
+Edge found! state_3:2 <-> state_11:4	Weight: 6.37101	Set col: 79
+Set row: 219 ub: 0
+665: 219 2 -1 | 666: 219 4 -1 | 667: 219 79 1
+Set row: 220 ub: 2
+668: 220 2 1 | 669: 220 4 1 | 670: 220 79 1
+Set row: 221 lb: 0
+671: 221 2 -1 | 672: 221 4 1 | 673: 221 79 1
+Set row: 222 lb: 0
+674: 222 2 1 | 675: 222 4 -1 | 676: 222 79 1
+Edge found! state_3:2 <-> state_13:11	Weight: 9.01983	Set col: 80
+Set row: 223 ub: 0
+677: 223 2 -1 | 678: 223 11 -1 | 679: 223 80 1
+Set row: 224 ub: 2
+680: 224 2 1 | 681: 224 11 1 | 682: 224 80 1
+Set row: 225 lb: 0
+683: 225 2 -1 | 684: 225 11 1 | 685: 225 80 1
+Set row: 226 lb: 0
+686: 226 2 1 | 687: 226 11 -1 | 688: 226 80 1
+Edge found! state_3:2 <-> state_22:23	Weight: 6.67253	Set col: 81
+Set row: 227 ub: 0
+689: 227 2 -1 | 690: 227 23 -1 | 691: 227 81 1
+Set row: 228 ub: 2
+692: 228 2 1 | 693: 228 23 1 | 694: 228 81 1
+Set row: 229 lb: 0
+695: 229 2 -1 | 696: 229 23 1 | 697: 229 81 1
+Set row: 230 lb: 0
+698: 230 2 1 | 699: 230 23 -1 | 700: 230 81 1
+Edge found! state_3:2 <-> state_25:15	Weight: 3.81726	Set col: 82
+Set row: 231 ub: 0
+701: 231 2 -1 | 702: 231 15 -1 | 703: 231 82 1
+Set row: 232 ub: 2
+704: 232 2 1 | 705: 232 15 1 | 706: 232 82 1
+Set row: 233 lb: 0
+707: 233 2 -1 | 708: 233 15 1 | 709: 233 82 1
+Set row: 234 lb: 0
+710: 234 2 1 | 711: 234 15 -1 | 712: 234 82 1
+Edge found! state_3:2 <-> state_27:27	Weight: 1.66813	Set col: 83
+Set row: 235 ub: 0
+713: 235 2 -1 | 714: 235 27 -1 | 715: 235 83 1
+Set row: 236 ub: 2
+716: 236 2 1 | 717: 236 27 1 | 718: 236 83 1
+Set row: 237 lb: 0
+719: 237 2 -1 | 720: 237 27 1 | 721: 237 83 1
+Set row: 238 lb: 0
+722: 238 2 1 | 723: 238 27 -1 | 724: 238 83 1
+Edge found! state_4:6 <-> state_15:19	Weight: 4.29185	Set col: 84
+Set row: 239 ub: 0
+725: 239 6 -1 | 726: 239 19 -1 | 727: 239 84 1
+Set row: 240 ub: 2
+728: 240 6 1 | 729: 240 19 1 | 730: 240 84 1
+Set row: 241 lb: 0
+731: 241 6 -1 | 732: 241 19 1 | 733: 241 84 1
+Set row: 242 lb: 0
+734: 242 6 1 | 735: 242 19 -1 | 736: 242 84 1
+Edge found! state_4:6 <-> state_18:18	Weight: 8.89805	Set col: 85
+Set row: 243 ub: 0
+737: 243 6 -1 | 738: 243 18 -1 | 739: 243 85 1
+Set row: 244 ub: 2
+740: 244 6 1 | 741: 244 18 1 | 742: 244 85 1
+Set row: 245 lb: 0
+743: 245 6 -1 | 744: 245 18 1 | 745: 245 85 1
+Set row: 246 lb: 0
+746: 246 6 1 | 747: 246 18 -1 | 748: 246 85 1
+Edge found! state_4:6 <-> state_3:2	Weight: 7.0655	Set col: 86
+Set row: 247 ub: 0
+749: 247 6 -1 | 750: 247 2 -1 | 751: 247 86 1
+Set row: 248 ub: 2
+752: 248 6 1 | 753: 248 2 1 | 754: 248 86 1
+Set row: 249 lb: 0
+755: 249 6 -1 | 756: 249 2 1 | 757: 249 86 1
+Set row: 250 lb: 0
+758: 250 6 1 | 759: 250 2 -1 | 760: 250 86 1
+Edge found! state_5:7 <-> state_1:1	Weight: 26.6901	Set col: 87
+Set row: 251 ub: 0
+761: 251 7 -1 | 762: 251 1 -1 | 763: 251 87 1
+Set row: 252 ub: 2
+764: 252 7 1 | 765: 252 1 1 | 766: 252 87 1
+Set row: 253 lb: 0
+767: 253 7 -1 | 768: 253 1 1 | 769: 253 87 1
+Set row: 254 lb: 0
+770: 254 7 1 | 771: 254 1 -1 | 772: 254 87 1
+Edge found! state_5:7 <-> state_15:19	Weight: 8.5837	Set col: 88
+Set row: 255 ub: 0
+773: 255 7 -1 | 774: 255 19 -1 | 775: 255 88 1
+Set row: 256 ub: 2
+776: 256 7 1 | 777: 256 19 1 | 778: 256 88 1
+Set row: 257 lb: 0
+779: 257 7 -1 | 780: 257 19 1 | 781: 257 88 1
+Set row: 258 lb: 0
+782: 258 7 1 | 783: 258 19 -1 | 784: 258 88 1
+Edge found! state_5:7 <-> state_16:20	Weight: 6.67253	Set col: 89
+Set row: 259 ub: 0
+785: 259 7 -1 | 786: 259 20 -1 | 787: 259 89 1
+Set row: 260 ub: 2
+788: 260 7 1 | 789: 260 20 1 | 790: 260 89 1
+Set row: 261 lb: 0
+791: 261 7 -1 | 792: 261 20 1 | 793: 261 89 1
+Set row: 262 lb: 0
+794: 262 7 1 | 795: 262 20 -1 | 796: 262 89 1
+Edge found! state_5:7 <-> state_17:21	Weight: 13.3451	Set col: 90
+Set row: 263 ub: 0
+797: 263 7 -1 | 798: 263 21 -1 | 799: 263 90 1
+Set row: 264 ub: 2
+800: 264 7 1 | 801: 264 21 1 | 802: 264 90 1
+Set row: 265 lb: 0
+803: 265 7 -1 | 804: 265 21 1 | 805: 265 90 1
+Set row: 266 lb: 0
+806: 266 7 1 | 807: 266 21 -1 | 808: 266 90 1
+Edge found! state_5:7 <-> state_18:18	Weight: 17.7961	Set col: 91
+Set row: 267 ub: 0
+809: 267 7 -1 | 810: 267 18 -1 | 811: 267 91 1
+Set row: 268 ub: 2
+812: 268 7 1 | 813: 268 18 1 | 814: 268 91 1
+Set row: 269 lb: 0
+815: 269 7 -1 | 816: 269 18 1 | 817: 269 91 1
+Set row: 270 lb: 0
+818: 270 7 1 | 819: 270 18 -1 | 820: 270 91 1
+Edge found! state_5:7 <-> state_2:12	Weight: 13.3451	Set col: 92
+Set row: 271 ub: 0
+821: 271 7 -1 | 822: 271 12 -1 | 823: 271 92 1
+Set row: 272 ub: 2
+824: 272 7 1 | 825: 272 12 1 | 826: 272 92 1
+Set row: 273 lb: 0
+827: 273 7 -1 | 828: 273 12 1 | 829: 273 92 1
+Set row: 274 lb: 0
+830: 274 7 1 | 831: 274 12 -1 | 832: 274 92 1
+Edge found! state_5:7 <-> state_3:2	Weight: 14.131	Set col: 93
+Set row: 275 ub: 0
+833: 275 7 -1 | 834: 275 2 -1 | 835: 275 93 1
+Set row: 276 ub: 2
+836: 276 7 1 | 837: 276 2 1 | 838: 276 93 1
+Set row: 277 lb: 0
+839: 277 7 -1 | 840: 277 2 1 | 841: 277 93 1
+Set row: 278 lb: 0
+842: 278 7 1 | 843: 278 2 -1 | 844: 278 93 1
+Edge found! state_5:7 <-> state_4:6	Weight: 10.5376	Set col: 94
+Set row: 279 ub: 0
+845: 279 7 -1 | 846: 279 6 -1 | 847: 279 94 1
+Set row: 280 ub: 2
+848: 280 7 1 | 849: 280 6 1 | 850: 280 94 1
+Set row: 281 lb: 0
+851: 281 7 -1 | 852: 281 6 1 | 853: 281 94 1
+Set row: 282 lb: 0
+854: 282 7 1 | 855: 282 6 -1 | 856: 282 94 1
+Edge found! state_6:8 <-> state_10:3	Weight: 13.3451	Set col: 95
+Set row: 283 ub: 0
+857: 283 8 -1 | 858: 283 3 -1 | 859: 283 95 1
+Set row: 284 ub: 2
+860: 284 8 1 | 861: 284 3 1 | 862: 284 95 1
+Set row: 285 lb: 0
+863: 285 8 -1 | 864: 285 3 1 | 865: 285 95 1
+Set row: 286 lb: 0
+866: 286 8 1 | 867: 286 3 -1 | 868: 286 95 1
+Edge found! state_6:8 <-> state_15:19	Weight: 4.29185	Set col: 96
+Set row: 287 ub: 0
+869: 287 8 -1 | 870: 287 19 -1 | 871: 287 96 1
+Set row: 288 ub: 2
+872: 288 8 1 | 873: 288 19 1 | 874: 288 96 1
+Set row: 289 lb: 0
+875: 289 8 -1 | 876: 289 19 1 | 877: 289 96 1
+Set row: 290 lb: 0
+878: 290 8 1 | 879: 290 19 -1 | 880: 290 96 1
+Edge found! state_6:8 <-> state_18:18	Weight: 8.89805	Set col: 97
+Set row: 291 ub: 0
+881: 291 8 -1 | 882: 291 18 -1 | 883: 291 97 1
+Set row: 292 ub: 2
+884: 292 8 1 | 885: 292 18 1 | 886: 292 97 1
+Set row: 293 lb: 0
+887: 293 8 -1 | 888: 293 18 1 | 889: 293 97 1
+Set row: 294 lb: 0
+890: 294 8 1 | 891: 294 18 -1 | 892: 294 97 1
+Edge found! state_6:8 <-> state_21:22	Weight: 26.6901	Set col: 98
+Set row: 295 ub: 0
+893: 295 8 -1 | 894: 295 22 -1 | 895: 295 98 1
+Set row: 296 ub: 2
+896: 296 8 1 | 897: 296 22 1 | 898: 296 98 1
+Set row: 297 lb: 0
+899: 297 8 -1 | 900: 297 22 1 | 901: 297 98 1
+Set row: 298 lb: 0
+902: 298 8 1 | 903: 298 22 -1 | 904: 298 98 1
+Edge found! state_6:8 <-> state_22:23	Weight: 13.3451	Set col: 99
+Set row: 299 ub: 0
+905: 299 8 -1 | 906: 299 23 -1 | 907: 299 99 1
+Set row: 300 ub: 2
+908: 300 8 1 | 909: 300 23 1 | 910: 300 99 1
+Set row: 301 lb: 0
+911: 301 8 -1 | 912: 301 23 1 | 913: 301 99 1
+Set row: 302 lb: 0
+914: 302 8 1 | 915: 302 23 -1 | 916: 302 99 1
+Edge found! state_6:8 <-> state_3:2	Weight: 13.738	Set col: 100
+Set row: 303 ub: 0
+917: 303 8 -1 | 918: 303 2 -1 | 919: 303 100 1
+Set row: 304 ub: 2
+920: 304 8 1 | 921: 304 2 1 | 922: 304 100 1
+Set row: 305 lb: 0
+923: 305 8 -1 | 924: 305 2 1 | 925: 305 100 1
+Set row: 306 lb: 0
+926: 306 8 1 | 927: 306 2 -1 | 928: 306 100 1
+Edge found! state_6:8 <-> state_4:6	Weight: 5.26879	Set col: 101
+Set row: 307 ub: 0
+929: 307 8 -1 | 930: 307 6 -1 | 931: 307 101 1
+Set row: 308 ub: 2
+932: 308 8 1 | 933: 308 6 1 | 934: 308 101 1
+Set row: 309 lb: 0
+935: 309 8 -1 | 936: 309 6 1 | 937: 309 101 1
+Set row: 310 lb: 0
+938: 310 8 1 | 939: 310 6 -1 | 940: 310 101 1
+Edge found! state_7:9 <-> state_15:19	Weight: 8.5837	Set col: 102
+Set row: 311 ub: 0
+941: 311 9 -1 | 942: 311 19 -1 | 943: 311 102 1
+Set row: 312 ub: 2
+944: 312 9 1 | 945: 312 19 1 | 946: 312 102 1
+Set row: 313 lb: 0
+947: 313 9 -1 | 948: 313 19 1 | 949: 313 102 1
+Set row: 314 lb: 0
+950: 314 9 1 | 951: 314 19 -1 | 952: 314 102 1
+Edge found! state_7:9 <-> state_18:18	Weight: 11.1216	Set col: 103
+Set row: 315 ub: 0
+953: 315 9 -1 | 954: 315 18 -1 | 955: 315 103 1
+Set row: 316 ub: 2
+956: 316 9 1 | 957: 316 18 1 | 958: 316 103 1
+Set row: 317 lb: 0
+959: 317 9 -1 | 960: 317 18 1 | 961: 317 103 1
+Set row: 318 lb: 0
+962: 318 9 1 | 963: 318 18 -1 | 964: 318 103 1
+Edge found! state_7:9 <-> state_19:17	Weight: 6.67253	Set col: 104
+Set row: 319 ub: 0
+965: 319 9 -1 | 966: 319 17 -1 | 967: 319 104 1
+Set row: 320 ub: 2
+968: 320 9 1 | 969: 320 17 1 | 970: 320 104 1
+Set row: 321 lb: 0
+971: 321 9 -1 | 972: 321 17 1 | 973: 321 104 1
+Set row: 322 lb: 0
+974: 322 9 1 | 975: 322 17 -1 | 976: 322 104 1
+Edge found! state_7:9 <-> state_20:16	Weight: 13.3451	Set col: 105
+Set row: 323 ub: 0
+977: 323 9 -1 | 978: 323 16 -1 | 979: 323 105 1
+Set row: 324 ub: 2
+980: 324 9 1 | 981: 324 16 1 | 982: 324 105 1
+Set row: 325 lb: 0
+983: 325 9 -1 | 984: 325 16 1 | 985: 325 105 1
+Set row: 326 lb: 0
+986: 326 9 1 | 987: 326 16 -1 | 988: 326 105 1
+Edge found! state_7:9 <-> state_3:2	Weight: 14.131	Set col: 106
+Set row: 327 ub: 0
+989: 327 9 -1 | 990: 327 2 -1 | 991: 327 106 1
+Set row: 328 ub: 2
+992: 328 9 1 | 993: 328 2 1 | 994: 328 106 1
+Set row: 329 lb: 0
+995: 329 9 -1 | 996: 329 2 1 | 997: 329 106 1
+Set row: 330 lb: 0
+998: 330 9 1 | 999: 330 2 -1 | 1000: 330 106 1
+Edge found! state_7:9 <-> state_4:6	Weight: 10.5376	Set col: 107
+Set row: 331 ub: 0
+1001: 331 9 -1 | 1002: 331 6 -1 | 1003: 331 107 1
+Set row: 332 ub: 2
+1004: 332 9 1 | 1005: 332 6 1 | 1006: 332 107 1
+Set row: 333 lb: 0
+1007: 333 9 -1 | 1008: 333 6 1 | 1009: 333 107 1
+Set row: 334 lb: 0
+1010: 334 9 1 | 1011: 334 6 -1 | 1012: 334 107 1
+Edge found! state_8:25 <-> state_13:11	Weight: 5.66914	Set col: 108
+Set row: 335 ub: 0
+1013: 335 25 -1 | 1014: 335 11 -1 | 1015: 335 108 1
+Set row: 336 ub: 2
+1016: 336 25 1 | 1017: 336 11 1 | 1018: 336 108 1
+Set row: 337 lb: 0
+1019: 337 25 -1 | 1020: 337 11 1 | 1021: 337 108 1
+Set row: 338 lb: 0
+1022: 338 25 1 | 1023: 338 11 -1 | 1024: 338 108 1
+Edge found! state_8:25 <-> state_14:10	Weight: 7.34449	Set col: 109
+Set row: 339 ub: 0
+1025: 339 25 -1 | 1026: 339 10 -1 | 1027: 339 109 1
+Set row: 340 ub: 2
+1028: 340 25 1 | 1029: 340 10 1 | 1030: 340 109 1
+Set row: 341 lb: 0
+1031: 341 25 -1 | 1032: 341 10 1 | 1033: 341 109 1
+Set row: 342 lb: 0
+1034: 342 25 1 | 1035: 342 10 -1 | 1036: 342 109 1
+Edge found! state_8:25 <-> state_15:19	Weight: 11.3383	Set col: 110
+Set row: 343 ub: 0
+1037: 343 25 -1 | 1038: 343 19 -1 | 1039: 343 110 1
+Set row: 344 ub: 2
+1040: 344 25 1 | 1041: 344 19 1 | 1042: 344 110 1
+Set row: 345 lb: 0
+1043: 345 25 -1 | 1044: 345 19 1 | 1045: 345 110 1
+Set row: 346 lb: 0
+1046: 346 25 1 | 1047: 346 19 -1 | 1048: 346 110 1
+Edge found! state_8:25 <-> state_2:12	Weight: 6.82837	Set col: 111
+Set row: 347 ub: 0
+1049: 347 25 -1 | 1050: 347 12 -1 | 1051: 347 111 1
+Set row: 348 ub: 2
+1052: 348 25 1 | 1053: 348 12 1 | 1054: 348 111 1
+Set row: 349 lb: 0
+1055: 349 25 -1 | 1056: 349 12 1 | 1057: 349 111 1
+Set row: 350 lb: 0
+1058: 350 25 1 | 1059: 350 12 -1 | 1060: 350 111 1
+Edge found! state_8:25 <-> state_26:26	Weight: 11.3383	Set col: 112
+Set row: 351 ub: 0
+1061: 351 25 -1 | 1062: 351 26 -1 | 1063: 351 112 1
+Set row: 352 ub: 2
+1064: 352 25 1 | 1065: 352 26 1 | 1066: 352 112 1
+Set row: 353 lb: 0
+1067: 353 25 -1 | 1068: 353 26 1 | 1069: 353 112 1
+Set row: 354 lb: 0
+1070: 354 25 1 | 1071: 354 26 -1 | 1072: 354 112 1
+Edge found! state_9:24 <-> state_1:1	Weight: 22.4598	Set col: 113
+Set row: 355 ub: 0
+1073: 355 24 -1 | 1074: 355 1 -1 | 1075: 355 113 1
+Set row: 356 ub: 2
+1076: 356 24 1 | 1077: 356 1 1 | 1078: 356 113 1
+Set row: 357 lb: 0
+1079: 357 24 -1 | 1080: 357 1 1 | 1081: 357 113 1
+Set row: 358 lb: 0
+1082: 358 24 1 | 1083: 358 1 -1 | 1084: 358 113 1
+Edge found! state_9:24 <-> state_14:10	Weight: 9.01983	Set col: 114
+Set row: 359 ub: 0
+1085: 359 24 -1 | 1086: 359 10 -1 | 1087: 359 114 1
+Set row: 360 ub: 2
+1088: 360 24 1 | 1089: 360 10 1 | 1090: 360 114 1
+Set row: 361 lb: 0
+1091: 361 24 -1 | 1092: 361 10 1 | 1093: 361 114 1
+Set row: 362 lb: 0
+1094: 362 24 1 | 1095: 362 10 -1 | 1096: 362 114 1
+Edge found! state_9:24 <-> state_2:12	Weight: 13.6567	Set col: 115
+Set row: 363 ub: 0
+1097: 363 24 -1 | 1098: 363 12 -1 | 1099: 363 115 1
+Set row: 364 ub: 2
+1100: 364 24 1 | 1101: 364 12 1 | 1102: 364 115 1
+Set row: 365 lb: 0
+1103: 365 24 -1 | 1104: 365 12 1 | 1105: 365 115 1
+Set row: 366 lb: 0
+1106: 366 24 1 | 1107: 366 12 -1 | 1108: 366 115 1
+Edge found! state_9:24 <-> state_20:16	Weight: 8.89805	Set col: 116
+Set row: 367 ub: 0
+1109: 367 24 -1 | 1110: 367 16 -1 | 1111: 367 116 1
+Set row: 368 ub: 2
+1112: 368 24 1 | 1113: 368 16 1 | 1114: 368 116 1
+Set row: 369 lb: 0
+1115: 369 24 -1 | 1116: 369 16 1 | 1117: 369 116 1
+Set row: 370 lb: 0
+1118: 370 24 1 | 1119: 370 16 -1 | 1120: 370 116 1
+Edge found! state_9:24 <-> state_5:7	Weight: 5.61496	Set col: 117
+Set row: 371 ub: 0
+1121: 371 24 -1 | 1122: 371 7 -1 | 1123: 371 117 1
+Set row: 372 ub: 2
+1124: 372 24 1 | 1125: 372 7 1 | 1126: 372 117 1
+Set row: 373 lb: 0
+1127: 373 24 -1 | 1128: 373 7 1 | 1129: 373 117 1
+Set row: 374 lb: 0
+1130: 374 24 1 | 1131: 374 7 -1 | 1132: 374 117 1
+Edge found! state_9:24 <-> state_6:8	Weight: 11.2299	Set col: 118
+Set row: 375 ub: 0
+1133: 375 24 -1 | 1134: 375 8 -1 | 1135: 375 118 1
+Set row: 376 ub: 2
+1136: 376 24 1 | 1137: 376 8 1 | 1138: 376 118 1
+Set row: 377 lb: 0
+1139: 377 24 -1 | 1140: 377 8 1 | 1141: 377 118 1
+Set row: 378 lb: 0
+1142: 378 24 1 | 1143: 378 8 -1 | 1144: 378 118 1
+Edge found! state_9:24 <-> state_7:9	Weight: 49.15	Set col: 119
+Set row: 379 ub: 0
+1145: 379 24 -1 | 1146: 379 9 -1 | 1147: 379 119 1
+Set row: 380 ub: 2
+1148: 380 24 1 | 1149: 380 9 1 | 1150: 380 119 1
+Set row: 381 lb: 0
+1151: 381 24 -1 | 1152: 381 9 1 | 1153: 381 119 1
+Set row: 382 lb: 0
+1154: 382 24 1 | 1155: 382 9 -1 | 1156: 382 119 1
+GLPK Integer Optimizer 5.0
+383 rows, 119 columns, 1183 non-zeros
+119 integer variables, all of which are binary
+Preprocessing...
+2 hidden packing inequaliti(es) were detected
+184 hidden covering inequaliti(es) were detected
+383 rows, 119 columns, 1183 non-zeros
+119 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 383
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+383 rows, 119 columns, 1183 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.900e+01 (13)
+     28: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    28: mip =     not found yet >=              -inf        (1; 0)
++   267: >>>>>   3.149873316e+02 >=   8.583702354e+00  97.3% (11; 0)
++  1607: >>>>>   2.686643557e+02 >=   1.314032046e+02  51.1% (56; 10)
++  2675: >>>>>   2.664542681e+02 >=   1.854133962e+02  30.4% (55; 68)
++  4229: >>>>>   2.654321920e+02 >=   2.424249749e+02   8.7% (52; 136)
++  4564: >>>>>   2.603785028e+02 >=   2.579514326e+02   0.9% (23; 223)
++  4584: mip =   2.603785028e+02 >=     tree is empty   0.0% (0; 321)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 260.379
+state_1	1	1
+state_10	3	1
+state_11	4	0
+state_12	5	1
+state_13	11	0
+state_14	10	1
+state_15	19	0
+state_16	20	0
+state_17	21	1
+state_18	18	1
+state_19	17	0
+state_2	12	1
+state_20	16	1
+state_21	22	0
+state_22	23	0
+state_23	13	0
+state_24	14	0
+state_25	15	0
+state_26	26	0
+state_27	27	0
+state_3	2	1
+state_4	6	1
+state_5	7	1
+state_6	8	0
+state_7	9	1
+state_8	25	0
+state_9	24	1
+Number of 0 assigned: 14 | Number of 1 assigned: 13
+XOR Constraint 28: 0
+XOR Constraint 29: 1
+XOR Constraint 30: 0
+XOR Constraint 31: 1
+XOR Constraint 32: 0
+XOR Constraint 33: 1
+XOR Constraint 34: 0
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 0
+XOR Constraint 38: 1
+XOR Constraint 39: 1
+XOR Constraint 40: 0
+XOR Constraint 41: 0
+XOR Constraint 42: 1
+XOR Constraint 43: 0
+XOR Constraint 44: 1
+XOR Constraint 45: 0
+XOR Constraint 46: 0
+XOR Constraint 47: 0
+XOR Constraint 48: 0
+XOR Constraint 49: 1
+XOR Constraint 50: 1
+XOR Constraint 51: 1
+XOR Constraint 52: 0
+XOR Constraint 53: 1
+XOR Constraint 54: 1
+XOR Constraint 55: 0
+XOR Constraint 56: 1
+XOR Constraint 57: 0
+XOR Constraint 58: 0
+XOR Constraint 59: 1
+XOR Constraint 60: 1
+XOR Constraint 61: 0
+XOR Constraint 62: 1
+XOR Constraint 63: 0
+XOR Constraint 64: 0
+XOR Constraint 65: 1
+XOR Constraint 66: 0
+XOR Constraint 67: 0
+XOR Constraint 68: 0
+XOR Constraint 69: 0
+XOR Constraint 70: 1
+XOR Constraint 71: 0
+XOR Constraint 72: 1
+XOR Constraint 73: 0
+XOR Constraint 74: 0
+XOR Constraint 75: 1
+XOR Constraint 76: 0
+XOR Constraint 77: 1
+XOR Constraint 78: 0
+XOR Constraint 79: 1
+XOR Constraint 80: 1
+XOR Constraint 81: 1
+XOR Constraint 82: 1
+XOR Constraint 83: 1
+XOR Constraint 84: 1
+XOR Constraint 85: 0
+XOR Constraint 86: 0
+XOR Constraint 87: 0
+XOR Constraint 88: 1
+XOR Constraint 89: 1
+XOR Constraint 90: 0
+XOR Constraint 91: 0
+XOR Constraint 92: 0
+XOR Constraint 93: 0
+XOR Constraint 94: 0
+XOR Constraint 95: 1
+XOR Constraint 96: 0
+XOR Constraint 97: 1
+XOR Constraint 98: 0
+XOR Constraint 99: 0
+XOR Constraint 100: 1
+XOR Constraint 101: 1
+XOR Constraint 102: 1
+XOR Constraint 103: 0
+XOR Constraint 104: 1
+XOR Constraint 105: 0
+XOR Constraint 106: 0
+XOR Constraint 107: 0
+XOR Constraint 108: 0
+XOR Constraint 109: 1
+XOR Constraint 110: 0
+XOR Constraint 111: 1
+XOR Constraint 112: 0
+XOR Constraint 113: 0
+XOR Constraint 114: 0
+XOR Constraint 115: 0
+XOR Constraint 116: 0
+XOR Constraint 117: 0
+XOR Constraint 118: 1
+XOR Constraint 119: 0
+-----
+Size of State Group: 15
+ - 8 19
+ - 4 11
+ - 15 17
+ - 14
+ - 23 20
+ - 25 22
+ - 26 27
+ - 13
+ - 6 2
+ - 3 1
+ - 9 18
+ - 5
+ - 24 7
+ - 12 10
+ - 16 21
+
+   [   Round 5   ]   
+Set col: state_1 -> 1
+Set col: state_10 -> 3
+Set col: state_11 -> 4
+Set col: state_12 -> 5
+Set col: state_13 -> 11
+Set col: state_14 -> 10
+Set col: state_15 -> 19
+Set col: state_16 -> 20
+Set col: state_17 -> 21
+Set col: state_18 -> 18
+Set col: state_19 -> 17
+Set col: state_2 -> 12
+Set col: state_20 -> 16
+Set col: state_21 -> 22
+Set col: state_22 -> 23
+Set col: state_23 -> 13
+Set col: state_24 -> 14
+Set col: state_25 -> 15
+Set col: state_26 -> 26
+Set col: state_27 -> 27
+Set col: state_3 -> 2
+Set col: state_4 -> 6
+Set col: state_5 -> 7
+Set col: state_6 -> 8
+Set col: state_7 -> 9
+Set col: state_8 -> 25
+Set col: state_9 -> 24
+Size of Group: 15
+Group 1 | Size 2
+Set row: 1 lb: 1 ub: 1
+Set row: 2 lb: -1 ub: -1
+1: 1 8 1
+2: 2 8 -1
+3: 1 19 1
+4: 2 19 -1
+Group 2 | Size 2
+Set row: 3 lb: 1 ub: 1
+Set row: 4 lb: -1 ub: -1
+5: 3 4 1
+6: 4 4 -1
+7: 3 11 1
+8: 4 11 -1
+Group 3 | Size 2
+Set row: 5 lb: 1 ub: 1
+Set row: 6 lb: -1 ub: -1
+9: 5 15 1
+10: 6 15 -1
+11: 5 17 1
+12: 6 17 -1
+Group 4 | Size 1
+Group 5 | Size 2
+Set row: 7 lb: 1 ub: 1
+Set row: 8 lb: -1 ub: -1
+13: 7 23 1
+14: 8 23 -1
+15: 7 20 1
+16: 8 20 -1
+Group 6 | Size 2
+Set row: 9 lb: 1 ub: 1
+Set row: 10 lb: -1 ub: -1
+17: 9 25 1
+18: 10 25 -1
+19: 9 22 1
+20: 10 22 -1
+Group 7 | Size 2
+Set row: 11 lb: 1 ub: 1
+Set row: 12 lb: -1 ub: -1
+21: 11 26 1
+22: 12 26 -1
+23: 11 27 1
+24: 12 27 -1
+Group 8 | Size 1
+Group 9 | Size 2
+Set row: 13 lb: 1 ub: 1
+Set row: 14 lb: -1 ub: -1
+25: 13 6 1
+26: 14 6 -1
+27: 13 2 1
+28: 14 2 -1
+Group 10 | Size 2
+Set row: 15 lb: 1 ub: 1
+Set row: 16 lb: -1 ub: -1
+29: 15 3 1
+30: 16 3 -1
+31: 15 1 1
+32: 16 1 -1
+Group 11 | Size 2
+Set row: 17 lb: 1 ub: 1
+Set row: 18 lb: -1 ub: -1
+33: 17 9 1
+34: 18 9 -1
+35: 17 18 1
+36: 18 18 -1
+Group 12 | Size 1
+Group 13 | Size 2
+Set row: 19 lb: 1 ub: 1
+Set row: 20 lb: -1 ub: -1
+37: 19 24 1
+38: 20 24 -1
+39: 19 7 1
+40: 20 7 -1
+Group 14 | Size 2
+Set row: 21 lb: 1 ub: 1
+Set row: 22 lb: -1 ub: -1
+41: 21 12 1
+42: 22 12 -1
+43: 21 10 1
+44: 22 10 -1
+Group 15 | Size 2
+Set row: 23 lb: 1 ub: 1
+Set row: 24 lb: -1 ub: -1
+45: 23 16 1
+46: 24 16 -1
+47: 23 21 1
+48: 24 21 -1
+Edge found! state_10:3 <-> state_1:1	Weight: 13.0857	Set col: 28
+Set row: 25 ub: 0
+49: 25 3 -1 | 50: 25 1 -1 | 51: 25 28 1
+Set row: 26 ub: 2
+52: 26 3 1 | 53: 26 1 1 | 54: 26 28 1
+Set row: 27 lb: 0
+55: 27 3 -1 | 56: 27 1 1 | 57: 27 28 1
+Set row: 28 lb: 0
+58: 28 3 1 | 59: 28 1 -1 | 60: 28 28 1
+Edge found! state_11:4 <-> state_1:1	Weight: 16.4642	Set col: 29
+Set row: 29 ub: 0
+61: 29 4 -1 | 62: 29 1 -1 | 63: 29 29 1
+Set row: 30 ub: 2
+64: 30 4 1 | 65: 30 1 1 | 66: 30 29 1
+Set row: 31 lb: 0
+67: 31 4 -1 | 68: 31 1 1 | 69: 31 29 1
+Set row: 32 lb: 0
+70: 32 4 1 | 71: 32 1 -1 | 72: 32 29 1
+Edge found! state_12:5 <-> state_1:1	Weight: 16.4642	Set col: 30
+Set row: 33 ub: 0
+73: 33 5 -1 | 74: 33 1 -1 | 75: 33 30 1
+Set row: 34 ub: 2
+76: 34 5 1 | 77: 34 1 1 | 78: 34 30 1
+Set row: 35 lb: 0
+79: 35 5 -1 | 80: 35 1 1 | 81: 35 30 1
+Set row: 36 lb: 0
+82: 36 5 1 | 83: 36 1 -1 | 84: 36 30 1
+Edge found! state_13:11 <-> state_10:3	Weight: 18.7271	Set col: 31
+Set row: 37 ub: 0
+85: 37 11 -1 | 86: 37 3 -1 | 87: 37 31 1
+Set row: 38 ub: 2
+88: 38 11 1 | 89: 38 3 1 | 90: 38 31 1
+Set row: 39 lb: 0
+91: 39 11 -1 | 92: 39 3 1 | 93: 39 31 1
+Set row: 40 lb: 0
+94: 40 11 1 | 95: 40 3 -1 | 96: 40 31 1
+Edge found! state_13:11 <-> state_11:4	Weight: 4.50992	Set col: 32
+Set row: 41 ub: 0
+97: 41 11 -1 | 98: 41 4 -1 | 99: 41 32 1
+Set row: 42 ub: 2
+100: 42 11 1 | 101: 42 4 1 | 102: 42 32 1
+Set row: 43 lb: 0
+103: 43 11 -1 | 104: 43 4 1 | 105: 43 32 1
+Set row: 44 lb: 0
+106: 44 11 1 | 107: 44 4 -1 | 108: 44 32 1
+Edge found! state_13:11 <-> state_12:5	Weight: 18.0397	Set col: 33
+Set row: 45 ub: 0
+109: 45 11 -1 | 110: 45 5 -1 | 111: 45 33 1
+Set row: 46 ub: 2
+112: 46 11 1 | 113: 46 5 1 | 114: 46 33 1
+Set row: 47 lb: 0
+115: 47 11 -1 | 116: 47 5 1 | 117: 47 33 1
+Set row: 48 lb: 0
+118: 48 11 1 | 119: 48 5 -1 | 120: 48 33 1
+Edge found! state_14:10 <-> state_1:1	Weight: 9.01983	Set col: 34
+Set row: 49 ub: 0
+121: 49 10 -1 | 122: 49 1 -1 | 123: 49 34 1
+Set row: 50 ub: 2
+124: 50 10 1 | 125: 50 1 1 | 126: 50 34 1
+Set row: 51 lb: 0
+127: 51 10 -1 | 128: 51 1 1 | 129: 51 34 1
+Set row: 52 lb: 0
+130: 52 10 1 | 131: 52 1 -1 | 132: 52 34 1
+Edge found! state_14:10 <-> state_10:3	Weight: 9.70728	Set col: 35
+Set row: 53 ub: 0
+133: 53 10 -1 | 134: 53 3 -1 | 135: 53 35 1
+Set row: 54 ub: 2
+136: 54 10 1 | 137: 54 3 1 | 138: 54 35 1
+Set row: 55 lb: 0
+139: 55 10 -1 | 140: 55 3 1 | 141: 55 35 1
+Set row: 56 lb: 0
+142: 56 10 1 | 143: 56 3 -1 | 144: 56 35 1
+Edge found! state_15:19 <-> state_12:5	Weight: 25.484	Set col: 36
+Set row: 57 ub: 0
+145: 57 19 -1 | 146: 57 5 -1 | 147: 57 36 1
+Set row: 58 ub: 2
+148: 58 19 1 | 149: 58 5 1 | 150: 58 36 1
+Set row: 59 lb: 0
+151: 59 19 -1 | 152: 59 5 1 | 153: 59 36 1
+Set row: 60 lb: 0
+154: 60 19 1 | 155: 60 5 -1 | 156: 60 36 1
+Edge found! state_16:20 <-> state_13:11	Weight: 6.67253	Set col: 37
+Set row: 61 ub: 0
+157: 61 20 -1 | 158: 61 11 -1 | 159: 61 37 1
+Set row: 62 ub: 2
+160: 62 20 1 | 161: 62 11 1 | 162: 62 37 1
+Set row: 63 lb: 0
+163: 63 20 -1 | 164: 63 11 1 | 165: 63 37 1
+Set row: 64 lb: 0
+166: 64 20 1 | 167: 64 11 -1 | 168: 64 37 1
+Edge found! state_16:20 <-> state_14:10	Weight: 6.67253	Set col: 38
+Set row: 65 ub: 0
+169: 65 20 -1 | 170: 65 10 -1 | 171: 65 38 1
+Set row: 66 ub: 2
+172: 66 20 1 | 173: 66 10 1 | 174: 66 38 1
+Set row: 67 lb: 0
+175: 67 20 -1 | 176: 67 10 1 | 177: 67 38 1
+Set row: 68 lb: 0
+178: 68 20 1 | 179: 68 10 -1 | 180: 68 38 1
+Edge found! state_17:21 <-> state_15:19	Weight: 13.3451	Set col: 39
+Set row: 69 ub: 0
+181: 69 21 -1 | 182: 69 19 -1 | 183: 69 39 1
+Set row: 70 ub: 2
+184: 70 21 1 | 185: 70 19 1 | 186: 70 39 1
+Set row: 71 lb: 0
+187: 71 21 -1 | 188: 71 19 1 | 189: 71 39 1
+Set row: 72 lb: 0
+190: 72 21 1 | 191: 72 19 -1 | 192: 72 39 1
+Edge found! state_18:18 <-> state_12:5	Weight: 6.37101	Set col: 40
+Set row: 73 ub: 0
+193: 73 18 -1 | 194: 73 5 -1 | 195: 73 40 1
+Set row: 74 ub: 2
+196: 74 18 1 | 197: 74 5 1 | 198: 74 40 1
+Set row: 75 lb: 0
+199: 75 18 -1 | 200: 75 5 1 | 201: 75 40 1
+Set row: 76 lb: 0
+202: 76 18 1 | 203: 76 5 -1 | 204: 76 40 1
+Edge found! state_18:18 <-> state_17:21	Weight: 3.33627	Set col: 41
+Set row: 77 ub: 0
+205: 77 18 -1 | 206: 77 21 -1 | 207: 77 41 1
+Set row: 78 ub: 2
+208: 78 18 1 | 209: 78 21 1 | 210: 78 41 1
+Set row: 79 lb: 0
+211: 79 18 -1 | 212: 79 21 1 | 213: 79 41 1
+Set row: 80 lb: 0
+214: 80 18 1 | 215: 80 21 -1 | 216: 80 41 1
+Edge found! state_19:17 <-> state_12:5	Weight: 12.742	Set col: 42
+Set row: 81 ub: 0
+217: 81 17 -1 | 218: 81 5 -1 | 219: 81 42 1
+Set row: 82 ub: 2
+220: 82 17 1 | 221: 82 5 1 | 222: 82 42 1
+Set row: 83 lb: 0
+223: 83 17 -1 | 224: 83 5 1 | 225: 83 42 1
+Set row: 84 lb: 0
+226: 84 17 1 | 227: 84 5 -1 | 228: 84 42 1
+Edge found! state_19:17 <-> state_16:20	Weight: 6.67253	Set col: 43
+Set row: 85 ub: 0
+229: 85 17 -1 | 230: 85 20 -1 | 231: 85 43 1
+Set row: 86 ub: 2
+232: 86 17 1 | 233: 86 20 1 | 234: 86 43 1
+Set row: 87 lb: 0
+235: 87 17 -1 | 236: 87 20 1 | 237: 87 43 1
+Set row: 88 lb: 0
+238: 88 17 1 | 239: 88 20 -1 | 240: 88 43 1
+Edge found! state_19:17 <-> state_18:18	Weight: 8.89805	Set col: 44
+Set row: 89 ub: 0
+241: 89 17 -1 | 242: 89 18 -1 | 243: 89 44 1
+Set row: 90 ub: 2
+244: 90 17 1 | 245: 90 18 1 | 246: 90 44 1
+Set row: 91 lb: 0
+247: 91 17 -1 | 248: 91 18 1 | 249: 91 44 1
+Set row: 92 lb: 0
+250: 92 17 1 | 251: 92 18 -1 | 252: 92 44 1
+Edge found! state_2:12 <-> state_1:1	Weight: 13.6567	Set col: 45
+Set row: 93 ub: 0
+253: 93 12 -1 | 254: 93 1 -1 | 255: 93 45 1
+Set row: 94 ub: 2
+256: 94 12 1 | 257: 94 1 1 | 258: 94 45 1
+Set row: 95 lb: 0
+259: 95 12 -1 | 260: 95 1 1 | 261: 95 45 1
+Set row: 96 lb: 0
+262: 96 12 1 | 263: 96 1 -1 | 264: 96 45 1
+Edge found! state_2:12 <-> state_10:3	Weight: 9.70728	Set col: 46
+Set row: 97 ub: 0
+265: 97 12 -1 | 266: 97 3 -1 | 267: 97 46 1
+Set row: 98 ub: 2
+268: 98 12 1 | 269: 98 3 1 | 270: 98 46 1
+Set row: 99 lb: 0
+271: 99 12 -1 | 272: 99 3 1 | 273: 99 46 1
+Set row: 100 lb: 0
+274: 100 12 1 | 275: 100 3 -1 | 276: 100 46 1
+Edge found! state_2:12 <-> state_14:10	Weight: 4.50992	Set col: 47
+Set row: 101 ub: 0
+277: 101 12 -1 | 278: 101 10 -1 | 279: 101 47 1
+Set row: 102 ub: 2
+280: 102 12 1 | 281: 102 10 1 | 282: 102 47 1
+Set row: 103 lb: 0
+283: 103 12 -1 | 284: 103 10 1 | 285: 103 47 1
+Set row: 104 lb: 0
+286: 104 12 1 | 287: 104 10 -1 | 288: 104 47 1
+Edge found! state_20:16 <-> state_12:5	Weight: 12.742	Set col: 48
+Set row: 105 ub: 0
+289: 105 16 -1 | 290: 105 5 -1 | 291: 105 48 1
+Set row: 106 ub: 2
+292: 106 16 1 | 293: 106 5 1 | 294: 106 48 1
+Set row: 107 lb: 0
+295: 107 16 -1 | 296: 107 5 1 | 297: 107 48 1
+Set row: 108 lb: 0
+298: 108 16 1 | 299: 108 5 -1 | 300: 108 48 1
+Edge found! state_20:16 <-> state_16:20	Weight: 6.67253	Set col: 49
+Set row: 109 ub: 0
+301: 109 16 -1 | 302: 109 20 -1 | 303: 109 49 1
+Set row: 110 ub: 2
+304: 110 16 1 | 305: 110 20 1 | 306: 110 49 1
+Set row: 111 lb: 0
+307: 111 16 -1 | 308: 111 20 1 | 309: 111 49 1
+Set row: 112 lb: 0
+310: 112 16 1 | 311: 112 20 -1 | 312: 112 49 1
+Edge found! state_20:16 <-> state_19:17	Weight: 17.7961	Set col: 50
+Set row: 113 ub: 0
+313: 113 16 -1 | 314: 113 17 -1 | 315: 113 50 1
+Set row: 114 ub: 2
+316: 114 16 1 | 317: 114 17 1 | 318: 114 50 1
+Set row: 115 lb: 0
+319: 115 16 -1 | 320: 115 17 1 | 321: 115 50 1
+Set row: 116 lb: 0
+322: 116 16 1 | 323: 116 17 -1 | 324: 116 50 1
+Edge found! state_21:22 <-> state_1:1	Weight: 8.49343	Set col: 51
+Set row: 117 ub: 0
+325: 117 22 -1 | 326: 117 1 -1 | 327: 117 51 1
+Set row: 118 ub: 2
+328: 118 22 1 | 329: 118 1 1 | 330: 118 51 1
+Set row: 119 lb: 0
+331: 119 22 -1 | 332: 119 1 1 | 333: 119 51 1
+Set row: 120 lb: 0
+334: 120 22 1 | 335: 120 1 -1 | 336: 120 51 1
+Edge found! state_21:22 <-> state_13:11	Weight: 4.24671	Set col: 52
+Set row: 121 ub: 0
+337: 121 22 -1 | 338: 121 11 -1 | 339: 121 52 1
+Set row: 122 ub: 2
+340: 122 22 1 | 341: 122 11 1 | 342: 122 52 1
+Set row: 123 lb: 0
+343: 123 22 -1 | 344: 123 11 1 | 345: 123 52 1
+Set row: 124 lb: 0
+346: 124 22 1 | 347: 124 11 -1 | 348: 124 52 1
+Edge found! state_21:22 <-> state_14:10	Weight: 4.24671	Set col: 53
+Set row: 125 ub: 0
+349: 125 22 -1 | 350: 125 10 -1 | 351: 125 53 1
+Set row: 126 ub: 2
+352: 126 22 1 | 353: 126 10 1 | 354: 126 53 1
+Set row: 127 lb: 0
+355: 127 22 -1 | 356: 127 10 1 | 357: 127 53 1
+Set row: 128 lb: 0
+358: 128 22 1 | 359: 128 10 -1 | 360: 128 53 1
+Edge found! state_21:22 <-> state_2:12	Weight: 4.24671	Set col: 54
+Set row: 129 ub: 0
+361: 129 22 -1 | 362: 129 12 -1 | 363: 129 54 1
+Set row: 130 ub: 2
+364: 130 22 1 | 365: 130 12 1 | 366: 130 54 1
+Set row: 131 lb: 0
+367: 131 22 -1 | 368: 131 12 1 | 369: 131 54 1
+Set row: 132 lb: 0
+370: 132 22 1 | 371: 132 12 -1 | 372: 132 54 1
+Edge found! state_22:23 <-> state_15:19	Weight: 6.67253	Set col: 55
+Set row: 133 ub: 0
+373: 133 23 -1 | 374: 133 19 -1 | 375: 133 55 1
+Set row: 134 ub: 2
+376: 134 23 1 | 377: 134 19 1 | 378: 134 55 1
+Set row: 135 lb: 0
+379: 135 23 -1 | 380: 135 19 1 | 381: 135 55 1
+Set row: 136 lb: 0
+382: 136 23 1 | 383: 136 19 -1 | 384: 136 55 1
+Edge found! state_23:13 <-> state_1:1	Weight: 18.6053	Set col: 56
+Set row: 137 ub: 0
+385: 137 13 -1 | 386: 137 1 -1 | 387: 137 56 1
+Set row: 138 ub: 2
+388: 138 13 1 | 389: 138 1 1 | 390: 138 56 1
+Set row: 139 lb: 0
+391: 139 13 -1 | 392: 139 1 1 | 393: 139 56 1
+Set row: 140 lb: 0
+394: 140 13 1 | 395: 140 1 -1 | 396: 140 56 1
+Edge found! state_23:13 <-> state_11:4	Weight: 12.742	Set col: 57
+Set row: 141 ub: 0
+397: 141 13 -1 | 398: 141 4 -1 | 399: 141 57 1
+Set row: 142 ub: 2
+400: 142 13 1 | 401: 142 4 1 | 402: 142 57 1
+Set row: 143 lb: 0
+403: 143 13 -1 | 404: 143 4 1 | 405: 143 57 1
+Set row: 144 lb: 0
+406: 144 13 1 | 407: 144 4 -1 | 408: 144 57 1
+Edge found! state_23:13 <-> state_13:11	Weight: 9.30266	Set col: 58
+Set row: 145 ub: 0
+409: 145 13 -1 | 410: 145 11 -1 | 411: 145 58 1
+Set row: 146 ub: 2
+412: 146 13 1 | 413: 146 11 1 | 414: 146 58 1
+Set row: 147 lb: 0
+415: 147 13 -1 | 416: 147 11 1 | 417: 147 58 1
+Set row: 148 lb: 0
+418: 148 13 1 | 419: 148 11 -1 | 420: 148 58 1
+Edge found! state_23:13 <-> state_14:10	Weight: 9.30266	Set col: 59
+Set row: 149 ub: 0
+421: 149 13 -1 | 422: 149 10 -1 | 423: 149 59 1
+Set row: 150 ub: 2
+424: 150 13 1 | 425: 150 10 1 | 426: 150 59 1
+Set row: 151 lb: 0
+427: 151 13 -1 | 428: 151 10 1 | 429: 151 59 1
+Set row: 152 lb: 0
+430: 152 13 1 | 431: 152 10 -1 | 432: 152 59 1
+Edge found! state_23:13 <-> state_17:21	Weight: 6.67253	Set col: 60
+Set row: 153 ub: 0
+433: 153 13 -1 | 434: 153 21 -1 | 435: 153 60 1
+Set row: 154 ub: 2
+436: 154 13 1 | 437: 154 21 1 | 438: 154 60 1
+Set row: 155 lb: 0
+439: 155 13 -1 | 440: 155 21 1 | 441: 155 60 1
+Set row: 156 lb: 0
+442: 156 13 1 | 443: 156 21 -1 | 444: 156 60 1
+Edge found! state_23:13 <-> state_19:17	Weight: 17.7961	Set col: 61
+Set row: 157 ub: 0
+445: 157 13 -1 | 446: 157 17 -1 | 447: 157 61 1
+Set row: 158 ub: 2
+448: 158 13 1 | 449: 158 17 1 | 450: 158 61 1
+Set row: 159 lb: 0
+451: 159 13 -1 | 452: 159 17 1 | 453: 159 61 1
+Set row: 160 lb: 0
+454: 160 13 1 | 455: 160 17 -1 | 456: 160 61 1
+Edge found! state_23:13 <-> state_2:12	Weight: 9.30266	Set col: 62
+Set row: 161 ub: 0
+457: 161 13 -1 | 458: 161 12 -1 | 459: 161 62 1
+Set row: 162 ub: 2
+460: 162 13 1 | 461: 162 12 1 | 462: 162 62 1
+Set row: 163 lb: 0
+463: 163 13 -1 | 464: 163 12 1 | 465: 163 62 1
+Set row: 164 lb: 0
+466: 164 13 1 | 467: 164 12 -1 | 468: 164 62 1
+Edge found! state_24:14 <-> state_11:4	Weight: 6.37101	Set col: 63
+Set row: 165 ub: 0
+469: 165 14 -1 | 470: 165 4 -1 | 471: 165 63 1
+Set row: 166 ub: 2
+472: 166 14 1 | 473: 166 4 1 | 474: 166 63 1
+Set row: 167 lb: 0
+475: 167 14 -1 | 476: 167 4 1 | 477: 167 63 1
+Set row: 168 lb: 0
+478: 168 14 1 | 479: 168 4 -1 | 480: 168 63 1
+Edge found! state_24:14 <-> state_13:11	Weight: 7.63453	Set col: 64
+Set row: 169 ub: 0
+481: 169 14 -1 | 482: 169 11 -1 | 483: 169 64 1
+Set row: 170 ub: 2
+484: 170 14 1 | 485: 170 11 1 | 486: 170 64 1
+Set row: 171 lb: 0
+487: 171 14 -1 | 488: 171 11 1 | 489: 171 64 1
+Set row: 172 lb: 0
+490: 172 14 1 | 491: 172 11 -1 | 492: 172 64 1
+Edge found! state_24:14 <-> state_14:10	Weight: 30.5381	Set col: 65
+Set row: 173 ub: 0
+493: 173 14 -1 | 494: 173 10 -1 | 495: 173 65 1
+Set row: 174 ub: 2
+496: 174 14 1 | 497: 174 10 1 | 498: 174 65 1
+Set row: 175 lb: 0
+499: 175 14 -1 | 500: 175 10 1 | 501: 175 65 1
+Set row: 176 lb: 0
+502: 176 14 1 | 503: 176 10 -1 | 504: 176 65 1
+Edge found! state_24:14 <-> state_19:17	Weight: 8.89805	Set col: 66
+Set row: 177 ub: 0
+505: 177 14 -1 | 506: 177 17 -1 | 507: 177 66 1
+Set row: 178 ub: 2
+508: 178 14 1 | 509: 178 17 1 | 510: 178 66 1
+Set row: 179 lb: 0
+511: 179 14 -1 | 512: 179 17 1 | 513: 179 66 1
+Set row: 180 lb: 0
+514: 180 14 1 | 515: 180 17 -1 | 516: 180 66 1
+Edge found! state_25:15 <-> state_11:4	Weight: 12.742	Set col: 67
+Set row: 181 ub: 0
+517: 181 15 -1 | 518: 181 4 -1 | 519: 181 67 1
+Set row: 182 ub: 2
+520: 182 15 1 | 521: 182 4 1 | 522: 182 67 1
+Set row: 183 lb: 0
+523: 183 15 -1 | 524: 183 4 1 | 525: 183 67 1
+Set row: 184 lb: 0
+526: 184 15 1 | 527: 184 4 -1 | 528: 184 67 1
+Edge found! state_25:15 <-> state_15:19	Weight: 11.4518	Set col: 68
+Set row: 185 ub: 0
+529: 185 15 -1 | 530: 185 19 -1 | 531: 185 68 1
+Set row: 186 ub: 2
+532: 186 15 1 | 533: 186 19 1 | 534: 186 68 1
+Set row: 187 lb: 0
+535: 187 15 -1 | 536: 187 19 1 | 537: 187 68 1
+Set row: 188 lb: 0
+538: 188 15 1 | 539: 188 19 -1 | 540: 188 68 1
+Edge found! state_25:15 <-> state_19:17	Weight: 4.44902	Set col: 69
+Set row: 189 ub: 0
+541: 189 15 -1 | 542: 189 17 -1 | 543: 189 69 1
+Set row: 190 ub: 2
+544: 190 15 1 | 545: 190 17 1 | 546: 190 69 1
+Set row: 191 lb: 0
+547: 191 15 -1 | 548: 191 17 1 | 549: 191 69 1
+Set row: 192 lb: 0
+550: 192 15 1 | 551: 192 17 -1 | 552: 192 69 1
+Edge found! state_26:26 <-> state_18:18	Weight: 7.28359	Set col: 70
+Set row: 193 ub: 0
+553: 193 26 -1 | 554: 193 18 -1 | 555: 193 70 1
+Set row: 194 ub: 2
+556: 194 26 1 | 557: 194 18 1 | 558: 194 70 1
+Set row: 195 lb: 0
+559: 195 26 -1 | 560: 195 18 1 | 561: 195 70 1
+Set row: 196 lb: 0
+562: 196 26 1 | 563: 196 18 -1 | 564: 196 70 1
+Edge found! state_26:26 <-> state_19:17	Weight: 3.6418	Set col: 71
+Set row: 197 ub: 0
+565: 197 26 -1 | 566: 197 17 -1 | 567: 197 71 1
+Set row: 198 ub: 2
+568: 198 26 1 | 569: 198 17 1 | 570: 198 71 1
+Set row: 199 lb: 0
+571: 199 26 -1 | 572: 199 17 1 | 573: 199 71 1
+Set row: 200 lb: 0
+574: 200 26 1 | 575: 200 17 -1 | 576: 200 71 1
+Edge found! state_26:26 <-> state_20:16	Weight: 12.5398	Set col: 72
+Set row: 201 ub: 0
+577: 201 26 -1 | 578: 201 16 -1 | 579: 201 72 1
+Set row: 202 ub: 2
+580: 202 26 1 | 581: 202 16 1 | 582: 202 72 1
+Set row: 203 lb: 0
+583: 203 26 -1 | 584: 203 16 1 | 585: 203 72 1
+Set row: 204 lb: 0
+586: 204 26 1 | 587: 204 16 -1 | 588: 204 72 1
+Edge found! state_26:26 <-> state_21:22	Weight: 7.28359	Set col: 73
+Set row: 205 ub: 0
+589: 205 26 -1 | 590: 205 22 -1 | 591: 205 73 1
+Set row: 206 ub: 2
+592: 206 26 1 | 593: 206 22 1 | 594: 206 73 1
+Set row: 207 lb: 0
+595: 207 26 -1 | 596: 207 22 1 | 597: 207 73 1
+Set row: 208 lb: 0
+598: 208 26 1 | 599: 208 22 -1 | 600: 208 73 1
+Edge found! state_27:27 <-> state_13:11	Weight: 3.33627	Set col: 74
+Set row: 209 ub: 0
+601: 209 27 -1 | 602: 209 11 -1 | 603: 209 74 1
+Set row: 210 ub: 2
+604: 210 27 1 | 605: 210 11 1 | 606: 210 74 1
+Set row: 211 lb: 0
+607: 211 27 -1 | 608: 211 11 1 | 609: 211 74 1
+Set row: 212 lb: 0
+610: 212 27 1 | 611: 212 11 -1 | 612: 212 74 1
+Edge found! state_27:27 <-> state_14:10	Weight: 3.33627	Set col: 75
+Set row: 213 ub: 0
+613: 213 27 -1 | 614: 213 10 -1 | 615: 213 75 1
+Set row: 214 ub: 2
+616: 214 27 1 | 617: 214 10 1 | 618: 214 75 1
+Set row: 215 lb: 0
+619: 215 27 -1 | 620: 215 10 1 | 621: 215 75 1
+Set row: 216 lb: 0
+622: 216 27 1 | 623: 216 10 -1 | 624: 216 75 1
+Edge found! state_27:27 <-> state_15:19	Weight: 1.66813	Set col: 76
+Set row: 217 ub: 0
+625: 217 27 -1 | 626: 217 19 -1 | 627: 217 76 1
+Set row: 218 ub: 2
+628: 218 27 1 | 629: 218 19 1 | 630: 218 76 1
+Set row: 219 lb: 0
+631: 219 27 -1 | 632: 219 19 1 | 633: 219 76 1
+Set row: 220 lb: 0
+634: 220 27 1 | 635: 220 19 -1 | 636: 220 76 1
+Edge found! state_27:27 <-> state_17:21	Weight: 3.33627	Set col: 77
+Set row: 221 ub: 0
+637: 221 27 -1 | 638: 221 21 -1 | 639: 221 77 1
+Set row: 222 ub: 2
+640: 222 27 1 | 641: 222 21 1 | 642: 222 77 1
+Set row: 223 lb: 0
+643: 223 27 -1 | 644: 223 21 1 | 645: 223 77 1
+Set row: 224 lb: 0
+646: 224 27 1 | 647: 224 21 -1 | 648: 224 77 1
+Edge found! state_3:2 <-> state_1:1	Weight: 16.4642	Set col: 78
+Set row: 225 ub: 0
+649: 225 2 -1 | 650: 225 1 -1 | 651: 225 78 1
+Set row: 226 ub: 2
+652: 226 2 1 | 653: 226 1 1 | 654: 226 78 1
+Set row: 227 lb: 0
+655: 227 2 -1 | 656: 227 1 1 | 657: 227 78 1
+Set row: 228 lb: 0
+658: 228 2 1 | 659: 228 1 -1 | 660: 228 78 1
+Edge found! state_3:2 <-> state_11:4	Weight: 12.742	Set col: 79
+Set row: 229 ub: 0
+661: 229 2 -1 | 662: 229 4 -1 | 663: 229 79 1
+Set row: 230 ub: 2
+664: 230 2 1 | 665: 230 4 1 | 666: 230 79 1
+Set row: 231 lb: 0
+667: 231 2 -1 | 668: 231 4 1 | 669: 231 79 1
+Set row: 232 lb: 0
+670: 232 2 1 | 671: 232 4 -1 | 672: 232 79 1
+Edge found! state_3:2 <-> state_13:11	Weight: 18.0397	Set col: 80
+Set row: 233 ub: 0
+673: 233 2 -1 | 674: 233 11 -1 | 675: 233 80 1
+Set row: 234 ub: 2
+676: 234 2 1 | 677: 234 11 1 | 678: 234 80 1
+Set row: 235 lb: 0
+679: 235 2 -1 | 680: 235 11 1 | 681: 235 80 1
+Set row: 236 lb: 0
+682: 236 2 1 | 683: 236 11 -1 | 684: 236 80 1
+Edge found! state_3:2 <-> state_22:23	Weight: 13.3451	Set col: 81
+Set row: 237 ub: 0
+685: 237 2 -1 | 686: 237 23 -1 | 687: 237 81 1
+Set row: 238 ub: 2
+688: 238 2 1 | 689: 238 23 1 | 690: 238 81 1
+Set row: 239 lb: 0
+691: 239 2 -1 | 692: 239 23 1 | 693: 239 81 1
+Set row: 240 lb: 0
+694: 240 2 1 | 695: 240 23 -1 | 696: 240 81 1
+Edge found! state_3:2 <-> state_25:15	Weight: 7.63453	Set col: 82
+Set row: 241 ub: 0
+697: 241 2 -1 | 698: 241 15 -1 | 699: 241 82 1
+Set row: 242 ub: 2
+700: 242 2 1 | 701: 242 15 1 | 702: 242 82 1
+Set row: 243 lb: 0
+703: 243 2 -1 | 704: 243 15 1 | 705: 243 82 1
+Set row: 244 lb: 0
+706: 244 2 1 | 707: 244 15 -1 | 708: 244 82 1
+Edge found! state_3:2 <-> state_27:27	Weight: 3.33627	Set col: 83
+Set row: 245 ub: 0
+709: 245 2 -1 | 710: 245 27 -1 | 711: 245 83 1
+Set row: 246 ub: 2
+712: 246 2 1 | 713: 246 27 1 | 714: 246 83 1
+Set row: 247 lb: 0
+715: 247 2 -1 | 716: 247 27 1 | 717: 247 83 1
+Set row: 248 lb: 0
+718: 248 2 1 | 719: 248 27 -1 | 720: 248 83 1
+Edge found! state_4:6 <-> state_15:19	Weight: 8.5837	Set col: 84
+Set row: 249 ub: 0
+721: 249 6 -1 | 722: 249 19 -1 | 723: 249 84 1
+Set row: 250 ub: 2
+724: 250 6 1 | 725: 250 19 1 | 726: 250 84 1
+Set row: 251 lb: 0
+727: 251 6 -1 | 728: 251 19 1 | 729: 251 84 1
+Set row: 252 lb: 0
+730: 252 6 1 | 731: 252 19 -1 | 732: 252 84 1
+Edge found! state_4:6 <-> state_18:18	Weight: 8.89805	Set col: 85
+Set row: 253 ub: 0
+733: 253 6 -1 | 734: 253 18 -1 | 735: 253 85 1
+Set row: 254 ub: 2
+736: 254 6 1 | 737: 254 18 1 | 738: 254 85 1
+Set row: 255 lb: 0
+739: 255 6 -1 | 740: 255 18 1 | 741: 255 85 1
+Set row: 256 lb: 0
+742: 256 6 1 | 743: 256 18 -1 | 744: 256 85 1
+Edge found! state_4:6 <-> state_3:2	Weight: 7.0655	Set col: 86
+Set row: 257 ub: 0
+745: 257 6 -1 | 746: 257 2 -1 | 747: 257 86 1
+Set row: 258 ub: 2
+748: 258 6 1 | 749: 258 2 1 | 750: 258 86 1
+Set row: 259 lb: 0
+751: 259 6 -1 | 752: 259 2 1 | 753: 259 86 1
+Set row: 260 lb: 0
+754: 260 6 1 | 755: 260 2 -1 | 756: 260 86 1
+Edge found! state_5:7 <-> state_1:1	Weight: 26.6901	Set col: 87
+Set row: 261 ub: 0
+757: 261 7 -1 | 758: 261 1 -1 | 759: 261 87 1
+Set row: 262 ub: 2
+760: 262 7 1 | 761: 262 1 1 | 762: 262 87 1
+Set row: 263 lb: 0
+763: 263 7 -1 | 764: 263 1 1 | 765: 263 87 1
+Set row: 264 lb: 0
+766: 264 7 1 | 767: 264 1 -1 | 768: 264 87 1
+Edge found! state_5:7 <-> state_15:19	Weight: 17.1674	Set col: 88
+Set row: 265 ub: 0
+769: 265 7 -1 | 770: 265 19 -1 | 771: 265 88 1
+Set row: 266 ub: 2
+772: 266 7 1 | 773: 266 19 1 | 774: 266 88 1
+Set row: 267 lb: 0
+775: 267 7 -1 | 776: 267 19 1 | 777: 267 88 1
+Set row: 268 lb: 0
+778: 268 7 1 | 779: 268 19 -1 | 780: 268 88 1
+Edge found! state_5:7 <-> state_16:20	Weight: 13.3451	Set col: 89
+Set row: 269 ub: 0
+781: 269 7 -1 | 782: 269 20 -1 | 783: 269 89 1
+Set row: 270 ub: 2
+784: 270 7 1 | 785: 270 20 1 | 786: 270 89 1
+Set row: 271 lb: 0
+787: 271 7 -1 | 788: 271 20 1 | 789: 271 89 1
+Set row: 272 lb: 0
+790: 272 7 1 | 791: 272 20 -1 | 792: 272 89 1
+Edge found! state_5:7 <-> state_17:21	Weight: 13.3451	Set col: 90
+Set row: 273 ub: 0
+793: 273 7 -1 | 794: 273 21 -1 | 795: 273 90 1
+Set row: 274 ub: 2
+796: 274 7 1 | 797: 274 21 1 | 798: 274 90 1
+Set row: 275 lb: 0
+799: 275 7 -1 | 800: 275 21 1 | 801: 275 90 1
+Set row: 276 lb: 0
+802: 276 7 1 | 803: 276 21 -1 | 804: 276 90 1
+Edge found! state_5:7 <-> state_18:18	Weight: 17.7961	Set col: 91
+Set row: 277 ub: 0
+805: 277 7 -1 | 806: 277 18 -1 | 807: 277 91 1
+Set row: 278 ub: 2
+808: 278 7 1 | 809: 278 18 1 | 810: 278 91 1
+Set row: 279 lb: 0
+811: 279 7 -1 | 812: 279 18 1 | 813: 279 91 1
+Set row: 280 lb: 0
+814: 280 7 1 | 815: 280 18 -1 | 816: 280 91 1
+Edge found! state_5:7 <-> state_2:12	Weight: 13.3451	Set col: 92
+Set row: 281 ub: 0
+817: 281 7 -1 | 818: 281 12 -1 | 819: 281 92 1
+Set row: 282 ub: 2
+820: 282 7 1 | 821: 282 12 1 | 822: 282 92 1
+Set row: 283 lb: 0
+823: 283 7 -1 | 824: 283 12 1 | 825: 283 92 1
+Set row: 284 lb: 0
+826: 284 7 1 | 827: 284 12 -1 | 828: 284 92 1
+Edge found! state_5:7 <-> state_3:2	Weight: 14.131	Set col: 93
+Set row: 285 ub: 0
+829: 285 7 -1 | 830: 285 2 -1 | 831: 285 93 1
+Set row: 286 ub: 2
+832: 286 7 1 | 833: 286 2 1 | 834: 286 93 1
+Set row: 287 lb: 0
+835: 287 7 -1 | 836: 287 2 1 | 837: 287 93 1
+Set row: 288 lb: 0
+838: 288 7 1 | 839: 288 2 -1 | 840: 288 93 1
+Edge found! state_5:7 <-> state_4:6	Weight: 10.5376	Set col: 94
+Set row: 289 ub: 0
+841: 289 7 -1 | 842: 289 6 -1 | 843: 289 94 1
+Set row: 290 ub: 2
+844: 290 7 1 | 845: 290 6 1 | 846: 290 94 1
+Set row: 291 lb: 0
+847: 291 7 -1 | 848: 291 6 1 | 849: 291 94 1
+Set row: 292 lb: 0
+850: 292 7 1 | 851: 292 6 -1 | 852: 292 94 1
+Edge found! state_6:8 <-> state_10:3	Weight: 26.6901	Set col: 95
+Set row: 293 ub: 0
+853: 293 8 -1 | 854: 293 3 -1 | 855: 293 95 1
+Set row: 294 ub: 2
+856: 294 8 1 | 857: 294 3 1 | 858: 294 95 1
+Set row: 295 lb: 0
+859: 295 8 -1 | 860: 295 3 1 | 861: 295 95 1
+Set row: 296 lb: 0
+862: 296 8 1 | 863: 296 3 -1 | 864: 296 95 1
+Edge found! state_6:8 <-> state_15:19	Weight: 4.29185	Set col: 96
+Set row: 297 ub: 0
+865: 297 8 -1 | 866: 297 19 -1 | 867: 297 96 1
+Set row: 298 ub: 2
+868: 298 8 1 | 869: 298 19 1 | 870: 298 96 1
+Set row: 299 lb: 0
+871: 299 8 -1 | 872: 299 19 1 | 873: 299 96 1
+Set row: 300 lb: 0
+874: 300 8 1 | 875: 300 19 -1 | 876: 300 96 1
+Edge found! state_6:8 <-> state_18:18	Weight: 17.7961	Set col: 97
+Set row: 301 ub: 0
+877: 301 8 -1 | 878: 301 18 -1 | 879: 301 97 1
+Set row: 302 ub: 2
+880: 302 8 1 | 881: 302 18 1 | 882: 302 97 1
+Set row: 303 lb: 0
+883: 303 8 -1 | 884: 303 18 1 | 885: 303 97 1
+Set row: 304 lb: 0
+886: 304 8 1 | 887: 304 18 -1 | 888: 304 97 1
+Edge found! state_6:8 <-> state_21:22	Weight: 26.6901	Set col: 98
+Set row: 305 ub: 0
+889: 305 8 -1 | 890: 305 22 -1 | 891: 305 98 1
+Set row: 306 ub: 2
+892: 306 8 1 | 893: 306 22 1 | 894: 306 98 1
+Set row: 307 lb: 0
+895: 307 8 -1 | 896: 307 22 1 | 897: 307 98 1
+Set row: 308 lb: 0
+898: 308 8 1 | 899: 308 22 -1 | 900: 308 98 1
+Edge found! state_6:8 <-> state_22:23	Weight: 13.3451	Set col: 99
+Set row: 309 ub: 0
+901: 309 8 -1 | 902: 309 23 -1 | 903: 309 99 1
+Set row: 310 ub: 2
+904: 310 8 1 | 905: 310 23 1 | 906: 310 99 1
+Set row: 311 lb: 0
+907: 311 8 -1 | 908: 311 23 1 | 909: 311 99 1
+Set row: 312 lb: 0
+910: 312 8 1 | 911: 312 23 -1 | 912: 312 99 1
+Edge found! state_6:8 <-> state_3:2	Weight: 27.4761	Set col: 100
+Set row: 313 ub: 0
+913: 313 8 -1 | 914: 313 2 -1 | 915: 313 100 1
+Set row: 314 ub: 2
+916: 314 8 1 | 917: 314 2 1 | 918: 314 100 1
+Set row: 315 lb: 0
+919: 315 8 -1 | 920: 315 2 1 | 921: 315 100 1
+Set row: 316 lb: 0
+922: 316 8 1 | 923: 316 2 -1 | 924: 316 100 1
+Edge found! state_6:8 <-> state_4:6	Weight: 10.5376	Set col: 101
+Set row: 317 ub: 0
+925: 317 8 -1 | 926: 317 6 -1 | 927: 317 101 1
+Set row: 318 ub: 2
+928: 318 8 1 | 929: 318 6 1 | 930: 318 101 1
+Set row: 319 lb: 0
+931: 319 8 -1 | 932: 319 6 1 | 933: 319 101 1
+Set row: 320 lb: 0
+934: 320 8 1 | 935: 320 6 -1 | 936: 320 101 1
+Edge found! state_7:9 <-> state_15:19	Weight: 17.1674	Set col: 102
+Set row: 321 ub: 0
+937: 321 9 -1 | 938: 321 19 -1 | 939: 321 102 1
+Set row: 322 ub: 2
+940: 322 9 1 | 941: 322 19 1 | 942: 322 102 1
+Set row: 323 lb: 0
+943: 323 9 -1 | 944: 323 19 1 | 945: 323 102 1
+Set row: 324 lb: 0
+946: 324 9 1 | 947: 324 19 -1 | 948: 324 102 1
+Edge found! state_7:9 <-> state_18:18	Weight: 11.1216	Set col: 103
+Set row: 325 ub: 0
+949: 325 9 -1 | 950: 325 18 -1 | 951: 325 103 1
+Set row: 326 ub: 2
+952: 326 9 1 | 953: 326 18 1 | 954: 326 103 1
+Set row: 327 lb: 0
+955: 327 9 -1 | 956: 327 18 1 | 957: 327 103 1
+Set row: 328 lb: 0
+958: 328 9 1 | 959: 328 18 -1 | 960: 328 103 1
+Edge found! state_7:9 <-> state_19:17	Weight: 13.3451	Set col: 104
+Set row: 329 ub: 0
+961: 329 9 -1 | 962: 329 17 -1 | 963: 329 104 1
+Set row: 330 ub: 2
+964: 330 9 1 | 965: 330 17 1 | 966: 330 104 1
+Set row: 331 lb: 0
+967: 331 9 -1 | 968: 331 17 1 | 969: 331 104 1
+Set row: 332 lb: 0
+970: 332 9 1 | 971: 332 17 -1 | 972: 332 104 1
+Edge found! state_7:9 <-> state_20:16	Weight: 13.3451	Set col: 105
+Set row: 333 ub: 0
+973: 333 9 -1 | 974: 333 16 -1 | 975: 333 105 1
+Set row: 334 ub: 2
+976: 334 9 1 | 977: 334 16 1 | 978: 334 105 1
+Set row: 335 lb: 0
+979: 335 9 -1 | 980: 335 16 1 | 981: 335 105 1
+Set row: 336 lb: 0
+982: 336 9 1 | 983: 336 16 -1 | 984: 336 105 1
+Edge found! state_7:9 <-> state_3:2	Weight: 14.131	Set col: 106
+Set row: 337 ub: 0
+985: 337 9 -1 | 986: 337 2 -1 | 987: 337 106 1
+Set row: 338 ub: 2
+988: 338 9 1 | 989: 338 2 1 | 990: 338 106 1
+Set row: 339 lb: 0
+991: 339 9 -1 | 992: 339 2 1 | 993: 339 106 1
+Set row: 340 lb: 0
+994: 340 9 1 | 995: 340 2 -1 | 996: 340 106 1
+Edge found! state_7:9 <-> state_4:6	Weight: 10.5376	Set col: 107
+Set row: 341 ub: 0
+997: 341 9 -1 | 998: 341 6 -1 | 999: 341 107 1
+Set row: 342 ub: 2
+1000: 342 9 1 | 1001: 342 6 1 | 1002: 342 107 1
+Set row: 343 lb: 0
+1003: 343 9 -1 | 1004: 343 6 1 | 1005: 343 107 1
+Set row: 344 lb: 0
+1006: 344 9 1 | 1007: 344 6 -1 | 1008: 344 107 1
+Edge found! state_8:25 <-> state_13:11	Weight: 5.66914	Set col: 108
+Set row: 345 ub: 0
+1009: 345 25 -1 | 1010: 345 11 -1 | 1011: 345 108 1
+Set row: 346 ub: 2
+1012: 346 25 1 | 1013: 346 11 1 | 1014: 346 108 1
+Set row: 347 lb: 0
+1015: 347 25 -1 | 1016: 347 11 1 | 1017: 347 108 1
+Set row: 348 lb: 0
+1018: 348 25 1 | 1019: 348 11 -1 | 1020: 348 108 1
+Edge found! state_8:25 <-> state_14:10	Weight: 14.689	Set col: 109
+Set row: 349 ub: 0
+1021: 349 25 -1 | 1022: 349 10 -1 | 1023: 349 109 1
+Set row: 350 ub: 2
+1024: 350 25 1 | 1025: 350 10 1 | 1026: 350 109 1
+Set row: 351 lb: 0
+1027: 351 25 -1 | 1028: 351 10 1 | 1029: 351 109 1
+Set row: 352 lb: 0
+1030: 352 25 1 | 1031: 352 10 -1 | 1032: 352 109 1
+Edge found! state_8:25 <-> state_15:19	Weight: 11.3383	Set col: 110
+Set row: 353 ub: 0
+1033: 353 25 -1 | 1034: 353 19 -1 | 1035: 353 110 1
+Set row: 354 ub: 2
+1036: 354 25 1 | 1037: 354 19 1 | 1038: 354 110 1
+Set row: 355 lb: 0
+1039: 355 25 -1 | 1040: 355 19 1 | 1041: 355 110 1
+Set row: 356 lb: 0
+1042: 356 25 1 | 1043: 356 19 -1 | 1044: 356 110 1
+Edge found! state_8:25 <-> state_2:12	Weight: 13.6567	Set col: 111
+Set row: 357 ub: 0
+1045: 357 25 -1 | 1046: 357 12 -1 | 1047: 357 111 1
+Set row: 358 ub: 2
+1048: 358 25 1 | 1049: 358 12 1 | 1050: 358 111 1
+Set row: 359 lb: 0
+1051: 359 25 -1 | 1052: 359 12 1 | 1053: 359 111 1
+Set row: 360 lb: 0
+1054: 360 25 1 | 1055: 360 12 -1 | 1056: 360 111 1
+Edge found! state_8:25 <-> state_26:26	Weight: 11.3383	Set col: 112
+Set row: 361 ub: 0
+1057: 361 25 -1 | 1058: 361 26 -1 | 1059: 361 112 1
+Set row: 362 ub: 2
+1060: 362 25 1 | 1061: 362 26 1 | 1062: 362 112 1
+Set row: 363 lb: 0
+1063: 363 25 -1 | 1064: 363 26 1 | 1065: 363 112 1
+Set row: 364 lb: 0
+1066: 364 25 1 | 1067: 364 26 -1 | 1068: 364 112 1
+Edge found! state_9:24 <-> state_1:1	Weight: 22.4598	Set col: 113
+Set row: 365 ub: 0
+1069: 365 24 -1 | 1070: 365 1 -1 | 1071: 365 113 1
+Set row: 366 ub: 2
+1072: 366 24 1 | 1073: 366 1 1 | 1074: 366 113 1
+Set row: 367 lb: 0
+1075: 367 24 -1 | 1076: 367 1 1 | 1077: 367 113 1
+Set row: 368 lb: 0
+1078: 368 24 1 | 1079: 368 1 -1 | 1080: 368 113 1
+Edge found! state_9:24 <-> state_14:10	Weight: 9.01983	Set col: 114
+Set row: 369 ub: 0
+1081: 369 24 -1 | 1082: 369 10 -1 | 1083: 369 114 1
+Set row: 370 ub: 2
+1084: 370 24 1 | 1085: 370 10 1 | 1086: 370 114 1
+Set row: 371 lb: 0
+1087: 371 24 -1 | 1088: 371 10 1 | 1089: 371 114 1
+Set row: 372 lb: 0
+1090: 372 24 1 | 1091: 372 10 -1 | 1092: 372 114 1
+Edge found! state_9:24 <-> state_2:12	Weight: 13.6567	Set col: 115
+Set row: 373 ub: 0
+1093: 373 24 -1 | 1094: 373 12 -1 | 1095: 373 115 1
+Set row: 374 ub: 2
+1096: 374 24 1 | 1097: 374 12 1 | 1098: 374 115 1
+Set row: 375 lb: 0
+1099: 375 24 -1 | 1100: 375 12 1 | 1101: 375 115 1
+Set row: 376 lb: 0
+1102: 376 24 1 | 1103: 376 12 -1 | 1104: 376 115 1
+Edge found! state_9:24 <-> state_20:16	Weight: 8.89805	Set col: 116
+Set row: 377 ub: 0
+1105: 377 24 -1 | 1106: 377 16 -1 | 1107: 377 116 1
+Set row: 378 ub: 2
+1108: 378 24 1 | 1109: 378 16 1 | 1110: 378 116 1
+Set row: 379 lb: 0
+1111: 379 24 -1 | 1112: 379 16 1 | 1113: 379 116 1
+Set row: 380 lb: 0
+1114: 380 24 1 | 1115: 380 16 -1 | 1116: 380 116 1
+Edge found! state_9:24 <-> state_5:7	Weight: 5.61496	Set col: 117
+Set row: 381 ub: 0
+1117: 381 24 -1 | 1118: 381 7 -1 | 1119: 381 117 1
+Set row: 382 ub: 2
+1120: 382 24 1 | 1121: 382 7 1 | 1122: 382 117 1
+Set row: 383 lb: 0
+1123: 383 24 -1 | 1124: 383 7 1 | 1125: 383 117 1
+Set row: 384 lb: 0
+1126: 384 24 1 | 1127: 384 7 -1 | 1128: 384 117 1
+Edge found! state_9:24 <-> state_6:8	Weight: 22.4598	Set col: 118
+Set row: 385 ub: 0
+1129: 385 24 -1 | 1130: 385 8 -1 | 1131: 385 118 1
+Set row: 386 ub: 2
+1132: 386 24 1 | 1133: 386 8 1 | 1134: 386 118 1
+Set row: 387 lb: 0
+1135: 387 24 -1 | 1136: 387 8 1 | 1137: 387 118 1
+Set row: 388 lb: 0
+1138: 388 24 1 | 1139: 388 8 -1 | 1140: 388 118 1
+Edge found! state_9:24 <-> state_7:9	Weight: 49.15	Set col: 119
+Set row: 389 ub: 0
+1141: 389 24 -1 | 1142: 389 9 -1 | 1143: 389 119 1
+Set row: 390 ub: 2
+1144: 390 24 1 | 1145: 390 9 1 | 1146: 390 119 1
+Set row: 391 lb: 0
+1147: 391 24 -1 | 1148: 391 9 1 | 1149: 391 119 1
+Set row: 392 lb: 0
+1150: 392 24 1 | 1151: 392 9 -1 | 1152: 392 119 1
+GLPK Integer Optimizer 5.0
+393 rows, 119 columns, 1179 non-zeros
+119 integer variables, all of which are binary
+Preprocessing...
+184 hidden covering inequaliti(es) were detected
+393 rows, 119 columns, 1179 non-zeros
+119 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 381
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+393 rows, 119 columns, 1179 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.100e+01 (51)
+     15: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    15: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 535.538353506
++   552: >>>>>   4.023315381e+02 >=   1.501850658e+02  62.7% (26; 3)
++  2001: mip =   4.023315381e+02 >=     tree is empty   0.0% (0; 171)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 402.332
+state_1	1	1
+state_10	3	0
+state_11	4	1
+state_12	5	0
+state_13	11	0
+state_14	10	0
+state_15	19	0
+state_16	20	0
+state_17	21	1
+state_18	18	1
+state_19	17	0
+state_2	12	1
+state_20	16	0
+state_21	22	1
+state_22	23	1
+state_23	13	1
+state_24	14	0
+state_25	15	1
+state_26	26	0
+state_27	27	1
+state_3	2	1
+state_4	6	0
+state_5	7	1
+state_6	8	1
+state_7	9	0
+state_8	25	0
+state_9	24	0
+Number of 0 assigned: 14 | Number of 1 assigned: 13
+XOR Constraint 28: 1
+XOR Constraint 29: 0
+XOR Constraint 30: 1
+XOR Constraint 31: 0
+XOR Constraint 32: 1
+XOR Constraint 33: 0
+XOR Constraint 34: 1
+XOR Constraint 35: 0
+XOR Constraint 36: 0
+XOR Constraint 37: 0
+XOR Constraint 38: 0
+XOR Constraint 39: 1
+XOR Constraint 40: 1
+XOR Constraint 41: 0
+XOR Constraint 42: 0
+XOR Constraint 43: 0
+XOR Constraint 44: 1
+XOR Constraint 45: 0
+XOR Constraint 46: 1
+XOR Constraint 47: 1
+XOR Constraint 48: 0
+XOR Constraint 49: 0
+XOR Constraint 50: 0
+XOR Constraint 51: 0
+XOR Constraint 52: 1
+XOR Constraint 53: 1
+XOR Constraint 54: 0
+XOR Constraint 55: 1
+XOR Constraint 56: 0
+XOR Constraint 57: 0
+XOR Constraint 58: 1
+XOR Constraint 59: 1
+XOR Constraint 60: 0
+XOR Constraint 61: 1
+XOR Constraint 62: 0
+XOR Constraint 63: 1
+XOR Constraint 64: 0
+XOR Constraint 65: 0
+XOR Constraint 66: 0
+XOR Constraint 67: 0
+XOR Constraint 68: 1
+XOR Constraint 69: 1
+XOR Constraint 70: 1
+XOR Constraint 71: 0
+XOR Constraint 72: 0
+XOR Constraint 73: 1
+XOR Constraint 74: 1
+XOR Constraint 75: 1
+XOR Constraint 76: 1
+XOR Constraint 77: 0
+XOR Constraint 78: 0
+XOR Constraint 79: 0
+XOR Constraint 80: 1
+XOR Constraint 81: 0
+XOR Constraint 82: 0
+XOR Constraint 83: 0
+XOR Constraint 84: 0
+XOR Constraint 85: 1
+XOR Constraint 86: 1
+XOR Constraint 87: 0
+XOR Constraint 88: 1
+XOR Constraint 89: 1
+XOR Constraint 90: 0
+XOR Constraint 91: 0
+XOR Constraint 92: 0
+XOR Constraint 93: 0
+XOR Constraint 94: 1
+XOR Constraint 95: 1
+XOR Constraint 96: 1
+XOR Constraint 97: 0
+XOR Constraint 98: 0
+XOR Constraint 99: 0
+XOR Constraint 100: 0
+XOR Constraint 101: 1
+XOR Constraint 102: 0
+XOR Constraint 103: 1
+XOR Constraint 104: 0
+XOR Constraint 105: 0
+XOR Constraint 106: 1
+XOR Constraint 107: 0
+XOR Constraint 108: 0
+XOR Constraint 109: 0
+XOR Constraint 110: 0
+XOR Constraint 111: 1
+XOR Constraint 112: 0
+XOR Constraint 113: 1
+XOR Constraint 114: 0
+XOR Constraint 115: 1
+XOR Constraint 116: 0
+XOR Constraint 117: 1
+XOR Constraint 118: 1
+XOR Constraint 119: 0
+-----
+Size of State Group: 27
+ - 19
+ - 11
+ - 17
+ - 14
+ - 20
+ - 25
+ - 26
+ - 13
+ - 6
+ - 3
+ - 9
+ - 5
+ - 24
+ - 10
+ - 16
+ - 8
+ - 4
+ - 15
+ - 23
+ - 22
+ - 27
+ - 2
+ - 1
+ - 18
+ - 7
+ - 12
+ - 21
+
+Final Results:
+Used Length / Total Length:	5 / 27
+state_1	: 1	| 10011----------------------
+state_10	: 3	| 10010----------------------
+state_11	: 4	| 10001----------------------
+state_12	: 5	| 11010----------------------
+state_13	: 11	| 10000----------------------
+state_14	: 10	| 10110----------------------
+state_15	: 19	| 00000----------------------
+state_16	: 20	| 00100----------------------
+state_17	: 21	| 01111----------------------
+state_18	: 18	| 01011----------------------
+state_19	: 17	| 01000----------------------
+state_2	: 12	| 10111----------------------
+state_20	: 16	| 01110----------------------
+state_21	: 22	| 10101----------------------
+state_22	: 23	| 00101----------------------
+state_23	: 13	| 11101----------------------
+state_24	: 14	| 11000----------------------
+state_25	: 15	| 01001----------------------
+state_26	: 26	| 01100----------------------
+state_27	: 27	| 01101----------------------
+state_3	: 2	| 00011----------------------
+state_4	: 6	| 00010----------------------
+state_5	: 7	| 00111----------------------
+state_6	: 8	| 00001----------------------
+state_7	: 9	| 01010----------------------
+state_8	: 25	| 10100----------------------
+state_9	: 24	| 00110----------------------
+
+===========================================================================
+Writing File ...
+
+===========================================================================
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2706.0 uW assuming 20 MHz clock and Vdd = 5V

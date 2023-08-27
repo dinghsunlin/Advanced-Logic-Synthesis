@@ -1,0 +1,1792 @@
+
+===========================================================================
+Reading File ...
+
+===========================================================================
+Calculating State Probability ...
+glp_exact: 17 rows, 16 columns, 71 non-zeros
+GLPK bignum module is being used
+(Consider installing GNU MP to attain a much better performance.)
+      0:   infsum =                      1   (16)
+     16:   infsum =                      0   (1)
+*    16:   objval =                      0   (1)
+*    16:   objval =                      0   (1)
+OPTIMAL SOLUTION FOUND
+-----
+st0:	0.905047
+st1:	0.0207385
+st10:	0.00118168
+st11:	6.21936e-05
+st12:	6.91039e-06
+st13:	4.11145e-07
+st14:	1.37048e-08
+st15:	1.05422e-08
+st2:	0.00106351
+st3:	2.79871e-05
+st4:	1.47301e-06
+st5:	2.95829e-05
+st6:	0.0245262
+st7:	0.00359274
+st8:	0.0212702
+st9:	0.0224519
+-----
+st1 <-> st0:	5974.51
+st10 <-> st0:	156.521
+st11 <-> st0:	8.23795
+st11 <-> st10:	9.20712
+st12 <-> st0:	0.915328
+st12 <-> st11:	0.969171
+st13 <-> st0:	0.0512554
+st13 <-> st12:	0.0538428
+st14 <-> st0:	0.00106782
+st14 <-> st13:	0.00213564
+st15 <-> st0:	0.00135531
+st15 <-> st13:	0.00168387
+st2 <-> st0:	149.156
+st2 <-> st1:	165.728
+st3 <-> st0:	3.92515
+st3 <-> st2:	4.14321
+st4 <-> st0:	0.206587
+st4 <-> st1:	0.00573852
+st4 <-> st3:	0.218064
+st5 <-> st0:	4.14895
+st5 <-> st2:	4.14321
+st5 <-> st4:	0.00573852
+st6 <-> st0:	5977.94
+st7 <-> st0:	503.875
+st7 <-> st6:	209.991
+st8 <-> st0:	5883.35
+st8 <-> st10:	165.728
+st8 <-> st15:	0.00016428
+st9 <-> st0:	5864.94
+st9 <-> st7:	349.871
+st9 <-> st8:	82.8641
+
+===========================================================================
+State Assignment ...
+   [   Round 1   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st10 -> 8
+Set col: st11 -> 11
+Set col: st12 -> 13
+Set col: st13 -> 14
+Set col: st14 -> 15
+Set col: st15 -> 16
+Set col: st2 -> 6
+Set col: st3 -> 10
+Set col: st4 -> 12
+Set col: st5 -> 9
+Set col: st6 -> 4
+Set col: st7 -> 7
+Set col: st8 -> 5
+Set col: st9 -> 3
+Size of Group: 1
+Group 1 | Size 16
+Set row: 1 lb: 1 ub: 8
+Set row: 2 lb: -15 ub: -8
+1: 1 3 1
+2: 2 3 -1
+3: 1 5 1
+4: 2 5 -1
+5: 1 7 1
+6: 2 7 -1
+7: 1 4 1
+8: 2 4 -1
+9: 1 9 1
+10: 2 9 -1
+11: 1 13 1
+12: 2 13 -1
+13: 1 2 1
+14: 2 2 -1
+15: 1 8 1
+16: 2 8 -1
+17: 1 11 1
+18: 2 11 -1
+19: 1 1 1
+20: 2 1 -1
+21: 1 12 1
+22: 2 12 -1
+23: 1 14 1
+24: 2 14 -1
+25: 1 15 1
+26: 2 15 -1
+27: 1 16 1
+28: 2 16 -1
+29: 1 6 1
+30: 2 6 -1
+31: 1 10 1
+32: 2 10 -1
+Edge found! st1:2 <-> st0:1	Weight: 5974.51	Set col: 17
+Set row: 3 ub: 0
+33: 3 2 -1 | 34: 3 1 -1 | 35: 3 17 1
+Set row: 4 ub: 2
+36: 4 2 1 | 37: 4 1 1 | 38: 4 17 1
+Set row: 5 lb: 0
+39: 5 2 -1 | 40: 5 1 1 | 41: 5 17 1
+Set row: 6 lb: 0
+42: 6 2 1 | 43: 6 1 -1 | 44: 6 17 1
+Edge found! st10:8 <-> st0:1	Weight: 156.521	Set col: 18
+Set row: 7 ub: 0
+45: 7 8 -1 | 46: 7 1 -1 | 47: 7 18 1
+Set row: 8 ub: 2
+48: 8 8 1 | 49: 8 1 1 | 50: 8 18 1
+Set row: 9 lb: 0
+51: 9 8 -1 | 52: 9 1 1 | 53: 9 18 1
+Set row: 10 lb: 0
+54: 10 8 1 | 55: 10 1 -1 | 56: 10 18 1
+Edge found! st11:11 <-> st0:1	Weight: 8.23795	Set col: 19
+Set row: 11 ub: 0
+57: 11 11 -1 | 58: 11 1 -1 | 59: 11 19 1
+Set row: 12 ub: 2
+60: 12 11 1 | 61: 12 1 1 | 62: 12 19 1
+Set row: 13 lb: 0
+63: 13 11 -1 | 64: 13 1 1 | 65: 13 19 1
+Set row: 14 lb: 0
+66: 14 11 1 | 67: 14 1 -1 | 68: 14 19 1
+Edge found! st11:11 <-> st10:8	Weight: 9.20712	Set col: 20
+Set row: 15 ub: 0
+69: 15 11 -1 | 70: 15 8 -1 | 71: 15 20 1
+Set row: 16 ub: 2
+72: 16 11 1 | 73: 16 8 1 | 74: 16 20 1
+Set row: 17 lb: 0
+75: 17 11 -1 | 76: 17 8 1 | 77: 17 20 1
+Set row: 18 lb: 0
+78: 18 11 1 | 79: 18 8 -1 | 80: 18 20 1
+Edge found! st12:13 <-> st0:1	Weight: 0.915328	Set col: 21
+Set row: 19 ub: 0
+81: 19 13 -1 | 82: 19 1 -1 | 83: 19 21 1
+Set row: 20 ub: 2
+84: 20 13 1 | 85: 20 1 1 | 86: 20 21 1
+Set row: 21 lb: 0
+87: 21 13 -1 | 88: 21 1 1 | 89: 21 21 1
+Set row: 22 lb: 0
+90: 22 13 1 | 91: 22 1 -1 | 92: 22 21 1
+Edge found! st12:13 <-> st11:11	Weight: 0.969171	Set col: 22
+Set row: 23 ub: 0
+93: 23 13 -1 | 94: 23 11 -1 | 95: 23 22 1
+Set row: 24 ub: 2
+96: 24 13 1 | 97: 24 11 1 | 98: 24 22 1
+Set row: 25 lb: 0
+99: 25 13 -1 | 100: 25 11 1 | 101: 25 22 1
+Set row: 26 lb: 0
+102: 26 13 1 | 103: 26 11 -1 | 104: 26 22 1
+Edge found! st13:14 <-> st0:1	Weight: 0.0512554	Set col: 23
+Set row: 27 ub: 0
+105: 27 14 -1 | 106: 27 1 -1 | 107: 27 23 1
+Set row: 28 ub: 2
+108: 28 14 1 | 109: 28 1 1 | 110: 28 23 1
+Set row: 29 lb: 0
+111: 29 14 -1 | 112: 29 1 1 | 113: 29 23 1
+Set row: 30 lb: 0
+114: 30 14 1 | 115: 30 1 -1 | 116: 30 23 1
+Edge found! st13:14 <-> st12:13	Weight: 0.0538428	Set col: 24
+Set row: 31 ub: 0
+117: 31 14 -1 | 118: 31 13 -1 | 119: 31 24 1
+Set row: 32 ub: 2
+120: 32 14 1 | 121: 32 13 1 | 122: 32 24 1
+Set row: 33 lb: 0
+123: 33 14 -1 | 124: 33 13 1 | 125: 33 24 1
+Set row: 34 lb: 0
+126: 34 14 1 | 127: 34 13 -1 | 128: 34 24 1
+Edge found! st14:15 <-> st0:1	Weight: 0.00106782	Set col: 25
+Set row: 35 ub: 0
+129: 35 15 -1 | 130: 35 1 -1 | 131: 35 25 1
+Set row: 36 ub: 2
+132: 36 15 1 | 133: 36 1 1 | 134: 36 25 1
+Set row: 37 lb: 0
+135: 37 15 -1 | 136: 37 1 1 | 137: 37 25 1
+Set row: 38 lb: 0
+138: 38 15 1 | 139: 38 1 -1 | 140: 38 25 1
+Edge found! st14:15 <-> st13:14	Weight: 0.00213564	Set col: 26
+Set row: 39 ub: 0
+141: 39 15 -1 | 142: 39 14 -1 | 143: 39 26 1
+Set row: 40 ub: 2
+144: 40 15 1 | 145: 40 14 1 | 146: 40 26 1
+Set row: 41 lb: 0
+147: 41 15 -1 | 148: 41 14 1 | 149: 41 26 1
+Set row: 42 lb: 0
+150: 42 15 1 | 151: 42 14 -1 | 152: 42 26 1
+Edge found! st15:16 <-> st0:1	Weight: 0.00135531	Set col: 27
+Set row: 43 ub: 0
+153: 43 16 -1 | 154: 43 1 -1 | 155: 43 27 1
+Set row: 44 ub: 2
+156: 44 16 1 | 157: 44 1 1 | 158: 44 27 1
+Set row: 45 lb: 0
+159: 45 16 -1 | 160: 45 1 1 | 161: 45 27 1
+Set row: 46 lb: 0
+162: 46 16 1 | 163: 46 1 -1 | 164: 46 27 1
+Edge found! st15:16 <-> st13:14	Weight: 0.00168387	Set col: 28
+Set row: 47 ub: 0
+165: 47 16 -1 | 166: 47 14 -1 | 167: 47 28 1
+Set row: 48 ub: 2
+168: 48 16 1 | 169: 48 14 1 | 170: 48 28 1
+Set row: 49 lb: 0
+171: 49 16 -1 | 172: 49 14 1 | 173: 49 28 1
+Set row: 50 lb: 0
+174: 50 16 1 | 175: 50 14 -1 | 176: 50 28 1
+Edge found! st2:6 <-> st0:1	Weight: 149.156	Set col: 29
+Set row: 51 ub: 0
+177: 51 6 -1 | 178: 51 1 -1 | 179: 51 29 1
+Set row: 52 ub: 2
+180: 52 6 1 | 181: 52 1 1 | 182: 52 29 1
+Set row: 53 lb: 0
+183: 53 6 -1 | 184: 53 1 1 | 185: 53 29 1
+Set row: 54 lb: 0
+186: 54 6 1 | 187: 54 1 -1 | 188: 54 29 1
+Edge found! st2:6 <-> st1:2	Weight: 165.728	Set col: 30
+Set row: 55 ub: 0
+189: 55 6 -1 | 190: 55 2 -1 | 191: 55 30 1
+Set row: 56 ub: 2
+192: 56 6 1 | 193: 56 2 1 | 194: 56 30 1
+Set row: 57 lb: 0
+195: 57 6 -1 | 196: 57 2 1 | 197: 57 30 1
+Set row: 58 lb: 0
+198: 58 6 1 | 199: 58 2 -1 | 200: 58 30 1
+Edge found! st3:10 <-> st0:1	Weight: 3.92515	Set col: 31
+Set row: 59 ub: 0
+201: 59 10 -1 | 202: 59 1 -1 | 203: 59 31 1
+Set row: 60 ub: 2
+204: 60 10 1 | 205: 60 1 1 | 206: 60 31 1
+Set row: 61 lb: 0
+207: 61 10 -1 | 208: 61 1 1 | 209: 61 31 1
+Set row: 62 lb: 0
+210: 62 10 1 | 211: 62 1 -1 | 212: 62 31 1
+Edge found! st3:10 <-> st2:6	Weight: 4.14321	Set col: 32
+Set row: 63 ub: 0
+213: 63 10 -1 | 214: 63 6 -1 | 215: 63 32 1
+Set row: 64 ub: 2
+216: 64 10 1 | 217: 64 6 1 | 218: 64 32 1
+Set row: 65 lb: 0
+219: 65 10 -1 | 220: 65 6 1 | 221: 65 32 1
+Set row: 66 lb: 0
+222: 66 10 1 | 223: 66 6 -1 | 224: 66 32 1
+Edge found! st4:12 <-> st0:1	Weight: 0.206587	Set col: 33
+Set row: 67 ub: 0
+225: 67 12 -1 | 226: 67 1 -1 | 227: 67 33 1
+Set row: 68 ub: 2
+228: 68 12 1 | 229: 68 1 1 | 230: 68 33 1
+Set row: 69 lb: 0
+231: 69 12 -1 | 232: 69 1 1 | 233: 69 33 1
+Set row: 70 lb: 0
+234: 70 12 1 | 235: 70 1 -1 | 236: 70 33 1
+Edge found! st4:12 <-> st1:2	Weight: 0.00573852	Set col: 34
+Set row: 71 ub: 0
+237: 71 12 -1 | 238: 71 2 -1 | 239: 71 34 1
+Set row: 72 ub: 2
+240: 72 12 1 | 241: 72 2 1 | 242: 72 34 1
+Set row: 73 lb: 0
+243: 73 12 -1 | 244: 73 2 1 | 245: 73 34 1
+Set row: 74 lb: 0
+246: 74 12 1 | 247: 74 2 -1 | 248: 74 34 1
+Edge found! st4:12 <-> st3:10	Weight: 0.218064	Set col: 35
+Set row: 75 ub: 0
+249: 75 12 -1 | 250: 75 10 -1 | 251: 75 35 1
+Set row: 76 ub: 2
+252: 76 12 1 | 253: 76 10 1 | 254: 76 35 1
+Set row: 77 lb: 0
+255: 77 12 -1 | 256: 77 10 1 | 257: 77 35 1
+Set row: 78 lb: 0
+258: 78 12 1 | 259: 78 10 -1 | 260: 78 35 1
+Edge found! st5:9 <-> st0:1	Weight: 4.14895	Set col: 36
+Set row: 79 ub: 0
+261: 79 9 -1 | 262: 79 1 -1 | 263: 79 36 1
+Set row: 80 ub: 2
+264: 80 9 1 | 265: 80 1 1 | 266: 80 36 1
+Set row: 81 lb: 0
+267: 81 9 -1 | 268: 81 1 1 | 269: 81 36 1
+Set row: 82 lb: 0
+270: 82 9 1 | 271: 82 1 -1 | 272: 82 36 1
+Edge found! st5:9 <-> st2:6	Weight: 4.14321	Set col: 37
+Set row: 83 ub: 0
+273: 83 9 -1 | 274: 83 6 -1 | 275: 83 37 1
+Set row: 84 ub: 2
+276: 84 9 1 | 277: 84 6 1 | 278: 84 37 1
+Set row: 85 lb: 0
+279: 85 9 -1 | 280: 85 6 1 | 281: 85 37 1
+Set row: 86 lb: 0
+282: 86 9 1 | 283: 86 6 -1 | 284: 86 37 1
+Edge found! st5:9 <-> st4:12	Weight: 0.00573852	Set col: 38
+Set row: 87 ub: 0
+285: 87 9 -1 | 286: 87 12 -1 | 287: 87 38 1
+Set row: 88 ub: 2
+288: 88 9 1 | 289: 88 12 1 | 290: 88 38 1
+Set row: 89 lb: 0
+291: 89 9 -1 | 292: 89 12 1 | 293: 89 38 1
+Set row: 90 lb: 0
+294: 90 9 1 | 295: 90 12 -1 | 296: 90 38 1
+Edge found! st6:4 <-> st0:1	Weight: 5977.94	Set col: 39
+Set row: 91 ub: 0
+297: 91 4 -1 | 298: 91 1 -1 | 299: 91 39 1
+Set row: 92 ub: 2
+300: 92 4 1 | 301: 92 1 1 | 302: 92 39 1
+Set row: 93 lb: 0
+303: 93 4 -1 | 304: 93 1 1 | 305: 93 39 1
+Set row: 94 lb: 0
+306: 94 4 1 | 307: 94 1 -1 | 308: 94 39 1
+Edge found! st7:7 <-> st0:1	Weight: 503.875	Set col: 40
+Set row: 95 ub: 0
+309: 95 7 -1 | 310: 95 1 -1 | 311: 95 40 1
+Set row: 96 ub: 2
+312: 96 7 1 | 313: 96 1 1 | 314: 96 40 1
+Set row: 97 lb: 0
+315: 97 7 -1 | 316: 97 1 1 | 317: 97 40 1
+Set row: 98 lb: 0
+318: 98 7 1 | 319: 98 1 -1 | 320: 98 40 1
+Edge found! st7:7 <-> st6:4	Weight: 209.991	Set col: 41
+Set row: 99 ub: 0
+321: 99 7 -1 | 322: 99 4 -1 | 323: 99 41 1
+Set row: 100 ub: 2
+324: 100 7 1 | 325: 100 4 1 | 326: 100 41 1
+Set row: 101 lb: 0
+327: 101 7 -1 | 328: 101 4 1 | 329: 101 41 1
+Set row: 102 lb: 0
+330: 102 7 1 | 331: 102 4 -1 | 332: 102 41 1
+Edge found! st8:5 <-> st0:1	Weight: 5883.35	Set col: 42
+Set row: 103 ub: 0
+333: 103 5 -1 | 334: 103 1 -1 | 335: 103 42 1
+Set row: 104 ub: 2
+336: 104 5 1 | 337: 104 1 1 | 338: 104 42 1
+Set row: 105 lb: 0
+339: 105 5 -1 | 340: 105 1 1 | 341: 105 42 1
+Set row: 106 lb: 0
+342: 106 5 1 | 343: 106 1 -1 | 344: 106 42 1
+Edge found! st8:5 <-> st10:8	Weight: 165.728	Set col: 43
+Set row: 107 ub: 0
+345: 107 5 -1 | 346: 107 8 -1 | 347: 107 43 1
+Set row: 108 ub: 2
+348: 108 5 1 | 349: 108 8 1 | 350: 108 43 1
+Set row: 109 lb: 0
+351: 109 5 -1 | 352: 109 8 1 | 353: 109 43 1
+Set row: 110 lb: 0
+354: 110 5 1 | 355: 110 8 -1 | 356: 110 43 1
+Edge found! st8:5 <-> st15:16	Weight: 0.00016428	Set col: 44
+Set row: 111 ub: 0
+357: 111 5 -1 | 358: 111 16 -1 | 359: 111 44 1
+Set row: 112 ub: 2
+360: 112 5 1 | 361: 112 16 1 | 362: 112 44 1
+Set row: 113 lb: 0
+363: 113 5 -1 | 364: 113 16 1 | 365: 113 44 1
+Set row: 114 lb: 0
+366: 114 5 1 | 367: 114 16 -1 | 368: 114 44 1
+Edge found! st9:3 <-> st0:1	Weight: 5864.94	Set col: 45
+Set row: 115 ub: 0
+369: 115 3 -1 | 370: 115 1 -1 | 371: 115 45 1
+Set row: 116 ub: 2
+372: 116 3 1 | 373: 116 1 1 | 374: 116 45 1
+Set row: 117 lb: 0
+375: 117 3 -1 | 376: 117 1 1 | 377: 117 45 1
+Set row: 118 lb: 0
+378: 118 3 1 | 379: 118 1 -1 | 380: 118 45 1
+Edge found! st9:3 <-> st7:7	Weight: 349.871	Set col: 46
+Set row: 119 ub: 0
+381: 119 3 -1 | 382: 119 7 -1 | 383: 119 46 1
+Set row: 120 ub: 2
+384: 120 3 1 | 385: 120 7 1 | 386: 120 46 1
+Set row: 121 lb: 0
+387: 121 3 -1 | 388: 121 7 1 | 389: 121 46 1
+Set row: 122 lb: 0
+390: 122 3 1 | 391: 122 7 -1 | 392: 122 46 1
+Edge found! st9:3 <-> st8:5	Weight: 82.8641	Set col: 47
+Set row: 123 ub: 0
+393: 123 3 -1 | 394: 123 5 -1 | 395: 123 47 1
+Set row: 124 ub: 2
+396: 124 3 1 | 397: 124 5 1 | 398: 124 47 1
+Set row: 125 lb: 0
+399: 125 3 -1 | 400: 125 5 1 | 401: 125 47 1
+Set row: 126 lb: 0
+402: 126 3 1 | 403: 126 5 -1 | 404: 126 47 1
+GLPK Integer Optimizer 5.0
+127 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Preprocessing...
+62 hidden covering inequaliti(es) were detected
+127 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 127
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+127 rows, 47 columns, 420 non-zeros
+      0: obj =   0.000000000e+00 inf =   9.000e+00 (2)
+     17: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    17: mip =     not found yet >=              -inf        (1; 0)
++    40: >>>>>   3.498709118e+01 >=   8.542567105e-03 100.0% (2; 0)
++    40: mip =   3.498709118e+01 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 34.9871
+st0	1	0
+st1	2	0
+st10	8	0
+st11	11	1
+st12	13	1
+st13	14	1
+st14	15	1
+st15	16	1
+st2	6	0
+st3	10	1
+st4	12	1
+st5	9	1
+st6	4	0
+st7	7	0
+st8	5	0
+st9	3	0
+Number of 0 assigned: 8 | Number of 1 assigned: 8
+XOR Constraint 17: 0
+XOR Constraint 18: 0
+XOR Constraint 19: 1
+XOR Constraint 20: 1
+XOR Constraint 21: 1
+XOR Constraint 22: 0
+XOR Constraint 23: 1
+XOR Constraint 24: 0
+XOR Constraint 25: 1
+XOR Constraint 26: 0
+XOR Constraint 27: 1
+XOR Constraint 28: 0
+XOR Constraint 29: 0
+XOR Constraint 30: 0
+XOR Constraint 31: 1
+XOR Constraint 32: 1
+XOR Constraint 33: 1
+XOR Constraint 34: 1
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 1
+XOR Constraint 38: 0
+XOR Constraint 39: 0
+XOR Constraint 40: 0
+XOR Constraint 41: 0
+XOR Constraint 42: 0
+XOR Constraint 43: 0
+XOR Constraint 44: 1
+XOR Constraint 45: 0
+XOR Constraint 46: 0
+XOR Constraint 47: 0
+-----
+Size of State Group: 2
+ - 3 5 7 4 2 8 1 6
+ - 10 16 15 14 12 11 13 9
+
+   [   Round 2   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st10 -> 8
+Set col: st11 -> 11
+Set col: st12 -> 13
+Set col: st13 -> 14
+Set col: st14 -> 15
+Set col: st15 -> 16
+Set col: st2 -> 6
+Set col: st3 -> 10
+Set col: st4 -> 12
+Set col: st5 -> 9
+Set col: st6 -> 4
+Set col: st7 -> 7
+Set col: st8 -> 5
+Set col: st9 -> 3
+Size of Group: 2
+Group 1 | Size 8
+Set row: 1 lb: 1 ub: 4
+Set row: 2 lb: -7 ub: -4
+1: 1 3 1
+2: 2 3 -1
+3: 1 5 1
+4: 2 5 -1
+5: 1 7 1
+6: 2 7 -1
+7: 1 4 1
+8: 2 4 -1
+9: 1 2 1
+10: 2 2 -1
+11: 1 8 1
+12: 2 8 -1
+13: 1 1 1
+14: 2 1 -1
+15: 1 6 1
+16: 2 6 -1
+Group 2 | Size 8
+Set row: 3 lb: 1 ub: 4
+Set row: 4 lb: -7 ub: -4
+17: 3 10 1
+18: 4 10 -1
+19: 3 16 1
+20: 4 16 -1
+21: 3 15 1
+22: 4 15 -1
+23: 3 14 1
+24: 4 14 -1
+25: 3 12 1
+26: 4 12 -1
+27: 3 11 1
+28: 4 11 -1
+29: 3 13 1
+30: 4 13 -1
+31: 3 9 1
+32: 4 9 -1
+Edge found! st1:2 <-> st0:1	Weight: 5974.51	Set col: 17
+Set row: 5 ub: 0
+33: 5 2 -1 | 34: 5 1 -1 | 35: 5 17 1
+Set row: 6 ub: 2
+36: 6 2 1 | 37: 6 1 1 | 38: 6 17 1
+Set row: 7 lb: 0
+39: 7 2 -1 | 40: 7 1 1 | 41: 7 17 1
+Set row: 8 lb: 0
+42: 8 2 1 | 43: 8 1 -1 | 44: 8 17 1
+Edge found! st10:8 <-> st0:1	Weight: 156.521	Set col: 18
+Set row: 9 ub: 0
+45: 9 8 -1 | 46: 9 1 -1 | 47: 9 18 1
+Set row: 10 ub: 2
+48: 10 8 1 | 49: 10 1 1 | 50: 10 18 1
+Set row: 11 lb: 0
+51: 11 8 -1 | 52: 11 1 1 | 53: 11 18 1
+Set row: 12 lb: 0
+54: 12 8 1 | 55: 12 1 -1 | 56: 12 18 1
+Edge found! st11:11 <-> st0:1	Weight: 16.4759	Set col: 19
+Set row: 13 ub: 0
+57: 13 11 -1 | 58: 13 1 -1 | 59: 13 19 1
+Set row: 14 ub: 2
+60: 14 11 1 | 61: 14 1 1 | 62: 14 19 1
+Set row: 15 lb: 0
+63: 15 11 -1 | 64: 15 1 1 | 65: 15 19 1
+Set row: 16 lb: 0
+66: 16 11 1 | 67: 16 1 -1 | 68: 16 19 1
+Edge found! st11:11 <-> st10:8	Weight: 18.4142	Set col: 20
+Set row: 17 ub: 0
+69: 17 11 -1 | 70: 17 8 -1 | 71: 17 20 1
+Set row: 18 ub: 2
+72: 18 11 1 | 73: 18 8 1 | 74: 18 20 1
+Set row: 19 lb: 0
+75: 19 11 -1 | 76: 19 8 1 | 77: 19 20 1
+Set row: 20 lb: 0
+78: 20 11 1 | 79: 20 8 -1 | 80: 20 20 1
+Edge found! st12:13 <-> st0:1	Weight: 1.83066	Set col: 21
+Set row: 21 ub: 0
+81: 21 13 -1 | 82: 21 1 -1 | 83: 21 21 1
+Set row: 22 ub: 2
+84: 22 13 1 | 85: 22 1 1 | 86: 22 21 1
+Set row: 23 lb: 0
+87: 23 13 -1 | 88: 23 1 1 | 89: 23 21 1
+Set row: 24 lb: 0
+90: 24 13 1 | 91: 24 1 -1 | 92: 24 21 1
+Edge found! st12:13 <-> st11:11	Weight: 0.969171	Set col: 22
+Set row: 25 ub: 0
+93: 25 13 -1 | 94: 25 11 -1 | 95: 25 22 1
+Set row: 26 ub: 2
+96: 26 13 1 | 97: 26 11 1 | 98: 26 22 1
+Set row: 27 lb: 0
+99: 27 13 -1 | 100: 27 11 1 | 101: 27 22 1
+Set row: 28 lb: 0
+102: 28 13 1 | 103: 28 11 -1 | 104: 28 22 1
+Edge found! st13:14 <-> st0:1	Weight: 0.102511	Set col: 23
+Set row: 29 ub: 0
+105: 29 14 -1 | 106: 29 1 -1 | 107: 29 23 1
+Set row: 30 ub: 2
+108: 30 14 1 | 109: 30 1 1 | 110: 30 23 1
+Set row: 31 lb: 0
+111: 31 14 -1 | 112: 31 1 1 | 113: 31 23 1
+Set row: 32 lb: 0
+114: 32 14 1 | 115: 32 1 -1 | 116: 32 23 1
+Edge found! st13:14 <-> st12:13	Weight: 0.0538428	Set col: 24
+Set row: 33 ub: 0
+117: 33 14 -1 | 118: 33 13 -1 | 119: 33 24 1
+Set row: 34 ub: 2
+120: 34 14 1 | 121: 34 13 1 | 122: 34 24 1
+Set row: 35 lb: 0
+123: 35 14 -1 | 124: 35 13 1 | 125: 35 24 1
+Set row: 36 lb: 0
+126: 36 14 1 | 127: 36 13 -1 | 128: 36 24 1
+Edge found! st14:15 <-> st0:1	Weight: 0.00213564	Set col: 25
+Set row: 37 ub: 0
+129: 37 15 -1 | 130: 37 1 -1 | 131: 37 25 1
+Set row: 38 ub: 2
+132: 38 15 1 | 133: 38 1 1 | 134: 38 25 1
+Set row: 39 lb: 0
+135: 39 15 -1 | 136: 39 1 1 | 137: 39 25 1
+Set row: 40 lb: 0
+138: 40 15 1 | 139: 40 1 -1 | 140: 40 25 1
+Edge found! st14:15 <-> st13:14	Weight: 0.00213564	Set col: 26
+Set row: 41 ub: 0
+141: 41 15 -1 | 142: 41 14 -1 | 143: 41 26 1
+Set row: 42 ub: 2
+144: 42 15 1 | 145: 42 14 1 | 146: 42 26 1
+Set row: 43 lb: 0
+147: 43 15 -1 | 148: 43 14 1 | 149: 43 26 1
+Set row: 44 lb: 0
+150: 44 15 1 | 151: 44 14 -1 | 152: 44 26 1
+Edge found! st15:16 <-> st0:1	Weight: 0.00271062	Set col: 27
+Set row: 45 ub: 0
+153: 45 16 -1 | 154: 45 1 -1 | 155: 45 27 1
+Set row: 46 ub: 2
+156: 46 16 1 | 157: 46 1 1 | 158: 46 27 1
+Set row: 47 lb: 0
+159: 47 16 -1 | 160: 47 1 1 | 161: 47 27 1
+Set row: 48 lb: 0
+162: 48 16 1 | 163: 48 1 -1 | 164: 48 27 1
+Edge found! st15:16 <-> st13:14	Weight: 0.00168387	Set col: 28
+Set row: 49 ub: 0
+165: 49 16 -1 | 166: 49 14 -1 | 167: 49 28 1
+Set row: 50 ub: 2
+168: 50 16 1 | 169: 50 14 1 | 170: 50 28 1
+Set row: 51 lb: 0
+171: 51 16 -1 | 172: 51 14 1 | 173: 51 28 1
+Set row: 52 lb: 0
+174: 52 16 1 | 175: 52 14 -1 | 176: 52 28 1
+Edge found! st2:6 <-> st0:1	Weight: 149.156	Set col: 29
+Set row: 53 ub: 0
+177: 53 6 -1 | 178: 53 1 -1 | 179: 53 29 1
+Set row: 54 ub: 2
+180: 54 6 1 | 181: 54 1 1 | 182: 54 29 1
+Set row: 55 lb: 0
+183: 55 6 -1 | 184: 55 1 1 | 185: 55 29 1
+Set row: 56 lb: 0
+186: 56 6 1 | 187: 56 1 -1 | 188: 56 29 1
+Edge found! st2:6 <-> st1:2	Weight: 165.728	Set col: 30
+Set row: 57 ub: 0
+189: 57 6 -1 | 190: 57 2 -1 | 191: 57 30 1
+Set row: 58 ub: 2
+192: 58 6 1 | 193: 58 2 1 | 194: 58 30 1
+Set row: 59 lb: 0
+195: 59 6 -1 | 196: 59 2 1 | 197: 59 30 1
+Set row: 60 lb: 0
+198: 60 6 1 | 199: 60 2 -1 | 200: 60 30 1
+Edge found! st3:10 <-> st0:1	Weight: 7.8503	Set col: 31
+Set row: 61 ub: 0
+201: 61 10 -1 | 202: 61 1 -1 | 203: 61 31 1
+Set row: 62 ub: 2
+204: 62 10 1 | 205: 62 1 1 | 206: 62 31 1
+Set row: 63 lb: 0
+207: 63 10 -1 | 208: 63 1 1 | 209: 63 31 1
+Set row: 64 lb: 0
+210: 64 10 1 | 211: 64 1 -1 | 212: 64 31 1
+Edge found! st3:10 <-> st2:6	Weight: 8.28642	Set col: 32
+Set row: 65 ub: 0
+213: 65 10 -1 | 214: 65 6 -1 | 215: 65 32 1
+Set row: 66 ub: 2
+216: 66 10 1 | 217: 66 6 1 | 218: 66 32 1
+Set row: 67 lb: 0
+219: 67 10 -1 | 220: 67 6 1 | 221: 67 32 1
+Set row: 68 lb: 0
+222: 68 10 1 | 223: 68 6 -1 | 224: 68 32 1
+Edge found! st4:12 <-> st0:1	Weight: 0.413174	Set col: 33
+Set row: 69 ub: 0
+225: 69 12 -1 | 226: 69 1 -1 | 227: 69 33 1
+Set row: 70 ub: 2
+228: 70 12 1 | 229: 70 1 1 | 230: 70 33 1
+Set row: 71 lb: 0
+231: 71 12 -1 | 232: 71 1 1 | 233: 71 33 1
+Set row: 72 lb: 0
+234: 72 12 1 | 235: 72 1 -1 | 236: 72 33 1
+Edge found! st4:12 <-> st1:2	Weight: 0.011477	Set col: 34
+Set row: 73 ub: 0
+237: 73 12 -1 | 238: 73 2 -1 | 239: 73 34 1
+Set row: 74 ub: 2
+240: 74 12 1 | 241: 74 2 1 | 242: 74 34 1
+Set row: 75 lb: 0
+243: 75 12 -1 | 244: 75 2 1 | 245: 75 34 1
+Set row: 76 lb: 0
+246: 76 12 1 | 247: 76 2 -1 | 248: 76 34 1
+Edge found! st4:12 <-> st3:10	Weight: 0.218064	Set col: 35
+Set row: 77 ub: 0
+249: 77 12 -1 | 250: 77 10 -1 | 251: 77 35 1
+Set row: 78 ub: 2
+252: 78 12 1 | 253: 78 10 1 | 254: 78 35 1
+Set row: 79 lb: 0
+255: 79 12 -1 | 256: 79 10 1 | 257: 79 35 1
+Set row: 80 lb: 0
+258: 80 12 1 | 259: 80 10 -1 | 260: 80 35 1
+Edge found! st5:9 <-> st0:1	Weight: 8.2979	Set col: 36
+Set row: 81 ub: 0
+261: 81 9 -1 | 262: 81 1 -1 | 263: 81 36 1
+Set row: 82 ub: 2
+264: 82 9 1 | 265: 82 1 1 | 266: 82 36 1
+Set row: 83 lb: 0
+267: 83 9 -1 | 268: 83 1 1 | 269: 83 36 1
+Set row: 84 lb: 0
+270: 84 9 1 | 271: 84 1 -1 | 272: 84 36 1
+Edge found! st5:9 <-> st2:6	Weight: 8.28642	Set col: 37
+Set row: 85 ub: 0
+273: 85 9 -1 | 274: 85 6 -1 | 275: 85 37 1
+Set row: 86 ub: 2
+276: 86 9 1 | 277: 86 6 1 | 278: 86 37 1
+Set row: 87 lb: 0
+279: 87 9 -1 | 280: 87 6 1 | 281: 87 37 1
+Set row: 88 lb: 0
+282: 88 9 1 | 283: 88 6 -1 | 284: 88 37 1
+Edge found! st5:9 <-> st4:12	Weight: 0.00573852	Set col: 38
+Set row: 89 ub: 0
+285: 89 9 -1 | 286: 89 12 -1 | 287: 89 38 1
+Set row: 90 ub: 2
+288: 90 9 1 | 289: 90 12 1 | 290: 90 38 1
+Set row: 91 lb: 0
+291: 91 9 -1 | 292: 91 12 1 | 293: 91 38 1
+Set row: 92 lb: 0
+294: 92 9 1 | 295: 92 12 -1 | 296: 92 38 1
+Edge found! st6:4 <-> st0:1	Weight: 5977.94	Set col: 39
+Set row: 93 ub: 0
+297: 93 4 -1 | 298: 93 1 -1 | 299: 93 39 1
+Set row: 94 ub: 2
+300: 94 4 1 | 301: 94 1 1 | 302: 94 39 1
+Set row: 95 lb: 0
+303: 95 4 -1 | 304: 95 1 1 | 305: 95 39 1
+Set row: 96 lb: 0
+306: 96 4 1 | 307: 96 1 -1 | 308: 96 39 1
+Edge found! st7:7 <-> st0:1	Weight: 503.875	Set col: 40
+Set row: 97 ub: 0
+309: 97 7 -1 | 310: 97 1 -1 | 311: 97 40 1
+Set row: 98 ub: 2
+312: 98 7 1 | 313: 98 1 1 | 314: 98 40 1
+Set row: 99 lb: 0
+315: 99 7 -1 | 316: 99 1 1 | 317: 99 40 1
+Set row: 100 lb: 0
+318: 100 7 1 | 319: 100 1 -1 | 320: 100 40 1
+Edge found! st7:7 <-> st6:4	Weight: 209.991	Set col: 41
+Set row: 101 ub: 0
+321: 101 7 -1 | 322: 101 4 -1 | 323: 101 41 1
+Set row: 102 ub: 2
+324: 102 7 1 | 325: 102 4 1 | 326: 102 41 1
+Set row: 103 lb: 0
+327: 103 7 -1 | 328: 103 4 1 | 329: 103 41 1
+Set row: 104 lb: 0
+330: 104 7 1 | 331: 104 4 -1 | 332: 104 41 1
+Edge found! st8:5 <-> st0:1	Weight: 5883.35	Set col: 42
+Set row: 105 ub: 0
+333: 105 5 -1 | 334: 105 1 -1 | 335: 105 42 1
+Set row: 106 ub: 2
+336: 106 5 1 | 337: 106 1 1 | 338: 106 42 1
+Set row: 107 lb: 0
+339: 107 5 -1 | 340: 107 1 1 | 341: 107 42 1
+Set row: 108 lb: 0
+342: 108 5 1 | 343: 108 1 -1 | 344: 108 42 1
+Edge found! st8:5 <-> st10:8	Weight: 165.728	Set col: 43
+Set row: 109 ub: 0
+345: 109 5 -1 | 346: 109 8 -1 | 347: 109 43 1
+Set row: 110 ub: 2
+348: 110 5 1 | 349: 110 8 1 | 350: 110 43 1
+Set row: 111 lb: 0
+351: 111 5 -1 | 352: 111 8 1 | 353: 111 43 1
+Set row: 112 lb: 0
+354: 112 5 1 | 355: 112 8 -1 | 356: 112 43 1
+Edge found! st8:5 <-> st15:16	Weight: 0.00032856	Set col: 44
+Set row: 113 ub: 0
+357: 113 5 -1 | 358: 113 16 -1 | 359: 113 44 1
+Set row: 114 ub: 2
+360: 114 5 1 | 361: 114 16 1 | 362: 114 44 1
+Set row: 115 lb: 0
+363: 115 5 -1 | 364: 115 16 1 | 365: 115 44 1
+Set row: 116 lb: 0
+366: 116 5 1 | 367: 116 16 -1 | 368: 116 44 1
+Edge found! st9:3 <-> st0:1	Weight: 5864.94	Set col: 45
+Set row: 117 ub: 0
+369: 117 3 -1 | 370: 117 1 -1 | 371: 117 45 1
+Set row: 118 ub: 2
+372: 118 3 1 | 373: 118 1 1 | 374: 118 45 1
+Set row: 119 lb: 0
+375: 119 3 -1 | 376: 119 1 1 | 377: 119 45 1
+Set row: 120 lb: 0
+378: 120 3 1 | 379: 120 1 -1 | 380: 120 45 1
+Edge found! st9:3 <-> st7:7	Weight: 349.871	Set col: 46
+Set row: 121 ub: 0
+381: 121 3 -1 | 382: 121 7 -1 | 383: 121 46 1
+Set row: 122 ub: 2
+384: 122 3 1 | 385: 122 7 1 | 386: 122 46 1
+Set row: 123 lb: 0
+387: 123 3 -1 | 388: 123 7 1 | 389: 123 46 1
+Set row: 124 lb: 0
+390: 124 3 1 | 391: 124 7 -1 | 392: 124 46 1
+Edge found! st9:3 <-> st8:5	Weight: 82.8641	Set col: 47
+Set row: 125 ub: 0
+393: 125 3 -1 | 394: 125 5 -1 | 395: 125 47 1
+Set row: 126 ub: 2
+396: 126 3 1 | 397: 126 5 1 | 398: 126 47 1
+Set row: 127 lb: 0
+399: 127 3 -1 | 400: 127 5 1 | 401: 127 47 1
+Set row: 128 lb: 0
+402: 128 3 1 | 403: 128 5 -1 | 404: 128 47 1
+GLPK Integer Optimizer 5.0
+129 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Preprocessing...
+62 hidden covering inequaliti(es) were detected
+129 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 129
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+129 rows, 47 columns, 420 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.000e+01 (4)
+     17: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    17: mip =     not found yet >=              -inf        (1; 0)
++    49: >>>>>   7.332608681e+03 >=   5.966225467e+02  91.9% (2; 0)
++    68: mip =   7.332608681e+03 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 7332.61
+st0	1	0
+st1	2	0
+st10	8	1
+st11	11	1
+st12	13	0
+st13	14	0
+st14	15	1
+st15	16	1
+st2	6	1
+st3	10	1
+st4	12	0
+st5	9	0
+st6	4	0
+st7	7	1
+st8	5	0
+st9	3	1
+Number of 0 assigned: 8 | Number of 1 assigned: 8
+XOR Constraint 17: 0
+XOR Constraint 18: 1
+XOR Constraint 19: 1
+XOR Constraint 20: 0
+XOR Constraint 21: 0
+XOR Constraint 22: 1
+XOR Constraint 23: 0
+XOR Constraint 24: 0
+XOR Constraint 25: 1
+XOR Constraint 26: 1
+XOR Constraint 27: 1
+XOR Constraint 28: 1
+XOR Constraint 29: 1
+XOR Constraint 30: 1
+XOR Constraint 31: 1
+XOR Constraint 32: 0
+XOR Constraint 33: 0
+XOR Constraint 34: 0
+XOR Constraint 35: 1
+XOR Constraint 36: 0
+XOR Constraint 37: 1
+XOR Constraint 38: 0
+XOR Constraint 39: 0
+XOR Constraint 40: 1
+XOR Constraint 41: 1
+XOR Constraint 42: 0
+XOR Constraint 43: 1
+XOR Constraint 44: 1
+XOR Constraint 45: 1
+XOR Constraint 46: 0
+XOR Constraint 47: 1
+-----
+Size of State Group: 4
+ - 5 4 2 1
+ - 14 12 13 9
+ - 6 8 7 3
+ - 11 15 16 10
+
+   [   Round 3   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st10 -> 8
+Set col: st11 -> 11
+Set col: st12 -> 13
+Set col: st13 -> 14
+Set col: st14 -> 15
+Set col: st15 -> 16
+Set col: st2 -> 6
+Set col: st3 -> 10
+Set col: st4 -> 12
+Set col: st5 -> 9
+Set col: st6 -> 4
+Set col: st7 -> 7
+Set col: st8 -> 5
+Set col: st9 -> 3
+Size of Group: 4
+Group 1 | Size 4
+Set row: 1 lb: 1 ub: 2
+Set row: 2 lb: -3 ub: -2
+1: 1 5 1
+2: 2 5 -1
+3: 1 4 1
+4: 2 4 -1
+5: 1 2 1
+6: 2 2 -1
+7: 1 1 1
+8: 2 1 -1
+Group 2 | Size 4
+Set row: 3 lb: 1 ub: 2
+Set row: 4 lb: -3 ub: -2
+9: 3 14 1
+10: 4 14 -1
+11: 3 12 1
+12: 4 12 -1
+13: 3 13 1
+14: 4 13 -1
+15: 3 9 1
+16: 4 9 -1
+Group 3 | Size 4
+Set row: 5 lb: 1 ub: 2
+Set row: 6 lb: -3 ub: -2
+17: 5 6 1
+18: 6 6 -1
+19: 5 8 1
+20: 6 8 -1
+21: 5 7 1
+22: 6 7 -1
+23: 5 3 1
+24: 6 3 -1
+Group 4 | Size 4
+Set row: 7 lb: 1 ub: 2
+Set row: 8 lb: -3 ub: -2
+25: 7 11 1
+26: 8 11 -1
+27: 7 15 1
+28: 8 15 -1
+29: 7 16 1
+30: 8 16 -1
+31: 7 10 1
+32: 8 10 -1
+Edge found! st1:2 <-> st0:1	Weight: 5974.51	Set col: 17
+Set row: 9 ub: 0
+33: 9 2 -1 | 34: 9 1 -1 | 35: 9 17 1
+Set row: 10 ub: 2
+36: 10 2 1 | 37: 10 1 1 | 38: 10 17 1
+Set row: 11 lb: 0
+39: 11 2 -1 | 40: 11 1 1 | 41: 11 17 1
+Set row: 12 lb: 0
+42: 12 2 1 | 43: 12 1 -1 | 44: 12 17 1
+Edge found! st10:8 <-> st0:1	Weight: 313.042	Set col: 18
+Set row: 13 ub: 0
+45: 13 8 -1 | 46: 13 1 -1 | 47: 13 18 1
+Set row: 14 ub: 2
+48: 14 8 1 | 49: 14 1 1 | 50: 14 18 1
+Set row: 15 lb: 0
+51: 15 8 -1 | 52: 15 1 1 | 53: 15 18 1
+Set row: 16 lb: 0
+54: 16 8 1 | 55: 16 1 -1 | 56: 16 18 1
+Edge found! st11:11 <-> st0:1	Weight: 32.9518	Set col: 19
+Set row: 17 ub: 0
+57: 17 11 -1 | 58: 17 1 -1 | 59: 17 19 1
+Set row: 18 ub: 2
+60: 18 11 1 | 61: 18 1 1 | 62: 18 19 1
+Set row: 19 lb: 0
+63: 19 11 -1 | 64: 19 1 1 | 65: 19 19 1
+Set row: 20 lb: 0
+66: 20 11 1 | 67: 20 1 -1 | 68: 20 19 1
+Edge found! st11:11 <-> st10:8	Weight: 18.4142	Set col: 20
+Set row: 21 ub: 0
+69: 21 11 -1 | 70: 21 8 -1 | 71: 21 20 1
+Set row: 22 ub: 2
+72: 22 11 1 | 73: 22 8 1 | 74: 22 20 1
+Set row: 23 lb: 0
+75: 23 11 -1 | 76: 23 8 1 | 77: 23 20 1
+Set row: 24 lb: 0
+78: 24 11 1 | 79: 24 8 -1 | 80: 24 20 1
+Edge found! st12:13 <-> st0:1	Weight: 1.83066	Set col: 21
+Set row: 25 ub: 0
+81: 25 13 -1 | 82: 25 1 -1 | 83: 25 21 1
+Set row: 26 ub: 2
+84: 26 13 1 | 85: 26 1 1 | 86: 26 21 1
+Set row: 27 lb: 0
+87: 27 13 -1 | 88: 27 1 1 | 89: 27 21 1
+Set row: 28 lb: 0
+90: 28 13 1 | 91: 28 1 -1 | 92: 28 21 1
+Edge found! st12:13 <-> st11:11	Weight: 1.93834	Set col: 22
+Set row: 29 ub: 0
+93: 29 13 -1 | 94: 29 11 -1 | 95: 29 22 1
+Set row: 30 ub: 2
+96: 30 13 1 | 97: 30 11 1 | 98: 30 22 1
+Set row: 31 lb: 0
+99: 31 13 -1 | 100: 31 11 1 | 101: 31 22 1
+Set row: 32 lb: 0
+102: 32 13 1 | 103: 32 11 -1 | 104: 32 22 1
+Edge found! st13:14 <-> st0:1	Weight: 0.102511	Set col: 23
+Set row: 33 ub: 0
+105: 33 14 -1 | 106: 33 1 -1 | 107: 33 23 1
+Set row: 34 ub: 2
+108: 34 14 1 | 109: 34 1 1 | 110: 34 23 1
+Set row: 35 lb: 0
+111: 35 14 -1 | 112: 35 1 1 | 113: 35 23 1
+Set row: 36 lb: 0
+114: 36 14 1 | 115: 36 1 -1 | 116: 36 23 1
+Edge found! st13:14 <-> st12:13	Weight: 0.0538428	Set col: 24
+Set row: 37 ub: 0
+117: 37 14 -1 | 118: 37 13 -1 | 119: 37 24 1
+Set row: 38 ub: 2
+120: 38 14 1 | 121: 38 13 1 | 122: 38 24 1
+Set row: 39 lb: 0
+123: 39 14 -1 | 124: 39 13 1 | 125: 39 24 1
+Set row: 40 lb: 0
+126: 40 14 1 | 127: 40 13 -1 | 128: 40 24 1
+Edge found! st14:15 <-> st0:1	Weight: 0.00427128	Set col: 25
+Set row: 41 ub: 0
+129: 41 15 -1 | 130: 41 1 -1 | 131: 41 25 1
+Set row: 42 ub: 2
+132: 42 15 1 | 133: 42 1 1 | 134: 42 25 1
+Set row: 43 lb: 0
+135: 43 15 -1 | 136: 43 1 1 | 137: 43 25 1
+Set row: 44 lb: 0
+138: 44 15 1 | 139: 44 1 -1 | 140: 44 25 1
+Edge found! st14:15 <-> st13:14	Weight: 0.00427128	Set col: 26
+Set row: 45 ub: 0
+141: 45 15 -1 | 142: 45 14 -1 | 143: 45 26 1
+Set row: 46 ub: 2
+144: 46 15 1 | 145: 46 14 1 | 146: 46 26 1
+Set row: 47 lb: 0
+147: 47 15 -1 | 148: 47 14 1 | 149: 47 26 1
+Set row: 48 lb: 0
+150: 48 15 1 | 151: 48 14 -1 | 152: 48 26 1
+Edge found! st15:16 <-> st0:1	Weight: 0.00542124	Set col: 27
+Set row: 49 ub: 0
+153: 49 16 -1 | 154: 49 1 -1 | 155: 49 27 1
+Set row: 50 ub: 2
+156: 50 16 1 | 157: 50 1 1 | 158: 50 27 1
+Set row: 51 lb: 0
+159: 51 16 -1 | 160: 51 1 1 | 161: 51 27 1
+Set row: 52 lb: 0
+162: 52 16 1 | 163: 52 1 -1 | 164: 52 27 1
+Edge found! st15:16 <-> st13:14	Weight: 0.00336774	Set col: 28
+Set row: 53 ub: 0
+165: 53 16 -1 | 166: 53 14 -1 | 167: 53 28 1
+Set row: 54 ub: 2
+168: 54 16 1 | 169: 54 14 1 | 170: 54 28 1
+Set row: 55 lb: 0
+171: 55 16 -1 | 172: 55 14 1 | 173: 55 28 1
+Set row: 56 lb: 0
+174: 56 16 1 | 175: 56 14 -1 | 176: 56 28 1
+Edge found! st2:6 <-> st0:1	Weight: 298.311	Set col: 29
+Set row: 57 ub: 0
+177: 57 6 -1 | 178: 57 1 -1 | 179: 57 29 1
+Set row: 58 ub: 2
+180: 58 6 1 | 181: 58 1 1 | 182: 58 29 1
+Set row: 59 lb: 0
+183: 59 6 -1 | 184: 59 1 1 | 185: 59 29 1
+Set row: 60 lb: 0
+186: 60 6 1 | 187: 60 1 -1 | 188: 60 29 1
+Edge found! st2:6 <-> st1:2	Weight: 331.457	Set col: 30
+Set row: 61 ub: 0
+189: 61 6 -1 | 190: 61 2 -1 | 191: 61 30 1
+Set row: 62 ub: 2
+192: 62 6 1 | 193: 62 2 1 | 194: 62 30 1
+Set row: 63 lb: 0
+195: 63 6 -1 | 196: 63 2 1 | 197: 63 30 1
+Set row: 64 lb: 0
+198: 64 6 1 | 199: 64 2 -1 | 200: 64 30 1
+Edge found! st3:10 <-> st0:1	Weight: 15.7006	Set col: 31
+Set row: 65 ub: 0
+201: 65 10 -1 | 202: 65 1 -1 | 203: 65 31 1
+Set row: 66 ub: 2
+204: 66 10 1 | 205: 66 1 1 | 206: 66 31 1
+Set row: 67 lb: 0
+207: 67 10 -1 | 208: 67 1 1 | 209: 67 31 1
+Set row: 68 lb: 0
+210: 68 10 1 | 211: 68 1 -1 | 212: 68 31 1
+Edge found! st3:10 <-> st2:6	Weight: 8.28642	Set col: 32
+Set row: 69 ub: 0
+213: 69 10 -1 | 214: 69 6 -1 | 215: 69 32 1
+Set row: 70 ub: 2
+216: 70 10 1 | 217: 70 6 1 | 218: 70 32 1
+Set row: 71 lb: 0
+219: 71 10 -1 | 220: 71 6 1 | 221: 71 32 1
+Set row: 72 lb: 0
+222: 72 10 1 | 223: 72 6 -1 | 224: 72 32 1
+Edge found! st4:12 <-> st0:1	Weight: 0.413174	Set col: 33
+Set row: 73 ub: 0
+225: 73 12 -1 | 226: 73 1 -1 | 227: 73 33 1
+Set row: 74 ub: 2
+228: 74 12 1 | 229: 74 1 1 | 230: 74 33 1
+Set row: 75 lb: 0
+231: 75 12 -1 | 232: 75 1 1 | 233: 75 33 1
+Set row: 76 lb: 0
+234: 76 12 1 | 235: 76 1 -1 | 236: 76 33 1
+Edge found! st4:12 <-> st1:2	Weight: 0.011477	Set col: 34
+Set row: 77 ub: 0
+237: 77 12 -1 | 238: 77 2 -1 | 239: 77 34 1
+Set row: 78 ub: 2
+240: 78 12 1 | 241: 78 2 1 | 242: 78 34 1
+Set row: 79 lb: 0
+243: 79 12 -1 | 244: 79 2 1 | 245: 79 34 1
+Set row: 80 lb: 0
+246: 80 12 1 | 247: 80 2 -1 | 248: 80 34 1
+Edge found! st4:12 <-> st3:10	Weight: 0.436128	Set col: 35
+Set row: 81 ub: 0
+249: 81 12 -1 | 250: 81 10 -1 | 251: 81 35 1
+Set row: 82 ub: 2
+252: 82 12 1 | 253: 82 10 1 | 254: 82 35 1
+Set row: 83 lb: 0
+255: 83 12 -1 | 256: 83 10 1 | 257: 83 35 1
+Set row: 84 lb: 0
+258: 84 12 1 | 259: 84 10 -1 | 260: 84 35 1
+Edge found! st5:9 <-> st0:1	Weight: 8.2979	Set col: 36
+Set row: 85 ub: 0
+261: 85 9 -1 | 262: 85 1 -1 | 263: 85 36 1
+Set row: 86 ub: 2
+264: 86 9 1 | 265: 86 1 1 | 266: 86 36 1
+Set row: 87 lb: 0
+267: 87 9 -1 | 268: 87 1 1 | 269: 87 36 1
+Set row: 88 lb: 0
+270: 88 9 1 | 271: 88 1 -1 | 272: 88 36 1
+Edge found! st5:9 <-> st2:6	Weight: 16.5728	Set col: 37
+Set row: 89 ub: 0
+273: 89 9 -1 | 274: 89 6 -1 | 275: 89 37 1
+Set row: 90 ub: 2
+276: 90 9 1 | 277: 90 6 1 | 278: 90 37 1
+Set row: 91 lb: 0
+279: 91 9 -1 | 280: 91 6 1 | 281: 91 37 1
+Set row: 92 lb: 0
+282: 92 9 1 | 283: 92 6 -1 | 284: 92 37 1
+Edge found! st5:9 <-> st4:12	Weight: 0.00573852	Set col: 38
+Set row: 93 ub: 0
+285: 93 9 -1 | 286: 93 12 -1 | 287: 93 38 1
+Set row: 94 ub: 2
+288: 94 9 1 | 289: 94 12 1 | 290: 94 38 1
+Set row: 95 lb: 0
+291: 95 9 -1 | 292: 95 12 1 | 293: 95 38 1
+Set row: 96 lb: 0
+294: 96 9 1 | 295: 96 12 -1 | 296: 96 38 1
+Edge found! st6:4 <-> st0:1	Weight: 5977.94	Set col: 39
+Set row: 97 ub: 0
+297: 97 4 -1 | 298: 97 1 -1 | 299: 97 39 1
+Set row: 98 ub: 2
+300: 98 4 1 | 301: 98 1 1 | 302: 98 39 1
+Set row: 99 lb: 0
+303: 99 4 -1 | 304: 99 1 1 | 305: 99 39 1
+Set row: 100 lb: 0
+306: 100 4 1 | 307: 100 1 -1 | 308: 100 39 1
+Edge found! st7:7 <-> st0:1	Weight: 1007.75	Set col: 40
+Set row: 101 ub: 0
+309: 101 7 -1 | 310: 101 1 -1 | 311: 101 40 1
+Set row: 102 ub: 2
+312: 102 7 1 | 313: 102 1 1 | 314: 102 40 1
+Set row: 103 lb: 0
+315: 103 7 -1 | 316: 103 1 1 | 317: 103 40 1
+Set row: 104 lb: 0
+318: 104 7 1 | 319: 104 1 -1 | 320: 104 40 1
+Edge found! st7:7 <-> st6:4	Weight: 419.982	Set col: 41
+Set row: 105 ub: 0
+321: 105 7 -1 | 322: 105 4 -1 | 323: 105 41 1
+Set row: 106 ub: 2
+324: 106 7 1 | 325: 106 4 1 | 326: 106 41 1
+Set row: 107 lb: 0
+327: 107 7 -1 | 328: 107 4 1 | 329: 107 41 1
+Set row: 108 lb: 0
+330: 108 7 1 | 331: 108 4 -1 | 332: 108 41 1
+Edge found! st8:5 <-> st0:1	Weight: 5883.35	Set col: 42
+Set row: 109 ub: 0
+333: 109 5 -1 | 334: 109 1 -1 | 335: 109 42 1
+Set row: 110 ub: 2
+336: 110 5 1 | 337: 110 1 1 | 338: 110 42 1
+Set row: 111 lb: 0
+339: 111 5 -1 | 340: 111 1 1 | 341: 111 42 1
+Set row: 112 lb: 0
+342: 112 5 1 | 343: 112 1 -1 | 344: 112 42 1
+Edge found! st8:5 <-> st10:8	Weight: 331.456	Set col: 43
+Set row: 113 ub: 0
+345: 113 5 -1 | 346: 113 8 -1 | 347: 113 43 1
+Set row: 114 ub: 2
+348: 114 5 1 | 349: 114 8 1 | 350: 114 43 1
+Set row: 115 lb: 0
+351: 115 5 -1 | 352: 115 8 1 | 353: 115 43 1
+Set row: 116 lb: 0
+354: 116 5 1 | 355: 116 8 -1 | 356: 116 43 1
+Edge found! st8:5 <-> st15:16	Weight: 0.000657121	Set col: 44
+Set row: 117 ub: 0
+357: 117 5 -1 | 358: 117 16 -1 | 359: 117 44 1
+Set row: 118 ub: 2
+360: 118 5 1 | 361: 118 16 1 | 362: 118 44 1
+Set row: 119 lb: 0
+363: 119 5 -1 | 364: 119 16 1 | 365: 119 44 1
+Set row: 120 lb: 0
+366: 120 5 1 | 367: 120 16 -1 | 368: 120 44 1
+Edge found! st9:3 <-> st0:1	Weight: 11729.9	Set col: 45
+Set row: 121 ub: 0
+369: 121 3 -1 | 370: 121 1 -1 | 371: 121 45 1
+Set row: 122 ub: 2
+372: 122 3 1 | 373: 122 1 1 | 374: 122 45 1
+Set row: 123 lb: 0
+375: 123 3 -1 | 376: 123 1 1 | 377: 123 45 1
+Set row: 124 lb: 0
+378: 124 3 1 | 379: 124 1 -1 | 380: 124 45 1
+Edge found! st9:3 <-> st7:7	Weight: 349.871	Set col: 46
+Set row: 125 ub: 0
+381: 125 3 -1 | 382: 125 7 -1 | 383: 125 46 1
+Set row: 126 ub: 2
+384: 126 3 1 | 385: 126 7 1 | 386: 126 46 1
+Set row: 127 lb: 0
+387: 127 3 -1 | 388: 127 7 1 | 389: 127 46 1
+Set row: 128 lb: 0
+390: 128 3 1 | 391: 128 7 -1 | 392: 128 46 1
+Edge found! st9:3 <-> st8:5	Weight: 165.728	Set col: 47
+Set row: 129 ub: 0
+393: 129 3 -1 | 394: 129 5 -1 | 395: 129 47 1
+Set row: 130 ub: 2
+396: 130 3 1 | 397: 130 5 1 | 398: 130 47 1
+Set row: 131 lb: 0
+399: 131 3 -1 | 400: 131 5 1 | 401: 131 47 1
+Set row: 132 lb: 0
+402: 132 3 1 | 403: 132 5 -1 | 404: 132 47 1
+GLPK Integer Optimizer 5.0
+133 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Preprocessing...
+62 hidden covering inequaliti(es) were detected
+133 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 133
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+133 rows, 47 columns, 420 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.200e+01 (8)
+     17: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    17: mip =     not found yet >=              -inf        (1; 0)
++    59: >>>>>   1.267011993e+04 >=   1.176670073e+04   7.1% (2; 0)
++    80: mip =   1.267011993e+04 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 12670.1
+st0	1	0
+st1	2	1
+st10	8	1
+st11	11	0
+st12	13	0
+st13	14	1
+st14	15	1
+st15	16	1
+st2	6	1
+st3	10	0
+st4	12	0
+st5	9	1
+st6	4	0
+st7	7	0
+st8	5	1
+st9	3	0
+Number of 0 assigned: 8 | Number of 1 assigned: 8
+XOR Constraint 17: 1
+XOR Constraint 18: 1
+XOR Constraint 19: 0
+XOR Constraint 20: 1
+XOR Constraint 21: 0
+XOR Constraint 22: 0
+XOR Constraint 23: 1
+XOR Constraint 24: 1
+XOR Constraint 25: 1
+XOR Constraint 26: 0
+XOR Constraint 27: 1
+XOR Constraint 28: 0
+XOR Constraint 29: 1
+XOR Constraint 30: 0
+XOR Constraint 31: 0
+XOR Constraint 32: 1
+XOR Constraint 33: 0
+XOR Constraint 34: 1
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 0
+XOR Constraint 38: 1
+XOR Constraint 39: 0
+XOR Constraint 40: 0
+XOR Constraint 41: 0
+XOR Constraint 42: 1
+XOR Constraint 43: 0
+XOR Constraint 44: 0
+XOR Constraint 45: 0
+XOR Constraint 46: 0
+XOR Constraint 47: 1
+-----
+Size of State Group: 8
+ - 4 1
+ - 12 13
+ - 7 3
+ - 11 10
+ - 2 5
+ - 9 14
+ - 8 6
+ - 16 15
+
+   [   Round 4   ]   
+Set col: st0 -> 1
+Set col: st1 -> 2
+Set col: st10 -> 8
+Set col: st11 -> 11
+Set col: st12 -> 13
+Set col: st13 -> 14
+Set col: st14 -> 15
+Set col: st15 -> 16
+Set col: st2 -> 6
+Set col: st3 -> 10
+Set col: st4 -> 12
+Set col: st5 -> 9
+Set col: st6 -> 4
+Set col: st7 -> 7
+Set col: st8 -> 5
+Set col: st9 -> 3
+Size of Group: 8
+Group 1 | Size 2
+Set row: 1 lb: 1 ub: 1
+Set row: 2 lb: -1 ub: -1
+1: 1 4 1
+2: 2 4 -1
+3: 1 1 1
+4: 2 1 -1
+Group 2 | Size 2
+Set row: 3 lb: 1 ub: 1
+Set row: 4 lb: -1 ub: -1
+5: 3 12 1
+6: 4 12 -1
+7: 3 13 1
+8: 4 13 -1
+Group 3 | Size 2
+Set row: 5 lb: 1 ub: 1
+Set row: 6 lb: -1 ub: -1
+9: 5 7 1
+10: 6 7 -1
+11: 5 3 1
+12: 6 3 -1
+Group 4 | Size 2
+Set row: 7 lb: 1 ub: 1
+Set row: 8 lb: -1 ub: -1
+13: 7 11 1
+14: 8 11 -1
+15: 7 10 1
+16: 8 10 -1
+Group 5 | Size 2
+Set row: 9 lb: 1 ub: 1
+Set row: 10 lb: -1 ub: -1
+17: 9 2 1
+18: 10 2 -1
+19: 9 5 1
+20: 10 5 -1
+Group 6 | Size 2
+Set row: 11 lb: 1 ub: 1
+Set row: 12 lb: -1 ub: -1
+21: 11 9 1
+22: 12 9 -1
+23: 11 14 1
+24: 12 14 -1
+Group 7 | Size 2
+Set row: 13 lb: 1 ub: 1
+Set row: 14 lb: -1 ub: -1
+25: 13 8 1
+26: 14 8 -1
+27: 13 6 1
+28: 14 6 -1
+Group 8 | Size 2
+Set row: 15 lb: 1 ub: 1
+Set row: 16 lb: -1 ub: -1
+29: 15 16 1
+30: 16 16 -1
+31: 15 15 1
+32: 16 15 -1
+Edge found! st1:2 <-> st0:1	Weight: 11949	Set col: 17
+Set row: 17 ub: 0
+33: 17 2 -1 | 34: 17 1 -1 | 35: 17 17 1
+Set row: 18 ub: 2
+36: 18 2 1 | 37: 18 1 1 | 38: 18 17 1
+Set row: 19 lb: 0
+39: 19 2 -1 | 40: 19 1 1 | 41: 19 17 1
+Set row: 20 lb: 0
+42: 20 2 1 | 43: 20 1 -1 | 44: 20 17 1
+Edge found! st10:8 <-> st0:1	Weight: 626.084	Set col: 18
+Set row: 21 ub: 0
+45: 21 8 -1 | 46: 21 1 -1 | 47: 21 18 1
+Set row: 22 ub: 2
+48: 22 8 1 | 49: 22 1 1 | 50: 22 18 1
+Set row: 23 lb: 0
+51: 23 8 -1 | 52: 23 1 1 | 53: 23 18 1
+Set row: 24 lb: 0
+54: 24 8 1 | 55: 24 1 -1 | 56: 24 18 1
+Edge found! st11:11 <-> st0:1	Weight: 32.9518	Set col: 19
+Set row: 25 ub: 0
+57: 25 11 -1 | 58: 25 1 -1 | 59: 25 19 1
+Set row: 26 ub: 2
+60: 26 11 1 | 61: 26 1 1 | 62: 26 19 1
+Set row: 27 lb: 0
+63: 27 11 -1 | 64: 27 1 1 | 65: 27 19 1
+Set row: 28 lb: 0
+66: 28 11 1 | 67: 28 1 -1 | 68: 28 19 1
+Edge found! st11:11 <-> st10:8	Weight: 36.8285	Set col: 20
+Set row: 29 ub: 0
+69: 29 11 -1 | 70: 29 8 -1 | 71: 29 20 1
+Set row: 30 ub: 2
+72: 30 11 1 | 73: 30 8 1 | 74: 30 20 1
+Set row: 31 lb: 0
+75: 31 11 -1 | 76: 31 8 1 | 77: 31 20 1
+Set row: 32 lb: 0
+78: 32 11 1 | 79: 32 8 -1 | 80: 32 20 1
+Edge found! st12:13 <-> st0:1	Weight: 1.83066	Set col: 21
+Set row: 33 ub: 0
+81: 33 13 -1 | 82: 33 1 -1 | 83: 33 21 1
+Set row: 34 ub: 2
+84: 34 13 1 | 85: 34 1 1 | 86: 34 21 1
+Set row: 35 lb: 0
+87: 35 13 -1 | 88: 35 1 1 | 89: 35 21 1
+Set row: 36 lb: 0
+90: 36 13 1 | 91: 36 1 -1 | 92: 36 21 1
+Edge found! st12:13 <-> st11:11	Weight: 1.93834	Set col: 22
+Set row: 37 ub: 0
+93: 37 13 -1 | 94: 37 11 -1 | 95: 37 22 1
+Set row: 38 ub: 2
+96: 38 13 1 | 97: 38 11 1 | 98: 38 22 1
+Set row: 39 lb: 0
+99: 39 13 -1 | 100: 39 11 1 | 101: 39 22 1
+Set row: 40 lb: 0
+102: 40 13 1 | 103: 40 11 -1 | 104: 40 22 1
+Edge found! st13:14 <-> st0:1	Weight: 0.205022	Set col: 23
+Set row: 41 ub: 0
+105: 41 14 -1 | 106: 41 1 -1 | 107: 41 23 1
+Set row: 42 ub: 2
+108: 42 14 1 | 109: 42 1 1 | 110: 42 23 1
+Set row: 43 lb: 0
+111: 43 14 -1 | 112: 43 1 1 | 113: 43 23 1
+Set row: 44 lb: 0
+114: 44 14 1 | 115: 44 1 -1 | 116: 44 23 1
+Edge found! st13:14 <-> st12:13	Weight: 0.107686	Set col: 24
+Set row: 45 ub: 0
+117: 45 14 -1 | 118: 45 13 -1 | 119: 45 24 1
+Set row: 46 ub: 2
+120: 46 14 1 | 121: 46 13 1 | 122: 46 24 1
+Set row: 47 lb: 0
+123: 47 14 -1 | 124: 47 13 1 | 125: 47 24 1
+Set row: 48 lb: 0
+126: 48 14 1 | 127: 48 13 -1 | 128: 48 24 1
+Edge found! st14:15 <-> st0:1	Weight: 0.00854257	Set col: 25
+Set row: 49 ub: 0
+129: 49 15 -1 | 130: 49 1 -1 | 131: 49 25 1
+Set row: 50 ub: 2
+132: 50 15 1 | 133: 50 1 1 | 134: 50 25 1
+Set row: 51 lb: 0
+135: 51 15 -1 | 136: 51 1 1 | 137: 51 25 1
+Set row: 52 lb: 0
+138: 52 15 1 | 139: 52 1 -1 | 140: 52 25 1
+Edge found! st14:15 <-> st13:14	Weight: 0.00427128	Set col: 26
+Set row: 53 ub: 0
+141: 53 15 -1 | 142: 53 14 -1 | 143: 53 26 1
+Set row: 54 ub: 2
+144: 54 15 1 | 145: 54 14 1 | 146: 54 26 1
+Set row: 55 lb: 0
+147: 55 15 -1 | 148: 55 14 1 | 149: 55 26 1
+Set row: 56 lb: 0
+150: 56 15 1 | 151: 56 14 -1 | 152: 56 26 1
+Edge found! st15:16 <-> st0:1	Weight: 0.0108425	Set col: 27
+Set row: 57 ub: 0
+153: 57 16 -1 | 154: 57 1 -1 | 155: 57 27 1
+Set row: 58 ub: 2
+156: 58 16 1 | 157: 58 1 1 | 158: 58 27 1
+Set row: 59 lb: 0
+159: 59 16 -1 | 160: 59 1 1 | 161: 59 27 1
+Set row: 60 lb: 0
+162: 60 16 1 | 163: 60 1 -1 | 164: 60 27 1
+Edge found! st15:16 <-> st13:14	Weight: 0.00336774	Set col: 28
+Set row: 61 ub: 0
+165: 61 16 -1 | 166: 61 14 -1 | 167: 61 28 1
+Set row: 62 ub: 2
+168: 62 16 1 | 169: 62 14 1 | 170: 62 28 1
+Set row: 63 lb: 0
+171: 63 16 -1 | 172: 63 14 1 | 173: 63 28 1
+Set row: 64 lb: 0
+174: 64 16 1 | 175: 64 14 -1 | 176: 64 28 1
+Edge found! st2:6 <-> st0:1	Weight: 596.623	Set col: 29
+Set row: 65 ub: 0
+177: 65 6 -1 | 178: 65 1 -1 | 179: 65 29 1
+Set row: 66 ub: 2
+180: 66 6 1 | 181: 66 1 1 | 182: 66 29 1
+Set row: 67 lb: 0
+183: 67 6 -1 | 184: 67 1 1 | 185: 67 29 1
+Set row: 68 lb: 0
+186: 68 6 1 | 187: 68 1 -1 | 188: 68 29 1
+Edge found! st2:6 <-> st1:2	Weight: 331.457	Set col: 30
+Set row: 69 ub: 0
+189: 69 6 -1 | 190: 69 2 -1 | 191: 69 30 1
+Set row: 70 ub: 2
+192: 70 6 1 | 193: 70 2 1 | 194: 70 30 1
+Set row: 71 lb: 0
+195: 71 6 -1 | 196: 71 2 1 | 197: 71 30 1
+Set row: 72 lb: 0
+198: 72 6 1 | 199: 72 2 -1 | 200: 72 30 1
+Edge found! st3:10 <-> st0:1	Weight: 15.7006	Set col: 31
+Set row: 73 ub: 0
+201: 73 10 -1 | 202: 73 1 -1 | 203: 73 31 1
+Set row: 74 ub: 2
+204: 74 10 1 | 205: 74 1 1 | 206: 74 31 1
+Set row: 75 lb: 0
+207: 75 10 -1 | 208: 75 1 1 | 209: 75 31 1
+Set row: 76 lb: 0
+210: 76 10 1 | 211: 76 1 -1 | 212: 76 31 1
+Edge found! st3:10 <-> st2:6	Weight: 16.5728	Set col: 32
+Set row: 77 ub: 0
+213: 77 10 -1 | 214: 77 6 -1 | 215: 77 32 1
+Set row: 78 ub: 2
+216: 78 10 1 | 217: 78 6 1 | 218: 78 32 1
+Set row: 79 lb: 0
+219: 79 10 -1 | 220: 79 6 1 | 221: 79 32 1
+Set row: 80 lb: 0
+222: 80 10 1 | 223: 80 6 -1 | 224: 80 32 1
+Edge found! st4:12 <-> st0:1	Weight: 0.413174	Set col: 33
+Set row: 81 ub: 0
+225: 81 12 -1 | 226: 81 1 -1 | 227: 81 33 1
+Set row: 82 ub: 2
+228: 82 12 1 | 229: 82 1 1 | 230: 82 33 1
+Set row: 83 lb: 0
+231: 83 12 -1 | 232: 83 1 1 | 233: 83 33 1
+Set row: 84 lb: 0
+234: 84 12 1 | 235: 84 1 -1 | 236: 84 33 1
+Edge found! st4:12 <-> st1:2	Weight: 0.0229541	Set col: 34
+Set row: 85 ub: 0
+237: 85 12 -1 | 238: 85 2 -1 | 239: 85 34 1
+Set row: 86 ub: 2
+240: 86 12 1 | 241: 86 2 1 | 242: 86 34 1
+Set row: 87 lb: 0
+243: 87 12 -1 | 244: 87 2 1 | 245: 87 34 1
+Set row: 88 lb: 0
+246: 88 12 1 | 247: 88 2 -1 | 248: 88 34 1
+Edge found! st4:12 <-> st3:10	Weight: 0.436128	Set col: 35
+Set row: 89 ub: 0
+249: 89 12 -1 | 250: 89 10 -1 | 251: 89 35 1
+Set row: 90 ub: 2
+252: 90 12 1 | 253: 90 10 1 | 254: 90 35 1
+Set row: 91 lb: 0
+255: 91 12 -1 | 256: 91 10 1 | 257: 91 35 1
+Set row: 92 lb: 0
+258: 92 12 1 | 259: 92 10 -1 | 260: 92 35 1
+Edge found! st5:9 <-> st0:1	Weight: 16.5958	Set col: 36
+Set row: 93 ub: 0
+261: 93 9 -1 | 262: 93 1 -1 | 263: 93 36 1
+Set row: 94 ub: 2
+264: 94 9 1 | 265: 94 1 1 | 266: 94 36 1
+Set row: 95 lb: 0
+267: 95 9 -1 | 268: 95 1 1 | 269: 95 36 1
+Set row: 96 lb: 0
+270: 96 9 1 | 271: 96 1 -1 | 272: 96 36 1
+Edge found! st5:9 <-> st2:6	Weight: 16.5728	Set col: 37
+Set row: 97 ub: 0
+273: 97 9 -1 | 274: 97 6 -1 | 275: 97 37 1
+Set row: 98 ub: 2
+276: 98 9 1 | 277: 98 6 1 | 278: 98 37 1
+Set row: 99 lb: 0
+279: 99 9 -1 | 280: 99 6 1 | 281: 99 37 1
+Set row: 100 lb: 0
+282: 100 9 1 | 283: 100 6 -1 | 284: 100 37 1
+Edge found! st5:9 <-> st4:12	Weight: 0.011477	Set col: 38
+Set row: 101 ub: 0
+285: 101 9 -1 | 286: 101 12 -1 | 287: 101 38 1
+Set row: 102 ub: 2
+288: 102 9 1 | 289: 102 12 1 | 290: 102 38 1
+Set row: 103 lb: 0
+291: 103 9 -1 | 292: 103 12 1 | 293: 103 38 1
+Set row: 104 lb: 0
+294: 104 9 1 | 295: 104 12 -1 | 296: 104 38 1
+Edge found! st6:4 <-> st0:1	Weight: 5977.94	Set col: 39
+Set row: 105 ub: 0
+297: 105 4 -1 | 298: 105 1 -1 | 299: 105 39 1
+Set row: 106 ub: 2
+300: 106 4 1 | 301: 106 1 1 | 302: 106 39 1
+Set row: 107 lb: 0
+303: 107 4 -1 | 304: 107 1 1 | 305: 107 39 1
+Set row: 108 lb: 0
+306: 108 4 1 | 307: 108 1 -1 | 308: 108 39 1
+Edge found! st7:7 <-> st0:1	Weight: 1007.75	Set col: 40
+Set row: 109 ub: 0
+309: 109 7 -1 | 310: 109 1 -1 | 311: 109 40 1
+Set row: 110 ub: 2
+312: 110 7 1 | 313: 110 1 1 | 314: 110 40 1
+Set row: 111 lb: 0
+315: 111 7 -1 | 316: 111 1 1 | 317: 111 40 1
+Set row: 112 lb: 0
+318: 112 7 1 | 319: 112 1 -1 | 320: 112 40 1
+Edge found! st7:7 <-> st6:4	Weight: 419.982	Set col: 41
+Set row: 113 ub: 0
+321: 113 7 -1 | 322: 113 4 -1 | 323: 113 41 1
+Set row: 114 ub: 2
+324: 114 7 1 | 325: 114 4 1 | 326: 114 41 1
+Set row: 115 lb: 0
+327: 115 7 -1 | 328: 115 4 1 | 329: 115 41 1
+Set row: 116 lb: 0
+330: 116 7 1 | 331: 116 4 -1 | 332: 116 41 1
+Edge found! st8:5 <-> st0:1	Weight: 11766.7	Set col: 42
+Set row: 117 ub: 0
+333: 117 5 -1 | 334: 117 1 -1 | 335: 117 42 1
+Set row: 118 ub: 2
+336: 118 5 1 | 337: 118 1 1 | 338: 118 42 1
+Set row: 119 lb: 0
+339: 119 5 -1 | 340: 119 1 1 | 341: 119 42 1
+Set row: 120 lb: 0
+342: 120 5 1 | 343: 120 1 -1 | 344: 120 42 1
+Edge found! st8:5 <-> st10:8	Weight: 331.456	Set col: 43
+Set row: 121 ub: 0
+345: 121 5 -1 | 346: 121 8 -1 | 347: 121 43 1
+Set row: 122 ub: 2
+348: 122 5 1 | 349: 122 8 1 | 350: 122 43 1
+Set row: 123 lb: 0
+351: 123 5 -1 | 352: 123 8 1 | 353: 123 43 1
+Set row: 124 lb: 0
+354: 124 5 1 | 355: 124 8 -1 | 356: 124 43 1
+Edge found! st8:5 <-> st15:16	Weight: 0.000657121	Set col: 44
+Set row: 125 ub: 0
+357: 125 5 -1 | 358: 125 16 -1 | 359: 125 44 1
+Set row: 126 ub: 2
+360: 126 5 1 | 361: 126 16 1 | 362: 126 44 1
+Set row: 127 lb: 0
+363: 127 5 -1 | 364: 127 16 1 | 365: 127 44 1
+Set row: 128 lb: 0
+366: 128 5 1 | 367: 128 16 -1 | 368: 128 44 1
+Edge found! st9:3 <-> st0:1	Weight: 11729.9	Set col: 45
+Set row: 129 ub: 0
+369: 129 3 -1 | 370: 129 1 -1 | 371: 129 45 1
+Set row: 130 ub: 2
+372: 130 3 1 | 373: 130 1 1 | 374: 130 45 1
+Set row: 131 lb: 0
+375: 131 3 -1 | 376: 131 1 1 | 377: 131 45 1
+Set row: 132 lb: 0
+378: 132 3 1 | 379: 132 1 -1 | 380: 132 45 1
+Edge found! st9:3 <-> st7:7	Weight: 349.871	Set col: 46
+Set row: 133 ub: 0
+381: 133 3 -1 | 382: 133 7 -1 | 383: 133 46 1
+Set row: 134 ub: 2
+384: 134 3 1 | 385: 134 7 1 | 386: 134 46 1
+Set row: 135 lb: 0
+387: 135 3 -1 | 388: 135 7 1 | 389: 135 46 1
+Set row: 136 lb: 0
+390: 136 3 1 | 391: 136 7 -1 | 392: 136 46 1
+Edge found! st9:3 <-> st8:5	Weight: 331.456	Set col: 47
+Set row: 137 ub: 0
+393: 137 3 -1 | 394: 137 5 -1 | 395: 137 47 1
+Set row: 138 ub: 2
+396: 138 3 1 | 397: 138 5 1 | 398: 138 47 1
+Set row: 139 lb: 0
+399: 139 3 -1 | 400: 139 5 1 | 401: 139 47 1
+Set row: 140 lb: 0
+402: 140 3 1 | 403: 140 5 -1 | 404: 140 47 1
+GLPK Integer Optimizer 5.0
+141 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Preprocessing...
+62 hidden covering inequaliti(es) were detected
+141 rows, 47 columns, 420 non-zeros
+47 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 133
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+141 rows, 47 columns, 420 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.100e+01 (11)
+      8: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     8: mip =     not found yet >=              -inf        (1; 0)
++    59: >>>>>   2.072599805e+04 >=   3.367742801e-03 100.0% (5; 0)
++   105: >>>>>   1.991391631e+04 >=   1.242777583e+04  37.6% (5; 4)
++   125: mip =   1.991391631e+04 >=     tree is empty   0.0% (0; 17)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 19913.9
+st0	1	1
+st1	2	0
+st10	8	1
+st11	11	1
+st12	13	1
+st13	14	1
+st14	15	0
+st15	16	1
+st2	6	0
+st3	10	0
+st4	12	0
+st5	9	0
+st6	4	0
+st7	7	0
+st8	5	1
+st9	3	1
+Number of 0 assigned: 8 | Number of 1 assigned: 8
+XOR Constraint 17: 1
+XOR Constraint 18: 0
+XOR Constraint 19: 0
+XOR Constraint 20: 0
+XOR Constraint 21: 0
+XOR Constraint 22: 0
+XOR Constraint 23: 0
+XOR Constraint 24: 0
+XOR Constraint 25: 1
+XOR Constraint 26: 1
+XOR Constraint 27: 0
+XOR Constraint 28: 0
+XOR Constraint 29: 1
+XOR Constraint 30: 0
+XOR Constraint 31: 1
+XOR Constraint 32: 0
+XOR Constraint 33: 1
+XOR Constraint 34: 0
+XOR Constraint 35: 0
+XOR Constraint 36: 1
+XOR Constraint 37: 0
+XOR Constraint 38: 0
+XOR Constraint 39: 1
+XOR Constraint 40: 1
+XOR Constraint 41: 0
+XOR Constraint 42: 0
+XOR Constraint 43: 0
+XOR Constraint 44: 0
+XOR Constraint 45: 0
+XOR Constraint 46: 1
+XOR Constraint 47: 0
+-----
+Size of State Group: 16
+ - 4
+ - 12
+ - 7
+ - 10
+ - 2
+ - 9
+ - 6
+ - 15
+ - 1
+ - 13
+ - 3
+ - 11
+ - 5
+ - 14
+ - 8
+ - 16
+
+Final Results:
+Used Length / Total Length:	4 / 16
+st0	: 1	| 0001------------
+st1	: 2	| 0010------------
+st10	: 8	| 0111------------
+st11	: 11	| 1101------------
+st12	: 13	| 1001------------
+st13	: 14	| 1011------------
+st14	: 15	| 1110------------
+st15	: 16	| 1111------------
+st2	: 6	| 0110------------
+st3	: 10	| 1100------------
+st4	: 12	| 1000------------
+st5	: 9	| 1010------------
+st6	: 4	| 0000------------
+st7	: 7	| 0100------------
+st8	: 5	| 0011------------
+st9	: 3	| 0101------------
+
+===========================================================================
+Writing File ...
+
+===========================================================================
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2152.8 uW assuming 20 MHz clock and Vdd = 5V

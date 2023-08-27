@@ -1,0 +1,233 @@
+
+===========================================================================
+Reading File ...
+
+===========================================================================
+Calculating State Probability ...
+glp_exact: 5 rows, 4 columns, 15 non-zeros
+GLPK bignum module is being used
+(Consider installing GNU MP to attain a much better performance.)
+      0:   infsum =                      1   (4)
+      4:   infsum =                      0   (1)
+*     4:   objval =                      0   (1)
+*     4:   objval =                      0   (1)
+OPTIMAL SOLUTION FOUND
+-----
+S0:	0.0186335
+S1:	0.124224
+S2:	0.745342
+S3:	0.111801
+-----
+S2 <-> S0:	0.273009
+S2 <-> S1:	5.46019
+S3 <-> S0:	0.546019
+S3 <-> S2:	5.18718
+
+===========================================================================
+State Assignment ...
+   [   Round 1   ]   
+Set col: S0 -> 1
+Set col: S1 -> 4
+Set col: S2 -> 3
+Set col: S3 -> 2
+Size of Group: 1
+Group 1 | Size 4
+Set row: 1 lb: 1 ub: 2
+Set row: 2 lb: -3 ub: -2
+1: 1 2 1
+2: 2 2 -1
+3: 1 3 1
+4: 2 3 -1
+5: 1 1 1
+6: 2 1 -1
+7: 1 4 1
+8: 2 4 -1
+Edge found! S2:3 <-> S0:1	Weight: 0.273009	Set col: 5
+Set row: 3 ub: 0
+9: 3 3 -1 | 10: 3 1 -1 | 11: 3 5 1
+Set row: 4 ub: 2
+12: 4 3 1 | 13: 4 1 1 | 14: 4 5 1
+Set row: 5 lb: 0
+15: 5 3 -1 | 16: 5 1 1 | 17: 5 5 1
+Set row: 6 lb: 0
+18: 6 3 1 | 19: 6 1 -1 | 20: 6 5 1
+Edge found! S2:3 <-> S1:4	Weight: 5.46019	Set col: 6
+Set row: 7 ub: 0
+21: 7 3 -1 | 22: 7 4 -1 | 23: 7 6 1
+Set row: 8 ub: 2
+24: 8 3 1 | 25: 8 4 1 | 26: 8 6 1
+Set row: 9 lb: 0
+27: 9 3 -1 | 28: 9 4 1 | 29: 9 6 1
+Set row: 10 lb: 0
+30: 10 3 1 | 31: 10 4 -1 | 32: 10 6 1
+Edge found! S3:2 <-> S0:1	Weight: 0.546019	Set col: 7
+Set row: 11 ub: 0
+33: 11 2 -1 | 34: 11 1 -1 | 35: 11 7 1
+Set row: 12 ub: 2
+36: 12 2 1 | 37: 12 1 1 | 38: 12 7 1
+Set row: 13 lb: 0
+39: 13 2 -1 | 40: 13 1 1 | 41: 13 7 1
+Set row: 14 lb: 0
+42: 14 2 1 | 43: 14 1 -1 | 44: 14 7 1
+Edge found! S3:2 <-> S2:3	Weight: 5.18718	Set col: 8
+Set row: 15 ub: 0
+45: 15 2 -1 | 46: 15 3 -1 | 47: 15 8 1
+Set row: 16 ub: 2
+48: 16 2 1 | 49: 16 3 1 | 50: 16 8 1
+Set row: 17 lb: 0
+51: 17 2 -1 | 52: 17 3 1 | 53: 17 8 1
+Set row: 18 lb: 0
+54: 18 2 1 | 55: 18 3 -1 | 56: 18 8 1
+GLPK Integer Optimizer 5.0
+19 rows, 8 columns, 60 non-zeros
+8 integer variables, all of which are binary
+Preprocessing...
+8 hidden covering inequaliti(es) were detected
+19 rows, 8 columns, 60 non-zeros
+8 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 19
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+19 rows, 8 columns, 60 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.000e+00 (2)
+      5: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     5: mip =     not found yet >=              -inf        (1; 0)
++    16: >>>>>   1.119338758e+01 >=   2.730094531e-01  97.6% (4; 0)
++    23: >>>>>   5.460189062e+00 >=   5.460189062e+00   0.0% (4; 2)
++    23: mip =   5.460189062e+00 >=     tree is empty   0.0% (0; 11)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 5.46019
+S0	1	1
+S1	4	0
+S2	3	0
+S3	2	1
+Number of 0 assigned: 2 | Number of 1 assigned: 2
+XOR Constraint 5: 1
+XOR Constraint 6: 0
+XOR Constraint 7: 0
+XOR Constraint 8: 1
+-----
+Size of State Group: 2
+ - 3 4
+ - 1 2
+
+   [   Round 2   ]   
+Set col: S0 -> 1
+Set col: S1 -> 4
+Set col: S2 -> 3
+Set col: S3 -> 2
+Size of Group: 2
+Group 1 | Size 2
+Set row: 1 lb: 1 ub: 1
+Set row: 2 lb: -1 ub: -1
+1: 1 3 1
+2: 2 3 -1
+3: 1 4 1
+4: 2 4 -1
+Group 2 | Size 2
+Set row: 3 lb: 1 ub: 1
+Set row: 4 lb: -1 ub: -1
+5: 3 1 1
+6: 4 1 -1
+7: 3 2 1
+8: 4 2 -1
+Edge found! S2:3 <-> S0:1	Weight: 0.546019	Set col: 5
+Set row: 5 ub: 0
+9: 5 3 -1 | 10: 5 1 -1 | 11: 5 5 1
+Set row: 6 ub: 2
+12: 6 3 1 | 13: 6 1 1 | 14: 6 5 1
+Set row: 7 lb: 0
+15: 7 3 -1 | 16: 7 1 1 | 17: 7 5 1
+Set row: 8 lb: 0
+18: 8 3 1 | 19: 8 1 -1 | 20: 8 5 1
+Edge found! S2:3 <-> S1:4	Weight: 5.46019	Set col: 6
+Set row: 9 ub: 0
+21: 9 3 -1 | 22: 9 4 -1 | 23: 9 6 1
+Set row: 10 ub: 2
+24: 10 3 1 | 25: 10 4 1 | 26: 10 6 1
+Set row: 11 lb: 0
+27: 11 3 -1 | 28: 11 4 1 | 29: 11 6 1
+Set row: 12 lb: 0
+30: 12 3 1 | 31: 12 4 -1 | 32: 12 6 1
+Edge found! S3:2 <-> S0:1	Weight: 0.546019	Set col: 7
+Set row: 13 ub: 0
+33: 13 2 -1 | 34: 13 1 -1 | 35: 13 7 1
+Set row: 14 ub: 2
+36: 14 2 1 | 37: 14 1 1 | 38: 14 7 1
+Set row: 15 lb: 0
+39: 15 2 -1 | 40: 15 1 1 | 41: 15 7 1
+Set row: 16 lb: 0
+42: 16 2 1 | 43: 16 1 -1 | 44: 16 7 1
+Edge found! S3:2 <-> S2:3	Weight: 10.3744	Set col: 8
+Set row: 17 ub: 0
+45: 17 2 -1 | 46: 17 3 -1 | 47: 17 8 1
+Set row: 18 ub: 2
+48: 18 2 1 | 49: 18 3 1 | 50: 18 8 1
+Set row: 19 lb: 0
+51: 19 2 -1 | 52: 19 3 1 | 53: 19 8 1
+Set row: 20 lb: 0
+54: 20 2 1 | 55: 20 3 -1 | 56: 20 8 1
+GLPK Integer Optimizer 5.0
+21 rows, 8 columns, 60 non-zeros
+8 integer variables, all of which are binary
+Preprocessing...
+8 hidden covering inequaliti(es) were detected
+21 rows, 8 columns, 60 non-zeros
+8 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 19
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+21 rows, 8 columns, 60 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.000e+00 (3)
+      2: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     2: mip =     not found yet >=              -inf        (1; 0)
++     6: >>>>>   6.552226875e+00 >=   5.460189062e+00  16.7% (2; 0)
++     6: mip =   6.552226875e+00 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 6.55223
+S0	1	1
+S1	4	1
+S2	3	0
+S3	2	0
+Number of 0 assigned: 2 | Number of 1 assigned: 2
+XOR Constraint 5: 1
+XOR Constraint 6: 1
+XOR Constraint 7: 1
+XOR Constraint 8: 0
+-----
+Size of State Group: 4
+ - 3
+ - 2
+ - 4
+ - 1
+
+Final Results:
+Used Length / Total Length:	2 / 4
+S0	: 1	| 11--
+S1	: 4	| 01--
+S2	: 3	| 00--
+S3	: 2	| 10--
+
+===========================================================================
+Writing File ...
+
+===========================================================================
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 329.9 uW assuming 20 MHz clock and Vdd = 5V

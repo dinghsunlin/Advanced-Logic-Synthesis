@@ -1,0 +1,19 @@
+.model
+.inputs a
+.outputs qc qb qa
+.start_kiss
+.i 1
+.o 3
+.s 5
+- zero one 000
+- one two 001
+- two three 010
+- three four 011
+- four zero 100
+.end_kiss
+.code zero 000 #state assignment
+.code one 001
+.code two 010
+.code three 011
+.code four 100
+.end

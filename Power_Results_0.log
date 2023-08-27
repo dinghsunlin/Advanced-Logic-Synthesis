@@ -1,0 +1,780 @@
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 427.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1101.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 217.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 329.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2120.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1223.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2706.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2577.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 377.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6773.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 473.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1125.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 256.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2067.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1254.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2678.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2618.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6466.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 541.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1130.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 1966.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 972.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3047.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2807.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6094.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1142.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 1891.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2835.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2665.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6180.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1312.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2041.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2968.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2732.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6186.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1316.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2205.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2919.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2762.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6060.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1231.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2210.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2815.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2948.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6570.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1304.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2066.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2791.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 3227.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 7157.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2075.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2959.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2842.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6303.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2073.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3038.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2893.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6748.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2157.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2913.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2988.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6135.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2794.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2990.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6201.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2771.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2827.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6331.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2698.8 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6522.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3004.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6338.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3038.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6330.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3110.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6546.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 3083.5 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2856.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2647.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2736.1 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2556.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2556.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2556.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2556.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbara_opt, Power = 479.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbsse_opt, Power = 1250.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: bbtas_opt, Power = 362.0 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: beecount_opt, Power = 360.6 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: cse_opt, Power = 2087.9 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1099.7 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: dk16_opt, Power = 2556.3 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: ex1_opt, Power = 2879.4 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: s27_opt, Power = 326.2 uW assuming 20 MHz clock and Vdd = 5V
+
+Combinational power estimation, with Zero delay model.
+Network: snad_opt, Power = 6973.4 uW assuming 20 MHz clock and Vdd = 5V
+

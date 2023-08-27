@@ -1,0 +1,27 @@
+.model
+.inputs x
+.outputs z
+.start_kiss
+.i 1
+.o 1
+0 f1 f8 0
+1 f1 f3 0
+0 f2 f8 0
+1 f2 f6 0
+0 f3 f8 1
+1 f3 f1 0
+0 f4 f1 1
+1 f4 f9 0
+0 f5 f4 0
+1 f5 f7 0
+0 f6 f4 1
+1 f6 f2 0
+0 f7 f4 1
+1 f7 f5 0
+0 f8 f5 1
+1 f8 f9 0
+- f9 f10 -
+0 f10 f1 0
+1 f10 f5 0
+.end_kiss
+.end

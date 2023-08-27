@@ -1,0 +1,24 @@
+#!bin/tcsh
+
+setenv PATH /users/student/mr111/dhlin22/ALS/Final/SIS/bin:${PATH}
+echo "linking ./SIS/bin"
+
+set tooldir=/usr/local/gcc-9.3.0
+
+if ( -d ${tooldir} ) then
+    
+    if ( `gcc --version | grep gcc | awk '{print $3}'` != "9.3.0" ) then
+        set CC=${tooldir}/bin/gcc
+        set CXX=${tooldir}/bin/g++
+        setenv PATH ${tooldir}/bin:${PATH}
+        setenv LD_LIBRARY_PATH ${tooldir}/lib64:${tooldir}/lib:${LD_LIBRARY_PATH}
+        echo "linking gcc-9.3.0 on ${HOSTNAME}"
+    endif
+
+else
+    echo "Not support gcc-9.3.0 on ${HOSTNAME}"
+endif
+
+unset tooldir
+
+exit (0)

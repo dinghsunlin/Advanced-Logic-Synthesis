@@ -1,0 +1,91 @@
+.model s27_opt.kiss
+.inputs IN_0 IN_1 IN_2 IN_3
+.outputs OUT_0
+.latch    v7.0 LatchOut_v4   1
+.latch    v7.1 LatchOut_v5   0
+.latch    v7.2 LatchOut_v6   0
+.start_kiss
+.i 4
+.o 1
+.p 30
+.s 5
+.r S1
+0-0- S0 S0 1
+0-1- S0 S1 1
+1-0- S0 S0 1
+1-1- S0 S2 1
+010- S1 S0 1
+011- S1 S1 1
+110- S1 S0 1
+111- S1 S2 1
+10-0 S1 S2 1
+00-0 S1 S1 1
+-0-1 S1 S3 0
+010- S2 S0 1
+011- S2 S1 1
+00-- S2 S1 1
+111- S2 S2 1
+110- S2 S0 1
+10-- S2 S2 1
+0-1- S3 S3 0
+000- S3 S3 0
+010- S3 S4 0
+1101 S3 S0 1
+1111 S3 S2 1
+10-1 S3 S3 0
+1100 S3 S0 1
+1110 S3 S2 1
+10-0 S3 S2 1
+0-0- S4 S4 0
+0-1- S4 S3 0
+1-1- S4 S2 1
+1-0- S4 S0 1
+.end_kiss
+.latch_order LatchOut_v4 LatchOut_v5 LatchOut_v6
+.code S0 111
+.code S1 100
+.code S2 110
+.code S3 000
+.code S4 101
+.names IN_0 IN_1 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_0
+----1- 1
+11---- 1
+1-0--- 1
+1----1 1
+-1-1-0 1
+--01-0 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.0
+-----1- 1
+11----- 1
+-10---- 1
+1--0--- 1
+1-----1 1
+--0---1 1
+-1--1-0 1
+---01-0 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.1
+11----- 1
+1--0--- 1
+1----1- 1
+1-----1 1
+--0--11 1
+-10-1-0 1
+.names IN_1 IN_2 LatchOut_v6 v7.2
+10- 1
+-01 1
+.exdc 
+.inputs IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6
+.outputs v7.0 v7.1 v7.2 OUT_0
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.0
+01- 1
+0-1 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.1
+01- 1
+0-1 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.2
+01- 1
+0-1 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_0
+01- 1
+0-1 1
+.end

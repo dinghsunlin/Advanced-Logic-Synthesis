@@ -1,0 +1,814 @@
+
+===========================================================================
+Reading File ...
+
+===========================================================================
+Calculating State Probability ...
+glp_exact: 8 rows, 7 columns, 38 non-zeros
+GLPK bignum module is being used
+(Consider installing GNU MP to attain a much better performance.)
+      0:   infsum =                      1   (7)
+      7:   infsum =                      0   (1)
+*     7:   objval =                      0   (1)
+*     7:   objval =                      0   (1)
+OPTIMAL SOLUTION FOUND
+-----
+state_1:	0.187976
+state_2:	0.187976
+state_3:	0.242553
+state_4:	0.125245
+state_5:	0.18678
+state_6:	0.053816
+state_7:	0.0156556
+-----
+state_2 <-> state_1:	3.94363
+state_3 <-> state_1:	3.94363
+state_3 <-> state_2:	1.31454
+state_4 <-> state_1:	2.62909
+state_4 <-> state_3:	6.01999
+state_5 <-> state_1:	7.85381
+state_5 <-> state_2:	6.53927
+state_5 <-> state_3:	3.39242
+state_5 <-> state_4:	2.62757
+state_6 <-> state_1:	2.44358
+state_6 <-> state_2:	1.12903
+state_6 <-> state_3:	2.07255
+state_6 <-> state_5:	0.376344
+state_7 <-> state_1:	0.218964
+state_7 <-> state_2:	0.218964
+state_7 <-> state_3:	0.218964
+state_7 <-> state_4:	0.985338
+state_7 <-> state_5:	0.109482
+
+===========================================================================
+State Assignment ...
+   [   Round 1   ]   
+Set col: state_1 -> 1
+Set col: state_2 -> 7
+Set col: state_3 -> 2
+Set col: state_4 -> 3
+Set col: state_5 -> 4
+Set col: state_6 -> 5
+Set col: state_7 -> 6
+Size of Group: 1
+Group 1 | Size 7
+Set row: 1 lb: 1 ub: 4
+Set row: 2 lb: -6 ub: -3
+1: 1 6 1
+2: 2 6 -1
+3: 1 5 1
+4: 2 5 -1
+5: 1 7 1
+6: 2 7 -1
+7: 1 2 1
+8: 2 2 -1
+9: 1 1 1
+10: 2 1 -1
+11: 1 3 1
+12: 2 3 -1
+13: 1 4 1
+14: 2 4 -1
+Edge found! state_2:7 <-> state_1:1	Weight: 3.94363	Set col: 8
+Set row: 3 ub: 0
+15: 3 7 -1 | 16: 3 1 -1 | 17: 3 8 1
+Set row: 4 ub: 2
+18: 4 7 1 | 19: 4 1 1 | 20: 4 8 1
+Set row: 5 lb: 0
+21: 5 7 -1 | 22: 5 1 1 | 23: 5 8 1
+Set row: 6 lb: 0
+24: 6 7 1 | 25: 6 1 -1 | 26: 6 8 1
+Edge found! state_3:2 <-> state_1:1	Weight: 3.94363	Set col: 9
+Set row: 7 ub: 0
+27: 7 2 -1 | 28: 7 1 -1 | 29: 7 9 1
+Set row: 8 ub: 2
+30: 8 2 1 | 31: 8 1 1 | 32: 8 9 1
+Set row: 9 lb: 0
+33: 9 2 -1 | 34: 9 1 1 | 35: 9 9 1
+Set row: 10 lb: 0
+36: 10 2 1 | 37: 10 1 -1 | 38: 10 9 1
+Edge found! state_3:2 <-> state_2:7	Weight: 1.31454	Set col: 10
+Set row: 11 ub: 0
+39: 11 2 -1 | 40: 11 7 -1 | 41: 11 10 1
+Set row: 12 ub: 2
+42: 12 2 1 | 43: 12 7 1 | 44: 12 10 1
+Set row: 13 lb: 0
+45: 13 2 -1 | 46: 13 7 1 | 47: 13 10 1
+Set row: 14 lb: 0
+48: 14 2 1 | 49: 14 7 -1 | 50: 14 10 1
+Edge found! state_4:3 <-> state_1:1	Weight: 2.62909	Set col: 11
+Set row: 15 ub: 0
+51: 15 3 -1 | 52: 15 1 -1 | 53: 15 11 1
+Set row: 16 ub: 2
+54: 16 3 1 | 55: 16 1 1 | 56: 16 11 1
+Set row: 17 lb: 0
+57: 17 3 -1 | 58: 17 1 1 | 59: 17 11 1
+Set row: 18 lb: 0
+60: 18 3 1 | 61: 18 1 -1 | 62: 18 11 1
+Edge found! state_4:3 <-> state_3:2	Weight: 6.01999	Set col: 12
+Set row: 19 ub: 0
+63: 19 3 -1 | 64: 19 2 -1 | 65: 19 12 1
+Set row: 20 ub: 2
+66: 20 3 1 | 67: 20 2 1 | 68: 20 12 1
+Set row: 21 lb: 0
+69: 21 3 -1 | 70: 21 2 1 | 71: 21 12 1
+Set row: 22 lb: 0
+72: 22 3 1 | 73: 22 2 -1 | 74: 22 12 1
+Edge found! state_5:4 <-> state_1:1	Weight: 7.85381	Set col: 13
+Set row: 23 ub: 0
+75: 23 4 -1 | 76: 23 1 -1 | 77: 23 13 1
+Set row: 24 ub: 2
+78: 24 4 1 | 79: 24 1 1 | 80: 24 13 1
+Set row: 25 lb: 0
+81: 25 4 -1 | 82: 25 1 1 | 83: 25 13 1
+Set row: 26 lb: 0
+84: 26 4 1 | 85: 26 1 -1 | 86: 26 13 1
+Edge found! state_5:4 <-> state_2:7	Weight: 6.53927	Set col: 14
+Set row: 27 ub: 0
+87: 27 4 -1 | 88: 27 7 -1 | 89: 27 14 1
+Set row: 28 ub: 2
+90: 28 4 1 | 91: 28 7 1 | 92: 28 14 1
+Set row: 29 lb: 0
+93: 29 4 -1 | 94: 29 7 1 | 95: 29 14 1
+Set row: 30 lb: 0
+96: 30 4 1 | 97: 30 7 -1 | 98: 30 14 1
+Edge found! state_5:4 <-> state_3:2	Weight: 3.39242	Set col: 15
+Set row: 31 ub: 0
+99: 31 4 -1 | 100: 31 2 -1 | 101: 31 15 1
+Set row: 32 ub: 2
+102: 32 4 1 | 103: 32 2 1 | 104: 32 15 1
+Set row: 33 lb: 0
+105: 33 4 -1 | 106: 33 2 1 | 107: 33 15 1
+Set row: 34 lb: 0
+108: 34 4 1 | 109: 34 2 -1 | 110: 34 15 1
+Edge found! state_5:4 <-> state_4:3	Weight: 2.62757	Set col: 16
+Set row: 35 ub: 0
+111: 35 4 -1 | 112: 35 3 -1 | 113: 35 16 1
+Set row: 36 ub: 2
+114: 36 4 1 | 115: 36 3 1 | 116: 36 16 1
+Set row: 37 lb: 0
+117: 37 4 -1 | 118: 37 3 1 | 119: 37 16 1
+Set row: 38 lb: 0
+120: 38 4 1 | 121: 38 3 -1 | 122: 38 16 1
+Edge found! state_6:5 <-> state_1:1	Weight: 2.44358	Set col: 17
+Set row: 39 ub: 0
+123: 39 5 -1 | 124: 39 1 -1 | 125: 39 17 1
+Set row: 40 ub: 2
+126: 40 5 1 | 127: 40 1 1 | 128: 40 17 1
+Set row: 41 lb: 0
+129: 41 5 -1 | 130: 41 1 1 | 131: 41 17 1
+Set row: 42 lb: 0
+132: 42 5 1 | 133: 42 1 -1 | 134: 42 17 1
+Edge found! state_6:5 <-> state_2:7	Weight: 1.12903	Set col: 18
+Set row: 43 ub: 0
+135: 43 5 -1 | 136: 43 7 -1 | 137: 43 18 1
+Set row: 44 ub: 2
+138: 44 5 1 | 139: 44 7 1 | 140: 44 18 1
+Set row: 45 lb: 0
+141: 45 5 -1 | 142: 45 7 1 | 143: 45 18 1
+Set row: 46 lb: 0
+144: 46 5 1 | 145: 46 7 -1 | 146: 46 18 1
+Edge found! state_6:5 <-> state_3:2	Weight: 2.07255	Set col: 19
+Set row: 47 ub: 0
+147: 47 5 -1 | 148: 47 2 -1 | 149: 47 19 1
+Set row: 48 ub: 2
+150: 48 5 1 | 151: 48 2 1 | 152: 48 19 1
+Set row: 49 lb: 0
+153: 49 5 -1 | 154: 49 2 1 | 155: 49 19 1
+Set row: 50 lb: 0
+156: 50 5 1 | 157: 50 2 -1 | 158: 50 19 1
+Edge found! state_6:5 <-> state_5:4	Weight: 0.376344	Set col: 20
+Set row: 51 ub: 0
+159: 51 5 -1 | 160: 51 4 -1 | 161: 51 20 1
+Set row: 52 ub: 2
+162: 52 5 1 | 163: 52 4 1 | 164: 52 20 1
+Set row: 53 lb: 0
+165: 53 5 -1 | 166: 53 4 1 | 167: 53 20 1
+Set row: 54 lb: 0
+168: 54 5 1 | 169: 54 4 -1 | 170: 54 20 1
+Edge found! state_7:6 <-> state_1:1	Weight: 0.218964	Set col: 21
+Set row: 55 ub: 0
+171: 55 6 -1 | 172: 55 1 -1 | 173: 55 21 1
+Set row: 56 ub: 2
+174: 56 6 1 | 175: 56 1 1 | 176: 56 21 1
+Set row: 57 lb: 0
+177: 57 6 -1 | 178: 57 1 1 | 179: 57 21 1
+Set row: 58 lb: 0
+180: 58 6 1 | 181: 58 1 -1 | 182: 58 21 1
+Edge found! state_7:6 <-> state_2:7	Weight: 0.218964	Set col: 22
+Set row: 59 ub: 0
+183: 59 6 -1 | 184: 59 7 -1 | 185: 59 22 1
+Set row: 60 ub: 2
+186: 60 6 1 | 187: 60 7 1 | 188: 60 22 1
+Set row: 61 lb: 0
+189: 61 6 -1 | 190: 61 7 1 | 191: 61 22 1
+Set row: 62 lb: 0
+192: 62 6 1 | 193: 62 7 -1 | 194: 62 22 1
+Edge found! state_7:6 <-> state_3:2	Weight: 0.218964	Set col: 23
+Set row: 63 ub: 0
+195: 63 6 -1 | 196: 63 2 -1 | 197: 63 23 1
+Set row: 64 ub: 2
+198: 64 6 1 | 199: 64 2 1 | 200: 64 23 1
+Set row: 65 lb: 0
+201: 65 6 -1 | 202: 65 2 1 | 203: 65 23 1
+Set row: 66 lb: 0
+204: 66 6 1 | 205: 66 2 -1 | 206: 66 23 1
+Edge found! state_7:6 <-> state_4:3	Weight: 0.985338	Set col: 24
+Set row: 67 ub: 0
+207: 67 6 -1 | 208: 67 3 -1 | 209: 67 24 1
+Set row: 68 ub: 2
+210: 68 6 1 | 211: 68 3 1 | 212: 68 24 1
+Set row: 69 lb: 0
+213: 69 6 -1 | 214: 69 3 1 | 215: 69 24 1
+Set row: 70 lb: 0
+216: 70 6 1 | 217: 70 3 -1 | 218: 70 24 1
+Edge found! state_7:6 <-> state_5:4	Weight: 0.109482	Set col: 25
+Set row: 71 ub: 0
+219: 71 6 -1 | 220: 71 4 -1 | 221: 71 25 1
+Set row: 72 ub: 2
+222: 72 6 1 | 223: 72 4 1 | 224: 72 25 1
+Set row: 73 lb: 0
+225: 73 6 -1 | 226: 73 4 1 | 227: 73 25 1
+Set row: 74 lb: 0
+228: 74 6 1 | 229: 74 4 -1 | 230: 74 25 1
+GLPK Integer Optimizer 5.0
+75 rows, 25 columns, 237 non-zeros
+25 integer variables, all of which are binary
+Preprocessing...
+36 hidden covering inequaliti(es) were detected
+75 rows, 25 columns, 237 non-zeros
+25 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 75
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+75 rows, 25 columns, 237 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.000e+00 (2)
+      8: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     8: mip =     not found yet >=              -inf        (1; 0)
++    38: >>>>>   1.806452476e+01 >=   0.000000000e+00 100.0% (6; 0)
++    69: >>>>>   1.652721546e+01 >=   1.123254582e+01  32.0% (5; 4)
++   100: mip =   1.652721546e+01 >=     tree is empty   0.0% (0; 15)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 16.5272
+state_1	1	0
+state_2	7	0
+state_3	2	1
+state_4	3	1
+state_5	4	0
+state_6	5	0
+state_7	6	1
+Number of 0 assigned: 4 | Number of 1 assigned: 3
+XOR Constraint 8: 0
+XOR Constraint 9: 1
+XOR Constraint 10: 1
+XOR Constraint 11: 1
+XOR Constraint 12: 0
+XOR Constraint 13: 0
+XOR Constraint 14: 0
+XOR Constraint 15: 1
+XOR Constraint 16: 1
+XOR Constraint 17: 0
+XOR Constraint 18: 0
+XOR Constraint 19: 1
+XOR Constraint 20: 0
+XOR Constraint 21: 1
+XOR Constraint 22: 1
+XOR Constraint 23: 0
+XOR Constraint 24: 0
+XOR Constraint 25: 1
+-----
+Size of State Group: 2
+ - 5 7 1 4
+ - 3 2 6
+
+   [   Round 2   ]   
+Set col: state_1 -> 1
+Set col: state_2 -> 7
+Set col: state_3 -> 2
+Set col: state_4 -> 3
+Set col: state_5 -> 4
+Set col: state_6 -> 5
+Set col: state_7 -> 6
+Size of Group: 2
+Group 1 | Size 4
+Set row: 1 lb: 1 ub: 2
+Set row: 2 lb: -3 ub: -2
+1: 1 5 1
+2: 2 5 -1
+3: 1 7 1
+4: 2 7 -1
+5: 1 1 1
+6: 2 1 -1
+7: 1 4 1
+8: 2 4 -1
+Group 2 | Size 3
+Set row: 3 lb: 1 ub: 2
+Set row: 4 lb: -2 ub: -1
+9: 3 3 1
+10: 4 3 -1
+11: 3 2 1
+12: 4 2 -1
+13: 3 6 1
+14: 4 6 -1
+Edge found! state_2:7 <-> state_1:1	Weight: 3.94363	Set col: 8
+Set row: 5 ub: 0
+15: 5 7 -1 | 16: 5 1 -1 | 17: 5 8 1
+Set row: 6 ub: 2
+18: 6 7 1 | 19: 6 1 1 | 20: 6 8 1
+Set row: 7 lb: 0
+21: 7 7 -1 | 22: 7 1 1 | 23: 7 8 1
+Set row: 8 lb: 0
+24: 8 7 1 | 25: 8 1 -1 | 26: 8 8 1
+Edge found! state_3:2 <-> state_1:1	Weight: 7.88726	Set col: 9
+Set row: 9 ub: 0
+27: 9 2 -1 | 28: 9 1 -1 | 29: 9 9 1
+Set row: 10 ub: 2
+30: 10 2 1 | 31: 10 1 1 | 32: 10 9 1
+Set row: 11 lb: 0
+33: 11 2 -1 | 34: 11 1 1 | 35: 11 9 1
+Set row: 12 lb: 0
+36: 12 2 1 | 37: 12 1 -1 | 38: 12 9 1
+Edge found! state_3:2 <-> state_2:7	Weight: 2.62909	Set col: 10
+Set row: 13 ub: 0
+39: 13 2 -1 | 40: 13 7 -1 | 41: 13 10 1
+Set row: 14 ub: 2
+42: 14 2 1 | 43: 14 7 1 | 44: 14 10 1
+Set row: 15 lb: 0
+45: 15 2 -1 | 46: 15 7 1 | 47: 15 10 1
+Set row: 16 lb: 0
+48: 16 2 1 | 49: 16 7 -1 | 50: 16 10 1
+Edge found! state_4:3 <-> state_1:1	Weight: 5.25818	Set col: 11
+Set row: 17 ub: 0
+51: 17 3 -1 | 52: 17 1 -1 | 53: 17 11 1
+Set row: 18 ub: 2
+54: 18 3 1 | 55: 18 1 1 | 56: 18 11 1
+Set row: 19 lb: 0
+57: 19 3 -1 | 58: 19 1 1 | 59: 19 11 1
+Set row: 20 lb: 0
+60: 20 3 1 | 61: 20 1 -1 | 62: 20 11 1
+Edge found! state_4:3 <-> state_3:2	Weight: 6.01999	Set col: 12
+Set row: 21 ub: 0
+63: 21 3 -1 | 64: 21 2 -1 | 65: 21 12 1
+Set row: 22 ub: 2
+66: 22 3 1 | 67: 22 2 1 | 68: 22 12 1
+Set row: 23 lb: 0
+69: 23 3 -1 | 70: 23 2 1 | 71: 23 12 1
+Set row: 24 lb: 0
+72: 24 3 1 | 73: 24 2 -1 | 74: 24 12 1
+Edge found! state_5:4 <-> state_1:1	Weight: 7.85381	Set col: 13
+Set row: 25 ub: 0
+75: 25 4 -1 | 76: 25 1 -1 | 77: 25 13 1
+Set row: 26 ub: 2
+78: 26 4 1 | 79: 26 1 1 | 80: 26 13 1
+Set row: 27 lb: 0
+81: 27 4 -1 | 82: 27 1 1 | 83: 27 13 1
+Set row: 28 lb: 0
+84: 28 4 1 | 85: 28 1 -1 | 86: 28 13 1
+Edge found! state_5:4 <-> state_2:7	Weight: 6.53927	Set col: 14
+Set row: 29 ub: 0
+87: 29 4 -1 | 88: 29 7 -1 | 89: 29 14 1
+Set row: 30 ub: 2
+90: 30 4 1 | 91: 30 7 1 | 92: 30 14 1
+Set row: 31 lb: 0
+93: 31 4 -1 | 94: 31 7 1 | 95: 31 14 1
+Set row: 32 lb: 0
+96: 32 4 1 | 97: 32 7 -1 | 98: 32 14 1
+Edge found! state_5:4 <-> state_3:2	Weight: 6.78484	Set col: 15
+Set row: 33 ub: 0
+99: 33 4 -1 | 100: 33 2 -1 | 101: 33 15 1
+Set row: 34 ub: 2
+102: 34 4 1 | 103: 34 2 1 | 104: 34 15 1
+Set row: 35 lb: 0
+105: 35 4 -1 | 106: 35 2 1 | 107: 35 15 1
+Set row: 36 lb: 0
+108: 36 4 1 | 109: 36 2 -1 | 110: 36 15 1
+Edge found! state_5:4 <-> state_4:3	Weight: 5.25513	Set col: 16
+Set row: 37 ub: 0
+111: 37 4 -1 | 112: 37 3 -1 | 113: 37 16 1
+Set row: 38 ub: 2
+114: 38 4 1 | 115: 38 3 1 | 116: 38 16 1
+Set row: 39 lb: 0
+117: 39 4 -1 | 118: 39 3 1 | 119: 39 16 1
+Set row: 40 lb: 0
+120: 40 4 1 | 121: 40 3 -1 | 122: 40 16 1
+Edge found! state_6:5 <-> state_1:1	Weight: 2.44358	Set col: 17
+Set row: 41 ub: 0
+123: 41 5 -1 | 124: 41 1 -1 | 125: 41 17 1
+Set row: 42 ub: 2
+126: 42 5 1 | 127: 42 1 1 | 128: 42 17 1
+Set row: 43 lb: 0
+129: 43 5 -1 | 130: 43 1 1 | 131: 43 17 1
+Set row: 44 lb: 0
+132: 44 5 1 | 133: 44 1 -1 | 134: 44 17 1
+Edge found! state_6:5 <-> state_2:7	Weight: 1.12903	Set col: 18
+Set row: 45 ub: 0
+135: 45 5 -1 | 136: 45 7 -1 | 137: 45 18 1
+Set row: 46 ub: 2
+138: 46 5 1 | 139: 46 7 1 | 140: 46 18 1
+Set row: 47 lb: 0
+141: 47 5 -1 | 142: 47 7 1 | 143: 47 18 1
+Set row: 48 lb: 0
+144: 48 5 1 | 145: 48 7 -1 | 146: 48 18 1
+Edge found! state_6:5 <-> state_3:2	Weight: 4.14511	Set col: 19
+Set row: 49 ub: 0
+147: 49 5 -1 | 148: 49 2 -1 | 149: 49 19 1
+Set row: 50 ub: 2
+150: 50 5 1 | 151: 50 2 1 | 152: 50 19 1
+Set row: 51 lb: 0
+153: 51 5 -1 | 154: 51 2 1 | 155: 51 19 1
+Set row: 52 lb: 0
+156: 52 5 1 | 157: 52 2 -1 | 158: 52 19 1
+Edge found! state_6:5 <-> state_5:4	Weight: 0.376344	Set col: 20
+Set row: 53 ub: 0
+159: 53 5 -1 | 160: 53 4 -1 | 161: 53 20 1
+Set row: 54 ub: 2
+162: 54 5 1 | 163: 54 4 1 | 164: 54 20 1
+Set row: 55 lb: 0
+165: 55 5 -1 | 166: 55 4 1 | 167: 55 20 1
+Set row: 56 lb: 0
+168: 56 5 1 | 169: 56 4 -1 | 170: 56 20 1
+Edge found! state_7:6 <-> state_1:1	Weight: 0.437928	Set col: 21
+Set row: 57 ub: 0
+171: 57 6 -1 | 172: 57 1 -1 | 173: 57 21 1
+Set row: 58 ub: 2
+174: 58 6 1 | 175: 58 1 1 | 176: 58 21 1
+Set row: 59 lb: 0
+177: 59 6 -1 | 178: 59 1 1 | 179: 59 21 1
+Set row: 60 lb: 0
+180: 60 6 1 | 181: 60 1 -1 | 182: 60 21 1
+Edge found! state_7:6 <-> state_2:7	Weight: 0.437928	Set col: 22
+Set row: 61 ub: 0
+183: 61 6 -1 | 184: 61 7 -1 | 185: 61 22 1
+Set row: 62 ub: 2
+186: 62 6 1 | 187: 62 7 1 | 188: 62 22 1
+Set row: 63 lb: 0
+189: 63 6 -1 | 190: 63 7 1 | 191: 63 22 1
+Set row: 64 lb: 0
+192: 64 6 1 | 193: 64 7 -1 | 194: 64 22 1
+Edge found! state_7:6 <-> state_3:2	Weight: 0.218964	Set col: 23
+Set row: 65 ub: 0
+195: 65 6 -1 | 196: 65 2 -1 | 197: 65 23 1
+Set row: 66 ub: 2
+198: 66 6 1 | 199: 66 2 1 | 200: 66 23 1
+Set row: 67 lb: 0
+201: 67 6 -1 | 202: 67 2 1 | 203: 67 23 1
+Set row: 68 lb: 0
+204: 68 6 1 | 205: 68 2 -1 | 206: 68 23 1
+Edge found! state_7:6 <-> state_4:3	Weight: 0.985338	Set col: 24
+Set row: 69 ub: 0
+207: 69 6 -1 | 208: 69 3 -1 | 209: 69 24 1
+Set row: 70 ub: 2
+210: 70 6 1 | 211: 70 3 1 | 212: 70 24 1
+Set row: 71 lb: 0
+213: 71 6 -1 | 214: 71 3 1 | 215: 71 24 1
+Set row: 72 lb: 0
+216: 72 6 1 | 217: 72 3 -1 | 218: 72 24 1
+Edge found! state_7:6 <-> state_5:4	Weight: 0.218964	Set col: 25
+Set row: 73 ub: 0
+219: 73 6 -1 | 220: 73 4 -1 | 221: 73 25 1
+Set row: 74 ub: 2
+222: 74 6 1 | 223: 74 4 1 | 224: 74 25 1
+Set row: 75 lb: 0
+225: 75 6 -1 | 226: 75 4 1 | 227: 75 25 1
+Set row: 76 lb: 0
+228: 76 6 1 | 229: 76 4 -1 | 230: 76 25 1
+GLPK Integer Optimizer 5.0
+77 rows, 25 columns, 237 non-zeros
+25 integer variables, all of which are binary
+Preprocessing...
+38 hidden covering inequaliti(es) were detected
+79 rows, 25 columns, 243 non-zeros
+25 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 79
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+79 rows, 25 columns, 243 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.000e+00 (4)
+      9: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     9: mip =     not found yet >=              -inf        (1; 0)
++    40: >>>>>   2.193820968e+01 >=   1.532747555e+00  93.0% (4; 0)
++    55: mip =   2.193820968e+01 >=     tree is empty   0.0% (0; 9)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 21.9382
+state_1	1	0
+state_2	7	1
+state_3	2	0
+state_4	3	0
+state_5	4	0
+state_6	5	1
+state_7	6	1
+Number of 0 assigned: 4 | Number of 1 assigned: 3
+XOR Constraint 8: 1
+XOR Constraint 9: 0
+XOR Constraint 10: 1
+XOR Constraint 11: 0
+XOR Constraint 12: 0
+XOR Constraint 13: 0
+XOR Constraint 14: 1
+XOR Constraint 15: 0
+XOR Constraint 16: 0
+XOR Constraint 17: 1
+XOR Constraint 18: 0
+XOR Constraint 19: 1
+XOR Constraint 20: 1
+XOR Constraint 21: 1
+XOR Constraint 22: 0
+XOR Constraint 23: 1
+XOR Constraint 24: 1
+XOR Constraint 25: 1
+-----
+Size of State Group: 4
+ - 1 4
+ - 3 2
+ - 7 5
+ - 6
+
+   [   Round 3   ]   
+Set col: state_1 -> 1
+Set col: state_2 -> 7
+Set col: state_3 -> 2
+Set col: state_4 -> 3
+Set col: state_5 -> 4
+Set col: state_6 -> 5
+Set col: state_7 -> 6
+Size of Group: 4
+Group 1 | Size 2
+Set row: 1 lb: 1 ub: 1
+Set row: 2 lb: -1 ub: -1
+1: 1 1 1
+2: 2 1 -1
+3: 1 4 1
+4: 2 4 -1
+Group 2 | Size 2
+Set row: 3 lb: 1 ub: 1
+Set row: 4 lb: -1 ub: -1
+5: 3 3 1
+6: 4 3 -1
+7: 3 2 1
+8: 4 2 -1
+Group 3 | Size 2
+Set row: 5 lb: 1 ub: 1
+Set row: 6 lb: -1 ub: -1
+9: 5 7 1
+10: 6 7 -1
+11: 5 5 1
+12: 6 5 -1
+Group 4 | Size 1
+Edge found! state_2:7 <-> state_1:1	Weight: 7.88726	Set col: 8
+Set row: 7 ub: 0
+13: 7 7 -1 | 14: 7 1 -1 | 15: 7 8 1
+Set row: 8 ub: 2
+16: 8 7 1 | 17: 8 1 1 | 18: 8 8 1
+Set row: 9 lb: 0
+19: 9 7 -1 | 20: 9 1 1 | 21: 9 8 1
+Set row: 10 lb: 0
+22: 10 7 1 | 23: 10 1 -1 | 24: 10 8 1
+Edge found! state_3:2 <-> state_1:1	Weight: 7.88726	Set col: 9
+Set row: 11 ub: 0
+25: 11 2 -1 | 26: 11 1 -1 | 27: 11 9 1
+Set row: 12 ub: 2
+28: 12 2 1 | 29: 12 1 1 | 30: 12 9 1
+Set row: 13 lb: 0
+31: 13 2 -1 | 32: 13 1 1 | 33: 13 9 1
+Set row: 14 lb: 0
+34: 14 2 1 | 35: 14 1 -1 | 36: 14 9 1
+Edge found! state_3:2 <-> state_2:7	Weight: 5.25818	Set col: 10
+Set row: 15 ub: 0
+37: 15 2 -1 | 38: 15 7 -1 | 39: 15 10 1
+Set row: 16 ub: 2
+40: 16 2 1 | 41: 16 7 1 | 42: 16 10 1
+Set row: 17 lb: 0
+43: 17 2 -1 | 44: 17 7 1 | 45: 17 10 1
+Set row: 18 lb: 0
+46: 18 2 1 | 47: 18 7 -1 | 48: 18 10 1
+Edge found! state_4:3 <-> state_1:1	Weight: 5.25818	Set col: 11
+Set row: 19 ub: 0
+49: 19 3 -1 | 50: 19 1 -1 | 51: 19 11 1
+Set row: 20 ub: 2
+52: 20 3 1 | 53: 20 1 1 | 54: 20 11 1
+Set row: 21 lb: 0
+55: 21 3 -1 | 56: 21 1 1 | 57: 21 11 1
+Set row: 22 lb: 0
+58: 22 3 1 | 59: 22 1 -1 | 60: 22 11 1
+Edge found! state_4:3 <-> state_3:2	Weight: 6.01999	Set col: 12
+Set row: 23 ub: 0
+61: 23 3 -1 | 62: 23 2 -1 | 63: 23 12 1
+Set row: 24 ub: 2
+64: 24 3 1 | 65: 24 2 1 | 66: 24 12 1
+Set row: 25 lb: 0
+67: 25 3 -1 | 68: 25 2 1 | 69: 25 12 1
+Set row: 26 lb: 0
+70: 26 3 1 | 71: 26 2 -1 | 72: 26 12 1
+Edge found! state_5:4 <-> state_1:1	Weight: 7.85381	Set col: 13
+Set row: 27 ub: 0
+73: 27 4 -1 | 74: 27 1 -1 | 75: 27 13 1
+Set row: 28 ub: 2
+76: 28 4 1 | 77: 28 1 1 | 78: 28 13 1
+Set row: 29 lb: 0
+79: 29 4 -1 | 80: 29 1 1 | 81: 29 13 1
+Set row: 30 lb: 0
+82: 30 4 1 | 83: 30 1 -1 | 84: 30 13 1
+Edge found! state_5:4 <-> state_2:7	Weight: 13.0785	Set col: 14
+Set row: 31 ub: 0
+85: 31 4 -1 | 86: 31 7 -1 | 87: 31 14 1
+Set row: 32 ub: 2
+88: 32 4 1 | 89: 32 7 1 | 90: 32 14 1
+Set row: 33 lb: 0
+91: 33 4 -1 | 92: 33 7 1 | 93: 33 14 1
+Set row: 34 lb: 0
+94: 34 4 1 | 95: 34 7 -1 | 96: 34 14 1
+Edge found! state_5:4 <-> state_3:2	Weight: 6.78484	Set col: 15
+Set row: 35 ub: 0
+97: 35 4 -1 | 98: 35 2 -1 | 99: 35 15 1
+Set row: 36 ub: 2
+100: 36 4 1 | 101: 36 2 1 | 102: 36 15 1
+Set row: 37 lb: 0
+103: 37 4 -1 | 104: 37 2 1 | 105: 37 15 1
+Set row: 38 lb: 0
+106: 38 4 1 | 107: 38 2 -1 | 108: 38 15 1
+Edge found! state_5:4 <-> state_4:3	Weight: 5.25513	Set col: 16
+Set row: 39 ub: 0
+109: 39 4 -1 | 110: 39 3 -1 | 111: 39 16 1
+Set row: 40 ub: 2
+112: 40 4 1 | 113: 40 3 1 | 114: 40 16 1
+Set row: 41 lb: 0
+115: 41 4 -1 | 116: 41 3 1 | 117: 41 16 1
+Set row: 42 lb: 0
+118: 42 4 1 | 119: 42 3 -1 | 120: 42 16 1
+Edge found! state_6:5 <-> state_1:1	Weight: 4.88715	Set col: 17
+Set row: 43 ub: 0
+121: 43 5 -1 | 122: 43 1 -1 | 123: 43 17 1
+Set row: 44 ub: 2
+124: 44 5 1 | 125: 44 1 1 | 126: 44 17 1
+Set row: 45 lb: 0
+127: 45 5 -1 | 128: 45 1 1 | 129: 45 17 1
+Set row: 46 lb: 0
+130: 46 5 1 | 131: 46 1 -1 | 132: 46 17 1
+Edge found! state_6:5 <-> state_2:7	Weight: 1.12903	Set col: 18
+Set row: 47 ub: 0
+133: 47 5 -1 | 134: 47 7 -1 | 135: 47 18 1
+Set row: 48 ub: 2
+136: 48 5 1 | 137: 48 7 1 | 138: 48 18 1
+Set row: 49 lb: 0
+139: 49 5 -1 | 140: 49 7 1 | 141: 49 18 1
+Set row: 50 lb: 0
+142: 50 5 1 | 143: 50 7 -1 | 144: 50 18 1
+Edge found! state_6:5 <-> state_3:2	Weight: 8.29022	Set col: 19
+Set row: 51 ub: 0
+145: 51 5 -1 | 146: 51 2 -1 | 147: 51 19 1
+Set row: 52 ub: 2
+148: 52 5 1 | 149: 52 2 1 | 150: 52 19 1
+Set row: 53 lb: 0
+151: 53 5 -1 | 152: 53 2 1 | 153: 53 19 1
+Set row: 54 lb: 0
+154: 54 5 1 | 155: 54 2 -1 | 156: 54 19 1
+Edge found! state_6:5 <-> state_5:4	Weight: 0.752689	Set col: 20
+Set row: 55 ub: 0
+157: 55 5 -1 | 158: 55 4 -1 | 159: 55 20 1
+Set row: 56 ub: 2
+160: 56 5 1 | 161: 56 4 1 | 162: 56 20 1
+Set row: 57 lb: 0
+163: 57 5 -1 | 164: 57 4 1 | 165: 57 20 1
+Set row: 58 lb: 0
+166: 58 5 1 | 167: 58 4 -1 | 168: 58 20 1
+Edge found! state_7:6 <-> state_1:1	Weight: 0.875856	Set col: 21
+Set row: 59 ub: 0
+169: 59 6 -1 | 170: 59 1 -1 | 171: 59 21 1
+Set row: 60 ub: 2
+172: 60 6 1 | 173: 60 1 1 | 174: 60 21 1
+Set row: 61 lb: 0
+175: 61 6 -1 | 176: 61 1 1 | 177: 61 21 1
+Set row: 62 lb: 0
+178: 62 6 1 | 179: 62 1 -1 | 180: 62 21 1
+Edge found! state_7:6 <-> state_2:7	Weight: 0.437928	Set col: 22
+Set row: 63 ub: 0
+181: 63 6 -1 | 182: 63 7 -1 | 183: 63 22 1
+Set row: 64 ub: 2
+184: 64 6 1 | 185: 64 7 1 | 186: 64 22 1
+Set row: 65 lb: 0
+187: 65 6 -1 | 188: 65 7 1 | 189: 65 22 1
+Set row: 66 lb: 0
+190: 66 6 1 | 191: 66 7 -1 | 192: 66 22 1
+Edge found! state_7:6 <-> state_3:2	Weight: 0.437928	Set col: 23
+Set row: 67 ub: 0
+193: 67 6 -1 | 194: 67 2 -1 | 195: 67 23 1
+Set row: 68 ub: 2
+196: 68 6 1 | 197: 68 2 1 | 198: 68 23 1
+Set row: 69 lb: 0
+199: 69 6 -1 | 200: 69 2 1 | 201: 69 23 1
+Set row: 70 lb: 0
+202: 70 6 1 | 203: 70 2 -1 | 204: 70 23 1
+Edge found! state_7:6 <-> state_4:3	Weight: 1.97068	Set col: 24
+Set row: 71 ub: 0
+205: 71 6 -1 | 206: 71 3 -1 | 207: 71 24 1
+Set row: 72 ub: 2
+208: 72 6 1 | 209: 72 3 1 | 210: 72 24 1
+Set row: 73 lb: 0
+211: 73 6 -1 | 212: 73 3 1 | 213: 73 24 1
+Set row: 74 lb: 0
+214: 74 6 1 | 215: 74 3 -1 | 216: 74 24 1
+Edge found! state_7:6 <-> state_5:4	Weight: 0.437928	Set col: 25
+Set row: 75 ub: 0
+217: 75 6 -1 | 218: 75 4 -1 | 219: 75 25 1
+Set row: 76 ub: 2
+220: 76 6 1 | 221: 76 4 1 | 222: 76 25 1
+Set row: 77 lb: 0
+223: 77 6 -1 | 224: 77 4 1 | 225: 77 25 1
+Set row: 78 lb: 0
+226: 78 6 1 | 227: 78 4 -1 | 228: 78 25 1
+GLPK Integer Optimizer 5.0
+79 rows, 25 columns, 235 non-zeros
+25 integer variables, all of which are binary
+Preprocessing...
+36 hidden covering inequaliti(es) were detected
+79 rows, 25 columns, 235 non-zeros
+25 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  2.000e+00  ratio =  2.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 76
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+79 rows, 25 columns, 235 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.100e+01 (11)
+      4: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++     4: mip =     not found yet >=              -inf        (1; 0)
++    26: >>>>>   5.571035571e+01 >=   7.887263462e+00  85.8% (4; 0)
++    48: >>>>>   4.638918258e+01 >=   2.674325162e+01  42.4% (5; 1)
++    57: >>>>>   4.225775887e+01 >=   2.913664909e+01  31.1% (4; 4)
++    62: mip =   4.225775887e+01 >=     tree is empty   0.0% (0; 13)
+INTEGER OPTIMAL SOLUTION FOUND
+-----
+Objective Function Value: 42.2578
+state_1	1	1
+state_2	7	0
+state_3	2	1
+state_4	3	0
+state_5	4	0
+state_6	5	1
+state_7	6	0
+Number of 0 assigned: 4 | Number of 1 assigned: 3
+XOR Constraint 8: 1
+XOR Constraint 9: 0
+XOR Constraint 10: 1
+XOR Constraint 11: 1
+XOR Constraint 12: 1
+XOR Constraint 13: 1
+XOR Constraint 14: 0
+XOR Constraint 15: 1
+XOR Constraint 16: 0
+XOR Constraint 17: 0
+XOR Constraint 18: 1
+XOR Constraint 19: 0
+XOR Constraint 20: 1
+XOR Constraint 21: 1
+XOR Constraint 22: 0
+XOR Constraint 23: 1
+XOR Constraint 24: 0
+XOR Constraint 25: 0
+-----
+Size of State Group: 7
+ - 4
+ - 3
+ - 7
+ - 6
+ - 1
+ - 2
+ - 5
+
+Final Results:
+Used Length / Total Length:	3 / 7
+state_1	: 1	| 001----
+state_2	: 7	| 010----
+state_3	: 2	| 101----
+state_4	: 3	| 100----
+state_5	: 4	| 000----
+state_6	: 5	| 011----
+state_7	: 6	| 110----
+
+===========================================================================
+Writing File ...
+
+===========================================================================
+
+Combinational power estimation, with Zero delay model.
+Network: dk14_opt, Power = 1223.8 uW assuming 20 MHz clock and Vdd = 5V

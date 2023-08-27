@@ -1,0 +1,63 @@
+.model beecount_opt.kiss
+.inputs IN_0 IN_1 IN_2
+.outputs OUT_0 OUT_1 OUT_2 OUT_3
+.latch    v5.0 LatchOut_v3   0
+.latch    v5.1 LatchOut_v4   0
+.start_kiss
+.i 3
+.o 4
+.p 20
+.s 4
+.r S2
+000 S0 S3 1001
+010 S0 S3 0101
+100 S0 S0 0101
+110 S0 S0 0101
+--1 S0 S2 1010
+000 S3 S2 0101
+010 S3 S3 0101
+100 S3 S2 0101
+110 S3 S0 0101
+--1 S3 S2 1010
+000 S2 S2 0101
+010 S2 S3 0101
+100 S2 S2 0101
+110 S2 S1 0101
+--1 S2 S2 1010
+000 S1 S2 0110
+010 S1 S1 0101
+100 S1 S2 0101
+110 S1 S1 0101
+--1 S1 S2 1010
+.end_kiss
+.latch_order LatchOut_v3 LatchOut_v4
+.code S0 10
+.code S3 01
+.code S2 00
+.code S1 11
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 OUT_0
+--1-- 1
+00010 1
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 OUT_1
+1-0-- 1
+--00- 1
+010-- 1
+00011 1
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 OUT_2
+--1-- 1
+00011 1
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 OUT_3
+1-0-- 1
+--00- 1
+010-- 1
+00010 1
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 v5.0
+110-- 1
+-1011 1
+1-010 1
+.names IN_0 IN_1 IN_2 LatchOut_v3 LatchOut_v4 v5.1
+010-- 1
+-1011 1
+-1000 1
+00010 1
+.end

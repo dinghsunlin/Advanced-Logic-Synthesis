@@ -1,0 +1,12 @@
+# 4-bit ripple-carry full adder
+s0 = a0 ^ b0 ^ ci0 ;
+co0 = ci0 * (a0 ^ b0) + a0 * b0 ;
+ci1 = co0 ;
+s1 = a1 ^ b1 ^ ci1 ;
+co1 = ci1 * (a1 ^ b1) + a1 * b1 ;
+ci2 = co1 ;
+s2 = a2 ^ b2 ^ ci2 ;
+co2 = ci2 * (a2 ^ b2) + a2 * b2 ;
+ci3 = co2 ;
+s3 = a3 ^ b3 ^ ci3 ;
+co3 = ci3 * (a3 ^ b3) + a3 * b3 ;

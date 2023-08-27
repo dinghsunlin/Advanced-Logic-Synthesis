@@ -1,0 +1,345 @@
+.model dk16_opt.kiss
+.inputs IN_0 IN_1
+.outputs OUT_0 OUT_1 OUT_2
+.latch    v7.0 LatchOut_v2   0
+.latch    v7.1 LatchOut_v3   1
+.latch    v7.2 LatchOut_v4   1
+.latch    v7.3 LatchOut_v5   0
+.latch    v7.4 LatchOut_v6   1
+.start_kiss
+.i 2
+.o 3
+.p 108
+.s 27
+.r state_1
+00 state_1 state_3 001
+01 state_1 state_10 001
+10 state_1 state_11 001
+11 state_1 state_12 001
+00 state_3 state_4 001
+01 state_3 state_5 001
+10 state_3 state_6 001
+11 state_3 state_7 001
+00 state_10 state_14 000
+01 state_10 state_13 000
+10 state_10 state_1 000
+11 state_10 state_2 000
+00 state_11 state_3 000
+01 state_11 state_23 000
+10 state_11 state_24 000
+11 state_11 state_25 000
+00 state_12 state_20 000
+01 state_12 state_19 000
+10 state_12 state_18 000
+11 state_12 state_15 000
+00 state_4 state_4 010
+01 state_4 state_5 010
+10 state_4 state_6 010
+11 state_4 state_7 010
+00 state_5 state_1 010
+01 state_5 state_2 010
+10 state_5 state_16 010
+11 state_5 state_17 010
+00 state_6 state_3 010
+01 state_6 state_21 010
+10 state_6 state_10 010
+11 state_6 state_22 010
+00 state_7 state_9 010
+01 state_7 state_18 010
+10 state_7 state_19 010
+11 state_7 state_20 010
+00 state_14 state_1 101
+01 state_14 state_2 101
+10 state_14 state_8 101
+11 state_14 state_9 101
+00 state_13 state_3 101
+01 state_13 state_10 101
+10 state_13 state_11 101
+11 state_13 state_12 101
+00 state_2 state_1 001
+01 state_2 state_2 001
+10 state_2 state_8 001
+11 state_2 state_9 001
+00 state_23 state_2 100
+01 state_23 state_1 010
+10 state_23 state_13 010
+11 state_23 state_14 010
+00 state_24 state_14 000
+01 state_24 state_13 000
+10 state_24 state_13 100
+11 state_24 state_14 100
+00 state_25 state_15 010
+01 state_25 state_3 010
+10 state_25 state_15 000
+11 state_25 state_15 000
+00 state_20 state_19 100
+01 state_20 state_20 010
+10 state_20 state_9 100
+11 state_20 state_26 100
+00 state_19 state_18 100
+01 state_19 state_23 010
+10 state_19 state_24 100
+11 state_19 state_25 100
+00 state_18 state_4 100
+01 state_18 state_5 010
+10 state_18 state_6 100
+11 state_18 state_7 100
+00 state_15 state_4 101
+01 state_15 state_5 101
+10 state_15 state_6 101
+11 state_15 state_7 101
+00 state_16 state_20 000
+01 state_16 state_19 000
+10 state_16 state_13 010
+11 state_16 state_14 010
+00 state_17 state_15 010
+01 state_17 state_23 000
+10 state_17 state_18 000
+11 state_17 state_27 000
+00 state_21 state_2 100
+01 state_21 state_1 010
+10 state_21 state_13 100
+11 state_21 state_14 100
+00 state_22 state_3 000
+01 state_22 state_3 010
+10 state_22 state_15 100
+11 state_22 state_15 000
+00 state_9 state_1 000
+01 state_9 state_5 000
+10 state_9 state_6 000
+11 state_9 state_7 000
+00 state_8 state_15 010
+01 state_8 state_26 000
+10 state_8 state_13 010
+11 state_8 state_14 010
+00 state_26 state_20 000
+01 state_26 state_19 000
+10 state_26 state_18 000
+11 state_26 state_21 000
+00 state_27 state_15 010
+01 state_27 state_3 010
+10 state_27 state_13 100
+11 state_27 state_14 100
+.end_kiss
+.latch_order LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6
+.code state_1 01101
+.code state_3 01100
+.code state_10 00001
+.code state_11 01110
+.code state_12 11001
+.code state_4 00100
+.code state_5 01011
+.code state_6 00111
+.code state_7 10100
+.code state_14 01000
+.code state_13 01111
+.code state_2 01001
+.code state_23 11010
+.code state_24 00011
+.code state_25 10111
+.code state_20 11101
+.code state_19 00110
+.code state_18 00010
+.code state_15 00000
+.code state_16 11011
+.code state_17 11110
+.code state_21 10010
+.code state_22 00101
+.code state_9 01010
+.code state_8 10001
+.code state_26 11000
+.code state_27 10011
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+OUT_0
+---1111 1
+-0-00-0 1
+--0-000 1
+1--0011 1
+1-1-101 1
+-01-101 1
+1-10-10 1
+-0-0110 1
+10-0101 1
+1100-10 1
+001-010 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+OUT_1
+---0100 1
+0110-1- 1
+1-1101- 1
+0010--1 1
+--00111 1
+--01011 1
+1-10-01 1
+001-1-0 1
+01-0-10 1
+011-101 1
+01-0101 1
+011-010 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_2
+01-0- 1
+-1111 1
+0-000 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+v7.0
+11-11-1 1
+110-1-0 1
+11--110 1
+01--110 1
+11-0-00 1
+010011- 1
+110101- 1
+100100- 1
+00110-1 1
+1-01011 1
+0110-01 1
+011-101 1
+1100-10 1
+111-000 1
+001-000 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+v7.1
+0-010-- 1
+--000-1 1
+0001-1- 1
+0110-1- 1
+1-1101- 1
+000-1-1 1
+11-11-1 1
+1--0011 1
+1-10-01 1
+1-1-101 1
+1-10-10 1
+01--110 1
+010--00 1
+110100- 1
+10011-1 1
+00110-1 1
+1-01011 1
+0110-01 1
+011-101 1
+01-0101 1
+11101-0 1
+00101-0 1
+011-010 1
+001-010 1
+010-010 1
+001-000 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+v7.2
+10-00-- 1
+00-1-0- 1
+0001-1- 1
+0110-1- 1
+101-01- 1
+000-1-1 1
+110-1-0 1
+-00-010 1
+11-0-00 1
+-000-00 1
+10--100 1
+110011- 1
+110101- 1
+011100- 1
+10011-1 1
+00110-1 1
+01000-1 1
+0111-11 1
+011-101 1
+01-0101 1
+1100-10 1
+011-010 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+v7.3
+10-1-1- 1
+10--01- 1
+101--0- 1
+10-0--0 1
+01--1-0 1
+-01-101 1
+11--110 1
+-0-0110 1
+01-0-00 1
+10--100 1
+010011- 1
+011100- 1
+110100- 1
+10011-1 1
+01000-1 1
+0111-11 1
+1-01011 1
+00101-0 1
+010-010 1
+111-000 1
+.names IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+v7.4
+0-010-- 1
+10-00-- 1
+-0-101- 1
+100---0 1
+1-0011- 1
+-1011-1 1
+11--110 1
+010--00 1
+100100- 1
+00110-1 1
+01000-1 1
+011-101 1
+-100001 1
+11101-0 1
+011-010 1
+001-010 1
+010-010 1
+001-000 1
+.exdc 
+.inputs IN_0 IN_1 LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6
+.outputs v7.0 v7.1 v7.2 v7.3 v7.4 OUT_0 OUT_1 OUT_2
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.0
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.1
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.2
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.3
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.4
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_0
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_1
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.names LatchOut_v2 LatchOut_v3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_2
+11111 1
+10101 1
+10110 1
+11100 1
+10000 1
+.end

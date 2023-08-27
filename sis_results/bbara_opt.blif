@@ -1,0 +1,104 @@
+.model bbara_opt.kiss
+.inputs IN_0 IN_1 IN_2 IN_3
+.outputs OUT_0 OUT_1
+.latch    v7.0 LatchOut_v4   0
+.latch    v7.1 LatchOut_v5   0
+.latch    v7.2 LatchOut_v6   0
+.start_kiss
+.i 4
+.o 2
+.p 42
+.s 7
+.r S0
+--00 S0 S0 00
+--01 S0 S0 00
+--10 S0 S0 00
+0011 S0 S0 00
+1011 S0 S2 00
+-111 S0 S1 00
+--01 S2 S2 00
+--10 S2 S2 00
+--00 S2 S2 00
+0011 S2 S0 00
+-111 S2 S1 00
+1011 S2 S4 00
+--01 S1 S1 00
+--10 S1 S1 00
+--00 S1 S1 00
+0011 S1 S0 00
+-111 S1 S3 00
+1011 S1 S2 00
+--01 S4 S4 00
+--10 S4 S4 00
+--00 S4 S4 00
+0011 S4 S2 00
+-111 S4 S1 00
+1011 S4 S6 00
+--01 S3 S3 00
+--10 S3 S3 00
+--00 S3 S3 00
+0011 S3 S1 00
+-111 S3 S5 00
+1011 S3 S2 00
+--01 S6 S6 01
+--10 S6 S6 01
+--00 S6 S6 01
+0011 S6 S0 00
+-111 S6 S1 00
+1011 S6 S6 01
+--01 S5 S5 10
+--10 S5 S5 10
+--00 S5 S5 10
+0011 S5 S0 00
+-111 S5 S5 10
+1011 S5 S2 00
+.end_kiss
+.latch_order LatchOut_v4 LatchOut_v5 LatchOut_v6
+.code S0 000
+.code S2 001
+.code S1 100
+.code S4 011
+.code S3 110
+.code S6 010
+.code S5 101
+.names IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v6 OUT_0
+1--11 1
+-0-11 1
+--011 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_1
+--0-010 1
+---0010 1
+10--010 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 v7.0
+--0-1- 1
+---01- 1
+-111-- 1
+0---11 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.1
+--0--1- 1
+---0-1- 1
+10--010 1
+10110-1 1
+-111100 1
+.names IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.2
+--0---1 1
+---0--1 1
+-1--1-1 1
+00---11 1
+1-1111- 1
+-11111- 1
+1011-0- 1
+.exdc 
+.inputs IN_0 IN_1 IN_2 IN_3 LatchOut_v4 LatchOut_v5 LatchOut_v6
+.outputs v7.0 v7.1 v7.2 OUT_0 OUT_1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.0
+111 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.1
+111 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 v7.2
+111 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_0
+111 1
+.names LatchOut_v4 LatchOut_v5 LatchOut_v6 OUT_1
+111 1
+.end

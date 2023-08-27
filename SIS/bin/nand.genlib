@@ -1,0 +1,20 @@
+GATE	"inv1"		1	O=!a;
+PIN	* INV 1 999 0.9 0.0 0.9 0.0
+
+GATE 	"nand2"		2	O=!(a*b);
+PIN	* INV 1 999 1.0 0.0 1.0 0.0
+
+GATE	"nand2_2"	2	O=(!a + !b);
+PIN 	* INV 1 999 1.0 0.0 1.0 0.0
+
+GATE	"or2"		2	O=a+b;
+PIN 	* NONINV 1 999 1.0 0.0 1.0 0.0
+
+GATE	"and2"		2	O=a*b;
+PIN	* NONINV 1 999 1.0 0.0 1.0 0.0
+
+GATE	"buf"		1	O=a;
+PIN	* NONINV 1 999 1.0 0.0 1.0 0.0
+
+GATE	"const_zero"	0	O=CONST0;
+GATE	"const_one"	0	O=CONST1;
